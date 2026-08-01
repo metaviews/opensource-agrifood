@@ -390,6 +390,19 @@ Discord, Matrix, Zoom, Microsoft, Google, and enterprise systems all make differ
 
 Automod, mute, remove, Q&A approval, and reporting are tools, not a moderation plan. The project should estimate people-hours for pre-event onboarding, live moderation, speaker support, harassment response, technical support, and post-event follow-up.
 
+## Project-specific clarification: small event and low-friction participation
+
+The first event will almost certainly be relatively small. The audience may include participants with low technical literacy or limited willingness to try unfamiliar software. This changes the weighting of the comparison:
+
+- Browser-based joining is a major advantage. Participants should ideally be able to click a link and participate without installing software or creating a new account.
+- Familiarity matters more than feature breadth. Zoom benefits from being widely recognized and from having a well-understood join flow.
+- Discord remains viable, but its advantage depends on onboarding. The web app and mobile/desktop apps can make it easy after arrival; the challenge is getting first-time participants through account creation, server joining, channel navigation, permissions, and the difference between text, voice, and Stage channels.
+- A small event reduces the need for enterprise scale, virtual expo features, complex matchmaking, and elaborate registration workflows. Those should not outweigh accessibility and low organizer burden.
+- A browser-first approach does not automatically imply Zoom. Jitsi, BigBlueButton, Google Meet, Airmeet, and many dedicated event platforms can also be joined in a browser, but their account requirements, browser support, mobile behavior, and feature restrictions must be tested directly.
+- The likely best experience may use a familiar browser-based live layer plus a separate, optional community space. This lets participants attend without adopting Discord while still allowing a continuing community to grow for those who want it.
+
+This clarification raises Zoom and other browser-first tools in the shortlist, while making Discord's onboarding design a first-class research question rather than an afterthought. It also makes a low-risk pilot especially valuable: invite a few people who are not already comfortable with the chosen platform and observe the complete journey from invitation to participation.
+
 ## Provisional decision frame
 
 Do not select a platform yet. First establish approximate answers to these questions:
