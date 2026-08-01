@@ -403,6 +403,42 @@ The first event will almost certainly be relatively small. The audience may incl
 
 This clarification raises Zoom and other browser-first tools in the shortlist, while making Discord's onboarding design a first-class research question rather than an afterthought. It also makes a low-risk pilot especially valuable: invite a few people who are not already comfortable with the chosen platform and observe the complete journey from invitation to participation.
 
+## Design insight: Discord as a curated participatory theatre
+
+The platform comparison reveals a distinction that conventional event-platform analysis tends to miss. This event is not primarily a technology conference or a content-delivery program. It is closer to Situationist practice or Augusto Boal's theatre: a participatory cultural situation in which the boundaries between audience, performer, facilitator, conversation, and reflection can remain deliberately porous.
+
+Discord is unusually promising for this purpose because it already combines a social world with theatrical affordances:
+
+- A foyer or arrival space
+- A main stage
+- Backstage and green-room areas
+- Audience discussion and marginalia
+- Temporary breakout or intervention spaces
+- Roles distinguishing performers, facilitators, guests, and audience without making those identities permanent
+- Text chat as a parallel layer of commentary or live notes
+- Bots, webhooks, sound, and automation as possible cues and scene transitions
+- Scheduled events that frame time
+- Persistent channels where the show can continue as a commons after the live session
+
+This does not mean Discord is culturally neutral. Its inherited culture, terminology, visual density, gaming associations, and assumptions about online behavior can make it alienating or inaccessible. The relevant design response is not to accept that culture as given, but to curate and re-stage the server deliberately.
+
+The server should be treated as a designed environment rather than a default Discord installation. Important principles include:
+
+- Keep the channel structure small and legible.
+- Use plain-language labels rather than platform jargon where possible.
+- Give participants a clear arrival sequence and explain only what they need for the next action.
+- Make “what is happening now?” continuously visible.
+- Separate audience, performer, facilitator, and backstage permissions carefully.
+- Avoid unnecessary bots, gamification, badges, and notification noise.
+- Treat text chat as part of the event's dramaturgy, not as an incidental comment stream.
+- Establish rituals for entering, speaking, intervening, leaving, and returning.
+- Provide a short orientation or supported rehearsal before the first session.
+- Make inclusion, accessibility, consent, and moderation part of the environment's design rather than an afterthought.
+
+The key platform question is therefore not simply “Which service has the best event features?” It is “Which service can become a believable social and theatrical space for these participants?” Discord's advantage is that it supplies a ready-made spatial grammar and a broad ecosystem of AI and, to a lesser extent, open-source integrations. Its weakness is that its default culture is not necessarily conducive to inclusive experiences. A curated server configuration can counter that default and turn Discord from a generic community product into a low-cost participatory theatre with a persistent commons attached.
+
+This is a project hypothesis to test, not an assumption to protect. The first practical experiment should evaluate whether people with mixed technical familiarity can enter the designed server, understand its social cues, participate in a short improvised session, and feel invited to return.
+
 ## Provisional decision frame
 
 Do not select a platform yet. First establish approximate answers to these questions:
