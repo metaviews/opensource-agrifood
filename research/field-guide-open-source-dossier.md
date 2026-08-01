@@ -39,12 +39,12 @@ OADA addresses the infrastructure layer beneath farm applications: incompatible 
 
 ### Evidence and limits
 
-The OADA Principles page describes the mission, governance intent, farmer-data principle, API approach, and intended verification mechanisms. It does not by itself establish current vendor adoption, active implementation count, or present-day operational scale. Adoption remains a research gap.
+The OADA Principles page describes the mission, governance intent, farmer-data principle, API approach, and intended verification mechanisms. The current GitHub organisation shows a public reference server, client, formats, certificates, and CLI. The reference server repository was updated on 2026-08-01, while the original `oada-api-spec` repository is archived and its draft specification is old. This suggests a live implementation layer alongside a stale historical specification layer; it does not establish broad vendor adoption or farmer use.
 
-- Original sources: https://openag.io/principles/ ; https://openag.io/ ; https://github.com/OADA
+- Original sources: https://openag.io/principles/ ; https://openag.io/ ; https://github.com/OADA ; https://github.com/OADA/oada-api-spec
 - Open layer: standards, software, interoperability
 - Operating model: non-commercial open project / standards community
-- Verification: `verified-primary` for mission and design; `field-guide-lead` for unresolved adoption scale
+- Verification: `verified-primary` for mission and public repositories; adoption scale `stale-or-uncertain`
 - Field-guide context: `units/oada-open-ag-data-alliance.md`
 
 ## 2. Farmer-controlled data sharing: JoinData
@@ -198,15 +198,16 @@ The openness status of AgriLLM’s model, weights, data, and deployment code req
 
 ### Agrifood relevance
 
-CGIAR provides a major institutional anchor for smallholder-oriented, multilingual, voice-first, and research-grounded agricultural AI. It is especially relevant to questions of public-interest deployment, local knowledge, inclusion, and institutional maintenance.
-
 ### Evidence and limits
 
-- Original source lead: https://www.cgiar.org/
-- Field-guide context: `units/cgiar-agrillm-ai-global-south.md`
-- Open layer: potentially models, data, research infrastructure, public institutions
+The openness question has advanced since the first pass. AI71 has published `AI71ai/Llama-agrillm-3.3-70B` on Hugging Face, with downloadable model files, a model card, Transformers usage instructions, and a stated LoRA fine-tuning relationship to Meta's Llama 3.3 70B Instruct. The model card describes four intended open public goods: fine-tuned LLMs, supervised agriculture Q&A data, an evaluation benchmark, and an agricultural document corpus. The FAO STI Portal independently describes AgriLLM as open-source and reports more than 7,400 human-generated Q&A pairs.
+
+This is now verified evidence of a publicly released model artifact and open-building-block intention. It is not yet sufficient to conclude that all four public goods are released, that the training data are fully downloadable, or that the model's terms permit every form of reuse. The underlying Llama licence and any additional model-specific terms remain material. AgriLLM should therefore be classified as `open model artifact / openness partially verified`, not as an unqualified open-source stack.
+
+- Original sources: https://huggingface.co/AI71ai/Llama-agrillm-3.3-70B ; https://www.cgiar.org/news-events/news/agrillm-how-cgiar-is-developing-an-ai-powered-agricultural-advisory-service-for-global-south ; https://sti-portal.fao.org/innovations/agrillm-open-source-large-language-model-grounded-cgiar-knowledge-deliver-accurate-and
+- Open layer: model artifact; intended data, benchmark, and document corpus; multilateral research infrastructure
 - Operating model: multilateral research system with external partnerships
-- Verification: `field-guide-lead` until the exact AgriLLM licence, repository, model status, and deployment evidence are verified
+- Verification: `verified-primary` for public model artifact and CGIAR project; `verified-independent` for FAO description; asset-level completeness and reuse terms `stale-or-uncertain`
 
 ## Cross-case matrix
 

@@ -22,7 +22,7 @@ The scan covers:
 
 ## Executive finding
 
-The first source pass supports a layered rather than singular meaning of “open” in agrifood. OADA is an open standards and software project; JoinData is a farmer-permission and data-governance platform; Common Voice is community-led language-data infrastructure; OSSI is a biological-commons licensing initiative; GODAN is an open-data coordination body; ODK is open field-data software; and CGIAR / AgriLLM is a multilateral AI lead whose exact openness remains to be verified.
+The first source pass supports a layered rather than singular meaning of “open” in agrifood. OADA is an open standards and software project; JoinData is a farmer-permission and data-governance platform; Common Voice is community-led language-data infrastructure; OSSI is a biological-commons licensing initiative; GODAN is an open-data coordination body; ODK is open field-data software; and CGIAR / AgriLLM now has a publicly released agriculture model artifact, while the completeness and terms of its wider open-building-block stack remain to be verified.
 
 The central pattern is not simply “open tools exist.” It is that different projects address different control points: access to data, interoperability, language representation, biological reproduction, field data collection, institutional coordination, or model development. The central unresolved issue is whether these open layers connect into durable systems that farmers and communities can govern, maintain, and leave.
 
@@ -56,21 +56,21 @@ GODAN currently presents itself as an international open-data and food-systems c
 
 ### 5. Multilateral AI and the unresolved meaning of “open”
 
-CGIAR provides a major institutional anchor for smallholder-oriented agricultural AI. The field-guide material identifies AgriLLM and related work involving local language, voice, low-bandwidth, and farmer-informed approaches. The CGIAR institutional source lead is credible enough to justify continued research, but the exact status of code, data, model weights, licences, and deployment must be established before calling AgriLLM open source.
+CGIAR provides a major institutional anchor for smallholder-oriented agricultural AI. CGIAR documents AgriLLM as a project involving local-language, voice, low-bandwidth, and farmer-informed approaches. AI71 has now published a downloadable `Llama-agrillm-3.3-70B` model artifact on Hugging Face, and the FAO STI Portal independently describes AgriLLM as open source. The exact release status and reuse terms for the supervised Q&A data, evaluation benchmark, document corpus, and any code remain to be established.
 
-This is a key boundary case: public-interest, multilateral, accessible, or open-data work is not automatically open-source AI. The asset-level openness must be documented.
+This remains a key boundary case: public-interest, multilateral, accessible, or open-data work is not automatically an open-source AI stack. Here, one model artifact is now verified as public; asset-level openness across the whole initiative still must be documented.
 
 ## Activity matrix
 
 | Layer / current | OADA | JoinData | Common Voice | OSSI | GODAN | ODK | CGIAR / AgriLLM |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Open software / code | ●● | — | ● | — | ○ | ●● | ○ |
-| Models / weights | — | — | — | — | — | — | ○ |
+| Models / weights | — | — | — | — | — | — | ● |
 | Data infrastructure | ● | ●● | ●● | — | ●● | ● | ● |
 | Standards / protocols | ●● | ○ | ○ | — | ● | ○ | ○ |
 | Governance / commons | ● | ●● | ● | ●● | ● | ○ | ● |
 | Biological commons | — | — | — | ●● | — | — | — |
-| Current agrifood deployment evidence | ○ | ● | ○ | ● | ○ | ● | ○ |
+| Current agrifood deployment evidence | ○ | ● | ○ | ● | ○ | ● | ● |
 | Maintenance / funding evidence | ○ | ● | ○ | ● | ○ | ○ | ○ |
 
 Legend: `●●` substantial evidence in the current source pass; `●` moderate or current project evidence; `○` emerging, indirect, dated, or unresolved; `—` not the case’s primary layer or no evidence found. A blank cell is a research gap, not evidence of absence.
@@ -91,7 +91,7 @@ A major finding is therefore methodological: the field guide provides many Afric
 
 ### G-OSA-01 — OADA adoption
 
-OADA’s principles and technical intent are well documented. Current implementation count, active maintainers, compliant vendors, and real farmer use remain unclear.
+OADA’s principles and technical intent are well documented. The public GitHub organisation shows current activity in a reference server, formats, and related tooling, while the original API-spec repository is archived. Current compliant vendors, independent deployments, and real farmer use remain unclear.
 
 ### G-OSA-02 — JoinData current scale
 
@@ -115,7 +115,7 @@ Named cases exist in the field-guide substrate. The original programme reports a
 
 ### G-OSA-07 — AgriLLM asset-level openness
 
-The institutional and public-interest rationale is strong. The model, weights, datasets, code, licensing, and deployment evidence remain unresolved.
+A public model artifact and open-building-block intention are now verified. The release status, licensing, and reuse terms of the Q&A data, evaluation benchmark, document corpus, and code remain unresolved.
 
 ### G-OSA-08 — Maintenance and value capture
 
@@ -187,8 +187,8 @@ The current scan is still weak on farmer organisations, Indigenous governance au
 
 ## Next scan priorities
 
-1. Verify OADA implementation and adoption evidence.
-2. Retrieve direct AgriLLM model, code, data, and licence evidence.
+1. Verify OADA implementation and adoption evidence beyond repository activity.
+2. Retrieve direct AgriLLM dataset, benchmark, document-corpus, code, and licence evidence.
 3. Verify ODK agrifood deployments against original papers and programme records.
 4. Find specific Common Voice agricultural applications.
 5. Map maintenance and funding arrangements across the seven cases.
@@ -198,6 +198,8 @@ The current scan is still weak on farmer organisations, Indigenous governance au
 
 - OADA Principles: https://openag.io/principles/
 - OADA: https://openag.io/
+- OADA GitHub organisation: https://github.com/OADA
+- OADA API specification archive: https://github.com/OADA/oada-api-spec
 - JoinData: https://join-data.nl/en/
 - JoinData About: https://join-data.nl/en/about-joindata/
 - Development Gateway / USAID JoinData case study: https://developmentgateway.org/wp-content/uploads/2023/02/Agricultural-Data_CaseStudy_Feb2023.pdf
@@ -208,6 +210,9 @@ The current scan is still weak on farmer organisations, Indigenous governance au
 - Open Data Kit: https://getodk.org/
 - CGIAR: https://www.cgiar.org/
 - CGIAR AI partnership search result: https://www.cgiar.org/news-events/news/partnerships-powering-ai-advances-agriculture
+- CGIAR AgriLLM announcement: https://www.cgiar.org/news-events/news/agrillm-how-cgiar-is-developing-an-ai-powered-agricultural-advisory-service-for-global-south
+- AI71 AgriLLM model card: https://huggingface.co/AI71ai/Llama-agrillm-3.3-70B
+- FAO STI AgriLLM record: https://sti-portal.fao.org/innovations/agrillm-open-source-large-language-model-grounded-cgiar-knowledge-deliver-accurate-and
 - Agrifood AI Field Guide: https://agrifood.metaviews.ca/
 
 Attribution: This scan was informed by CC BY 4.0 material from the Agrifood AI Field Guide, but it is an independent Open Source Agrifood document with claims narrowed to the sources above where possible.

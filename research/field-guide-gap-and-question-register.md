@@ -8,13 +8,13 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 
 | ID | Gap | Why it matters | Evidence currently available | Next verification | Status |
 |---|---|---|---|---|---|
-| G-OSA-01 | OADA implementation and adoption scale | Open standards only reduce lock-in if vendors and services implement them | OADA Principles and public project materials | Check GitHub activity, compliant implementations, current maintainers, and documented users | Open |
+| G-OSA-01 | OADA implementation and adoption scale | Open standards only reduce lock-in if vendors and services implement them | OADA Principles; public GitHub organisation; archived API-spec repository | Check compliant implementations, current maintainers, independent users, and farmer-facing deployments | Open |
 | G-OSA-02 | Current JoinData membership and operating scale | Historical scale cannot be presented as current deployment | Current JoinData site plus 2023 case study | Request or locate current membership, participating parties, fees, governance, and geographic reach | Dated |
 | G-OSA-03 | Common Voice agrifood applications | An open language dataset is not automatically an agricultural deployment | Common Voice platform verified; agrifood application not established | Locate agricultural extension, farm, or food-system applications and document language, licence, and outcomes | Open |
 | G-OSA-04 | OSSI geographic and farmer adoption | Pledged-variety and partner counts do not establish farmer use or regional distribution | OSSI homepage provides current public counts | Verify current seed catalogue distribution, farmer adoption, breeding participation, and non-US deployments | Open |
 | G-OSA-05 | GODAN current institutional and measurable impact | Current public framing is clear, but historical and impact claims vary | GODAN 2.0 site; public counters include placeholders | Trace current organisation, funding, active communities, datasets, and independently documented outcomes | Unclear |
 | G-OSA-06 | ODK agrifood deployment inventory | The field guide names multiple cases, but each requires claim-level evidence | Field-guide deployment leads; ODK project site | Retrieve original papers and programme records for Nigeria, Sierra Leone, Tanzania, Ghana, and other cases | Open |
-| G-OSA-07 | AgriLLM openness status | Public-good or multilateral framing does not prove open models, weights, data, or code | CGIAR institutional lead; field-guide synthesis | Identify project repository, model card, dataset terms, code licence, weights, and deployment documentation | Open |
+| G-OSA-07 | AgriLLM asset-level openness | Public-good or multilateral framing does not prove that every asset is open | Public Hugging Face model card; CGIAR announcement; FAO STI record | Verify Q&A dataset, benchmark, document corpus, code, model terms, underlying Llama terms, and deployment documentation | Partially resolved |
 | G-OSA-08 | Open-project maintenance economics | Technical openness does not explain who pays for maintenance | Narrative evidence across OADA, GODAN, OSSI, ODK, and CGIAR | Build comparable funding, contributor, governance, and revenue/value-capture profiles | Open |
 | G-OSA-09 | Farmer and Indigenous governance beyond named exemplars | A few strong cases can obscure weak representation elsewhere | JoinData, OADA, OSSI, CARE-related leads | Add farmer-led, Indigenous, women-led, and community-governed cases from multiple regions | Open |
 | G-OSA-10 | Interoperability beyond standards declarations | Standards can exist without integration or exit rights in practice | OADA principles; JoinData permission model | Compare real data flows, API implementations, export rights, and switching experience | Open |
@@ -101,8 +101,8 @@ For every question advanced into a published scan:
 
 ## Immediate priority queue
 
-1. G-OSA-01 / Q-OSA-04: OADA current implementation and adoption.
-2. G-OSA-07: AgriLLM model, data, code, and licence status.
+1. G-OSA-01 / Q-OSA-04: OADA current implementation and adoption beyond repository activity.
+2. G-OSA-07: AgriLLM dataset, benchmark, document corpus, code, and licence status.
 3. G-OSA-06: original-source verification of ODK agrifood deployments.
 4. G-OSA-03 / Q-OSA-10: concrete Common Voice agrifood applications.
 5. G-OSA-08 / Q-OSA-13: maintenance and funding profiles across the dossier.

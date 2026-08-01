@@ -48,7 +48,13 @@ The first transfer dossier and scan use the following original sources:
 - GODAN 2.0: https://www.godan.info/
 - Open Data Kit: https://getodk.org/
 - CGIAR: https://www.cgiar.org/
-- CGIAR AgriLLM announcement: https://www.cgiar.org/news-events/news/agrillm/
+- CGIAR AgriLLM announcement: https://www.cgiar.org/news-events/news/agrillm-how-cgiar-is-developing-an-ai-powered-agricultural-advisory-service-for-global-south
+- AI71 AgriLLM model card: https://huggingface.co/AI71ai/Llama-agrillm-3.3-70B
+- FAO STI AgriLLM record: https://sti-portal.fao.org/innovations/agrillm-open-source-large-language-model-grounded-cgiar-knowledge-deliver-accurate-and
+- OADA GitHub organisation: https://github.com/OADA
+- OADA API specification archive: https://github.com/OADA/oada-api-spec
+- ODK official platform: https://getodk.org/
+- ODK Nigeria research case: https://pmc.ncbi.nlm.nih.gov/articles/PMC5786425/
 - Agrifood AI Field Guide, used as comparative context: https://agrifood.metaviews.ca/
 
 Initial verification date: 2026-08-01.
