@@ -42,6 +42,10 @@ A project should normally satisfy at least three of these conditions:
 | [ROMI](records/romi.md) | open hardware and robotics | curated | Does open agricultural hardware change practical control and repairability? |
 | [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | open geospatial workflow | curated | Can open analytical workflows create durable African technical capacity? |
 | [Ag Data Commons](records/ag-data-commons.md) | public agricultural data infrastructure | curated | What does public data curation contribute beyond open-data coordination? |
+| [Holos](records/holos.md) | public agricultural climate model | candidate | What does a Canadian federal open model make inspectable and reusable? |
+| [Open Food Network Canada](records/open-food-network-canada.md) | local-food marketplace and software commons | candidate | Can open food-commerce infrastructure strengthen producer and community control? |
+| [Agri-food Data Canada](records/agrifood-data-canada.md) | FAIR research-data infrastructure | candidate | When does FAIR agricultural data become a usable commons? |
+| [Standard Data Platform for Autonomous Agriculture](records/standard-data-platform-autonomous-agriculture.md) | data commons and commercial farm platform | lead | Does data-commons language translate into open infrastructure and farmer control? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
