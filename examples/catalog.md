@@ -15,20 +15,30 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [GODAN](records/godan.md) | Global / Africa-relevant | open-data coordination | agricultural and nutrition data ecosystem | curated |
 | [Open Data Kit](records/open-data-kit.md) | Global / African deployments | software and field infrastructure | agricultural research and data collection | curated |
 | [CGIAR / AgriLLM](records/cgiar-agrillm.md) | Global South / multilateral | model artifact, public-interest AI | agricultural advisory and research AI | candidate |
+| [Bioleft](records/bioleft.md) | Argentina / Latin America | seed commons, participatory data | open breeding and seed exchange | curated |
+| [farmOS](records/farmos.md) | International | software, farm records | farm management and planning | curated |
+| [ROMI](records/romi.md) | Europe / microfarms | hardware, software, robotics | weeding, monitoring, phenotyping | curated |
+| [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | Africa | geospatial workflow, notebooks | crop mapping and analytics | curated |
+| [Ag Data Commons](records/ag-data-commons.md) | United States / public research | data catalogue, repository, FAIR infrastructure | agricultural research-data access | curated |
 
 ## Coverage at a glance
 
 | Layer | Current examples |
 |---|---|
-| Open software | OADA, ODK |
+| Open software | OADA, ODK, farmOS |
 | Open models / weights | CGIAR / AgriLLM |
 | Open datasets / language infrastructure | Common Voice, GODAN |
 | Open standards / interoperability | OADA |
 | Farmer or community data governance | JoinData |
 | Biological commons | OSSI |
 | Multilateral public-interest infrastructure | GODAN, CGIAR / AgriLLM |
+| Open hardware / robotics | ROMI |
+| Open farm management | farmOS |
+| African geospatial infrastructure | Digital Earth Africa crop-type mapping |
+| Public agricultural data repository | Ag Data Commons |
+| Latin American biological commons | Bioleft |
 | Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent |
-| Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK |
+| Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK, Bioleft, farmOS, ROMI, Digital Earth Africa, Ag Data Commons |
 
 This table is a current map, not a claim that these layers are equally represented geographically or institutionally.
 

@@ -37,6 +37,11 @@ A project should normally satisfy at least three of these conditions:
 | [GODAN](records/godan.md) | open-data coordination and public infrastructure | curated | What does coordination contribute beyond releasing datasets? |
 | [Open Data Kit](records/open-data-kit.md) | open field-data software | curated | What does durable open field infrastructure enable in agrifood? |
 | [CGIAR / AgriLLM](records/cgiar-agrillm.md) | agricultural model artifact and public-interest AI | candidate | What does “open” mean across an agricultural AI stack? |
+| [Bioleft](records/bioleft.md) | biological commons and participatory seed data | curated | Can open seeds combine biological circulation with community-generated knowledge? |
+| [farmOS](records/farmos.md) | farm management and records | curated | Can open farm software support durable operational autonomy? |
+| [ROMI](records/romi.md) | open hardware and robotics | curated | Does open agricultural hardware change practical control and repairability? |
+| [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | open geospatial workflow | curated | Can open analytical workflows create durable African technical capacity? |
+| [Ag Data Commons](records/ag-data-commons.md) | public agricultural data infrastructure | curated | What does public data curation contribute beyond open-data coordination? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
