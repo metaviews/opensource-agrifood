@@ -4,6 +4,7 @@
 - Region / reach: Canada; connected to the global Open Food Network community
 - Project: https://about.openfoodnetwork.ca/
 - Open agricultural technology: https://about.openfoodnetwork.ca/project/open-agricultural-technology/
+- Global repository: https://github.com/openfoodfoundation/openfoodnetwork
 - Field-guide context: Canadian discovery lead; not transferred from the Agrifood AI Field Guide
 
 ## Problem addressed
@@ -16,7 +17,7 @@ Software commons, local-food marketplace infrastructure, open standards, data-go
 
 ## What is actually open
 
-The Canadian organisation describes the Open Food Network platform as marketplace software and identifies a global community using and contributing to a software commons. Its open-agricultural-technology page explicitly distinguishes open source, open standards, and data sovereignty, and points to OpenTEAM, GOAT, and the Data Food Consortium Open Standard.
+The Canadian organisation describes the Open Food Network platform as marketplace software and identifies a global community using and contributing to a software commons. The global repository identifies an AGPL licence and active public development. Its open-agricultural-technology page explicitly distinguishes open source, open standards, and data sovereignty, and points to OpenTEAM, GOAT, and the Data Food Consortium Open Standard.
 
 ## Governance and control
 
@@ -24,7 +25,7 @@ Open Food Network Canada is an incorporated not-for-profit. Its public framing p
 
 ## Evidence of use
 
-The organisation reports a decade of supporting farms, artisans, and community organisations, and lists current Canadian projects including local-food directories, open agricultural technology, and sustainable cut-flower initiatives. These claims require more deployment-specific verification.
+The organisation reports a decade of supporting farms, artisans, and community organisations, and lists current Canadian projects including local-food directories, open agricultural technology, and sustainable cut-flower initiatives. Its team page names David Thomas, Karla Falk, Theresa Schumilas, Alex Garos, and Jodi Koberinski among staff, partners, and board members connected to local food, farming, research, food sovereignty, and community development. Deployment-specific verification remains required.
 
 ## Maintenance and funding
 

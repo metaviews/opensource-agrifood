@@ -21,9 +21,10 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | Africa | geospatial workflow, notebooks | crop mapping and analytics | curated |
 | [Ag Data Commons](records/ag-data-commons.md) | United States / public research | data catalogue, repository, FAIR infrastructure | agricultural research-data access | curated |
 | [Holos](records/holos.md) | Canada / federal public research | open model and software | whole-farm GHG modelling | candidate |
-| [Open Food Network Canada](records/open-food-network-canada.md) | Canada / local food | software commons, marketplace | local food commerce and community hubs | candidate |
+| [Open Food Network Canada](records/open-food-network-canada.md) | Canada / local food | software commons, marketplace | local food commerce and community hubs | curated |
 | [Agri-food Data Canada](records/agrifood-data-canada.md) | Canada / research ecosystem | FAIR data, schemas, portals | agricultural research-data infrastructure | candidate |
 | [Standard Data Platform for Autonomous Agriculture](records/standard-data-platform-autonomous-agriculture.md) | Canada / commercial-public consortium | claimed data commons, digital twin | autonomous farm planning | lead |
+| [UBC Farm Seed Catalogue / Seed Hub](records/ubc-farm-seed-catalogue.md) | Canada / British Columbia | public-domain seed, seed research, cooperative infrastructure | regional seed production and sovereignty | candidate |
 
 ## Coverage at a glance
 
@@ -45,6 +46,7 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Canadian local-food software commons | Open Food Network Canada |
 | Canadian FAIR agricultural data infrastructure | Agri-food Data Canada |
 | Canadian contested data-commons case | Standard Data Platform for Autonomous Agriculture |
+| Canadian regional seed infrastructure | UBC Farm Seed Catalogue / Seed Hub |
 | Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent |
 | Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK, Bioleft, farmOS, ROMI, Digital Earth Africa, Ag Data Commons |
 
