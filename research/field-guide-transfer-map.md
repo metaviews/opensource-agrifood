@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document assesses how `~/agrifood-ai-field-guide/` can inform the broader `opensource-agrifood/` research project. It distinguishes material that can be transferred directly from material that should be used as research input, and proposes a low-duplication boundary between the two repositories.
+This document assesses how the Agrifood AI Field Guide (https://agrifood.metaviews.ca/) can inform the broader `opensource-agrifood/` research project. It distinguishes material that can be transferred directly from material that should be used as research input, and proposes a low-duplication boundary between the two repositories.
 
 Research date: 2026-08-01
 

@@ -22,13 +22,13 @@ The project examines open source broadly across agrifood, including:
 
 - Environmental scans and research documents are first-class outputs.
 - Claims should be grounded in original sources wherever possible: primary institutions, project repositories, research papers, standards bodies, legal and policy documents, and named practitioners.
-- References to related projects, including `agrifood-ai-field-guide/`, are navigation and context aids, not substitutes for original-source citation.
+- References to related projects, including the Agrifood AI Field Guide (https://agrifood.metaviews.ca/), are navigation and context aids, not substitutes for original-source citation.
 - Gaps, contested claims, uncertainty, negative findings, and freshness should be recorded explicitly.
 - The project should not duplicate an upstream corpus wholesale. It should synthesize, extend, and where necessary correct existing work while maintaining traceable provenance.
 
 ## Relationship to the agrifood AI field guide
 
-`agrifood-ai-field-guide/` is a valuable adjacent research base covering AI across the agrifood sector. Open Source Agrifood can stand on that work while independently checking and citing its underlying sources. Research may feed back into both repositories when it materially strengthens each project's scope; neither repository is subordinate to the other.
+The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjacent research base covering AI across the agrifood sector. Open Source Agrifood can stand on that work while independently checking and citing its underlying sources. Research may feed back into both repositories when it materially strengthens each project's scope; neither repository is subordinate to the other.
 
 ## Current phase
 
