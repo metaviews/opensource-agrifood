@@ -25,6 +25,7 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Agri-food Data Canada](records/agrifood-data-canada.md) | Canada / research ecosystem | FAIR data, schemas, portals | agricultural research-data infrastructure | candidate |
 | [Standard Data Platform for Autonomous Agriculture](records/standard-data-platform-autonomous-agriculture.md) | Canada / commercial-public consortium | claimed data commons, digital twin | autonomous farm planning | lead |
 | [UBC Farm Seed Catalogue / Seed Hub](records/ubc-farm-seed-catalogue.md) | Canada / British Columbia | public-domain seed, seed research, cooperative infrastructure | regional seed production and sovereignty | candidate |
+| [Sovereign Seeds](records/sovereign-seeds.md) | Canada / Indigenous-led | seed stewardship, cultural food sovereignty | Indigenous seed and agricultural food sovereignty | lead |
 
 ## Coverage at a glance
 
@@ -47,6 +48,7 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Canadian FAIR agricultural data infrastructure | Agri-food Data Canada |
 | Canadian contested data-commons case | Standard Data Platform for Autonomous Agriculture |
 | Canadian regional seed infrastructure | UBC Farm Seed Catalogue / Seed Hub |
+| Canadian Indigenous seed-sovereignty lead | Sovereign Seeds |
 | Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent |
 | Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK, Bioleft, farmOS, ROMI, Digital Earth Africa, Ag Data Commons |
 

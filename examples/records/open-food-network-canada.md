@@ -25,7 +25,7 @@ Open Food Network Canada is an incorporated not-for-profit. Its public framing p
 
 ## Evidence of use
 
-The organisation reports a decade of supporting farms, artisans, and community organisations, and lists current Canadian projects including local-food directories, open agricultural technology, and sustainable cut-flower initiatives. Its team page names David Thomas, Karla Falk, Theresa Schumilas, Alex Garos, and Jodi Koberinski among staff, partners, and board members connected to local food, farming, research, food sovereignty, and community development. Deployment-specific verification remains required.
+The organisation reports a decade of supporting farms, artisans, and community organisations, and lists current Canadian projects including local-food directories, open agricultural technology, and sustainable cut-flower initiatives. Bioenterprise Canada documents Ontario market-validation work with farmers, farmers’ markets, food-hub coordinators, online marketplaces, farm-management platforms, and logistics providers. It also reports that OFN Canada was exploring integration with LiteFarm using the Data Food Consortium open standard. Its team page names David Thomas, Karla Falk, Theresa Schumilas, Alex Garos, and Jodi Koberinski among staff, partners, and board members connected to local food, farming, research, food sovereignty, and community development. Deployment-specific verification remains required.
 
 ## Maintenance and funding
 
@@ -43,6 +43,7 @@ A not-for-profit structure and data-sovereignty framing do not establish open li
 
 - Open Food Network Canada: https://about.openfoodnetwork.ca/
 - Open Agricultural Technology: https://about.openfoodnetwork.ca/project/open-agricultural-technology/
+- Bioenterprise Canada case study: https://bioenterprise.ca/success-stories/simplifying-digital-tools-for-farmers-small-food-businesses/
 - Last checked: 2026-08-01
 
 Not legal advice.

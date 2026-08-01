@@ -15,7 +15,7 @@ Open-source model algorithms, software code, documentation, tests, installers, a
 
 ## What is actually open
 
-The public repository describes itself as the open-source version of the core algorithms used by the Holos model. It states that source code is distributed under GPLv3 unless otherwise noted, while Canada wordmarks and related graphics remain protected. The repository contains application and test projects, algorithm documentation, English and French contribution files, and installer artefacts. The README explicitly says that the Holos 4 graphical user interface is not open source at this time, so the open status should be understood as an open core rather than a fully open GUI stack.
+The public repository describes itself as the open-source version of the core algorithms used by the Holos model. It states that source code is distributed under GPLv3 unless otherwise noted, while Canada wordmarks and related graphics remain protected. The repository contains application and test projects, algorithm documentation, English and French contribution files, and installer artefacts. The README explicitly says that the Holos 4 graphical user interface is not open source at this time, so the open status should be understood as an open core rather than a fully open GUI stack. AAFC’s programme page says the team is preparing the model for collaborative development and seeking external expertise.
 
 ## Governance and control
 
@@ -23,7 +23,7 @@ The repository identifies Crown Copyright and federal institutional ownership. P
 
 ## Evidence of use
 
-The repository is actively maintained, with a visible commit on 2026-07-31 and a substantial public history. Repository activity establishes ongoing development, not farmer adoption, emissions reductions, or advisory impact.
+The AAFC programme page says Holos is continually updated, available in English and French, and available at no cost. It welcomes feedback from researchers, farmers, and industry. Repository activity establishes public development, not farmer adoption, emissions reductions, or advisory impact.
 
 ## Maintenance and funding
 

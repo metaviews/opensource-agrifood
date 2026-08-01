@@ -20,13 +20,13 @@ The catalogue describes UBC Farm seeds as certified organic, open-pollinated, re
 
 ## Governance and control
 
-The case combines university research, farm production, public seed sales, and a producer cooperative. It is relevant to regional seed sovereignty, but the precise governance of the seed catalogue, research data, breeding decisions, and cooperative membership requires further verification.
+The case combines university research, farm production, public seed sales, community donations, and a producer cooperative. The Seed Hub describes farmer workshops, field days, participatory variety trials, and outreach across British Columbia and Canada. It is relevant to regional seed sovereignty, but the precise governance of the seed catalogue, research data, breeding decisions, and cooperative membership requires further verification.
 
 This is not an Indigenous seed-sovereignty record. Indigenous seed sovereignty involves distinct cultural, legal, relational, and consent obligations that should not be reduced to public-domain or open-source licensing.
 
 ## Evidence of use
 
-The catalogue provides public variety information, planting instructions, and purchase pathways. The seed programme links to seed trials research with FarmFolkCityFolk and to the BC Eco Seed Co-op.
+The catalogue provides public variety information, planting instructions, and purchase pathways. The Seed Hub reports that some seed is sold to gardeners and farmers, some is donated to community gardening groups and seed libraries, and that the programme supports education, farmer workshops, field days, participatory trials, and research with FarmFolkCityFolk. It also identifies the Bauta Family Initiative on Canadian Seed Security as part of the wider research context.
 
 ## Maintenance and funding
 
