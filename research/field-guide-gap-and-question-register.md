@@ -2,6 +2,8 @@
 
 Research date: 2026-08-01
 
+Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle; see research/2026-08-open-hardware-robotics-sensing-scan.md.
+
 This register is independent of the Agrifood AI Field Guide’s gap IDs. The field guide remains a useful discovery source and comparative research base: https://agrifood.metaviews.ca/. The questions below are not settled negative findings. They identify where the first transfer found incomplete, dated, or contested evidence.
 
 ## Gap register
@@ -20,6 +22,9 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 | G-OSA-10 | Interoperability beyond standards declarations | Standards can exist without integration or exit rights in practice | OADA principles; JoinData permission model | Compare real data flows, API implementations, export rights, and switching experience | Open |
 | G-OSA-11 | Open agrifood AI deployment evidence | General open-AI statistics cannot be converted into agrifood statistics | Field-guide warning; CGIAR and Common Voice leads | Build a sector-specific deployment evidence set with explicit denominator and geography | Open |
 | G-OSA-12 | Licensing boundaries across layers | “Open source” is used across code, data, models, seeds, and governance with different legal consequences | OADA, Common Voice, OSSI, CGIAR leads | Record asset-specific licences and restrictions for every dossier entry | Open |
+| G-OSA-13 | Open-hardware licensing and certification ambiguity | Only FarmBot commits to the OSHWA definition; none of the located hardware cases holds certification; CERN OHL absent | FarmBot policy page; per-asset licences in hardware records | Audit OSHWA/CERN OHL adoption across open agrifood hardware; record per-asset licences for every hardware record | Open (added 2026-08-02, hardware cycle) |
+| G-OSA-14 | Open agrifood hardware replication evidence | Published designs are routinely treated as deployment evidence; independent builds are rarely documented | OSE anecdotal replication threads; FarmBot DIY support boundary; Vinduino single-farm | Establish an evidence standard distinguishing “designs published” from “machines built and used”; collect independent build reports | Open (added 2026-08-02, hardware cycle) |
+| G-OSA-15 | Global South open agrifood hardware | Cost barriers to commercial equipment are highest where open designs would be cheapest entry points | Vinduino developing-country configuration (US$60); no substantive regional records found | Dedicated Africa/Asia/Latin America discovery pass for open farm hardware, robotics, sensing, and drone ecosystems | Open (added 2026-08-02, hardware cycle) |
 
 ## Research-question register
 

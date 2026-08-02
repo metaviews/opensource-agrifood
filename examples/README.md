@@ -50,6 +50,12 @@ A project should normally satisfy at least three of these conditions:
 | [Sovereign Seeds](records/sovereign-seeds.md) | Indigenous seed and food sovereignty | lead | How should Indigenous seed sovereignty be represented without translating it into open-licensing terms? |
 | [Brian Tischler](records/brian-tischler.md) | farmer-led open precision agriculture | curated | What changes when a farmer becomes an open-source project founder? |
 | [Matt Reimer](records/matt-reimer.md) | farmer-led open hardware and robotics | candidate | Can farmer-led open hardware turn an on-farm labour problem into a reusable technical commons? |
+| [L'Atelier Paysan](records/latelier-paysan.md) | cooperative open farm machinery and self-build | curated | Can a farmer cooperative make open hardware durable — and what happens when it is liquidated? |
+| [FarmBot](records/farmbot.md) | company-backed open hardware | curated | Can openness and commercial value capture coexist, and where does the company draw the support line? |
+| [Open Source Ecology](records/open-source-ecology.md) | machine design commons | curated | What separates published open designs from demonstrated replication? |
+| [ArduPilot](records/ardupilot.md) | open autopilot infrastructure | curated | How does generic open infrastructure become agricultural infrastructure? |
+| [Vinduino](records/vinduino.md) | grower-led open sensing and irrigation | curated | Can an individual grower's open sensor design scale into affordable irrigation control? |
+| [Farm Hack](records/farm-hack.md) | peer design-sharing network | candidate | What does peer infrastructure contribute beyond a cooperative or company structure? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
@@ -61,7 +67,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Promote records to `featured` only when they support a comparative synthesis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 
-Last reviewed: 2026-08-01.
+Last reviewed: 2026-08-02.
 
 Not legal advice.
 

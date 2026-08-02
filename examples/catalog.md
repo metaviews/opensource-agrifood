@@ -28,6 +28,12 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Sovereign Seeds](records/sovereign-seeds.md) | Canada / Indigenous-led | seed stewardship, cultural food sovereignty | Indigenous seed and agricultural food sovereignty | lead |
 | [Brian Tischler](records/brian-tischler.md) | Canada / Alberta | open software, open hardware, farmer-led community | precision agriculture and autonomous machinery | curated |
 | [Matt Reimer](records/matt-reimer.md) | Canada / Manitoba | open hardware, public source code, maker community | autonomous grain cart and farm robotics | candidate |
+| [L'Atelier Paysan](records/latelier-paysan.md) | France / Europe | machinery designs, self-build training, cooperative governance | small-scale and agroecological farm equipment | curated |
+| [FarmBot](records/farmbot.md) | US / global | CNC robot hardware, software (MIT), benefit-corporation openness | small-scale automated food production | curated |
+| [Open Source Ecology](records/open-source-ecology.md) | US / global | machine design commons (GPL / CC-BY-SA) | open-source tractor and farm machinery set | curated |
+| [ArduPilot](records/ardupilot.md) | Global | autopilot firmware (GPL-3.0), community infrastructure | agricultural drones and robotics enabler | curated |
+| [Vinduino](records/vinduino.md) | US / California | sensing and irrigation hardware designs (GPL-3.0) | vineyard irrigation management | curated |
+| [Farm Hack](records/farm-hack.md) | US / UK | design-sharing platform and events | farm tool commons infrastructure | candidate |
 
 ## Coverage at a glance
 
@@ -40,7 +46,11 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Farmer or community data governance | JoinData |
 | Biological commons | OSSI |
 | Multilateral public-interest infrastructure | GODAN, CGIAR / AgriLLM |
-| Open hardware / robotics | ROMI |
+| Open hardware / robotics | ROMI, FarmBot, ArduPilot (enabler) |
+| Open farm machinery / self-build | L'Atelier Paysan |
+| Open sensing / irrigation | Vinduino, OpenSprinkler (adjacent) |
+| Machine design commons | Open Source Ecology |
+| Farmer tool design-sharing network | Farm Hack |
 | Open farm management | farmOS |
 | African geospatial infrastructure | Digital Earth Africa crop-type mapping |
 | Public agricultural data repository | Ag Data Commons |
@@ -62,17 +72,19 @@ This table is a current map, not a claim that these layers are equally represent
 
 The collection currently contains a deliberate majority of non-AI cases. That is a feature: the project’s AI emphasis should be tested against the wider ecology of open agrifood rather than allowed to define it in advance.
 
+The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). The remaining thin cells are geographic: Global South open hardware is a named gap (G-HW-01 in the scan), and Asian open robotics was not searched.
+
 The next additions should be selected through gap review. We may need more than two or three additional examples, particularly if the collection requires:
 
 - stronger African, Asian, Latin American, or Indigenous coverage;
 - more farmer-led and cooperative cases;
 - more open agricultural software beyond data collection;
-- more open hardware, robotics, or sensing;
+- more Global South open hardware, robotics, or sensing;
 - more open data and biological-commons cases;
 - cases that clarify what AI depends on upstream.
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-01.
+Last reviewed: 2026-08-02.
 
 Not legal advice.
