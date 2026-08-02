@@ -36,6 +36,10 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Farm Hack](records/farm-hack.md) | US / UK | design-sharing platform and events | farm tool commons infrastructure | candidate |
 | [ISOBlue](records/isoblue.md) | US / Purdue | open telematics hardware and software (MIT family) | machine-data access and precision farming telematics | curated |
 | [AgIsoStack++](records/agisostack.md) | Global | open ISOBUS standard implementation (MIT / GPL family) | farm machinery interoperability and data | curated |
+| [Think Oggún](records/oggun.md) | Cuba-facing / US-made, 4-country distributors | open-manufacturing transfer model (licence-fee) | low-cost smallholder tractor | curated |
+| [Flying Labs Network](records/flying-labs.md) | ~40 countries, Global South | localized drone/data/AI capacity network | agricultural drone and data services | curated |
+| [AfricaOSH](records/africaosh.md) | Africa | open-science-hardware community infrastructure | continental open hardware substrate | candidate |
+| [Open Agroecology Lab (REGOSH)](records/regosh-open-agroecology-lab.md) | Argentina | open farm-data stack + open sensing collaborations | agroecological knowledge and data infrastructure | curated |
 
 ## Coverage at a glance
 
@@ -55,6 +59,10 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Farmer tool design-sharing network | Farm Hack |
 | Open machine-data telematics | ISOBlue |
 | Open ISOBUS implementation | AgIsoStack++ / Open-Agriculture |
+| Open-manufacturing transfer model | Think Oggún |
+| Global South drone/data capacity network | Flying Labs |
+| Africa open-science-hardware community | AfricaOSH |
+| Open agroecology stack (LatAm) | REGOSH Open Agroecology Lab |
 | Open farm management | farmOS |
 | African geospatial infrastructure | Digital Earth Africa crop-type mapping |
 | Public agricultural data repository | Ag Data Commons |
@@ -76,7 +84,7 @@ This table is a current map, not a claim that these layers are equally represent
 
 The collection currently contains a deliberate majority of non-AI cases. That is a feature: the project’s AI emphasis should be tested against the wider ecology of open agrifood rather than allowed to define it in advance.
 
-The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). A second pass the same day added the machine-data layer beneath the machines: open telematics (ISOBlue) and an open ISOBUS implementation (AgIsoStack++), alongside the July 2026 FTC/Deere right-to-repair settlement as the regulatory context. The remaining thin cells are geographic: Global South open hardware is a named gap (G-HW-01 in the hardware scan; G-OSA-15 in the register), and Asian open robotics was not searched.
+The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). A second pass the same day added the machine-data layer beneath the machines: open telematics (ISOBlue) and an open ISOBUS implementation (AgIsoStack++), alongside the July 2026 FTC/Deere right-to-repair settlement as the regulatory context. A third pass targeted the Global South gap (G-OSA-15): the collection now includes the open-manufacturing transfer model of Think Oggún (Cuba-facing), the Flying Labs Network (drone/data/AI capacity across ~40 countries), AfricaOSH (continental open-science-hardware community), and the REGOSH Open Agroecology Lab (Argentina). The remaining thin cells are: farm-level open hardware with public designs in the Global South (G-GS-01), and Asian open robotics.
 
 The next additions should be selected through gap review. We may need more than two or three additional examples, particularly if the collection requires:
 

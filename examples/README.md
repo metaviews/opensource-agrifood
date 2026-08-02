@@ -58,6 +58,10 @@ A project should normally satisfy at least three of these conditions:
 | [Farm Hack](records/farm-hack.md) | peer design-sharing network | candidate | What does peer infrastructure contribute beyond a cooperative or company structure? |
 | [ISOBlue](records/isoblue.md) | institution-backed open telematics | curated | Who gets to read the data coming off a tractor's CAN bus? |
 | [AgIsoStack++](records/agisostack.md) | open implementation of a machine standard | curated | What does an open implementation of an "open" standard actually open? |
+| [Think Oggún](records/oggun.md) | open-manufacturing transfer model | curated | When is an "open system" actually a paid licensing model? |
+| [Flying Labs Network](records/flying-labs.md) | localized Global South drone/data capacity | curated | Can localization networks build durable technical capacity without farmer ownership? |
+| [AfricaOSH](records/africaosh.md) | continental open-science-hardware community | candidate | Where does the substrate for African open agrifood hardware live? |
+| [Open Agroecology Lab (REGOSH)](records/regosh-open-agroecology-lab.md) | open agroecology stack with rural organizations | curated | Can an assemblage of rural organizations co-design open farm data and sensing infrastructure? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
