@@ -26,6 +26,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Standard Data Platform for Autonomous Agriculture](records/standard-data-platform-autonomous-agriculture.md) | Canada / commercial-public consortium | claimed data commons, digital twin | autonomous farm planning | lead |
 | [UBC Farm Seed Catalogue / Seed Hub](records/ubc-farm-seed-catalogue.md) | Canada / British Columbia | public-domain seed, seed research, cooperative infrastructure | regional seed production and sovereignty | candidate |
 | [Sovereign Seeds](records/sovereign-seeds.md) | Canada / Indigenous-led | seed stewardship, cultural food sovereignty | Indigenous seed and agricultural food sovereignty | lead |
+| [Brian Tischler](records/brian-tischler.md) | Canada / Alberta | open software, open hardware, farmer-led community | precision agriculture and autonomous machinery | curated |
+| [Matt Reimer](records/matt-reimer.md) | Canada / Manitoba | open hardware, public source code, maker community | autonomous grain cart and farm robotics | candidate |
 
 ## Coverage at a glance
 
@@ -49,7 +51,9 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Canadian contested data-commons case | Standard Data Platform for Autonomous Agriculture |
 | Canadian regional seed infrastructure | UBC Farm Seed Catalogue / Seed Hub |
 | Canadian Indigenous seed-sovereignty lead | Sovereign Seeds |
-| Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent |
+| Canadian farmer-led open-source founder | Brian Tischler |
+| Canadian farmer-maker and open robotics case | Matt Reimer |
+| Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent; Tischler and Reimer are farmer-led but not shown to govern their wider projects |
 | Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK, Bioleft, farmOS, ROMI, Digital Earth Africa, Ag Data Commons |
 
 This table is a current map, not a claim that these layers are equally represented geographically or institutionally.

@@ -48,6 +48,8 @@ A project should normally satisfy at least three of these conditions:
 | [Standard Data Platform for Autonomous Agriculture](records/standard-data-platform-autonomous-agriculture.md) | data commons and commercial farm platform | lead | Does data-commons language translate into open infrastructure and farmer control? |
 | [UBC Farm Seed Catalogue / Seed Hub](records/ubc-farm-seed-catalogue.md) | regional biological commons and seed infrastructure | candidate | Can university-farm seed systems strengthen regional seed sovereignty without erasing distinct Indigenous governance? |
 | [Sovereign Seeds](records/sovereign-seeds.md) | Indigenous seed and food sovereignty | lead | How should Indigenous seed sovereignty be represented without translating it into open-licensing terms? |
+| [Brian Tischler](records/brian-tischler.md) | farmer-led open precision agriculture | curated | What changes when a farmer becomes an open-source project founder? |
+| [Matt Reimer](records/matt-reimer.md) | farmer-led open hardware and robotics | candidate | Can farmer-led open hardware turn an on-farm labour problem into a reusable technical commons? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
