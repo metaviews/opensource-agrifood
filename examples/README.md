@@ -62,6 +62,11 @@ A project should normally satisfy at least three of these conditions:
 | [Flying Labs Network](records/flying-labs.md) | localized Global South drone/data capacity | curated | Can localization networks build durable technical capacity without farmer ownership? |
 | [AfricaOSH](records/africaosh.md) | continental open-science-hardware community | candidate | Where does the substrate for African open agrifood hardware live? |
 | [Open Agroecology Lab (REGOSH)](records/regosh-open-agroecology-lab.md) | open agroecology stack with rural organizations | curated | Can an assemblage of rural organizations co-design open farm data and sensing infrastructure? |
+| [AgriStack / Digital Agriculture Mission](records/agristack.md) | national DPI stack with consent architecture | curated | Does consent architecture produce farmer agency at national scale? |
+| [WAGRI](records/wagri.md) | government API platform | curated | What does a state-built open-interface data platform open — and for whom? |
+| [CEADS / AgriDataSpace / FSDN](records/ceads.md) | supranational data space | curated | Who holds structural power when farmers are advisory in a data space? |
+| [ONDC / Beckn](records/ondc.md) | open-protocol commerce network | curated | Does an open protocol end platform control, or restructure it? |
+| [FarmStack](records/farmstack.md) | open-source data-exchange DPG | curated | Can an Apache-2.0 data-exchange protocol be agriculture's missing link? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
