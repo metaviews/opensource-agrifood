@@ -56,6 +56,8 @@ A project should normally satisfy at least three of these conditions:
 | [ArduPilot](records/ardupilot.md) | open autopilot infrastructure | curated | How does generic open infrastructure become agricultural infrastructure? |
 | [Vinduino](records/vinduino.md) | grower-led open sensing and irrigation | curated | Can an individual grower's open sensor design scale into affordable irrigation control? |
 | [Farm Hack](records/farm-hack.md) | peer design-sharing network | candidate | What does peer infrastructure contribute beyond a cooperative or company structure? |
+| [ISOBlue](records/isoblue.md) | institution-backed open telematics | curated | Who gets to read the data coming off a tractor's CAN bus? |
+| [AgIsoStack++](records/agisostack.md) | open implementation of a machine standard | curated | What does an open implementation of an "open" standard actually open? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 

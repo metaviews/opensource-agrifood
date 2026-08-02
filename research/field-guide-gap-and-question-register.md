@@ -2,7 +2,7 @@
 
 Research date: 2026-08-01
 
-Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle; see research/2026-08-open-hardware-robotics-sensing-scan.md.
+Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle (research/2026-08-open-hardware-robotics-sensing-scan.md); G-OSA-16 added from the machine-data-access/telematics cycle (research/2026-08-machine-data-access-telematics-scan.md).
 
 This register is independent of the Agrifood AI Field Guide’s gap IDs. The field guide remains a useful discovery source and comparative research base: https://agrifood.metaviews.ca/. The questions below are not settled negative findings. They identify where the first transfer found incomplete, dated, or contested evidence.
 
@@ -25,6 +25,7 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 | G-OSA-13 | Open-hardware licensing and certification ambiguity | Only FarmBot commits to the OSHWA definition; none of the located hardware cases holds certification; CERN OHL absent | FarmBot policy page; per-asset licences in hardware records | Audit OSHWA/CERN OHL adoption across open agrifood hardware; record per-asset licences for every hardware record | Open (added 2026-08-02, hardware cycle) |
 | G-OSA-14 | Open agrifood hardware replication evidence | Published designs are routinely treated as deployment evidence; independent builds are rarely documented | OSE anecdotal replication threads; FarmBot DIY support boundary; Vinduino single-farm | Establish an evidence standard distinguishing “designs published” from “machines built and used”; collect independent build reports | Open (added 2026-08-02, hardware cycle) |
 | G-OSA-15 | Global South open agrifood hardware | Cost barriers to commercial equipment are highest where open designs would be cheapest entry points | Vinduino developing-country configuration (US$60); no substantive regional records found | Dedicated Africa/Asia/Latin America discovery pass for open farm hardware, robotics, sensing, and drone ecosystems | Open (added 2026-08-02, hardware cycle) |
+| G-OSA-16 | Machine-data ownership and portability | Open telematics and repair access do not establish who owns, can port, or can delete machine data; the July 2026 FTC/Deere order mandates repair access, not data openness | ISOBlue (data on farmer's device by design); AgIsoStack++ (open ISOBUS implementation); FTC/Deere stipulated order 2026-07-08 | Establish evidence on machine-data ownership, portability, and deletion rights across vendor and open systems; track settlement implementation | Open (added 2026-08-02, machine-data cycle) |
 
 ## Research-question register
 

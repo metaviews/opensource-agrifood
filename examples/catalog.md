@@ -34,6 +34,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [ArduPilot](records/ardupilot.md) | Global | autopilot firmware (GPL-3.0), community infrastructure | agricultural drones and robotics enabler | curated |
 | [Vinduino](records/vinduino.md) | US / California | sensing and irrigation hardware designs (GPL-3.0) | vineyard irrigation management | curated |
 | [Farm Hack](records/farm-hack.md) | US / UK | design-sharing platform and events | farm tool commons infrastructure | candidate |
+| [ISOBlue](records/isoblue.md) | US / Purdue | open telematics hardware and software (MIT family) | machine-data access and precision farming telematics | curated |
+| [AgIsoStack++](records/agisostack.md) | Global | open ISOBUS standard implementation (MIT / GPL family) | farm machinery interoperability and data | curated |
 
 ## Coverage at a glance
 
@@ -51,6 +53,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Open sensing / irrigation | Vinduino, OpenSprinkler (adjacent) |
 | Machine design commons | Open Source Ecology |
 | Farmer tool design-sharing network | Farm Hack |
+| Open machine-data telematics | ISOBlue |
+| Open ISOBUS implementation | AgIsoStack++ / Open-Agriculture |
 | Open farm management | farmOS |
 | African geospatial infrastructure | Digital Earth Africa crop-type mapping |
 | Public agricultural data repository | Ag Data Commons |
@@ -72,7 +76,7 @@ This table is a current map, not a claim that these layers are equally represent
 
 The collection currently contains a deliberate majority of non-AI cases. That is a feature: the project’s AI emphasis should be tested against the wider ecology of open agrifood rather than allowed to define it in advance.
 
-The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). The remaining thin cells are geographic: Global South open hardware is a named gap (G-HW-01 in the scan), and Asian open robotics was not searched.
+The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). A second pass the same day added the machine-data layer beneath the machines: open telematics (ISOBlue) and an open ISOBUS implementation (AgIsoStack++), alongside the July 2026 FTC/Deere right-to-repair settlement as the regulatory context. The remaining thin cells are geographic: Global South open hardware is a named gap (G-HW-01 in the hardware scan; G-OSA-15 in the register), and Asian open robotics was not searched.
 
 The next additions should be selected through gap review. We may need more than two or three additional examples, particularly if the collection requires:
 
