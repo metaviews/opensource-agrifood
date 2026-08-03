@@ -75,6 +75,10 @@ A project should normally satisfy at least three of these conditions:
 | [NAPDC / Ag Data Coalition](records/napdc-ag-data-coalition.md) | grower-controlled data cooperative | curated | Can a grower-owned cooperative make farm data control durable in the US? |
 | [Agdatahub](records/agdatahub.md) | DGA consent intermediation | curated | Does consent architecture survive when the owner is a company, not a cooperative? |
 | [Farmers Business Network](records/fbn.md) | none (contested framing) | candidate | When is "farmer-owned" a branding claim rather than a governance structure? |
+| [OpenSourceSeeds / OSSL](records/opensourceseeds-ossl.md) | contractual open seed licence | curated | What does a licence that binds derivatives do that a pledge cannot? |
+| [Potato Park](records/potato-park.md) | Indigenous biocultural commons | curated | How does customary-law territory governance protect genetic commons? |
+| [SEARICE](records/searice.md) | farmer-led seed systems | curated | Can participatory breeding and community seed banks replace commercial seed dependence? |
+| [Navdanya](records/navdanya.md) | movement-managed seed banks | candidate | What happens when scale claims diverge across a movement's own sources? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
