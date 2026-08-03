@@ -70,6 +70,8 @@ A project should normally satisfy at least three of these conditions:
 | [Sinong (Shennong)](records/sinong.md) | open-weight ag foundation model | curated | When is "fully open source" actually open weights with a closed corpus? |
 | [Alibaba ET Agricultural Brain](records/et-agricultural-brain.md) | closed platform (contrast) | candidate | What does the dominant non-open form of ag AI infrastructure look like? |
 | [National Agricultural Scientific Data Infrastructure](records/china-ag-data-infrastructure.md) | national open research-data infrastructure | candidate | How does state scientific data sharing work when national interest subrogates individual interest? |
+| [Appropedia / OSAT](records/appropedia-osat.md) | open design commons (appropriate technology) | curated | Does a wiki of open designs become a commons of built tools? |
+| [Farm Africa / NECPA Solar Dryer](records/farm-africa-necpa-solar-dryer.md) | NGO-published open design | candidate | When is "openly published" not "open-licensed"? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
