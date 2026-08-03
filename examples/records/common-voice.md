@@ -24,7 +24,7 @@ The project is community-led in its data-creation model, with foundation-support
 
 ## Evidence of use
 
-The current site describes the platform and reports 290 languages and growing. It does not establish a particular agrifood deployment.
+Verified 2026-08-03 (research/2026-08-common-voice-agrifood-applications.md): no farmer-facing agrifood deployment of Common Voice itself was located. The verified agrifood connections are (a) a research chain — Common Voice data feeds XLS-R (436K hours, 128 languages), which CIMMYT/CGIAR used to analyse Farm Radio International farmer voice messages in Swahili and Hausa (Jones-Garcia 2022); and (b) a program-funded pilot — Mozilla's 2023-24 Common Voice Kiswahili program funded Haki des Femmes, a Kiswahili voice app for women's land rights in DRC (agrifood-adjacent). The wider open-language-data layer (Bhashini, FarmerChat, Kallaama) shows deployment evidence — see those records.
 
 ## Maintenance and funding
 
@@ -36,12 +36,15 @@ Common Voice is an upstream example of the language and voice infrastructure on 
 
 ## What it does not demonstrate
 
-Common Voice is not itself an agricultural application. Its existence does not prove that a particular language dataset is suitable for agricultural extension or that communities benefit from downstream use.
+Common Voice is not itself an agricultural application. Verified 2026-08-03: its agrifood uses are research chains and program-funded pilots, not farmer-facing deployments; the deployment layer exists through other open language infrastructure (Bhashini, FarmerChat, Kallaama), not through Common Voice directly.
 
 ## Sources and verification
 
 - Common Voice: https://commonvoice.mozilla.org/
 - Mozilla Data Collective: https://mozilladatacollective.com/
-- Last checked: 2026-08-01
+- Jones-Garcia (2022), CIMMYT/CGIAR (Common Voice → XLS-R → Farm Radio International): https://cgspace.cgiar.org/bitstreams/ce6b4398-ac6b-46ae-9736-85ec6d0a23c5/download
+- Haki des Femmes (Common Voice Kiswahili program): https://fair-forward.github.io/datasets/?project=ui_8-using_locallanguage_ai_advise_women_in
+- Verification pass: research/2026-08-common-voice-agrifood-applications.md
+- Last checked: 2026-08-03
 
 Not legal advice.
