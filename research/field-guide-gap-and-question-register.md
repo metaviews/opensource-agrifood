@@ -2,7 +2,7 @@
 
 Research date: 2026-08-01
 
-Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle (research/2026-08-open-hardware-robotics-sensing-scan.md); G-OSA-16 added from the machine-data-access/telematics cycle (research/2026-08-machine-data-access-telematics-scan.md); G-OSA-15 partially addressed and G-OSA-17 added from the Global South cycle (research/2026-08-global-south-open-hardware-scan.md); G-OSA-18 added from the DPI-for-agriculture cycle (research/2026-08-dpi-agriculture-scan.md); G-OSA-19 added from the China cycle (research/2026-08-china-ag-digital-infrastructure-scan.md); G-OSA-15 further addressed by the farm-level targeted pass (research/2026-08-global-south-farm-level-open-hardware-scan.md); G-OSA-20 added from the data-cooperatives cycle (research/2026-08-data-cooperatives-scan.md); G-OSA-21 added from the biological-commons cycle (research/2026-08-biological-commons-scan.md); G-OSA-08 partially addressed by the maintenance/funding profiles pass (research/2026-08-maintenance-funding-profiles.md).
+Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle (research/2026-08-open-hardware-robotics-sensing-scan.md); G-OSA-16 added from the machine-data-access/telematics cycle (research/2026-08-machine-data-access-telematics-scan.md); G-OSA-15 partially addressed and G-OSA-17 added from the Global South cycle (research/2026-08-global-south-open-hardware-scan.md); G-OSA-18 added from the DPI-for-agriculture cycle (research/2026-08-dpi-agriculture-scan.md); G-OSA-19 added from the China cycle (research/2026-08-china-ag-digital-infrastructure-scan.md); G-OSA-15 further addressed by the farm-level targeted pass (research/2026-08-global-south-farm-level-open-hardware-scan.md); G-OSA-20 added from the data-cooperatives cycle (research/2026-08-data-cooperatives-scan.md); G-OSA-21 added from the biological-commons cycle (research/2026-08-biological-commons-scan.md); G-OSA-08 partially addressed by the maintenance/funding profiles pass (research/2026-08-maintenance-funding-profiles.md); C-OSA-01..04 re-scored with provisional verdicts and the priority queue re-ranked by the landscape synthesis (research/2026-08-landscape-synthesis.md).
 
 This register is independent of the Agrifood AI Field Guide’s gap IDs. The field guide remains a useful discovery source and comparative research base: https://agrifood.metaviews.ca/. The questions below are not settled negative findings. They identify where the first transfer found incomplete, dated, or contested evidence.
 
@@ -78,25 +78,25 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 
 - Supporting logic: open APIs and portable data can improve switching and competition.
 - Counterpoint: standards without vendor implementation, governance, or usable export mechanisms may not change practical lock-in.
-- Current status: unresolved; linked to G-OSA-01 and G-OSA-10.
+- Current status: leaning contested (2026-08-03 synthesis: standards create the possibility of portability, not its practice; hinge G-OSA-01); linked to G-OSA-10.
 
 ### C-OSA-02: “Open data creates farmer benefit.”
 
 - Supporting logic: access and reuse can improve services, research, and innovation.
 - Counterpoint: data release can redistribute value toward platforms or intermediaries unless rights, consent, and benefit sharing are governed.
-- Current status: unresolved; linked to JoinData, GODAN, CARE, and data-cooperative research.
+- Current status: split (2026-08-03 synthesis: benefit possible, value capture undetermined; hinge G-OSA-20); linked to JoinData, GODAN, CARE, and data-cooperative research.
 
 ### C-OSA-03: “Open-source AI is ready for agrifood deployment.”
 
 - Supporting logic: open models and supporting infrastructure may be technically capable.
 - Counterpoint: agrifood-specific deployment, data quality, local-language performance, safety, maintenance, and accountability remain insufficiently evidenced.
-- Current status: unresolved; global AI figures must not be treated as agrifood evidence.
+- Current status: unproven, not disproven (2026-08-03 synthesis; hinges G-OSA-03/G-OSA-11); global AI figures must not be treated as agrifood evidence.
 
 ### C-OSA-04: “Open-source seed licensing is equivalent to open-source software licensing.”
 
 - Supporting logic: both seek to preserve downstream freedoms.
 - Counterpoint: biological reproduction, breeding, material transfer, patents, plant-variety rights, and traditional knowledge create distinct legal and ecological conditions.
-- Current status: rejected as a simple equivalence; OSSI requires its own legal analysis.
+- Current status: rejected as a simple equivalence (2026-08-03 synthesis adds cross-cell evidence: OSSL enforcement untested per G-OSA-21, customary governance misrepresented by open-source framing); the pledge-vs-licence trade-off is the live sub-question.
 
 ## Verification protocol
 
@@ -112,10 +112,14 @@ For every question advanced into a published scan:
 
 ## Immediate priority queue
 
-1. G-OSA-01 / Q-OSA-04: OADA current implementation and adoption beyond repository activity.
-2. G-OSA-07: AgriLLM dataset, benchmark, document corpus, code, and licence status.
-3. G-OSA-06: original-source verification of ODK agrifood deployments.
-4. G-OSA-03 / Q-OSA-10: concrete Common Voice agrifood applications.
-5. G-OSA-08 / Q-OSA-13: maintenance and funding profiles across the dossier.
+Re-ranked 2026-08-03 by the landscape synthesis (research/2026-08-landscape-synthesis.md) on one criterion: which gap, resolved, would change the synthesis most.
+
+1. G-OSA-01 / Q-OSA-04: OADA current implementation and adoption — hinge for C-OSA-01; public-source verifiable.
+2. G-OSA-20 follow-up: data cooperative durability beyond JoinData (SAOS, GISC) — tests the one structural-farmer-agency pattern in the dossier.
+3. Local-language cycle (Spanish, Portuguese, French, Hindi) targeting G-GS-05 (confirmed-absence finding is English-language only) and G-OSA-19 (China implementation).
+4. G-OSA-03 / Q-OSA-10: concrete Common Voice agrifood applications — hinge for C-OSA-03.
+5. G-OSA-21: OSSL enforcement and uptake — downgraded to track-only (no public court record; re-check annually).
+
+G-OSA-18 remains the project's central question but is fieldwork-bound; public-source cycles can only add architecture-level evidence.
 
 Not legal advice.
