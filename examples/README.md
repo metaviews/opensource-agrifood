@@ -67,6 +67,9 @@ A project should normally satisfy at least three of these conditions:
 | [CEADS / AgriDataSpace / FSDN](records/ceads.md) | supranational data space | curated | Who holds structural power when farmers are advisory in a data space? |
 | [ONDC / Beckn](records/ondc.md) | open-protocol commerce network | curated | Does an open protocol end platform control, or restructure it? |
 | [FarmStack](records/farmstack.md) | open-source data-exchange DPG | curated | Can an Apache-2.0 data-exchange protocol be agriculture's missing link? |
+| [Sinong (Shennong)](records/sinong.md) | open-weight ag foundation model | curated | When is "fully open source" actually open weights with a closed corpus? |
+| [Alibaba ET Agricultural Brain](records/et-agricultural-brain.md) | closed platform (contrast) | candidate | What does the dominant non-open form of ag AI infrastructure look like? |
+| [National Agricultural Scientific Data Infrastructure](records/china-ag-data-infrastructure.md) | national open research-data infrastructure | candidate | How does state scientific data sharing work when national interest subrogates individual interest? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 

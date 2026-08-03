@@ -45,6 +45,9 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [CEADS / AgriDataSpace / FSDN](records/ceads.md) | European Union | data-space standards and federated governance | supranational agricultural data space | curated |
 | [ONDC / Beckn](records/ondc.md) | India / global | open protocol and specifications | open digital commerce incl. agriculture | curated |
 | [FarmStack](records/farmstack.md) | Global (Digital Green) | Apache-2.0 data-exchange DPG | agricultural data-exchange infrastructure | curated |
+| [Sinong (Shennong)](records/sinong.md) | China / global distribution | open weights 8B/32B; proprietary corpus | agricultural foundation model (state university) | curated |
+| [Alibaba ET Agricultural Brain](records/et-agricultural-brain.md) | China | none (closed platform contrast) | agricultural AI platform (company) | candidate |
+| [National Agricultural Scientific Data Infrastructure](records/china-ag-data-infrastructure.md) | China | open research-data portals and standards | national scientific data centers | candidate |
 
 ## Coverage at a glance
 
@@ -73,6 +76,9 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Supranational ag data space | CEADS / AgriDataSpace / FSDN |
 | Open-protocol commerce network | ONDC / Beckn |
 | Ag data-exchange DPG | FarmStack |
+| Open-weight ag foundation model (China) | Sinong |
+| Closed ag AI platform (China, contrast) | Alibaba ET Agricultural Brain |
+| National ag scientific data infrastructure (China) | National Agricultural Scientific Data Centers |
 | Open farm management | farmOS |
 | African geospatial infrastructure | Digital Earth Africa crop-type mapping |
 | Public agricultural data repository | Ag Data Commons |
@@ -94,7 +100,7 @@ This table is a current map, not a claim that these layers are equally represent
 
 The collection currently contains a deliberate majority of non-AI cases. That is a feature: the project’s AI emphasis should be tested against the wider ecology of open agrifood rather than allowed to define it in advance.
 
-The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). A second pass the same day added the machine-data layer beneath the machines: open telematics (ISOBlue) and an open ISOBUS implementation (AgIsoStack++), alongside the July 2026 FTC/Deere right-to-repair settlement as the regulatory context. A third pass targeted the Global South gap (G-OSA-15): the collection now includes the open-manufacturing transfer model of Think Oggún (Cuba-facing), the Flying Labs Network (drone/data/AI capacity across ~40 countries), AfricaOSH (continental open-science-hardware community), and the REGOSH Open Agroecology Lab (Argentina). A fourth pass added the DPI-for-agriculture layer: AgriStack (India), WAGRI (Japan), CEADS/AgriDataSpace/FSDN (EU), ONDC/Beckn (open-protocol commerce), and FarmStack (data-exchange DPG). The remaining thin cells are: farm-level open hardware with public designs in the Global South (G-GS-01), China's ag digital infrastructure, and Asian open robotics.
+The open-hardware/robotics/sensing cell was expanded on 2026-08-02 from a single record (ROMI) to a full layer: farmer cooperative self-build (L'Atelier Paysan), company-backed open hardware (FarmBot), machine design commons (Open Source Ecology), open autopilot infrastructure (ArduPilot), grower-led sensing (Vinduino), and peer design-sharing (Farm Hack). A second pass the same day added the machine-data layer beneath the machines: open telematics (ISOBlue) and an open ISOBUS implementation (AgIsoStack++), alongside the July 2026 FTC/Deere right-to-repair settlement as the regulatory context. A third pass targeted the Global South gap (G-OSA-15): the collection now includes the open-manufacturing transfer model of Think Oggún (Cuba-facing), the Flying Labs Network (drone/data/AI capacity across ~40 countries), AfricaOSH (continental open-science-hardware community), and the REGOSH Open Agroecology Lab (Argentina). A fourth pass added the DPI-for-agriculture layer: AgriStack (India), WAGRI (Japan), CEADS/AgriDataSpace/FSDN (EU), ONDC/Beckn (open-protocol commerce), and FarmStack (data-exchange DPG). A fifth pass covered China's agricultural digital infrastructure: Sinong (open-weight foundation model), Alibaba ET Agricultural Brain (closed platform contrast), and the national scientific data infrastructure. The remaining thin cells are: farm-level open hardware with public designs in the Global South (G-GS-01), and the maintenance/funding profiles (G-OSA-08).
 
 The next additions should be selected through gap review. We may need more than two or three additional examples, particularly if the collection requires:
 
