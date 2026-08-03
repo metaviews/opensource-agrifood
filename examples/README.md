@@ -72,6 +72,9 @@ A project should normally satisfy at least three of these conditions:
 | [National Agricultural Scientific Data Infrastructure](records/china-ag-data-infrastructure.md) | national open research-data infrastructure | candidate | How does state scientific data sharing work when national interest subrogates individual interest? |
 | [Appropedia / OSAT](records/appropedia-osat.md) | open design commons (appropriate technology) | curated | Does a wiki of open designs become a commons of built tools? |
 | [Farm Africa / NECPA Solar Dryer](records/farm-africa-necpa-solar-dryer.md) | NGO-published open design | candidate | When is "openly published" not "open-licensed"? |
+| [NAPDC / Ag Data Coalition](records/napdc-ag-data-coalition.md) | grower-controlled data cooperative | curated | Can a grower-owned cooperative make farm data control durable in the US? |
+| [Agdatahub](records/agdatahub.md) | DGA consent intermediation | curated | Does consent architecture survive when the owner is a company, not a cooperative? |
+| [Farmers Business Network](records/fbn.md) | none (contested framing) | candidate | When is "farmer-owned" a branding claim rather than a governance structure? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
