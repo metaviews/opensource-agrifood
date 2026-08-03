@@ -32,4 +32,4 @@ The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjac
 
 ## Current phase
 
-The current phase is foundation-building: establish the project's research scope, source and evidence practices, initial environmental scans, working taxonomy, research backlog, and cross-cell synthesis of the discovery programme (research/2026-08-landscape-synthesis.md). Event planning and event-specific decisions are outside the current scope unless explicitly requested.
+The current phase is foundation-building: establish the project's research scope, source and evidence practices, initial environmental scans, working taxonomy, research backlog, and cross-cell synthesis of the discovery programme (research/2026-08-landscape-synthesis-v2.md supersedes v1). Event planning and event-specific decisions are outside the current scope unless explicitly requested.
