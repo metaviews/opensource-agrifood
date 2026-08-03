@@ -33,3 +33,7 @@ The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjac
 ## Current phase
 
 The current phase is foundation-building: establish the project's research scope, source and evidence practices, initial environmental scans, working taxonomy, research backlog, and cross-cell synthesis of the discovery programme (research/2026-08-landscape-synthesis-v2.md supersedes v1). Event planning and event-specific decisions are outside the current scope unless explicitly requested.
+
+## Programme status (2026-08-03)
+
+Twelve discovery cycles and four verification passes have mapped the landscape: 58 verified records across hardware, machine data, DPI, AI, cooperatives, biological commons, language infrastructure, and every major region. The contested-claims ledger carries provisional verdicts (standards-lock-in contested; open-data-benefit split; open-AI readiness split with the language layer partially evidenced; seed-licensing equivalence rejected); the Global South farmer-led open-hardware absence and the data-cooperative scale question are answered in the negative with evidence. All public-source-verifiable gap-queue items are resolved; the remaining queue is tracking-only and fieldwork-bound. Read the full picture in research/2026-08-programme-briefing.md, then the synthesis (research/2026-08-landscape-synthesis-v2.md).
