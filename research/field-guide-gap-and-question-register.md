@@ -2,7 +2,7 @@
 
 Research date: 2026-08-01
 
-Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle (research/2026-08-open-hardware-robotics-sensing-scan.md); G-OSA-16 added from the machine-data-access/telematics cycle (research/2026-08-machine-data-access-telematics-scan.md); G-OSA-15 partially addressed and G-OSA-17 added from the Global South cycle (research/2026-08-global-south-open-hardware-scan.md); G-OSA-18 added from the DPI-for-agriculture cycle (research/2026-08-dpi-agriculture-scan.md); G-OSA-19 added from the China cycle (research/2026-08-china-ag-digital-infrastructure-scan.md); G-OSA-15 further addressed by the farm-level targeted pass (research/2026-08-global-south-farm-level-open-hardware-scan.md); G-OSA-20 added from the data-cooperatives cycle (research/2026-08-data-cooperatives-scan.md); G-OSA-21 added from the biological-commons cycle (research/2026-08-biological-commons-scan.md); G-OSA-08 partially addressed by the maintenance/funding profiles pass (research/2026-08-maintenance-funding-profiles.md); C-OSA-01..04 re-scored with provisional verdicts and the priority queue re-ranked by the landscape synthesis (research/2026-08-landscape-synthesis.md).
+Updated 2026-08-02: G-OSA-13..15 added from the open-hardware/robotics/sensing discovery cycle (research/2026-08-open-hardware-robotics-sensing-scan.md); G-OSA-16 added from the machine-data-access/telematics cycle (research/2026-08-machine-data-access-telematics-scan.md); G-OSA-15 partially addressed and G-OSA-17 added from the Global South cycle (research/2026-08-global-south-open-hardware-scan.md); G-OSA-18 added from the DPI-for-agriculture cycle (research/2026-08-dpi-agriculture-scan.md); G-OSA-19 added from the China cycle (research/2026-08-china-ag-digital-infrastructure-scan.md); G-OSA-15 further addressed by the farm-level targeted pass (research/2026-08-global-south-farm-level-open-hardware-scan.md); G-OSA-20 added from the data-cooperatives cycle (research/2026-08-data-cooperatives-scan.md); G-OSA-21 added from the biological-commons cycle (research/2026-08-biological-commons-scan.md); G-OSA-08 partially addressed by the maintenance/funding profiles pass (research/2026-08-maintenance-funding-profiles.md); C-OSA-01..04 re-scored with provisional verdicts and the priority queue re-ranked by the landscape synthesis (research/2026-08-landscape-synthesis.md); G-OSA-01 resolved into shapes and C-OSA-01 verdict hardened by the OADA implementation/adoption verification scan (research/2026-08-oada-implementation-scan.md).
 
 This register is independent of the Agrifood AI Field Guide’s gap IDs. The field guide remains a useful discovery source and comparative research base: https://agrifood.metaviews.ca/. The questions below are not settled negative findings. They identify where the first transfer found incomplete, dated, or contested evidence.
 
@@ -10,7 +10,7 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 
 | ID | Gap | Why it matters | Evidence currently available | Next verification | Status |
 |---|---|---|---|---|---|
-| G-OSA-01 | OADA implementation and adoption scale | Open standards only reduce lock-in if vendors and services implement them | OADA Principles; public GitHub organisation; archived API-spec repository | Check compliant implementations, current maintainers, independent users, and farmer-facing deployments | Open |
+| G-OSA-01 | OADA implementation and adoption scale | Open standards only reduce lock-in if vendors and services implement them | Resolved into shapes (2026-08-03): active standards core — modern Apache-2.0 reference server (Kafka/ArangoDB), Purdue OATS-maintained, commits 2026-08-01, org updated 2026-07-16; legacy spec layer owner-archived (May 2024), conformance suite archived 2016; adoption layer absent — no verified OADA-compliant third-party implementation, no farmer-facing deployment, WinField 2015 intent unverified, server forks are student copies; ADC/NAPDC explicitly disclaims OADA (FAQ Q16); market answers elsewhere (Leaf aggregator, AgGateway ADAPT) | Residual G-OADA-01: vendor outreach to former OADA members/WinField for conformance claims; AGAPECert/Mask & Link status under ADC (G-OADA-02) | Resolved (2026-08-03; scan research/2026-08-oada-implementation-scan.md; record updated) |
 | G-OSA-02 | Current JoinData membership and operating scale | Historical scale cannot be presented as current deployment | Current JoinData site plus 2023 case study | Request or locate current membership, participating parties, fees, governance, and geographic reach | Dated |
 | G-OSA-03 | Common Voice agrifood applications | An open language dataset is not automatically an agricultural deployment | Common Voice platform verified; agrifood application not established | Locate agricultural extension, farm, or food-system applications and document language, licence, and outcomes | Open |
 | G-OSA-04 | OSSI geographic and farmer adoption | Pledged-variety and partner counts do not establish farmer use or regional distribution | OSSI homepage provides current public counts | Verify current seed catalogue distribution, farmer adoption, breeding participation, and non-US deployments | Open |
@@ -78,7 +78,7 @@ This register is independent of the Agrifood AI Field Guide’s gap IDs. The fie
 
 - Supporting logic: open APIs and portable data can improve switching and competition.
 - Counterpoint: standards without vendor implementation, governance, or usable export mechanisms may not change practical lock-in.
-- Current status: leaning contested (2026-08-03 synthesis: standards create the possibility of portability, not its practice; hinge G-OSA-01); linked to G-OSA-10.
+- Current status: contested, evidenced by OADA's own trajectory (2026-08-03: active standards/reference layer with zero verified third-party implementations or farmer-facing deployments — possibility of portability stands, practice unfulfilled; G-OSA-01 resolved into shapes, residual G-OADA-01 vendor outreach); linked to G-OSA-10.
 
 ### C-OSA-02: “Open data creates farmer benefit.”
 
@@ -112,13 +112,13 @@ For every question advanced into a published scan:
 
 ## Immediate priority queue
 
-Re-ranked 2026-08-03 by the landscape synthesis (research/2026-08-landscape-synthesis.md) on one criterion: which gap, resolved, would change the synthesis most.
+Re-ranked 2026-08-03 by the landscape synthesis (research/2026-08-landscape-synthesis.md) on one criterion: which gap, resolved, would change the synthesis most. G-OSA-01 (OADA) was the queue's first item and is now resolved (2026-08-03 verification scan).
 
-1. G-OSA-01 / Q-OSA-04: OADA current implementation and adoption — hinge for C-OSA-01; public-source verifiable.
-2. G-OSA-20 follow-up: data cooperative durability beyond JoinData (SAOS, GISC) — tests the one structural-farmer-agency pattern in the dossier.
-3. Local-language cycle (Spanish, Portuguese, French, Hindi) targeting G-GS-05 (confirmed-absence finding is English-language only) and G-OSA-19 (China implementation).
-4. G-OSA-03 / Q-OSA-10: concrete Common Voice agrifood applications — hinge for C-OSA-03.
-5. G-OSA-21: OSSL enforcement and uptake — downgraded to track-only (no public court record; re-check annually).
+1. G-OSA-20 follow-up: data cooperative durability beyond JoinData (SAOS, GISC) — tests the one structural-farmer-agency pattern in the dossier.
+2. Local-language cycle (Spanish, Portuguese, French, Hindi) targeting G-GS-05 (confirmed-absence finding is English-language only) and G-OSA-19 (China implementation).
+3. G-OSA-03 / Q-OSA-10: concrete Common Voice agrifood applications — hinge for C-OSA-03.
+4. G-OSA-21: OSSL enforcement and uptake — downgraded to track-only (no public court record; re-check annually).
+5. G-OADA-02: AGAPECert / Mask & Link status under ADC — track with the NAPDC follow-up (G-OSA-20).
 
 G-OSA-18 remains the project's central question but is fieldwork-bound; public-source cycles can only add architecture-level evidence.
 
