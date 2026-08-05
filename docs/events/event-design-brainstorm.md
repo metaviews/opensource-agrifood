@@ -141,3 +141,37 @@ The role-play, when its time comes, will be a sub-situation designed for drama a
 5. When the experience is concrete enough to imagine, write the production brief.
 
 What we don't need to figure out at this stage: who is in the room, what they bring, what they remember, what artifacts emerge, what the clearing house looks like, what the policy output is. Those are downstream of the experience, not upstream of it.
+
+---
+
+## The four claims (draft 1, future-herd voice)
+
+The salon is organised around a logic of inquiry: **what → who → how (role-play, deferred) → when**. Each session is held together by a claim — a textured proposition about what the room encounters. These are drafts, working material for the door, not titles.
+
+### Session 1 — *what*: The current state of open-source AI in Canadian agrifood, and why it matters now
+
+**The claim:** *The interesting question about agentic AI in Canadian agriculture is no longer whether it is coming. It is already here. The interesting question is what we choose to do with the data, the models, and the people who hold the knowledge before the architecture locks in.*
+
+The room encounters the live terrain: edge computing and dark data, the energy arithmetic of agricultural AI, the OEM question, the decision-support framing that relocates AI inside existing decisions rather than treating it as replacement. The texture is concrete and current-affairs-loaded — agentic computing as one enabler among several, but the focal point right now because it is reshaping what's possible fastest. Open-source AI is one of the architectural choices being made in real time, and the choices being made now will shape who benefits and who doesn't. The room looks at what's actually being deployed, what's real, what isn't, and what's at stake for the people whose knowledge is in play.
+
+Inherited from: Episode 31 (Killorn, Yaghi, MacTavish, Mohsen) and the edge-computing knowledge piece; Episode 18 (Computational Breeder); Episode 21 (Yaghi on technology as democratic force, AI as virtual guardian angel); Episode 36 (structural omissions as the political stakes).
+
+### Session 2 — *who*: Who is in the room, who isn't, and what the salon can do about it
+
+**The claim:** *If we are serious about an open-source agrifood future in Canada, the salon has to be the kind of room where farmers, Indigenous food sovereigns, food-chain workers, and eaters can show up alongside researchers, technologists, and policy people — and where what they bring is treated as substance, not perspective.*
+
+The room encounters itself. This is the active design question, not the observation. The current state of Canadian agrifood conversation is that it often circles among familiar voices (Jamie Reaume's "the conversation has not changed since I started"), that the sector has a leadership-not-recruitment problem (Episode 6 / Dana McCauley), that consumers and frontline food workers are systematically excluded from rooms where policy is drafted (Episode 36), and that Indigenous food sovereignty has been structurally marginalised. The session asks: who does this salon actually gather, and what does it take to make the gathering legible to people who aren't already in the conversation? Inclusion is a design constraint, not a panel topic.
+
+Inherited from: Episode 10 (Jamie Reaume on the sector talking to itself); Episode 36 (Overend, Levkoe, Power on exclusions); Episode 9 (Camden Lawrence on First Nations agriculture); Episode 26 (Levkoe on agroecology and Indigenous knowledge); Episode 6 (Canada has a leadership problem); Episode 35 (Dan Kunanec on urban agricultural literacy); Episode 33 (Tianna Brand on meeting people where their futures already are).
+
+### Session 3 — *how* (role-play): deferred
+
+The role-play's job, given the framing, is to *let the room inhabit the contested terrain*. It is the dramaturgical moment of the salon. Designed separately, with care, when the framing conversation is done. The role-play carries drama, gravity, edutainment, and memorability — not artifact production.
+
+### Session 4 — *when*: Naming what we noticed, and where this conversation goes from here
+
+**The claim:** *Long-term thinking in Canadian agrifood is not a forecasting exercise. It is a collaborative act — an agreement to keep showing up. The salon is the beginning of a sustained attention, not a one-shot event, and the work that comes after matters more than what gets decided in the room.*
+
+The room encounters time. Not the long-horizon forecasting kind ("here is what 2050 looks like"), but the patience-and-continuation kind. The Future Herd's posture on 2050: futures aren't predicted, they're negotiated across generations, institutions, and people who won't experience the consequences the same way. The salon's job at the close is to *name what was noticed* — what the room encountered, what is contested now in a way it wasn't before, what stays open. Naming is a salon posture; consensus is a panel posture. The session is not a synthesis toward action items. It is an invitation to stay in conversation — to make the commons on the other side of the day feel like somewhere people want to return to.
+
+Inherited from: Episode 1 (why 2050, long horizons as collaboration); Episode 33 (Tianna Brand on agency vs. determinism, "we are creating the conditions for what comes next"); the salon-as-situation lens; the future-herd editorial model of sustained attention over decisive moments.
