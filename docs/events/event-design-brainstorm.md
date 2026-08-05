@@ -4,91 +4,140 @@ Status: brainstorm, working draft. Not a brief. Not a commitment.
 
 Date: 2026-08-05
 Hosts: future-herd/ salon programme
-Project: opensource-agrifood/ (clearing house concept — deferred; emerges when it emerges)
+Project: opensource-agrifood/ (clearing house concept deferred — emerges when it emerges)
 Format: online, Discord, half-day, multi-session, salon-style, situationist
 Outputs: byproducts of an experience; the experience itself is the deliverable
 
-## Sources of truth
+## The purpose, stated clearly
 
-Three corpora. Each plays a different role.
+The event is **open-source AI for agrifood.** That's why we're operating out of `opensource-agrifood/`, even though `future-herd/` is the authority and the branding. Whether that purpose is made explicit to participants is a separate decision (probably: implicit in the framing, explicit in any future positioning copy).
 
-- **future-herd/ — authoritative.** First-person interviews, episode transcripts, knowledge pieces (editorial synthesis), intelligence briefs. This is what the room actually sounds like. The salon inherits the Future Herd voice by being hosted there.
-- **agrifood-ai-field-guide/ — structural reference for the agrifood domain.** 219 units, three-axis taxonomy (sector position × AI technique × purpose), 8 archetypes, 42 quotes, gap and lead registries. The taxonomy explicitly spans the full food chain: inputs → on-farm (open field + protected) → animal production → post-harvest → processing → distribution/retail → consumption → waste/recovery. Not on-farm only.
-- **opensource-agrifood/ — context for one specific lens (the open-source ecosystem).** Useful when the salon engages open-source directly; not authoritative for the event as a whole.
-- **ACME and SAM lenses — process discipline.** Situationist inheritance (situations, détournement, dérive, unitary urbanism) extended through disability justice and care ethics (interdependence, access-as-justice, crip time, anti-productivity, care-as-revolution). The salon is a situation; what matters is how the room experiences it, not what it produces.
+`future-herd/` is the authoritative reference for voice, themes, what the room responds to.
+`agrifood-ai-field-guide/` is the structural reference for the agrifood domain (whole food chain, three-axis taxonomy, eight archetypes, units, quotes).
+`opensource-agrifood/` is context for the open-source ecosystem specifically.
+ACME and SAM are the **process discipline** — implicit in how the salon runs, never announced as a frame.
 
-## What is settled
+## Sources of truth — what's actually in the corpus
 
-- Platform: Discord, designed as curated participatory theatre (Aug 1 venue scan). The server itself is part of the artwork.
-- Jurisdiction: Canada.
-- Timeline: half-day, mid-fall 2026 (late October or early November).
-- Salons, not panels.
-- Role-play / constructed situation is in play for one session. Goal: edutainment + memorable experience. Not artifact production.
-- Farmers are invitees, not subjects. Accessibility is the design principle; fetishization is the failure mode.
+### future-herd/ — the editorial record
 
-## What is being inherited from future-herd (the load-bearing stuff)
+36 episodes and 36 knowledge pieces. The Future Herd's editorial centre of gravity is *Canadian* agrifood system analysis with attention to power, history, equity, and the food side of the value chain. The salon inherits that centre of gravity.
 
-These are the themes, voices, and postures the salon will already be in conversation with. Read the knowledge pieces and episodes before designing sessions; the material is the substrate.
+**Episodes most relevant to open-source AI in agrifood:**
+- 18: The Rise of the Computational Breeder (plant breeding AI)
+- 21: Technology as a Democratic Force in Agriculture
+- 23: Measuring What Matters — Transforming Canada's Agri-Food System
+- 31: Dark Data and Edge Computing Are Reshaping Canadian Farm Strategy
+- 34: Biomanufacturing Is the Next Agricultural Superpower Play
+- 36: Rebuilding Democracy from the Ground Up Through Food (most recent, Aug 5)
 
-**The project frame** (from Episode 1): "Many independent actors, adapting together." Herd intelligence is not obedience. The border collie is not the symbol — the collie mix is. Food systems are not programmable; they're living, evolving, semi-autonomous. The podcast exists to give attention, not answers.
+**Knowledge pieces most relevant to open-source AI in agrifood:**
+- *Edge Computing and Agentic AI Are Redefining What Precision Agriculture Actually Means* (June 24) — **the canonical anchor**: data triage, sovereign compute, energy arithmetic, OEM opacity, dark data
+- *Beyond the Hype: Critical Literacy and Technological Adaptation in Modern Farming* (May 1) — AI as "advanced statistical pattern recognition," farmer as active interpreter, not passive recipient
+- *AI-Powered Plant Breeding* (April 24) — the breeding side of computational agrifood
+- *Genomics Is Reshaping Canadian Agriculture From Soil Health to Biomanufacturing* (July 15) — biotech + Canadian capacity
 
-**Recurring fault lines the salon already inherits** (from Episode 1):
-- Time and long horizons (why 2050)
-- Economic pressure, climate volatility, technology, demographics, policy — none isolated
-- Labour: shortages and skills gaps, but also migration, automation, dignity, care, coordination
-- Climate resilience as operational reality, not abstraction
-- Technology (especially AI) as both connective tissue and extractive layer
-- Consumers, trust, narrative, public perception
-- Equity and inclusion, often visible through absences
-- Governance and policy as coordination technologies, often as workarounds
-- Frontline stories where lived experience contradicts models
+**Knowledge pieces that frame the *food side*:**
+- *The Food System Doesn't End at the Farm Gate — It Ends in the Microbiome* (Sarah Elton / Episode 32) — posthumanist expansion of what counts as the food system
+- *The Structural Omissions Within Federal Food Security Frameworks* (Aug 5 / Episode 36) — the myth of cheap food, corporate concentration (5 chains = 80% retail; 2 firms = 95% beef processing), labour invisibility, top-down policy vs. food sovereignty
+- *Beyond Charity: The Evolving Logistics of Food Security in Toronto* (Episode 19) — Daily Bread's transformation from stopgap to permanent infrastructure, dignity as design principle, food bank as data hub
+- *Canadian Food Sociology Brings a Critical Lens the Agri-Food Sector Rarely Hears From* (Episode 24) — grocery store as curated media environment, biochemical vs. social framing, class and power
+- *Kitchen Is the Market, Culture Is the Infrastructure* (Episode 12) — diaspora cooking shapes real demand
+- *Transforming Food Systems: Strategic Approaches to Waste Reduction and Hunger Prevention* (Episode 17)
+- *Local Production and Waste Reduction: The Cornerstones of Canadian AgriFood Resilience* (Episode 23)
+- *The Social Conscience of Rural Governance: Policy and Food Access in Small Communities* (Episode 22)
 
-**The editorial posture:** critical without being anti-, curious without being boosterish. "We don't promise answers. We promise attention. Grounded conversations. And a refusal to treat food as just another sector to be managed from a distance." (Episode 1)
+**Knowledge pieces that frame *power, openness, dissent*:**
+- *When Agriculture Starts Talking Only to Itself* (Episode 10 / Jamie Reaume) — institutional culture, echo chambers, dissent as form of commitment
+- *Advocacy in Flux* (Episode 16) — how do you advocate for a sector when the ground keeps shifting
+- *Canada's Agricultural Potential Is Being Held Back by Regulatory Distance and Political Neglect* (Episode 28)
+- *The Food System's Willful Ignorance: Why the Most Important Ideas Stay Hidden* (Episode 30)
+- *Leadership in a Volatile World: The Strategic Sector That Still Thinks It's a Commodity* (Episode 7)
 
-**Themes from the knowledge corpus that are likely to surface** (sampled):
-- *Edge computing and agentic AI redefining precision agriculture*: data triage, sovereign compute, the energy arithmetic of agricultural AI, OEM data opacity, dark data in plant breeding
-- *Agroecology, Indigenous knowledge, limits of consumer food literacy*: three pillars (science, experiential, movement/governance), the structural marginalisation of traditional knowledge, food sovereignty
-- *Leadership renewal as cultural transformation, not recruitment*: pathways of belonging, bridging separated domains
+**Knowledge pieces that frame *Indigenous, equity, labour*:**
+- *First Nations and the Demographic Crisis in Canadian Agriculture* (Episode 9)
+- *Agroecology, Indigenous Knowledge, and the Limits of Consumer-Food Literacy* (Episode 26) — three pillars: science, experiential, movement/governance
+- *AgriFood Names the Tension Between Capital and Care* (Episode 30)
 
-**From the field guide's archetype 08 (AI and labour):** the analytical move worth carrying forward — automation is not displacement-or-not; it's three distinct questions (displacement, monitoring/management, safety/augmentation) that can co-occur in the same deployment.
+### agrifood-ai-field-guide/ — the structural reference
 
-## What is open and worth keeping open
+Three-axis taxonomy covering the whole food chain: inputs → on-farm (open field + protected) → animal production → post-harvest → processing → distribution/retail → consumption → waste/recovery. Eight archetypes that are *worked examples* of talks that have been built. Archetype 08 (AI and labour) is the closest match for "open-source AI for agrifood" framing — it makes three distinctions (displacement / monitoring / augmentation) that prevent the discussion from collapsing.
 
-- Session count (three or four).
-- Session order (not locked).
-- Session topics. The four you've been working with (agents, research, open source, ethics/policy) are one starting set. The field guide's archetype set is another way to slice the territory (vendor-sweep / data-sovereignty / adoption-diagnosis / cooperative-alternative / critical-lens-Indigenous / regional-cluster-comparison / open-source + smallholder + multilateral / AI and labour).
-- The food side of agrifood (post-harvest, processing, distribution, retail, consumption, waste) is currently underweighted. The field guide's taxonomy makes it first-class. Worth weighing how much of the salon spans the whole chain vs. leans on-farm.
-- Whether ethics/policy is a session, a frame, or both. Embedding it in the role-play adds drama and gravity; that's a legitimate move independent of whether it appears elsewhere.
-- Who is in the room (no room, no invitees, no list yet).
-- Clearing house / observatory concept. Emerges when it emerges.
+### opensource-agrifood/ — the open-source context
 
-## The ACME/SAM lenses applied
+58 verified records, three-axis landscape synthesis v2 with seven currents (farmer-maker, state DPI, open-core + paid services, commons without licences, donor-funded farmer-centric, Global South trust-and-transfer, regulation-as-access). Headline finding: openness is layered, the layers decouple, and farmer agency is the scarcest layer. Useful as one specific lens for the salon; not authoritative for the event as a whole.
 
-Two reframes worth sitting with before any further session design:
+## Frames the salon will be in conversation with
 
-**Process over outcome.** The salon isn't an event that produces deliverables. It's a situation that produces experience. Podcast episodes, transcripts, marginalia, byproducts — these are *what's left over after the room had the experience*. The design question is: what experience do we want to be in a room having? Not: what do we want to produce?
+These are the substantive frames already present in the corpus. The salon doesn't need to invent them — it inherits them.
 
-Operationally:
-- Care check-ins as dramaturgy, not admin. The session begins with capacity/access check, not "welcome, here's the topic."
-- Crip time in scheduling. Mid-November may be the right answer for embodied reasons, not operational ones. Farmers' bodies, not just farmer availability, are the constraint.
-- Multi-format participation paths as primary design, not accommodation. Text chat, voice, video, low-bandwidth, asynchronous — these are how the salon works, not how it accommodates.
-- Consensus with stand-aside in the room's working norms. Not parliamentary procedure, not majority vote.
-- Anti-productive metrics for evaluation. Did the room feel present? Did access work? Was care practiced? Were moments of surprise created? Not: how many records filed, how many minutes recorded, how many people attended.
+**1. Openness and sovereignty as an architectural, not abstract, question.**
+From Episode 31 / edge-computing knowledge: the choice of *where inference happens* (cloud vs. field edge) determines energy cost, data sovereignty, farm autonomy, and who captures the value. The same architectural question has analogues across the food chain: where data lives in retail consolidation, where processing happens, where the model weights sit, where the biological commons are stewarded. "Open" is not a binary. It's a layered architectural choice with operational consequences.
 
-**The five value words.** Enjoyable, accessible, intelligent, innovative. Plus: leads people to new ideas, new experiences, new emotions. If the salon is those five things, the outcome takes care of itself. If we optimize for the outcome, the salon stops being those five things.
+**2. AI as decision-support, not automation.**
+From Episode 31 / "Beyond the Hype": Mohamad Yaghi's frame — AI is most valuable not as automation but as a decision-support layer that helps producers commit capital more wisely *before* it is spent. AI as "advanced statistical pattern recognition," not magic. This reframe matters because it locates AI inside the existing decision ecology rather than as a replacement for it. The salon inherits a posture that is neither boosterish nor pessimistic — it's evaluative and concrete.
 
-This shifts design weight from "did the panel cover the topic well?" to "did the room have an experience worth remembering?" That's a different design problem.
+**3. Dark data as the substrate.**
+Mohsen Yoosefzadeh's concept: research data that is collected, archived, and never used — a vast, latent substrate for training domain-specific agricultural AI models. The bottleneck isn't the data; it's the *governance framework* for responsible sharing. Train models internally on pooled dark data, share outputs not raw datasets. This is one of the strongest open-source AI moves in the Canadian record and is directly applicable to the salon's centre of gravity.
 
-**Construct a situation, don't run a programme.** SAM's method: build an environment in which something might happen that wouldn't have happened otherwise. The role-play is one such situation. The Discord server with its spatial grammar is another. The care check-in as the first beat of each session is another. The salon as a whole, if it works, is a constructed situation — not a programme of sessions.
+**4. Power, consolidation, and the food side.**
+Episode 36 / structural omissions: 5 grocery chains = 80% retail, 2 firms = 95% beef processing, farmers squeezed at 11% of the food dollar. The structural problem isn't *lack* of food — it's *concentration* of the food system, *externalisation* of ecological and human costs, and *capture* of policy by the consolidated players. Open-source AI in this context isn't just a technical question; it's a counter-concentration move (or it's nothing).
 
-The salon isn't "four panels about open source." It's "an environment in which smart people who care about this stuff encounter each other in conditions designed for surprise, care, and presence, and we watch what happens." That posture produces better podcasts than a programme does.
+**5. The food system as posthumanist.**
+From Sarah Elton / Episode 32: the food system doesn't end at the farm gate, or the grocery, or the plate — it ends in the microbiome. More-than-human actors (microbes, soil, ecosystems, bodies) are constitutive, not background. This is a frame for AI in agrifood that takes seriously that the "system" includes biological complexity that doesn't reduce to data, and that open-source AI design should care about that.
+
+**6. Consumer behaviour is not rational utility-maximisation.**
+From Alyssa Overend / Episode 24: the dominant biochemical framing of food (nutrition labels, % daily intake, ingredient lists) misreads what actually drives food choice. Food encodes identity, class, memory, culture. An open-source AI in agrifood that takes the consumer seriously is designing for socially embedded subjects, not input-output calculators. This matters for adoption, for equity, for who the salon invites into the room.
+
+**7. Institutional echo chambers and the function of dissent.**
+Jamie Reaume / Episode 10: "The conversation has not changed since I started." Dissent is a form of commitment. An open-source AI event that only convenes people who already agree isn't a salon — it's the echo chamber described in the knowledge piece. The salon has a structural incentive to *include* the people who would push back, including vendor voices, including policy people who disagree, including the dissenters.
+
+**8. Food sovereignty as the political frame.**
+Charles Levkoe / Episode 26 — three pillars (science, experiential, movement/governance) that *refuse to let any one stand alone*. Episode 36 — food sovereignty requires abandoning the technocratic fantasy that the market can regulate its own pathologies. Open-source AI in agrifood, in this framing, is a tool that's useful *only if* it's connected to a movement and a governance shift, not as a standalone technical good.
+
+**9. Indigenous data sovereignty and the experiential pillar.**
+The knowledge pieces on agroecology and First Nations agriculture make this explicit: food sovereignty in Canada includes Indigenous food sovereignty, and traditional ecological knowledge has been structurally marginalised by the institutions now talking about "open." An open-source AI salon that doesn't engage Indigenous data sovereignty reproduces the colonial pattern. This isn't a panel topic; it's a design constraint.
+
+**10. The long horizon.**
+Why 2050? From Episode 1: long-term thinking is itself a collaborative act. Futures aren't predicted; they're negotiated across generations, institutions, and people who won't experience the consequences the same way. The salon inherits that horizon, which de-emphasises short-term deliverables and emphasizes what we're collectively committing to.
+
+## What these frames suggest (without designing the sessions)
+
+**The salon will inevitably cover:**
+- Open-source AI in agrifood (technical, governance, sovereignty dimensions)
+- The full food chain, not just on-farm (post-harvest, processing, retail, consumption, waste — the field guide's taxonomy)
+- Power, concentration, dissent, and the political economy of food (Episode 36's structural omissions)
+- Indigenous data sovereignty and food sovereignty (the experiential pillar)
+- Decision-support vs. automation framing (Episode 31's posture)
+- The function of dissent and the risk of echo chambers (Jamie Reaume)
+- Critical literacy and the consumer as socially embedded (Overend, Yaghi)
+
+**The salon will *not* be well-served by:**
+- Treating "open source" as a moral position rather than an architectural choice
+- Treating "AI" as a category rather than a specific design decision (where data lives, who owns weights, who can fork)
+- Treating "agrifood" as agriculture rather than as the full value chain
+- Converging on consensus — the dissent is the point
+- Optimising for the outcome (deliverables, episodes, clearing house artifacts) at the expense of the experience
+- An audience of people who already agree with each other
+
+**What this suggests about the salon shape (not locked):**
+
+The salon needs *enough structure to be generative* but *enough openness that the dissent and surprise can happen*. The Future Herd pattern is editorial structure that lets the conversation go where it needs to go. The salon inherits that posture: themes, not agendas.
+
+The ACME/SAM lens reminds us: the experience is the deliverable. The salon is a situation. Whatever sessions exist are sub-situations inside the larger one. If the situation works, the byproducts (podcast episodes, transcripts, marginalia) will be valuable; if the situation doesn't work, the byproducts won't save it.
+
+The role-play, when its time comes, will be a sub-situation designed for drama and gravity — edutainment and memorability — within the larger salon situation. Its goal isn't to produce a document; it's to give the room an experience they'll remember. Form follows from the experience we want.
 
 ## What to do next
 
-1. Read the future-herd/ episode and knowledge corpus more thoroughly if designing sessions. The salon inherits this material; designing in ignorance of it is how you get sessions that don't sound like Future Herd.
-2. Decide what the role-play is *doing* — what kind of experience it produces — before deciding its form. The goal is edutainment + memorable experience; the form follows.
-3. Let the food side of agrifood weigh into session design. The field guide's taxonomy makes the whole chain first-class; the salon's centre of gravity is a choice, not a default.
-4. Once a session shape starts to take form, write a one-paragraph public invitation in the Future Herd voice. The invitation is the test of whether the design has anything to say.
-5. When the experience is real enough to imagine, write the production brief.
+1. Read more of the corpus if the picture needs sharpening. The above is grounded in episodes 1, 9, 10, 12, 13, 17, 19, 22, 24, 26, 28, 30, 31, 32, 34, 36 and corresponding knowledge pieces; episodes 2-8, 11, 14-16, 18, 20-21, 23, 25, 27, 29, 33, 35 and their knowledge pieces remain for closer reading when session design begins.
+
+2. When session design begins: start from the frames above, not from topics. The frames are the spine. Topics fall out of which frame a session foregrounds.
+
+3. When the role-play's time comes: decide what experience it produces (drama + gravity + edutainment + memorability), not what form it takes.
+
+4. Let the food side weigh in. Every session's design should ask: where does the food chain show up in this frame? If the answer is "only on-farm," the frame is incomplete.
+
+5. When the experience is concrete enough to imagine, write the production brief.
 
 What we don't need to figure out at this stage: who is in the room, what they bring, what they remember, what artifacts emerge, what the clearing house looks like, what the policy output is. Those are downstream of the experience, not upstream of it.
