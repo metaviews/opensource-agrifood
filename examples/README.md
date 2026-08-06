@@ -87,6 +87,10 @@ A project should normally satisfy at least three of these conditions:
 | [Potato Park](records/potato-park.md) | Indigenous biocultural commons | curated | How does customary-law territory governance protect genetic commons? |
 | [SEARICE](records/searice.md) | farmer-led seed systems | curated | Can participatory breeding and community seed banks replace commercial seed dependence? |
 | [Navdanya](records/navdanya.md) | movement-managed seed banks | candidate | What happens when scale claims diverge across a movement's own sources? |
+| [Mycodo](records/mycodo.md) | open greenhouse/hydroponic control software (GPL-3.0) | curated | Can an open control stack serve protected cultivation without commercial-scale lock-in? |
+| [MIT OpenAg Food Computer](records/openag-food-computer.md) | claimed all-open CEA; archived, contested | candidate | When does "would have been open source" become an open layer? |
+| [Common Greenhouse Ontology](records/common-greenhouse-ontology.md) | open greenhouse data-interoperability standard (Apache-2.0) | candidate | Does an open standard reduce lock-in without vendor adoption? |
+| [Wageningen Autonomous Greenhouse Challenge datasets](records/wageningen-agc-datasets.md) | open CEA cultivation datasets (DOI-published) | candidate | Does open competition data constitute an open CEA AI layer? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
