@@ -32,7 +32,11 @@ The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjac
 
 ## Current phase
 
-The current phase is foundation-building: establish the project's research scope, source and evidence practices, initial environmental scans, working taxonomy, research backlog, and cross-cell synthesis of the discovery programme (research/2026-08-landscape-synthesis-v2.md supersedes v1). Event planning and event-specific decisions are outside the current scope unless explicitly requested.
+The current phase is event design. Foundation-building through the discovery programme is complete (see research/2026-08-programme-briefing.md and research/2026-08-landscape-synthesis-v2.md); the event framing is now settled and documented in `docs/events/event-design-brainstorm.md`. The next work is Discord server design for the *Future Herd* spectacular event *Building the Open-Source Future of Canadian Agrifood*, followed by stakeholder briefing and outreach.
+
+## Event status (2026-08-05)
+
+Event framing is settled. Title and subtitle: *Building the Open-Source Future of Canadian Agrifood — A Future Herd spectacular event on AI and agrifood*. Four sessions organised around a logic of inquiry: *who, what, how, when*. Open-source AI in Canadian agrifood is the substantive focus; the substance is the people in the room and the knowledge they have and share. Discord will be the platform, with a new custom server for *Future Herd* nested inside the metaviews ecosystem. Role-play design, production design, scheduling, and the stakeholder briefing remain to follow. See `docs/events/event-design-brainstorm.md` for the full framing work.
 
 ## Programme status (2026-08-03)
 
