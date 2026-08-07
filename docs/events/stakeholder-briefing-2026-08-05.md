@@ -5,7 +5,7 @@
 
 ## Why this event now
 
-Canadian agrifood is at an inflection point. Open-source AI is becoming a real architectural choice in the sector — where data lives, who owns the weights, who can fork, who captures the value. The rapid rise of agentic computing and the ongoing geopolitical volatility around food are accelerating decisions that used to feel distant. The research base for this event is substantial: twelve discovery cycles, fifty-eight verified records across open-source hardware, machine data, digital public infrastructure, AI, biological commons, and the food value chain, with four contested claims documented. The next step is to bring people together around the contested terrain and let the conversation do work that research alone can't.
+Canadian agrifood is at an inflection point. Open-source AI is becoming a real architectural choice in the sector — where data lives, who owns the weights, who can fork, who captures the value. The rapid rise of agentic computing and the ongoing geopolitical volatility around food are accelerating decisions that used to feel distant. The research base for this event is substantial: twelve discovery cycles, fifty-eight verified records across open-source hardware, machine data, digital public infrastructure, AI, biological commons, and the food value chain, with four contested claims documented. The next step is to bring people together around the contested terrain and let the conversation do work that research alone can't. Research is ongoing; new cycles and records continue to land and inform the framing.
 
 ## The framing
 
