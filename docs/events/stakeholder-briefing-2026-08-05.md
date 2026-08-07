@@ -27,7 +27,7 @@ The title names what the gathering does — leaders convening for acceleration a
 
 ## Why Discord, and what we're building
 
-Discord will be the platform. We chose it because its spatial grammar — foyer, main stage, backstage, audience discussion, breakout spaces, persistent commons — supports the kind of gathering the event is meant to be. Discord's default culture isn't inclusive; that's countered by design, not by hope.
+Discord will be the platform. We chose it because its spatial grammar — foyer, main stage, backstage, audience discussion, breakout spaces, persistent commons — supports the kind of gathering the event is meant to be. Discord also has mature mobile support, meaning participants can join from a wider range of devices and connectivity conditions — an important accommodation for rural users and farmers on-site, who may be joining from a phone in a barn or a cab rather than a desktop in an office. Discord's default culture isn't inclusive; that's countered by design, not by hope.
 
 We are building a new custom server for Future Herd, nested inside the metaviews ecosystem. The server is the artwork, not just the venue. The salon's commitments (honoring the people in it, recognizing their knowledge, making space for them to lead, sending them back stronger than they came in) are enacted in the server's design: a structured arrival that balances visual and textual orientation; small, legible channel structure with plain-language labels; multi-format participation paths as primary design rather than accommodation; care check-ins as the first beat of each session; consensus with stand-aside in working norms; a persistent commons where the conversation continues after the event ends.
 
