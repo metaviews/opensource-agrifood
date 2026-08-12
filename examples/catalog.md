@@ -35,8 +35,13 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [OS Farm](records/osfarm.md) | France / EU | open agritech interoperability standard (France 2030) | farm equipment interoperability consortium | candidate |
 | [Open Source Ecology](records/open-source-ecology.md) | US / global | machine design commons (GPL / CC-BY-SA) | open-source tractor and farm machinery set | curated |
 | [ArduPilot](records/ardupilot.md) | Global | autopilot firmware (GPL-3.0), community infrastructure | agricultural drones and robotics enabler | curated |
-| [Vinduino](records/vinduino.md) | US / California | sensing and irrigation hardware designs (GPL-3.0) | vineyard irrigation management | curated |
-| [Farm Hack](records/farm-hack.md) | US / UK | design-sharing platform and events | farm tool commons infrastructure | candidate |
+|| [Vinduino](records/vinduino.md) | US / California | sensing and irrigation hardware designs (GPL-3.0) | vineyard irrigation management | curated |
+|| [Compost for Good](records/compost-for-good.md) | US / NY Adirondack | free open-source design guide + operating manual (licence-formality unverified) | community-scale food-waste composting, rotating drum | curated |
+|| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | Switzerland / global via open transfer | open-source biochar kiln by publication + practice (licence-formality thin) | farmer-scale biochar production | curated |
+|| [IBI open-source biochar](records/ibi-open-source-biochar.md) | Global / IBI aggregator | open-access collection of multiple kiln designs (mixed provenance) | small-scale biochar production designs aggregator | curated |
+|| [compost-sensor](records/compost-sensor.md) | Hobby / global via GitHub | Arduino+LoRa compost temp sensor (MIT) | hobby compost pile monitoring | candidate |
+|| [Smart Worm Habitat](records/smart-worm-habitat.md) | Hobby / global via GitHub | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | vermicompost system design concept | candidate |
+|| [Farm Hack](records/farm-hack.md) | US / UK | design-sharing platform and events | farm tool commons infrastructure | candidate |
 | [ISOBlue](records/isoblue.md) | US / Purdue | open telematics hardware and software (MIT family) | machine-data access and precision farming telematics | curated |
 | [AgIsoStack++](records/agisostack.md) | Global | open ISOBUS standard implementation (MIT / GPL family) | farm machinery interoperability and data | curated |
 | [Think Oggún](records/oggun.md) | Cuba-facing / US-made, 4-country distributors | open-manufacturing transfer model (licence-fee) | low-cost smallholder tractor | curated |
@@ -157,6 +162,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-06.
+Last reviewed: 2026-08-12. Collection now 67 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, and the compost/soil-production open-knowledge cell (G-OSA-23).
 
 Not legal advice.

@@ -90,13 +90,23 @@ A project should normally satisfy at least three of these conditions:
 | [Mycodo](records/mycodo.md) | open greenhouse/hydroponic control software (GPL-3.0) | curated | Can an open control stack serve protected cultivation without commercial-scale lock-in? |
 | [MIT OpenAg Food Computer](records/openag-food-computer.md) | claimed all-open CEA; archived, contested | candidate | When does "would have been open source" become an open layer? |
 | [Common Greenhouse Ontology](records/common-greenhouse-ontology.md) | open greenhouse data-interoperability standard (Apache-2.0) | candidate | Does an open standard reduce lock-in without vendor adoption? |
-| [Wageningen Autonomous Greenhouse Challenge datasets](records/wageningen-agc-datasets.md) | open CEA cultivation datasets (DOI-published) | candidate | Does open competition data constitute an open CEA AI layer? |
+|| [Wageningen Autonomous Greenhouse Challenge datasets](records/wageningen-agc-datasets.md) | open CEA cultivation datasets (DOI-published) | candidate | Does open competition data constitute an open CEA AI layer? |
+|| [Compost for Good](records/compost-for-good.md) | free open-source community-scale composter design guide + manual | curated | Can an open-source hardware design reduce the cost of community-scale composting? |
+|| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | open-source biochar kiln by publication and practice | curated | Can a simple open-source hardware design democratize farmer-scale biochar production? |
+|| [IBI open-source biochar](records/ibi-open-source-biochar.md) | open-access aggregator of multiple biochar kiln designs | curated | Does an aggregator of open designs constitute an open commons? |
+|| [compost-sensor](records/compost-sensor.md) | Arduino+LoRa compost temperature sensor (MIT) | candidate | Can open-source sensor hardware bring process visibility to small-scale composting? |
+|| [Smart Worm Habitat](records/smart-worm-habitat.md) | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | candidate | What does an unbuilt open-source vermicompost design demonstrate? |
+|| [Compost for Good](records/compost-for-good.md) | free open-source community-scale composter design guide + manual | curated | Can an open-source hardware design reduce the cost of community-scale composting? |
+|| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | open-source biochar kiln by publication and practice | curated | Can a simple open-source hardware design democratize farmer-scale biochar production? |
+|| [IBI open-source biochar](records/ibi-open-source-biochar.md) | open-access aggregator of multiple biochar kiln designs | curated | Does an aggregator of open designs constitute an open commons? |
+|| [compost-sensor](records/compost-sensor.md) | Arduino+LoRa compost temperature sensor (MIT) | candidate | Can open-source sensor hardware bring process visibility to small-scale composting? |
+|| [Smart Worm Habitat](records/smart-worm-habitat.md) | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | candidate | What does an unbuilt open-source vermicompost design demonstrate? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
 ## Next curation work
 
-- The collection is current as of 2026-08-03 (58 records); the four verification passes of that day (OADA, SAOS/GISC, local-language, Common Voice) added eight records and refreshed the OADA and Common Voice entries.
+- The collection is current as of 2026-08-12 (67 records); the G-OSA-23 compost/soil-production open-knowledge cycle added five records (Compost for Good, Kon-Tiki kiln, IBI open-source biochar, compost-sensor, Smart Worm Habitat) and the scan doc research/2026-08-compost-soil-production-open-knowledge-scan.md.
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
