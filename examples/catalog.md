@@ -80,6 +80,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Open Source Range (OSR) GPS Collar](records/osr-gps-collar.md) | US / Global | low-cost GPS telemetry collar designs (open science) | rangeland livestock tracking & grazing ecology | candidate |
 | [Real Seeds DIY Seed Cleaner](records/real-seeds-cleaner.md) | UK / Global | open hardware design & manual (public commons) | post-harvest smallholder seed winnowing & processing | curated |
 | [ColdSnap / DIY CoolBot](records/coldsnap-coolbot.md) | Global | firmware & schematics (MIT / GPL-3.0 via Mycodo) | low-cost walk-in cold storage automation | candidate |
+| [CoopCycle](records/coopcycle.md) | France / Global (70+ co-ops) | web & mobile logistics platform (Coopyleft) | worker-owned last-mile food & meal delivery logistics | curated |
+| [Open Foris / SEPAL](records/open-foris-sepal.md) | International (UN FAO) | cloud geospatial & field survey suite (MIT) | agroforestry canopy, land-use monitoring & MRV | curated |
 
 ## Coverage at a glance
 
@@ -152,6 +154,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Open livestock GPS telemetry collar | Open Source Range (OSR) GPS Collar |
 | Open post-harvest seed cleaner & aspirator | Real Seeds DIY Seed Cleaner |
 | Open cold-storage controller & firmware | ColdSnap / DIY CoolBot (Mycodo) |
+| Worker-cooperative food delivery & logistics | CoopCycle |
+| Open agroforestry canopy & forest monitoring | Open Foris / SEPAL |
 
 This table is a current map, not a claim that these layers are equally represented geographically or institutionally.
 
@@ -174,6 +178,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-14. Collection now 73 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), and post-harvest/cold-chain systems (G-OSA-27).
+Last reviewed: 2026-08-14. Collection now 75 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), and open agroforestry canopy systems (G-OSA-29).
 
 Not legal advice.

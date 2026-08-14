@@ -102,12 +102,14 @@ A project should normally satisfy at least three of these conditions:
 | [Open Source Range (OSR) GPS Collar](records/osr-gps-collar.md) | low-cost rangeland GPS tracking collar (open science) | candidate | Can open-science hardware bring livestock telemetry costs down from thousands of dollars? |
 | [Real Seeds DIY Seed Cleaner](records/real-seeds-cleaner.md) | open-source air-column seed aspirator plans | curated | How do open post-harvest tool designs unlock community seed saving? |
 | [ColdSnap / DIY CoolBot](records/coldsnap-coolbot.md) | open-source cool-room A/C controller firmware (MIT / Mycodo) | candidate | Can open hardware eliminate thousands of dollars in commercial refrigeration costs? |
+| [CoopCycle](records/coopcycle.md) | worker-owned last-mile delivery & logistics platform (Coopyleft) | curated | How can software licensing defend worker and producer governance against platform monopolies? |
+| [Open Foris / SEPAL](records/open-foris-sepal.md) | open-source satellite canopy monitoring & field inventory suite (MIT) | curated | How does an open cloud geospatial suite enable perennial agroforestry and forest-ag MRV? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
 ## Next curation work
 
-- The collection is current as of 2026-08-14 (73 records); recent additions include the G-OSA-23 compost/soil cycle, G-OSA-25 water/irrigation automation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture systems (OpenFence, OSR GPS Collar), and G-OSA-27 post-harvest/cold-chain systems (Real Seeds Cleaner, ColdSnap/CoolBot).
+- The collection is current as of 2026-08-14 (75 records); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), and G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL).
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
