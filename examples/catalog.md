@@ -74,6 +74,10 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [MIT OpenAg Food Computer](records/openag-food-computer.md) | United States (MIT Media Lab) | claimed all-open CEA; reality archived (contested) | MIT Media Lab (defunct) | candidate |
 | [Common Greenhouse Ontology](records/common-greenhouse-ontology.md) | Netherlands / EU (TNO) | open greenhouse data-interoperability standard (Apache-2.0) | research institute (TNO) | candidate |
 | [Wageningen Autonomous Greenhouse Challenge datasets](records/wageningen-agc-datasets.md) | Netherlands (WUR) | open CEA cultivation datasets (DOI-published) | university research (WUR) | candidate |
+| [OpenSprinkler](records/opensprinkler.md) | US / Global | firmware (GPL-3.0), hardware (CERN-OHL-S-2.0) | open-source irrigation automation controller | curated |
+| [AquaCrop-OSPy](records/aquacrop-ospy.md) | International (Univ. of Manchester / FAO) | crop-water simulation engine (Apache-2.0) | scientific crop-water & yield modeling | curated |
+| [OpenFence](records/openfence.md) | Australia / Global | firmware + hardware concepts (GPL-3.0, dormant) | open GPS digital virtual livestock fencing | candidate |
+| [Open Source Range (OSR) GPS Collar](records/osr-gps-collar.md) | US / Global | low-cost GPS telemetry collar designs (open science) | rangeland livestock tracking & grazing ecology | candidate |
 
 ## Coverage at a glance
 
@@ -140,6 +144,10 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Canadian farmer-maker and open robotics case | Matt Reimer |
 | Clearly farmer-, Indigenous-, or community-governed | JoinData; OSSI is adjacent but not equivalent; Tischler and Reimer are farmer-led but not shown to govern their wider projects |
 | Non-AI examples | OADA, JoinData, Common Voice, OSSI, GODAN, ODK, Bioleft, farmOS, ROMI, Digital Earth Africa, Ag Data Commons |
+| Open irrigation controller & firmware | OpenSprinkler |
+| Open crop-water modeling engine | AquaCrop-OSPy |
+| Open livestock virtual fencing prototype | OpenFence |
+| Open livestock GPS telemetry collar | Open Source Range (OSR) GPS Collar |
 
 This table is a current map, not a claim that these layers are equally represented geographically or institutionally.
 
@@ -162,6 +170,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-12. Collection now 67 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, and the compost/soil-production open-knowledge cell (G-OSA-23).
+Last reviewed: 2026-08-14. Collection now 71 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), and livestock/pasture systems (G-OSA-26).
 
 Not legal advice.

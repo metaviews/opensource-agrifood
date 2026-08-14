@@ -91,22 +91,21 @@ A project should normally satisfy at least three of these conditions:
 | [MIT OpenAg Food Computer](records/openag-food-computer.md) | claimed all-open CEA; archived, contested | candidate | When does "would have been open source" become an open layer? |
 | [Common Greenhouse Ontology](records/common-greenhouse-ontology.md) | open greenhouse data-interoperability standard (Apache-2.0) | candidate | Does an open standard reduce lock-in without vendor adoption? |
 || [Wageningen Autonomous Greenhouse Challenge datasets](records/wageningen-agc-datasets.md) | open CEA cultivation datasets (DOI-published) | candidate | Does open competition data constitute an open CEA AI layer? |
-|| [Compost for Good](records/compost-for-good.md) | free open-source community-scale composter design guide + manual | curated | Can an open-source hardware design reduce the cost of community-scale composting? |
-|| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | open-source biochar kiln by publication and practice | curated | Can a simple open-source hardware design democratize farmer-scale biochar production? |
-|| [IBI open-source biochar](records/ibi-open-source-biochar.md) | open-access aggregator of multiple biochar kiln designs | curated | Does an aggregator of open designs constitute an open commons? |
-|| [compost-sensor](records/compost-sensor.md) | Arduino+LoRa compost temperature sensor (MIT) | candidate | Can open-source sensor hardware bring process visibility to small-scale composting? |
-|| [Smart Worm Habitat](records/smart-worm-habitat.md) | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | candidate | What does an unbuilt open-source vermicompost design demonstrate? |
-|| [Compost for Good](records/compost-for-good.md) | free open-source community-scale composter design guide + manual | curated | Can an open-source hardware design reduce the cost of community-scale composting? |
-|| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | open-source biochar kiln by publication and practice | curated | Can a simple open-source hardware design democratize farmer-scale biochar production? |
-|| [IBI open-source biochar](records/ibi-open-source-biochar.md) | open-access aggregator of multiple biochar kiln designs | curated | Does an aggregator of open designs constitute an open commons? |
-|| [compost-sensor](records/compost-sensor.md) | Arduino+LoRa compost temperature sensor (MIT) | candidate | Can open-source sensor hardware bring process visibility to small-scale composting? |
-|| [Smart Worm Habitat](records/smart-worm-habitat.md) | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | candidate | What does an unbuilt open-source vermicompost design demonstrate? |
+| [Compost for Good](records/compost-for-good.md) | free open-source community-scale composter design guide + manual | curated | Can an open-source hardware design reduce the cost of community-scale composting? |
+| [Kon-Tiki kiln](records/kon-tiki-kiln.md) | open-source biochar kiln by publication and practice | curated | Can a simple open-source hardware design democratize farmer-scale biochar production? |
+| [IBI open-source biochar](records/ibi-open-source-biochar.md) | open-access aggregator of multiple biochar kiln designs | curated | Does an aggregator of open designs constitute an open commons? |
+| [compost-sensor](records/compost-sensor.md) | Arduino+LoRa compost temperature sensor (MIT) | candidate | Can open-source sensor hardware bring process visibility to small-scale composting? |
+| [Smart Worm Habitat](records/smart-worm-habitat.md) | GPL-3.0 continuous-flow worm bin concept (unbuilt, dormant) | candidate | What does an unbuilt open-source vermicompost design demonstrate? |
+| [OpenSprinkler](records/opensprinkler.md) | open-source smart irrigation controller (GPL-3.0 / CERN-OHL-S-2.0) | curated | Can open hardware and local APIs provide durable precision irrigation without cloud lock-in? |
+| [AquaCrop-OSPy](records/aquacrop-ospy.md) | scientific crop-water & yield simulation engine (Apache-2.0) | curated | How does an open scientific crop-water model bridge the gap to agricultural data science? |
+| [OpenFence](records/openfence.md) | open GPS digital virtual livestock fencing prototype (GPL-3.0) | candidate | Why has open-source virtual fencing stalled while commercial subscription collars thrive? |
+| [Open Source Range (OSR) GPS Collar](records/osr-gps-collar.md) | low-cost rangeland GPS tracking collar (open science) | candidate | Can open-science hardware bring livestock telemetry costs down from thousands of dollars? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
 ## Next curation work
 
-- The collection is current as of 2026-08-12 (67 records); the G-OSA-23 compost/soil-production open-knowledge cycle added five records (Compost for Good, Kon-Tiki kiln, IBI open-source biochar, compost-sensor, Smart Worm Habitat) and the scan doc research/2026-08-compost-soil-production-open-knowledge-scan.md.
+- The collection is current as of 2026-08-14 (71 records); recent additions include the G-OSA-23 compost/soil cycle, the G-OSA-25 water/irrigation automation cycle (OpenSprinkler, AquaCrop-OSPy), and the G-OSA-26 livestock/pasture systems cycle (OpenFence, OSR GPS Collar).
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
