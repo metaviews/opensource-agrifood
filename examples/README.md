@@ -125,7 +125,8 @@ Not legal advice.
 ## Related documents
 
 - [Programme briefing](../research/2026-08-programme-briefing.md)
-- [Landscape synthesis v2](../research/2026-08-landscape-synthesis-v2.md) (supersedes v1)
+- [Landscape synthesis v3](../research/2026-08-landscape-synthesis-v3.md) (supersedes v2 and v1)
+- [Landscape synthesis v2](../research/2026-08-landscape-synthesis-v2.md) (historical)
 - [Gap and research-question register](../research/field-guide-gap-and-question-register.md)
 - [Curated research dossier](../research/field-guide-open-source-dossier.md)
 - [Initial environmental scan](../research/2026-08-initial-open-agrifood-environmental-scan.md)
