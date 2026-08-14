@@ -84,6 +84,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Open Foris / SEPAL](records/open-foris-sepal.md) | International (UN FAO) | cloud geospatial & field survey suite (MIT) | agroforestry canopy, land-use monitoring & MRV | curated |
 | [Our Sci Reflectometer & Bionutrient Meter](records/our-sci-reflectometer.md) | US / Global | handheld optical spectrometer & calibration data (GPL-3.0) | soil organic carbon & crop nutrient density testing | curated |
 | [OpenFlexure Microscope](records/openflexure-microscope.md) | UK / Global (Tanzania, LatAm) | 3D-printed digital robotic microscope (CERN-OHL / GPL-3.0) | decentralized soil biology & crop pathology diagnostics | curated |
+| [农业岛 / HUIZHI-nongyeOS-cloud](records/nongyedao-huizhi.md) | China | open-source agricultural IoT platform (MIT) | greenhouse, sensor & high-standard farmland management | candidate |
+| [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | China (Shanxi Ag Univ) | open-weight agricultural LLM & multimodal model (academic) | agronomic Q&A and multimodal disease diagnostics | candidate |
 
 ## Coverage at a glance
 
@@ -160,6 +162,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Open agroforestry canopy & forest monitoring | Open Foris / SEPAL |
 | Open field spectroscopy & soil carbon estimation | Our Sci Reflectometer |
 | Open robotic microscope & soil pathology | OpenFlexure Microscope |
+| Chinese open agricultural IoT / SI platform | 农业岛 / HUIZHI-nongyeOS-cloud |
+| Chinese open-weight agricultural domain LLM | AgriMa & AgriAgent |
 
 This table is a current map, not a claim that these layers are equally represented geographically or institutionally.
 
@@ -182,6 +186,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-14. Collection now 77 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), and open-science field spectroscopy/diagnostics (G-OSA-30).
+Last reviewed: 2026-08-14. Collection now 79 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), and Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19).
 
 Not legal advice.

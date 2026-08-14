@@ -106,12 +106,14 @@ A project should normally satisfy at least three of these conditions:
 | [Open Foris / SEPAL](records/open-foris-sepal.md) | open-source satellite canopy monitoring & field inventory suite (MIT) | curated | How does an open cloud geospatial suite enable perennial agroforestry and forest-ag MRV? |
 | [Our Sci Reflectometer & Bionutrient Meter](records/our-sci-reflectometer.md) | open-source handheld optical spectrometer & calibration models (GPL-3.0) | curated | Can low-cost open spectroscopy democratize field soil carbon and nutrient density testing? |
 | [OpenFlexure Microscope](records/openflexure-microscope.md) | 3D-printed digital robotic microscope for biology & pathology (CERN-OHL) | curated | How does open-hardware microscopy decentralize soil biology and disease diagnostics in the field? |
+| [农业岛 / HUIZHI-nongyeOS-cloud](records/nongyedao-huizhi.md) | open-source agricultural IoT management platform (MIT) | candidate | How does open software function as system-integrator scaffolding for municipal smart farm tenders? |
+| [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | open-weight agricultural domain LLM & multimodal model | candidate | What is the governance reality of academic open-weight ag AI releases in China? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
 ## Next curation work
 
-- The collection is current as of 2026-08-14 (77 records); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), and G-OSA-30 open-science field spectroscopy & soil diagnostics (Our Sci Reflectometer, OpenFlexure Microscope).
+- The collection is current as of 2026-08-14 (79 records); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), G-OSA-30 open-science field spectroscopy (Our Sci Reflectometer, OpenFlexure Microscope), and the Chinese open IoT/LLM ecosystem (农业岛, AgriMa/AgriAgent).
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
