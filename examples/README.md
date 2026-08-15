@@ -108,6 +108,8 @@ A project should normally satisfy at least three of these conditions:
 | [OpenFlexure Microscope](records/openflexure-microscope.md) | 3D-printed digital robotic microscope for biology & pathology (CERN-OHL) | curated | How does open-hardware microscopy decentralize soil biology and disease diagnostics in the field? |
 | [农业岛 / HUIZHI-nongyeOS-cloud](records/nongyedao-huizhi.md) | open-source agricultural IoT management platform (MIT) | candidate | How does open software function as system-integrator scaffolding for municipal smart farm tenders? |
 | [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | open-weight agricultural domain LLM & multimodal model | candidate | What is the governance reality of academic open-weight ag AI releases in China? |
+| [AgGateway Traceability API](records/aggateway-traceability-api.md) | public grain traceability API/specification | candidate | Can open-adjacent traceability infrastructure carry farmer control into the grain elevator? |
+| [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | market information and warehouse receipts | candidate | Can structured grain trade improve farmer market access without becoming farmer-controlled open infrastructure? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 

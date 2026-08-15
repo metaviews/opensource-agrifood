@@ -86,6 +86,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [OpenFlexure Microscope](records/openflexure-microscope.md) | UK / Global (Tanzania, LatAm) | 3D-printed digital robotic microscope (CERN-OHL / GPL-3.0) | decentralized soil biology & crop pathology diagnostics | curated |
 | [农业岛 / HUIZHI-nongyeOS-cloud](records/nongyedao-huizhi.md) | China | open-source agricultural IoT platform (MIT) | greenhouse, sensor & high-standard farmland management | candidate |
 | [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | China (Shanxi Ag Univ) | open-weight agricultural LLM & multimodal model (academic) | agronomic Q&A and multimodal disease diagnostics | candidate |
+| [AgGateway Traceability API](records/aggateway-traceability-api.md) | US / international | public grain traceability API/specification (custom licence) | commingled grain traceability and interoperability | candidate |
+| [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | Malawi / Southern and Eastern Africa | market information, warehouse receipts, electronic trade | structured grain marketing and farmer market access | candidate |
 
 ## Coverage at a glance
 
@@ -162,6 +164,8 @@ This catalogue is the browseable index for the curated examples collection. It i
 | Open agroforestry canopy & forest monitoring | Open Foris / SEPAL |
 | Open field spectroscopy & soil carbon estimation | Our Sci Reflectometer |
 | Open robotic microscope & soil pathology | OpenFlexure Microscope |
+| Grain traceability API / specification | AgGateway Traceability API |
+| Grain market information & warehouse receipts | ACE Africa |
 | Chinese open agricultural IoT / SI platform | 农业岛 / HUIZHI-nongyeOS-cloud |
 | Chinese open-weight agricultural domain LLM | AgriMa & AgriAgent |
 
