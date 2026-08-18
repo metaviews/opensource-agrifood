@@ -1,6 +1,6 @@
 # Open Source Agrifood event — design brainstorm
 
-Status: framing settled; session and production design to follow.
+Status: framing settled; session design underway; production design to follow.
 
 Date: 2026-08-05
 Project: opensource-agrifood/ (clearing house concept deferred — emerges when it emerges)
@@ -15,9 +15,9 @@ Outputs: byproducts of an experience; the experience itself is the deliverable
 | # | Question | Session title | What the room encounters |
 |---|----------|---------------|--------------------------|
 | 1 | *who* | *Power goes to those who show up ready to do something* | The people in the room — honored as substance, recognized as full participants |
-| 2 | *what* | *Intelligence begins on the farm and in the food* | The live terrain of open-source AI in Canadian agrifood — what's real, what isn't, what's at stake |
-| 3 | *how* | *Emergency preparedness through theatre games* | The contested terrain, inhabited — dramaturgical, with edutainment and memorability |
-| 4 | *when* | *Open source makes collaboration substantive and real* | Time as continuation — naming what was noticed, an invitation to stay in conversation |
+| 2 | *what* | *Intelligence begins on the farm and in the food* | What's actually happening with open-source AI in Canadian agrifood — what's real, what isn't, what it makes possible |
+| 3 | *how* | *The Future Is Something We Practise* | A simple participant-driven situation — first a cyberattack, then a rogue AI — with the meaning made by the room |
+| 4 | *when* | *The Plot Thickens* | Time as continuation — naming what was noticed, an invitation to stay in conversation |
 
 Open source and genuine collaboration are event through-lines, not topics for any one session. The event is designed around your interviewing and facilitation work; production exists to support that, not substitute for it.
 
@@ -139,7 +139,7 @@ The event needs *enough structure to be generative* but *enough openness that th
 
 The ACME/SAM lens reminds us: the experience is the deliverable. The event is a situation. Whatever sessions exist are sub-situations inside the larger one. If the situation works, the byproducts (podcast episodes, transcripts, marginalia) will be valuable; if the situation doesn't work, the byproducts won't save it.
 
-The role-play, when its time comes, will be a sub-situation designed for drama and gravity — edutainment and memorability — within the larger event situation. Its goal isn't to produce a document; it's to give the room an experience they'll remember. Form follows from the experience we want.
+The role-play is a sub-situation designed for social connection, entertainment, knowledge, and collaboration within the larger event situation. Its goal isn't to produce a document or prescribe a conclusion; it's to give the room a simple situation that participants can make meaningful together. Form follows from the experience we want.
 
 ## What to do next
 
@@ -179,16 +179,18 @@ The room encounters the live terrain: edge computing and dark data, the energy a
 
 Inherited from: Episode 31 (Killorn, Yaghi, MacTavish, Mohsen) and the edge-computing knowledge piece; Episode 18 (Computational Breeder); Episode 21 (Yaghi on technology as democratic force, AI as virtual guardian angel); Episode 36 (structural omissions as the political stakes); Episode 7 (Tyler McCann on agri-food as a strategic sector, not a commodity engine).
 
-### Session 3 — *how* (role-play): let the room inhabit the contested terrain
-**Title:** *Emergency preparedness through theatre games*
+### Session 3 — *how* (role-play): responding to a cyberattack, then a rogue AI
+**Title:** *The Future Is Something We Practise*
 
-The role-play is the dramaturgical moment of the event — its edutainment and memorability core. Goal: let the room inhabit the contested terrain, not just discuss it. The role-play carries drama and gravity. It does not have to produce an artifact; it has to produce experience. Designed separately, with care, when the framing conversation is done.
+The role-play is the dramaturgical moment of the event — its social and entertainment core as much as its knowledge and collaboration moment. It begins with a simple fictional situation: a significant cyberattack has disrupted systems on which Canadian agrifood depends. Participants respond as themselves, determining what seems to be happening and what should be done. A second development then changes the situation: the incident appears to have been caused by a rogue AI. Participants decide what that changes and where the conversation goes.
+
+The exercise does not presume an open-source agrifood system, or prescribe open source as a setting, solution, or conclusion. Open source may enter if participants bring it into the conversation. The situation is deliberately simple and participant-driven: no assigned roles, required decisions, hidden information, or predetermined interpretation. The facilitator introduces the situation and the turn, then makes space for the room to create the meaning. The exercise does not need to produce an artifact; it needs to produce an experience that participants remember.
 
 ### Session 4 — *when*: Naming what we noticed, and where this conversation goes from here
-**Title:** *Open source makes collaboration substantive and real*
+**Title:** *The Plot Thickens*
 
 **The claim:** *Long-term thinking in Canadian agrifood is not a forecasting exercise. It is a collaborative act — an agreement to keep showing up. The event is the beginning of a sustained attention, not a one-shot moment, and the work that comes after matters more than what gets decided in the room.*
 
-The room encounters time. Not the long-horizon forecasting kind ("here is what 2050 looks like"), but the patience-and-continuation kind. The Future Herd's posture on 2050: futures aren't predicted, they're negotiated across generations, institutions, and people who won't experience the consequences the same way. The event's job at the close is to *name what was noticed* — what the room encountered, what is contested now in a way it wasn't before, what stays open. Naming is a salon posture; consensus is a panel posture. The session is not a synthesis toward action items. It is an invitation to stay in conversation — to make the commons on the other side of the day feel like somewhere people want to return to. The future *who* of the event grows from this: bring someone next time, because the people in the room are how this continues.
+The room encounters time. Not the long-horizon forecasting kind ("here is what 2050 looks like"), but the patience-and-continuation kind. The Future Herd's posture on 2050: futures aren't predicted, they're negotiated across generations, institutions, and people who won't experience the consequences the same way. The event's job at the close is to *name what was noticed* — what the room encountered, what became newly visible, and what stays open. Naming is a salon posture; consensus is a panel posture. The session is not a synthesis toward action items. It is an invitation to stay in conversation — to make the commons on the other side of the day feel like somewhere people want to return to. The future *who* of the event grows from this: bring someone next time, because the people in the room are how this continues.
 
 Inherited from: Episode 1 (why 2050, long horizons as collaboration); Episode 33 (Tianna Brand on agency vs. determinism, "we are creating the conditions for what comes next"); the event-as-situation lens; the future-herd editorial model of sustained attention over decisive moments.

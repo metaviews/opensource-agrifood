@@ -1,0 +1,201 @@
+---
+import Base from '../layouts/Base.astro';
+
+const sessions = [
+  {
+    number: '01',
+    question: 'Who',
+    title: 'Power goes to those who show up ready to do something',
+    text: 'We begin with the people who have come together. What do you know? What are you curious about? What are you trying to understand or make possible? There is no need to arrive with a finished position.',
+    tone: 'moss',
+  },
+  {
+    number: '02',
+    question: 'What',
+    title: 'Intelligence begins on the farm and in the food',
+    text: 'What is happening with open-source AI in Canadian agrifood—and what are people seeing that others may not yet see? We look across the food system and listen for what is real, emerging, and uncertain.',
+    tone: 'ochre',
+  },
+  {
+    number: '03',
+    question: 'How',
+    title: 'The Future Is Something We Practise',
+    text: 'The day takes a turn. We enter a simple theatrical situation together, and participants respond as themselves. Bring what you know and see what the room makes of it.',
+    tone: 'pink',
+  },
+  {
+    number: '04',
+    question: 'When',
+    title: 'The Plot Thickens',
+    text: 'We look back at what happened among us: what became newly visible, which questions grew more interesting, and what we heard in one another that we could not have heard alone.',
+    tone: 'blue',
+  },
+];
+---
+
+<Base>
+  <section class="hero shell">
+    <div class="hero-copy">
+      <p class="eyebrow">A Future Herd spectacular event on AI and agrifood</p>
+      <h1>Building the<br /><em>Open-Source</em> Future<br />of Canadian Agrifood</h1>
+      <p class="hero-lede">A half-day gathering for people who care about where food, intelligence, and collective possibility meet.</p>
+      <div class="event-meta">
+        <span>Online</span><span>Discord</span><span>Half-day</span><span>Four sessions</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="orbit orbit-three"></div>
+      <div class="sun"></div>
+      <span class="art-note note-one">who</span>
+      <span class="art-note note-two">what</span>
+      <span class="art-note note-three">how</span>
+      <span class="art-note note-four">when</span>
+    </div>
+  </section>
+
+  <section class="intro shell">
+    <div class="section-label">Why gather</div>
+    <div class="intro-copy">
+      <p class="intro-lede">Canadian agrifood is changing quickly. New forms of intelligence are moving through the food system, from the farm and the field to processing, distribution, retail, and the places where food is shared and eaten.</p>
+      <p>Choices being made now about knowledge, technology, and who gets to shape them will stay with us for a long time. This gathering brings people into the middle of that change: farmers, food-chain workers, researchers, technologists, policy people, and others who care about Canadian agrifood.</p>
+      <p>We want to make a room where knowledge can travel, experience is welcomed, and a good question can be as valuable as a confident answer. Open source is part of the invitation, not a conclusion we have already reached.</p>
+    </div>
+  </section>
+
+  <section class="agenda shell" id="agenda">
+    <div class="section-label">The day</div>
+    <div class="agenda-head">
+      <h2>Who <span>→</span> What <span>→</span> How <span>→</span> When</h2>
+      <p>Four ways of being together. One day to see what becomes possible.</p>
+    </div>
+    <div class="session-list">
+      {sessions.map((session) => (
+        <article class={`session session-${session.tone}`}>
+          <div class="session-number">{session.number}</div>
+          <div class="session-question">{session.question}</div>
+          <div class="session-body">
+            <h3>{session.title}</h3>
+            <p>{session.text}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="invitation shell">
+    <div class="section-label">Come as you are</div>
+    <div class="invitation-copy">
+      <h2>You do not need to be an expert.</h2>
+      <p>Bring a question, an experience, a concern, a possibility—or simply a willingness to pay attention. Speak, listen, ask questions, share what you know, follow the conversation, or stay with it.</p>
+      <p>We have shaped the day, but we have not decided in advance what it must become. That will depend on who shows up, what they bring, and what happens when we spend time thinking and making sense of things together.</p>
+    </div>
+  </section>
+
+  <section class="status shell">
+    <p><span>The framing is settled.</span> The form is being built.</p>
+  </section>
+</Base>
+
+<style>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+
+  .hero {
+    min-height: 42rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.72fr);
+    align-items: center;
+    gap: 3rem;
+    padding-top: clamp(4rem, 9vw, 8rem);
+    padding-bottom: clamp(4rem, 9vw, 8rem);
+  }
+
+  .eyebrow, .section-label {
+    color: var(--ochre);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  h1, h2, h3, p { margin-top: 0; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 400; }
+
+  h1 {
+    max-width: 52rem;
+    margin-bottom: 1.75rem;
+    font-size: clamp(3.35rem, 7.2vw, 7.2rem);
+    letter-spacing: -0.065em;
+    line-height: 0.93;
+  }
+
+  h1 em { color: var(--moss); font-style: normal; }
+  .hero-lede { max-width: 30rem; color: var(--ink-soft); font-size: clamp(1.15rem, 1.8vw, 1.45rem); line-height: 1.4; }
+
+  .event-meta { display: flex; flex-wrap: wrap; gap: 0.55rem 1.25rem; margin-top: 2rem; color: var(--ink-faint); font-size: 0.82rem; }
+  .event-meta span::before { content: '·'; margin-right: 0.5rem; color: var(--ochre); }
+  .event-meta span:first-child::before { content: ''; margin: 0; }
+
+  .hero-art { position: relative; min-height: 28rem; }
+  .sun { position: absolute; width: clamp(8rem, 18vw, 15rem); aspect-ratio: 1; top: 28%; left: 31%; border-radius: 50%; background: var(--ochre); box-shadow: 1.5rem 1.5rem 0 var(--pink); }
+  .orbit { position: absolute; border: 1px solid var(--moss); border-radius: 50%; transform: rotate(-28deg); }
+  .orbit-one { width: 92%; height: 40%; top: 32%; left: 4%; }
+  .orbit-two { width: 74%; height: 82%; top: 8%; left: 14%; transform: rotate(54deg); }
+  .orbit-three { width: 38%; height: 104%; top: -2%; left: 34%; transform: rotate(22deg); border-color: var(--ochre); }
+  .art-note { position: absolute; color: var(--moss-dark); font-family: var(--display); font-size: 1.2rem; font-style: italic; }
+  .note-one { top: 18%; left: 13%; }
+  .note-two { top: 68%; right: 5%; }
+  .note-three { bottom: 3%; left: 39%; }
+  .note-four { top: 7%; right: 24%; }
+
+  .intro, .agenda, .invitation { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .intro-copy { max-width: 48rem; font-size: 1.16rem; line-height: 1.65; }
+  .intro-lede { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.65rem, 3vw, 2.55rem); line-height: 1.12; letter-spacing: -0.025em; }
+  .agenda { display: block; }
+  .agenda-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin: 1rem 0 3rem 20%; }
+  .agenda-head h2 { margin-bottom: 0; font-size: clamp(2.2rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .agenda-head h2 span { color: var(--ochre); font-family: var(--body); font-size: 0.5em; vertical-align: 0.15em; }
+  .agenda-head p { max-width: 14rem; margin-bottom: 0.2rem; color: var(--ink-soft); font-size: 0.95rem; }
+  .session-list { margin-left: 20%; }
+  .session { display: grid; grid-template-columns: 4rem 7rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+  .session:last-child { border-bottom: 1px solid var(--line); }
+  .session-number { color: var(--ink-faint); font-size: 0.75rem; padding-top: 0.3rem; }
+  .session-question { color: var(--moss); font-family: var(--display); font-size: 1.35rem; font-style: italic; padding-top: 0.1rem; }
+  .session-body h3 { max-width: 34rem; margin-bottom: 0.5rem; font-size: clamp(1.65rem, 3vw, 2.65rem); letter-spacing: -0.04em; line-height: 1.02; }
+  .session-body p { max-width: 42rem; margin-bottom: 0; color: var(--ink-soft); font-size: 1rem; }
+  .session-ochre .session-question { color: var(--ochre); }
+  .session-pink .session-question { color: #a56462; }
+  .session-blue .session-question { color: #5f6d91; }
+
+  .invitation { background: var(--moss-dark); color: var(--paper); border-top: 0; padding-top: 4rem; padding-bottom: 5rem; }
+  .invitation .section-label { color: var(--pink); }
+  .invitation-copy { max-width: 49rem; }
+  .invitation h2 { margin-bottom: 1.25rem; color: var(--paper); font-size: clamp(2.4rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .invitation p { max-width: 42rem; color: rgba(244, 240, 231, 0.8); font-size: 1.15rem; }
+  .status { padding-top: 2rem; padding-bottom: 2rem; }
+  .status p { margin-bottom: 0; color: var(--ink-faint); font-family: var(--display); font-size: 1.25rem; font-style: italic; }
+  .status span { color: var(--moss); }
+
+  @media (max-width: 800px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-art { min-height: 21rem; max-width: 32rem; width: 100%; margin: 0 auto; }
+    .intro, .invitation { grid-template-columns: 1fr; gap: 1rem; }
+    .agenda-head { margin-left: 0; display: block; }
+    .agenda-head p { margin-top: 1rem; }
+    .session-list { margin-left: 0; }
+  }
+
+  @media (max-width: 560px) {
+    .hero { padding-top: 3.5rem; }
+    h1 { font-size: clamp(3rem, 15vw, 5rem); }
+    .hero-art { min-height: 17rem; }
+    .intro, .agenda, .invitation { padding-bottom: 4rem; }
+    .session { grid-template-columns: 2.5rem 1fr; gap: 0.6rem 1rem; }
+    .session-number { grid-row: span 2; }
+    .session-question { grid-column: 2; }
+    .session-body { grid-column: 2; }
+    .session-body h3 { font-size: 2rem; }
+  }
+</style>

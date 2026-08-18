@@ -13,8 +13,8 @@ The event is a half-day online gathering organised around four sessions, each an
 
 - **Session 1 — *who*.** *Power goes to those who show up ready to do something.* The first work is the people in the room. We honor what they bring and what they want to learn. Curiosity is substance here.
 - **Session 2 — *what*.** *Intelligence begins on the farm and in the food.* What's actually happening with open-source AI in Canadian agrifood — what's real, what isn't, what it makes possible, and what it asks of us.
-- **Session 3 — *how*.** *Emergency preparedness through theatre games.* A role-play that lets the room practice what it would mean to act on what we've noticed together. Dramaturgical, with edutainment and memorability at its core.
-- **Session 4 — *when*.** *Open source makes collaboration substantive and real.* Naming what we noticed. The event as the beginning of a sustained attention, not a one-shot moment.
+- **Session 3 — *how*.** *The Future Is Something We Practise.* A simple, participant-driven role-play in two parts: first, a significant cyberattack disrupts systems on which Canadian agrifood depends; then, participants learn that the incident appears to have been caused by a rogue AI. The exercise does not presume an open-source agrifood system or prescribe open source as a solution. Dramaturgical, social, and entertaining, with the room deciding what the situation means and where it goes.
+- **Session 4 — *when*.** *The Plot Thickens.* Naming what we noticed. The event as the beginning of a sustained attention, not a one-shot moment.
 
 The substantive focus is open-source AI in Canadian agrifood. The substance is the people in the room and the knowledge they have and share. Open source and genuine collaboration are event through-lines, not topics for any one session. The food side of the value chain (post-harvest, processing, distribution, retail, consumption, waste) is woven through every session, not separated. The event is Canada-focused, with attention to Indigenous data sovereignty, food sovereignty, and the structural concentration of the food system. Process discipline draws on situationist and care-ethics traditions: care check-ins, crip time, multi-format participation, presence over output. This discipline is implicit in how the event runs, not announced as a frame.
 
@@ -37,7 +37,7 @@ The design constraint is the first-time experience: what does a new user, who ha
 
 **Settled:** the framing (bookends, logic of inquiry, four sessions, event title and subtitle); the through-lines (open source, collaboration, food side, situationist process discipline); the platform (Discord, with a new custom server); the strengths base (the event is designed around facilitation work honed over decades); the verb cluster that guides how the room is treated (honoring, recognizing, empowering, entertaining, elevating).
 
-**Open:** role-play design for session 3; scheduling (late October or early November 2026, specific day and time); invitation copy; production rhythm within the half-day; the post-event commons's ongoing shape.
+**Open:** developing the session 3 scenario and facilitation; scheduling (late October or early November 2026, specific day and time); invitation copy; production rhythm within the half-day; the post-event commons's ongoing shape.
 
 ## What we need from stakeholders
 
