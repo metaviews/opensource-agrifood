@@ -18,9 +18,10 @@ What is actually open:
 - Community seed-bank methods, training materials, and governance knowledge are publicly documented.
 - Local seed varieties are conserved and exchanged through community institutions.
 - CSBAN represents community seed banks and supports local-variety production and marketing.
-- An online local-variety catalogue and the “Our Seed” mobile app are publicly described.
+- An online local-variety catalogue and the “Our Seed” / Hamro Biu mobile app were publicly described; CSB Nepal now presents a website/seed-library successor with provincial pages, Nepali-language variety records, photographs, and seed-bank contact pathways.
+- The former app page reports 704 local varieties from 12 community seed banks at the end of February 2020; the 2024 sustainability study reports that the app was transformed into the CSB Nepal website.
 - LI-BIRD and partners have published guidance and research on establishing and managing community seed banks.
-- No OSSL/OSSI-style licence, app source repository, catalogue data licence, or formal data-governance terms were located in this pass.
+- No OSSL/OSSI-style licence, app source repository, catalogue data licence, API, or formal data-governance terms were located in this pass.
 
 Governance and control: local farming families, farmer groups, and community institutions manage seed banks. Women are documented as managers, entrepreneurs, and seed custodians. CSBAN provides association-level representation. LI-BIRD, Bioversity/CIAT, Oxfam, SeedChange, and development partners provide support and capacity. The balance between community control, NGO support, government recognition, and donor dependence requires further verification.
 
@@ -46,6 +47,10 @@ What it does NOT demonstrate:
 
 Sources and verification (last-checked 2026-08-19):
 - Alliance of Bioversity International and CIAT: https://alliancebioversityciat.org/stories/nepali-community-seedbanks-join-forces-conserve-agrobiodiversity
+- CSB Nepal, “Seed App ‘Our Seed’”: https://csbnepal.org/seed-app-our-seed/
+- CSB Nepal, “Seed Library”: https://csbnepal.org/seed-library/
+- Shrestha, Clancy & Vernooy (2020), CGIAR CGSpace: https://cgspace.cgiar.org/items/197f4aaa-b4e3-4ec5-acc1-c6ae9b7da8db
+- Vernooy et al. (2024), Sustainability: https://doi.org/10.3390/su16198665
 - LI-BIRD, “Recognizing Community Seed Bank ...”: https://libird.org/recognizing-csb-for-food-security-seed-sovereignty-and-farmers-rights-and-enhancing-smallholders-resilience/
 - Seeds for Resilience / LI-BIRD, “Setting Standard ...”: https://seedsforresilience.org/document/community-seed-banks-in-nepal/
 - Vernooy et al. (2022): https://doi.org/10.3390/seeds1030015

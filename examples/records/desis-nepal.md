@@ -20,7 +20,7 @@ What is actually open or public:
 - Digital inspection and certification processes.
 - Seed tracking and QR/blockchain-backed authenticity functions are described by CIMMYT.
 - Earlier project documentation described the software as open source and planned a mobile web/Android service.
-- Current source code, licence, API terms, data export rights, and farmer data policy were not located.
+- Current source code, licence, API, data export rights, and farmer data policy were not located. The live platform displays a “Developers Credit” element, but the public material reviewed does not identify the credited developer, source repository, or procurement/maintenance relationship.
 
 Governance and control: the platform is managed and institutionalized through Nepal’s Seed Quality Control Center, with links to NARC, CCDABC, PQPMC, the Financial Comptroller General’s Office, and the Department of Information Technology. CIMMYT, USAID/Feed the Future, and local technology partners supported development. Governance is public-sector and institutional rather than demonstrated farmer ownership.
 
@@ -45,6 +45,7 @@ What it does NOT demonstrate:
 
 Sources and verification (last-checked 2026-08-19):
 - DESIS 2.0: https://seed.sqcc.gov.np/
+- Platform verification follow-up: `research/2026-08-nepal-platform-verification-followup.md`
 - CIMMYT 2025: https://www.cimmyt.org/news/delivering-seed-from-breeder-to-farmer-inclusive-digital-innovations-transforming-nepals-seed-systems/
 - CIMMYT 2020: https://www.cimmyt.org/news/seed-systems-in-nepal-are-going-digital/
 - Scan: `research/2026-08-nepal-open-agrifood-infrastructure-scan.md`
