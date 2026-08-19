@@ -25,10 +25,9 @@ const {
   </head>
   <body>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Future Herd Open Source Agrifood home">
-        <span>Future Herd</span>
-        <span class="wordmark-mark">/</span>
-        <span>Open Source Agrifood</span>
+      <a class="wordmark" href="/" aria-label="Building the Open-Source Future of Canadian Agrifood home">
+        <span class="wordmark-line"><span>Future Herd</span><span class="wordmark-mark">/</span><span>Open Source Agrifood</span></span>
+        <span class="wordmark-event">Building the Open-Source Future of Canadian Agrifood</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="/research">The research</a>
@@ -100,8 +99,8 @@ const {
 
   .wordmark {
     display: inline-flex;
-    gap: 0.4rem;
-    align-items: baseline;
+    flex-direction: column;
+    gap: 0.3rem;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -109,7 +108,9 @@ const {
     text-transform: uppercase;
   }
 
+  .wordmark-line { display: inline-flex; gap: 0.4rem; align-items: baseline; }
   .wordmark-mark { color: var(--ochre); font-size: 1.2rem; }
+  .wordmark-event { color: var(--moss-dark); font-family: var(--display); font-size: 1.05rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1.05; text-transform: none; }
   .site-nav a { color: var(--moss); font-size: 0.78rem; font-weight: 700; text-decoration: none; }
   .site-nav a:hover { color: var(--ochre); }
   .site-footer { color: var(--ink-faint); font-size: 0.78rem; }
@@ -132,6 +133,7 @@ const {
 
   @media (max-width: 600px) {
     .wordmark { font-size: 0.68rem; }
+    .wordmark-event { max-width: 17rem; font-size: 0.9rem; }
     .site-nav a { font-size: 0.7rem; }
     .footer-inner, .footer-links { align-items: flex-start; flex-direction: column; }
     .footer-links { gap: 0.9rem; }
