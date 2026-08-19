@@ -9,7 +9,7 @@ const sessions = [
     paragraphs: [
       'Canadian agrifood is shaped by people who grow, move, study, govern, build, and care for food. This is where we meet one another—not as an audience, but as people whose experience and imagination belong at the centre of the conversation.',
       'What do you see that others may be missing? What are you hoping to understand, change, or make possible? Bring your perspective, your questions, and your curiosity. The day begins with the people who show up ready to do something.',
-      'Expect an opening conversation that makes room for the unexpected: a connection across generations, a practical insight from the field, or a possibility that only appears when different people start talking.',
+      'Our research keeps returning to one question: where does agency actually live? Across farmer-makers, cooperatives, public infrastructure, and biological commons, the answer is never only in the tool. It is in the people who can shape, repair, share, and refuse it.',
     ],
     tone: 'moss',
   },
@@ -20,7 +20,7 @@ const sessions = [
     paragraphs: [
       'From farms and fields to food processing, distribution, shops, kitchens, and communities, intelligence is taking on new forms. We will travel across the food system and encounter the people already building, testing, questioning, and living with these changes.',
       'What might become possible when knowledge, tools, and experience meet in the same room? We will look toward the horizon without losing sight of the ground beneath our feet—and ask what kind of future is worth building together.',
-      'Expect stories, examples, and provocations that make a large subject feel close: the intelligence in a field, a supply chain, a kitchen, a community, and the choices that connect them.',
+      'The research already reaches from OpenSprinkler irrigation and UN FAO forest-monitoring tools to CoopCycle logistics, open diagnostic instruments, and the open biological commons. Together, these records make the food system feel less like a single machine and more like a living set of possibilities.',
     ],
     tone: 'ochre',
   },
@@ -31,7 +31,7 @@ const sessions = [
     paragraphs: [
       'A sudden crisis moves through the food system, and the familiar ways of coordinating, deciding, and carrying on are no longer enough. The situation is fictional, but the questions it raises are close at hand.',
       'What would you notice first? Who would you turn to? What could people make possible for one another under pressure? We will step into the moment together and see where our collective imagination takes us.',
-      'Expect a change of pace, a little drama, and the pleasure of finding out what a room can invent when it has to think on its feet.',
+      'Our landscape research finds openness in layers: sometimes in a tool, sometimes in a public standard, sometimes in a cooperative rule—and often nowhere near the point where money, liability, and control meet. The situation gives us a way to feel that gap rather than simply describe it.',
     ],
     tone: 'pink',
   },
@@ -42,7 +42,7 @@ const sessions = [
     paragraphs: [
       'After the surprise and the speculation, we gather the threads. The day may have changed how we see the food system, the technologies moving through it, or the people alongside whom we are trying to understand it.',
       'What stayed with you? What new possibility appeared? What question became too interesting to leave behind? We will share what we noticed and leave the conversation open to whatever comes next.',
-      'Expect to leave with more than notes: perhaps a new question, a new connection, or a renewed sense that the work ahead is large enough—and interesting enough—for all of us.',
+      'Recent research into the grain value chain sharpened the question. Public APIs and market-information systems can make parts of a system more legible, while elevators, contracts, pricing, and bulk logistics remain largely enclosed. What should we make of that boundary?'
     ],
     tone: 'blue',
   },
@@ -97,6 +97,17 @@ const sessions = [
           </div>
         </article>
       ))}
+    </div>
+  </section>
+
+  <section class="research-note shell">
+    <div class="section-label">The research behind the gathering</div>
+    <div class="research-copy">
+      <p>We are following open-source agrifood across the whole chain—not looking for a single solution, but trying to understand where openness creates real agency, where it stops, and what remains unresolved.</p>
+      <div class="research-links">
+        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md">Landscape synthesis <span>79 verified records</span> ↗</a>
+        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-grain-value-chain-open-infrastructure-scan.md">Grain value-chain scan <span>the boundary of openness</span> ↗</a>
+      </div>
     </div>
   </section>
 
@@ -169,7 +180,8 @@ const sessions = [
   .agenda { display: block; }
   .agenda-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin: 1rem 0 3rem 20%; }
   .agenda-head h2 { margin-bottom: 0; font-size: clamp(2.2rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
-  .agenda-head h2 span { color: var(--ochre); font-family: var(--body); font-size: 0.5em; vertical-align: 0.15em; }
+  .agenda-head h2 .agenda-word { color: var(--moss-dark); font-family: var(--body); font-size: 1em; font-weight: 650; vertical-align: baseline; }
+  .agenda-head h2 .agenda-arrow { color: var(--ochre); font-family: var(--body); font-size: 0.5em; font-weight: 400; margin: 0 0.16em; vertical-align: 0.15em; }
   .agenda-head p { max-width: 14rem; margin-bottom: 0.2rem; color: var(--ink-soft); font-size: 0.95rem; }
   .session-list { margin-left: 20%; }
   .session { display: grid; grid-template-columns: 4rem 7rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
@@ -190,10 +202,19 @@ const sessions = [
   .invitation h2 { margin-bottom: 1.25rem; color: var(--paper); font-size: clamp(2.4rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
   .invitation p { max-width: 42rem; color: rgba(244, 240, 231, 0.8); font-size: 1.15rem; }
 
+  .research-note { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 6rem; }
+  .research-copy { max-width: 52rem; }
+  .research-copy > p { max-width: 44rem; color: var(--ink-soft); font-family: var(--display); font-size: clamp(1.45rem, 2.4vw, 2.1rem); line-height: 1.15; }
+  .research-links { display: grid; gap: 0.7rem; margin-top: 2rem; }
+  .research-links a { display: flex; justify-content: space-between; gap: 1rem; padding: 0.8rem 0; border-top: 1px solid var(--line); color: var(--moss-dark); font-size: 0.95rem; text-decoration: none; }
+  .research-links a:last-child { border-bottom: 1px solid var(--line); }
+  .research-links a:hover { color: var(--ochre); }
+  .research-links span { color: var(--ink-faint); font-size: 0.85rem; }
+
   @media (max-width: 800px) {
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-art { min-height: 21rem; max-width: 32rem; width: 100%; margin: 0 auto; }
-    .intro, .invitation { grid-template-columns: 1fr; gap: 1rem; }
+    .intro, .research-note, .invitation { grid-template-columns: 1fr; gap: 1rem; }
     .agenda-head { margin-left: 0; display: block; }
     .agenda-head p { margin-top: 1rem; }
     .session-list { margin-left: 0; }
