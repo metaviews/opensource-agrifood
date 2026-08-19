@@ -110,6 +110,9 @@ A project should normally satisfy at least three of these conditions:
 | [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | open-weight agricultural domain LLM & multimodal model | candidate | What is the governance reality of academic open-weight ag AI releases in China? |
 | [AgGateway Traceability API](records/aggateway-traceability-api.md) | public grain traceability API/specification | candidate | Can open-adjacent traceability infrastructure carry farmer control into the grain elevator? |
 | [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | market information and warehouse receipts | candidate | Can structured grain trade improve farmer market access without becoming farmer-controlled open infrastructure? |
+| [Community seed banks and CSBAN](records/community-seed-banks-nepal.md) | farmer-managed biological commons and seed infrastructure | candidate | Can community seed banks function as farmer-controlled commons without open-source licensing? |
+| [DESIS 2.0](records/desis-nepal.md) | public-interest digital seed infrastructure | candidate | Does a national seed platform described as open source still expose code, data, and control? |
+| [SolarFood solar-drying project](records/solarfood-nepal.md) | local-manufacturing and cooperative technology lead | lead | Can locally manufactured post-harvest technology become a women-led open-transfer commons? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 

@@ -88,6 +88,9 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [AgriMa & AgriAgent (后稷 / 稷丰)](records/agrima-shanxi.md) | China (Shanxi Ag Univ) | open-weight agricultural LLM & multimodal model (academic) | agronomic Q&A and multimodal disease diagnostics | candidate |
 | [AgGateway Traceability API](records/aggateway-traceability-api.md) | US / international | public grain traceability API/specification (custom licence) | commingled grain traceability and interoperability | candidate |
 | [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | Malawi / Southern and Eastern Africa | market information, warehouse receipts, electronic trade | structured grain marketing and farmer market access | candidate |
+| [Community seed banks and CSBAN](records/community-seed-banks-nepal.md) | Nepal | farmer-managed biological commons, seed exchange, local-variety catalogue | seed sovereignty, agro-biodiversity, and farmer rights | candidate |
+| [DESIS 2.0](records/desis-nepal.md) | Nepal | public-interest digital seed infrastructure; openness unresolved | seed demand, certification, tracking, and coordination | candidate |
+| [SolarFood solar-drying project](records/solarfood-nepal.md) | Nepal / Bhutan | local-manufacturing and cooperative open-transfer lead | post-harvest preservation and women-led value capture | lead |
 
 ## Coverage at a glance
 
@@ -190,6 +193,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-14. Collection now 79 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), and Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19).
+Last reviewed: 2026-08-19. Collection now 84 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19), and Nepal community/digital seed and local-manufacturing leads (G-OSA-32).
 
 Not legal advice.
