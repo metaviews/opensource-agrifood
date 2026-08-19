@@ -80,6 +80,16 @@ const sessions = [
     </div>
   </section>
 
+  <section class="future-herd shell">
+    <div class="section-label">The host</div>
+    <div class="future-herd-copy">
+      <h2>Meet the Future Herd</h2>
+      <p>The Future Herd is a podcast and a growing conversation about the changes reshaping food and agriculture. It explores how collective wisdom and adaptive leadership can help us navigate a changing food system.</p>
+      <p>That conversation brings together people with different experiences of the food system—people who work in it, study it, build for it, govern it, and care about where it is going. This event is one way the conversation becomes a shared experience rather than something we only encounter through a screen.</p>
+      <p class="discord-note">The event will take place on the <strong>Future Herd Discord server</strong>: a shared online space where the gathering can happen, where participants can find one another, and where the conversation can continue beyond this day. <a href="https://thefutureherd.ca">Learn more about Future Herd</a>.</p>
+    </div>
+  </section>
+
   <section class="agenda shell" id="agenda">
     <div class="section-label">The day</div>
     <div class="agenda-head">
@@ -176,6 +186,13 @@ const sessions = [
   .intro, .agenda, .invitation { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
   .intro-copy { max-width: 48rem; font-size: 1.16rem; line-height: 1.65; }
   .intro-lede { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.65rem, 3vw, 2.55rem); line-height: 1.12; letter-spacing: -0.025em; }
+  .future-herd { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .future-herd-copy { max-width: 50rem; font-size: 1.16rem; line-height: 1.65; }
+  .future-herd-copy h2 { margin-bottom: 1rem; color: var(--moss-dark); font-size: clamp(2.2rem, 4vw, 4rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .future-herd-copy p { max-width: 46rem; }
+  .discord-note { margin-top: 1.5rem; color: var(--moss-dark); font-family: var(--display); font-size: 1.3rem; line-height: 1.25; }
+  .discord-note a { color: var(--ochre); text-decoration: none; }
+  .discord-note a:hover { color: var(--moss); }
   .agenda { display: block; }
   .agenda-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin: 1rem 0 3rem 20%; }
   .agenda-head h2 { margin-bottom: 0; font-size: clamp(2.2rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
@@ -213,7 +230,7 @@ const sessions = [
   @media (max-width: 800px) {
     .hero { grid-template-columns: 1fr; min-height: auto; }
     .hero-art { min-height: 21rem; max-width: 32rem; width: 100%; margin: 0 auto; }
-    .intro, .research-note, .invitation { grid-template-columns: 1fr; gap: 1rem; }
+    .intro, .future-herd, .research-note, .invitation { grid-template-columns: 1fr; gap: 1rem; }
     .agenda-head { margin-left: 0; display: block; }
     .agenda-head p { margin-top: 1rem; }
     .session-list { margin-left: 0; }
