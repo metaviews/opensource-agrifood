@@ -36,7 +36,7 @@ The current phase is event design. Foundation-building through the discovery pro
 
 ## Event status (2026-08-05)
 
-Event framing is settled. Title and subtitle: *Building the Open-Source Future of Canadian Agrifood — A Future Herd spectacular event on AI and agrifood*. Four sessions organised around a logic of inquiry: *who, what, how, when*. Open-source AI in Canadian agrifood is the substantive focus; the substance is the people in the room and the knowledge they have and share. Discord will be the platform, with a new custom server for *Future Herd* nested inside the metaviews ecosystem. Role-play design, production design, scheduling, and the stakeholder briefing remain to follow. See `docs/events/event-design-brainstorm.md` for the full framing work.
+Title and subtitle: *Building the Open-Source Future of Canadian Agrifood — A Future Herd spectacular event on AI and agrifood*. Four sessions organised around a logic of inquiry: *who, what, how, when*. Open-source AI in Canadian agrifood is the substantive focus; the substance is the people in the room and the knowledge they have and share. Discord will be the platform, with a new custom server for *Future Herd* nested inside the metaviews ecosystem. Role-play design, production design, scheduling, and the stakeholder briefing remain to follow. See `docs/events/event-design-brainstorm.md` for the full framing work.
 
 ## Programme status (2026-08-03)
 
