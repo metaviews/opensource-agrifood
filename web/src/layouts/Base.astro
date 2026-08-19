@@ -30,7 +30,10 @@ const {
         <span class="wordmark-event">Building the Open-Source Future of Canadian Agrifood</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="/research">The research</a>
+        <a href="/research">
+          <span>The research</span>
+          <small>What we are learning</small>
+        </a>
       </nav>
     </header>
     <main>
@@ -111,7 +114,8 @@ const {
   .wordmark-line { display: inline-flex; gap: 0.4rem; align-items: baseline; }
   .wordmark-mark { color: var(--ochre); font-size: 1.2rem; }
   .wordmark-event { color: var(--moss-dark); font-family: var(--display); font-size: 1.05rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1.05; text-transform: none; }
-  .site-nav a { color: var(--moss); font-size: 0.78rem; font-weight: 700; text-decoration: none; }
+  .site-nav a { display: flex; flex-direction: column; align-items: flex-end; color: var(--moss); font-size: 0.92rem; font-weight: 750; line-height: 1.1; text-decoration: none; }
+  .site-nav small { margin-top: 0.25rem; color: var(--ink-faint); font-size: 0.68rem; font-weight: 400; }
   .site-nav a:hover { color: var(--ochre); }
   .site-footer { color: var(--ink-faint); font-size: 0.78rem; }
 
@@ -134,7 +138,8 @@ const {
   @media (max-width: 600px) {
     .wordmark { font-size: 0.68rem; }
     .wordmark-event { max-width: 17rem; font-size: 0.9rem; }
-    .site-nav a { font-size: 0.7rem; }
+    .site-nav a { font-size: 0.82rem; }
+    .site-nav small { font-size: 0.62rem; }
     .footer-inner, .footer-links { align-items: flex-start; flex-direction: column; }
     .footer-links { gap: 0.9rem; }
   }
