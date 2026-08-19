@@ -1,0 +1,136 @@
+---
+import Base from '../layouts/Base.astro';
+
+const findings = [
+  {
+    label: 'Where openness holds',
+    title: 'Small systems can carry a long way',
+    text: 'Open tools are most durable where people can understand, adapt, repair, and share what they use. Irrigation controllers, crop-water models, forest-monitoring tools, diagnostic instruments, and cooperative logistics all show that open approaches can move beyond experiment and into sustained use.',
+    links: [
+      ['OpenSprinkler', 'https://github.com/OpenSprinkler/OpenSprinkler-Firmware'],
+      ['AquaCrop-OSPy', 'https://github.com/aquacropos/aquacrop'],
+      ['Open Foris / SEPAL', 'https://github.com/openforis'],
+      ['CoopCycle', 'https://github.com/coopcycle'],
+    ],
+  },
+  {
+    label: 'Where the pressure appears',
+    title: 'The hard part is not always the code',
+    text: 'As systems become more expensive, capital-intensive, safety-critical, or dependent on large biological and industrial infrastructures, openness becomes harder to sustain. Broad-acre automation, greenhouse control, livestock fencing, elevators, contracts, and bulk logistics remain places where access to a tool does not necessarily mean control of the system around it.',
+    links: [
+      ['Landscape synthesis', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md'],
+      ['Grain value-chain scan', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-grain-value-chain-open-infrastructure-scan.md'],
+    ],
+  },
+  {
+    label: 'What people are building',
+    title: 'Capacity is already distributed',
+    text: 'The landscape is not a story of one movement or one model. It is a collection of capacities: farmers and makers adapting equipment, public institutions building shared infrastructure, cooperatives designing different rules for digital platforms, researchers opening instruments and datasets, and communities maintaining biological resources.',
+    links: [
+      ['Farmer-maker and retrofit records', 'https://github.com/metaviews/opensource-agrifood/tree/main/examples/records'],
+      ['Landscape currents', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md#currents-v3'],
+    ],
+  },
+];
+---
+
+<Base title="What We Are Learning | Open-Source Agrifood" description="A human-readable introduction to the research behind Building the Open-Source Future of Canadian Agrifood.">
+  <section class="research-hero shell">
+    <p class="eyebrow">The research behind the gathering</p>
+    <h1>What becomes possible<br /><em>when intelligence is shared?</em></h1>
+    <p class="lede">We have been looking across Canadian agrifood and beyond, following the tools, institutions, and people trying to make knowledge more useful, adaptable, and widely held.</p>
+    <p class="lede">This is not a catalogue of projects. It is a way into the questions that brought us to the event.</p>
+  </section>
+
+  <section class="opening shell">
+    <div class="section-label">A view across the food system</div>
+    <div class="opening-copy">
+      <p>Open-source agrifood is not one thing. It appears in software, hardware, public data, scientific instruments, biological resources, standards, and cooperative rules. Sometimes it gives people more room to act. Sometimes it makes a system easier to inspect without changing who controls it. Sometimes it is not present at all—and that absence tells us something.</p>
+      <p>Our landscape now includes <strong>79 verified records</strong> across production, water, livestock, post-harvest work, diagnostics, processing, logistics, markets, agroforestry, and biological commons. Taken together, they show an emerging field with real achievements, serious limits, and a great deal of room to grow.</p>
+    </div>
+  </section>
+
+  <section class="findings shell">
+    <div class="section-label">Three things are becoming clear</div>
+    <div class="finding-list">
+      {findings.map((finding, index) => (
+        <article class={`finding finding-${index + 1}`}>
+          <div class="finding-label">{finding.label}</div>
+          <div class="finding-content">
+            <h2>{finding.title}</h2>
+            <p>{finding.text}</p>
+            <div class="source-links" aria-label={`Sources for ${finding.title}`}>
+              {finding.links.map(([label, href]) => <a href={href}>{label} <span>↗</span></a>)}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="quote shell">
+    <div class="section-label">A question worth carrying</div>
+    <blockquote>
+      <p>“The open agrifood layer has achieved robust, peer-reviewed, and production-proven viability across decentralized small-scale interventions, scientific simulation engines, and cooperative logistics, but hits a hard capital and biological enclosure wall at broad-acre industrial control.”</p>
+      <cite>— Open-source agrifood landscape synthesis, v3</cite>
+    </blockquote>
+    <p class="quote-follow">That boundary is where the interesting work begins. How might new intelligence increase the capacity of the people and institutions that feed us? Where could openness create real benefit—and what would it take to carry it further?</p>
+  </section>
+
+  <section class="research-cta shell">
+    <div class="section-label">Keep exploring</div>
+    <div>
+      <h2>The full record is open to you.</h2>
+      <p>Read the landscape synthesis, browse the records, and bring your own experience to the conversation. The event is an opportunity to put this knowledge in motion.</p>
+      <div class="cta-links">
+        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md">Read the landscape synthesis <span>↗</span></a>
+        <a href="https://github.com/metaviews/opensource-agrifood/tree/main/examples/records">Browse the research records <span>↗</span></a>
+        <a href="/">Return to the event <span>↗</span></a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+  .research-hero { padding-top: clamp(5rem, 11vw, 10rem); padding-bottom: clamp(5rem, 10vw, 9rem); }
+  .eyebrow, .section-label { color: var(--ochre); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; line-height: 1.3; text-transform: uppercase; }
+  h1, h2, p { margin-top: 0; }
+  h1, h2 { font-family: var(--display); font-weight: 400; }
+  h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 8rem); letter-spacing: -0.07em; line-height: 0.92; }
+  h1 em { color: var(--moss); font-style: normal; }
+  .lede { max-width: 42rem; color: var(--ink-soft); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.4; }
+  .opening, .findings, .quote, .research-cta { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .opening, .research-cta { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .opening-copy { max-width: 50rem; font-size: 1.15rem; line-height: 1.65; }
+  .opening-copy p:first-child { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.55rem, 2.8vw, 2.35rem); line-height: 1.15; }
+  .finding-list { margin-left: 20%; }
+  .finding { display: grid; grid-template-columns: 10rem minmax(0, 1fr); gap: 2rem; padding: 2.5rem 0; border-top: 1px solid var(--line); }
+  .finding:last-child { border-bottom: 1px solid var(--line); }
+  .finding-label { color: var(--ochre); font-size: 0.78rem; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; }
+  .finding-content { max-width: 50rem; }
+  .finding h2 { margin-bottom: 0.7rem; color: var(--moss-dark); font-size: clamp(2rem, 4vw, 3.8rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .finding p { max-width: 44rem; color: var(--ink-soft); font-size: 1.08rem; line-height: 1.6; }
+  .source-links, .cta-links { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; margin-top: 1.4rem; }
+  .source-links a, .cta-links a { color: var(--moss); font-size: 0.88rem; text-decoration: none; }
+  .source-links a:hover, .cta-links a:hover { color: var(--ochre); }
+  .source-links span, .cta-links span { color: var(--ochre); }
+  .quote { background: var(--paper-warm); max-width: none; padding-left: max(clamp(1.25rem, 4vw, 4rem), calc((100vw - 86rem) / 2 + clamp(1.25rem, 4vw, 4rem))); padding-right: max(clamp(1.25rem, 4vw, 4rem), calc((100vw - 86rem) / 2 + clamp(1.25rem, 4vw, 4rem))); }
+  blockquote { max-width: 64rem; margin: 1rem 0 2rem 20%; }
+  blockquote p { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.7rem, 3.5vw, 3.5rem); letter-spacing: -0.045em; line-height: 1.08; }
+  cite { color: var(--ink-faint); font-size: 0.85rem; font-style: normal; }
+  .quote-follow { max-width: 52rem; margin-left: 20%; color: var(--ink-soft); font-size: 1.1rem; line-height: 1.6; }
+  .research-cta h2 { margin-bottom: 0.8rem; color: var(--moss-dark); font-size: clamp(2.3rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .research-cta p { max-width: 43rem; color: var(--ink-soft); font-size: 1.12rem; }
+  .cta-links { display: grid; max-width: 42rem; }
+  .cta-links a { display: flex; justify-content: space-between; padding: 0.85rem 0; border-top: 1px solid var(--line); font-size: 1rem; }
+  .cta-links a:last-child { border-bottom: 1px solid var(--line); }
+  @media (max-width: 800px) {
+    .opening, .research-cta { grid-template-columns: 1fr; gap: 1rem; }
+    .finding-list, blockquote, .quote-follow { margin-left: 0; }
+  }
+  @media (max-width: 560px) {
+    .finding { grid-template-columns: 1fr; gap: 0.5rem; }
+    .opening, .findings, .quote, .research-cta { padding-bottom: 4rem; }
+  }
+</style>
