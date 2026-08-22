@@ -5,6 +5,7 @@ const sessions = [
   {
     number: '01',
     question: 'Who',
+    time: '12:00–1:00pm',
     title: 'Power goes to those who show up ready to do something',
     paragraphs: [
       'Canadian agrifood is shaped by people who grow food, build tools, and care for the systems around it. This is where we meet one another—not as an audience, but as people whose experience and imagination belong at the centre of the conversation.',
@@ -16,6 +17,7 @@ const sessions = [
   {
     number: '02',
     question: 'What',
+    time: '1:15–2:15pm',
     title: 'Intelligence begins on the farm and in the food',
     paragraphs: [
       'From farms and fields to processing and distribution, intelligence is taking on new forms. We will travel across the food system and meet people living with these changes.',
@@ -27,6 +29,7 @@ const sessions = [
   {
     number: '03',
     question: 'How',
+    time: '2:30–3:30pm',
     title: 'The Future Is Something We Practise',
     paragraphs: [
       'A crisis moves through the food system, and the familiar ways of making decisions are no longer enough. The situation is fictional, but we can learn from the questions the scenario raises.',
@@ -38,6 +41,7 @@ const sessions = [
   {
     number: '04',
     question: 'When',
+    time: '3:45–4:45pm',
     title: 'The Plot Thickens',
     paragraphs: [
       'After the speculation and discussion, we gather the threads. The day may have changed how we see the food system, the technologies moving through it, or the people trying to understand it.',
@@ -55,6 +59,7 @@ const sessions = [
       <p class="eyebrow">A Future Herd spectacular event on AI and agrifood</p>
       <h1>Building the<br /><em>Open-Source</em> Future<br />of Canadian Agrifood</h1>
       <p class="hero-lede">A half-day gathering for people who care about where food, intelligence, and collective possibility meet.</p>
+      <p class="event-date">Thursday, October 29, 2026<br /><strong>12 noon–5:00pm</strong></p>
       <div class="event-meta">
         <span>Online</span><span>Discord</span><span>Half-day</span><span>Four sessions</span>
       </div>
@@ -95,20 +100,25 @@ const sessions = [
     <div class="section-label">The day</div>
     <div class="agenda-head">
       <h2><span class="agenda-word">Who</span><span class="agenda-arrow">→</span><span class="agenda-word">What</span><span class="agenda-arrow">→</span><span class="agenda-word">How</span><span class="agenda-arrow">→</span><span class="agenda-word">When</span></h2>
-      <p>Four ways of being together. One day to see what becomes possible.</p>
+      <p>Four ways of being together. One day to see what becomes possible. Each session is one hour, with a 15-minute break between sessions.</p>
     </div>
     <div class="session-list">
-      {sessions.map((session) => (
-        <article class={`session session-${session.tone}`}>
+      {sessions.map((session, index) => (
+        <Fragment>
+          {index > 0 && <div class="agenda-break">Break · {sessions[index - 1].time.split('–')[1]}–{session.time.split('–')[0]}</div>}
+          <article class={`session session-${session.tone}`}>
           <div class="session-number">{session.number}</div>
           <div class="session-question">{session.question}</div>
           <div class="session-body">
+            <p class="session-time">{session.time}</p>
             <h3>{session.title}</h3>
             {session.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
           </div>
-        </article>
+          </article>
+        </Fragment>
       ))}
     </div>
+    <p class="agenda-closing">4:45–5:00pm · Closing conversation</p>
   </section>
 
   <section class="research-note shell">
@@ -170,6 +180,8 @@ const sessions = [
 
   h1 em { color: var(--moss); font-style: normal; }
   .hero-lede { max-width: 30rem; color: var(--ink-soft); font-size: clamp(1.15rem, 1.8vw, 1.45rem); line-height: 1.4; }
+  .event-date { margin: 1.5rem 0 0; color: var(--moss-dark); font-family: var(--display); font-size: 1.35rem; line-height: 1.15; }
+  .event-date strong { color: var(--ochre); font-weight: 400; }
 
   .event-meta { display: flex; flex-wrap: wrap; gap: 0.55rem 1.25rem; margin-top: 2rem; color: var(--ink-faint); font-size: 0.82rem; }
   .event-meta span::before { content: '·'; margin-right: 0.5rem; color: var(--ochre); }
@@ -206,8 +218,11 @@ const sessions = [
   .session-list { margin-left: 20%; }
   .session { display: grid; grid-template-columns: 4rem 7rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
   .session:last-child { border-bottom: 1px solid var(--line); }
+  .agenda-break { margin: 0.75rem 0; color: var(--ink-faint); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; }
+  .agenda-closing { margin: 1rem 0 0 20%; color: var(--moss-dark); font-family: var(--display); font-size: 1.1rem; }
   .session-number { color: var(--ink-faint); font-size: 0.75rem; padding-top: 0.3rem; }
   .session-question { color: var(--moss); font-family: var(--display); font-size: 1.35rem; font-style: italic; padding-top: 0.1rem; }
+  .session-time { margin-bottom: 0.45rem; color: var(--ochre); font-size: 0.78rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
   .session-body h3 { max-width: 34rem; margin-bottom: 0.5rem; font-size: clamp(1.65rem, 3vw, 2.65rem); letter-spacing: -0.04em; line-height: 1.02; }
   .session-body p { max-width: 42rem; margin-bottom: 0.75rem; color: var(--ink-soft); font-size: 1rem; }
   .session-body p:last-child { margin-bottom: 0; }
