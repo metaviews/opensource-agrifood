@@ -2,7 +2,7 @@
 
 *A Future Herd spectacular event on AI and agrifood*
 
-**Thursday October 29, 2026 · 12 noon–5pm · Online · Discord · Half-day · Four sessions**
+**Thursday October 29, 2026 · From 12 noon · Online · Discord · Half-day · Four sessions**
 
 ## What is happening
 
@@ -46,9 +46,13 @@ You do not need to play a character or arrive with technical expertise. Respond 
 
 We close by looking back at what happened among us. What became newly visible? Which questions grew more interesting? What did we hear in one another that we could not have heard alone? We will not force the day into a conclusion. We will leave room for the conversation to keep unfolding.
 
-### 5 — *Wind down:* **Socialize and hang out** *(4:45–5:00pm)*
+### 5 — *Wind down:* **Socialize and hang out** *(from 4:45pm)*
 
-Stay with us after the event to socialize, hang out, and continue conversations informally.
+The formal part of the day gives way to a more relaxed time together. Stay with us, settle into conversation, and spend time with the people you have met across the sessions.
+
+There is no further agenda to follow and no conclusion we need to reach. This is time to compare notes, share what stayed with you, follow an interesting thread, or simply enjoy being in the same online space.
+
+The conversation can continue at its own pace, with room for new connections and whatever feels worth carrying forward from the day.
 
 ## How to participate
 
