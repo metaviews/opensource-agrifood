@@ -2,7 +2,7 @@
 
 *A Future Herd spectacular event on AI and agrifood*
 
-**Thursday October 29, 2026 · From 12 noon · Online · Discord · Half-day · Four sessions**
+**Thursday October 29, 2026 · From 12 noon Eastern Time (ET) · Online · Discord · Half-day · Four sessions**
 
 ## What is happening
 
