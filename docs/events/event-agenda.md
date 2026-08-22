@@ -46,7 +46,7 @@ You do not need to play a character or arrive with technical expertise. Respond 
 
 We close by looking back at what happened among us. What became newly visible? Which questions grew more interesting? What did we hear in one another that we could not have heard alone? We will not force the day into a conclusion. We will leave room for the conversation to keep unfolding.
 
-### Wind down *(4:45–5:00pm)*
+### 5 — *Wind down:* **Socialize and hang out** *(4:45–5:00pm)*
 
 Stay with us after the event to socialize, hang out, and continue conversations informally.
 

@@ -117,8 +117,16 @@ const sessions = [
           </article>
         </Fragment>
       ))}
+      <article class="session session-wind-down">
+        <div class="session-number">—</div>
+        <div class="session-question">Wind down</div>
+        <div class="session-body">
+          <p class="session-time">4:45–5:00pm</p>
+          <h3>Socialize and hang out</h3>
+          <p>Stay with us after the event to socialize, hang out, and continue conversations informally.</p>
+        </div>
+      </article>
     </div>
-    <p class="agenda-closing">4:45–5:00pm · Wind down — socialize, hang out, and continue conversations informally.</p>
   </section>
 
   <section class="research-note shell">
@@ -230,6 +238,7 @@ const sessions = [
   .session-ochre .session-question { color: var(--ochre); }
   .session-pink .session-question { color: #a56462; }
   .session-blue .session-question { color: #5f6d91; }
+  .session-wind-down { background: rgba(219, 169, 160, 0.12); padding-left: 1rem; padding-right: 1rem; }
 
   .invitation { background: var(--moss-dark); color: var(--paper); border-top: 0; padding-top: 4rem; padding-bottom: 5rem; }
   .invitation .section-label { color: var(--pink); }
