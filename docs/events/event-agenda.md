@@ -60,6 +60,14 @@ Come as you are. Speak, listen, ask questions, share experience, follow the conv
 
 We have shaped the day, but we have not decided in advance what it must become. That will depend on who shows up, what they bring, and what becomes possible when we spend time thinking and making sense of things together.
 
+## Join us
+
+To take part, email [hello@thefutureherd.ca](mailto:hello@thefutureherd.ca). Let us know your name and a little about what brings you to the conversation, and we will reply with the details for joining the Future Herd Discord event.
+
+## Sponsorship
+
+This gathering is being built with care and welcomes sponsors who want to support an open, thoughtful conversation about the future of Canadian agrifood. If you or your organization would like to help make the event possible, email [hello@thefutureherd.ca](mailto:hello@thefutureherd.ca) and we would be glad to talk.
+
 ---
 
 *The framing is settled. The form is being built.*
