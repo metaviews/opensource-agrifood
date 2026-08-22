@@ -2,7 +2,7 @@
 
 *A Future Herd spectacular event on AI and agrifood*
 
-**Online · Discord · Half-day · Four sessions**
+**Thursday October 29, 2026 · 12 noon–5pm · Online · Discord · Half-day · Four sessions**
 
 ## What is happening
 
@@ -22,23 +22,33 @@ The day is an opportunity to encounter one another differently: to recognize wha
 
 ## The agenda
 
-### 1 — *Who:* **Power goes to those who show up ready to do something**
+### 1 — *Who:* **Power goes to those who show up ready to do something** *(12:00–1:00pm)*
 
 We begin with the people who have come together. What do you know? What are you curious about? What are you trying to understand or make possible? There is no need to arrive with a finished position. Curiosity, attention, and lived experience all have a place here.
 
-### 2 — *What:* **Intelligence begins on the farm and in the food**
+### Break *(1:00–1:15pm)*
+
+### 2 — *What:* **Intelligence begins on the farm and in the food** *(1:15–2:15pm)*
 
 What is happening with open-source AI in Canadian agrifood—and what are people seeing that others may not yet see? We will look across the food system, listen for what is real and what is still emerging, and make room for the questions that become visible when different kinds of knowledge meet.
 
-### 3 — *How:* **The Future Is Something We Practise**
+### Break *(2:15–2:30pm)*
+
+### 3 — *How:* **The Future Is Something We Practise** *(2:30–3:30pm)*
 
 Then the day takes a turn. We will enter a simple theatrical situation together. First, a significant cyberattack disrupts systems on which Canadian agrifood depends. Then, a second development changes how the incident is understood: it appears to have been caused by a rogue AI.
 
 You do not need to play a character or arrive with technical expertise. Respond as yourself, bring what you know, and see what the room makes of the situation. The exercise does not presume an open-source agrifood system or prescribe open source as a solution. The meaning belongs to the participants.
 
-### 4 — *When:* **The Plot Thickens**
+### Break *(3:30–3:45pm)*
+
+### 4 — *When:* **The Plot Thickens** *(3:45–4:45pm)*
 
 We close by looking back at what happened among us. What became newly visible? Which questions grew more interesting? What did we hear in one another that we could not have heard alone? We will not force the day into a conclusion. We will leave room for the conversation to keep unfolding.
+
+### Closing conversation *(4:45–5:00pm)*
+
+A final quarter-hour to linger, continue conversations, and make the transition out of the day together.
 
 ## How to participate
 
