@@ -82,6 +82,81 @@ Current files:
   food-as-cultural-substance work is in community programs and partnerships,
   not in grocery operations.
 
+- `traceability.md` — first-pass scan of food traceability: what traceability
+  means (track/trace/granularity, the fork gap); the regulatory layer (FSMA
+  204 CTE/KDE, EU General Food Law, SFCR/CFIA); the standards layer (GS1
+  Global Traceability Standard, GDST, W3C Verifiable Credentials); what
+  consumer-facing traceability actually delivers behind the QR code; the
+  problems and failures. Key finding: mandatory traceability creates a real
+  record floor, but the consumer-facing surface is the thin, contested,
+  under-delivered part — precisely where the concept has design work. The
+  concept should tap existing traceability at the record level, treat the QR
+  code as surface technology, promise depth only where supply chains are
+  short enough to make it real, and name the lot-level/commingling problem
+  as the hard case.
+
+- `consumer-feedback.md` — first-pass scan of consumer sentiment, comments,
+  and feedback as product/producer data: the four layers (structured reviews,
+  social commentary, community feedback, trust signals); how feedback
+  attaches to food data today (retailer reviews, QR surface, venue-bound
+  community feedback); social-proof effects; integrity problems (FTC fake-
+  review rule, selection and performative bias, influencer incentives). Key
+  finding: feedback is influential and structurally available but under-
+  attached to portable product-linked food data — a real gap. The concept
+  should treat feedback as a parallel layer to traceability (not a
+  substitute), design explicitly for integrity problems, and has an open
+  opportunity to make feedback a community-and-participation layer rather
+  than a platform-reputation layer.
+
+- `food-waste.md` — first-pass scan of the grocery food-waste sub-sector:
+  scale (USDA/FDA 30-40%, ~6M tons unsold retail/year); the diversion
+  ecosystem (donation-matching tools, Foodsharing.de as the open-source
+  exception, Flashfood, compost/AD/animal feed); the opacity problem at four
+  levels; the standards layer (FLW Standard, ReFED, EPA Excess Food
+  Opportunities Map). Key finding: waste is core, measurable, and largely
+  opaque — the concept's distinctive opportunity is to make the waste stream
+  legible and participatory (publishing waste and diversion data FLW-aligned),
+  with the fragmentation risk and donation friction as load-bearing design
+  cautions.
+
+- `open-in-culture.md` — first-pass scan of where open source has been applied
+  to culture and what happened: the semantic migration of "open" from software
+  to a general adjective; Creative Commons and the free culture movement as the
+  licensing bridge; Wikipedia as the large case study in open cultural
+  production; OpenGLAM; open journalism and open methods; openwashing and
+  dilution as the negative case. Key finding: "open" has been stretched thin —
+  a grocery operation saying "open source grocery" enters a diluted word, so
+  the concept must name its own meaning of open precisely and expect the word
+  to carry weakened associations from outside.
+
+- `open-in-food.md` — first-pass scan of open source applied to food:
+  Open Food Facts as the highest-profile case (proof that a crowdsourced open
+  food data commons works at scale, bounded by the package); recipes as a
+  knowledge commons (scattered, small, no large open recipe commons —
+  itself a finding about the cultural shape of food knowledge); food
+  ontologies and data infrastructure; the 2026 food-trends landscape; foodways
+  and food as identity. Key finding: food has been opened at the data level,
+  not at the operation, participation, or culture level — confirming the
+  concept's five layers are not jointly realized in existing practice. The
+  culture layer would enter a crowded, trend-language food-information
+  landscape, and must hold the sacred/not-for-sale difference.
+
+- `canadian-co-op-survey.md` — Canadian grocery-co-op survey (2026-08-28,
+  fills suggested-target #6). Two populations: federated retail systems
+  (FCL/Co-op Western Canada, Calgary Co-op's defection to a private
+  supplier, Arctic Co-operatives in the North, FCNQ in Nunavik, FCAQ's
+  65-70 food co-ops in Québec/New Brunswick) and community food co-ops
+  (Karma Toronto — working-member model with a "closed system" history and
+  near-death in 2022; Kootenay; East End; Fireweed Winnipeg — multi-
+  stakeholder producer+eater co-op with sliding-scale membership; Ottawa
+  Valley Food Co-op — internet-native ordering but no open information
+  environment; the Québec participatory-supermarket movement). Key
+  findings: co-op ownership is common in Canada, open structure is not;
+  the five-layer open is realized nowhere in the sector; the North is the
+  distinctive Canadian site where Indigenous ownership and grocery
+  infrastructure meet; the strongest home-jurisdiction deep-dive targets
+  are Karma, FCAQ, and Arctic Co-operatives.
+
 - `canadian-co-op-inventory.md` — Canadian co-op infrastructure and named
   food co-ops. CMC "Co-operation across Canada" directory and map (crm.
   canada.coop), ~7,500 co-ops in Canada (91% non-financial, 8% financial,
@@ -144,10 +219,51 @@ targets:
   but only one frame)
 - Beginning 6: Canadian co-op inventory (canadian-co-op-inventory.md;
   infrastructure grounded, named co-ops identified, proper survey not yet done)
+- Canadian grocery co-op survey (canadian-co-op-survey.md, 2026-08-28) —
+  fills the home-jurisdiction gap; two populations (federated retail,
+  community co-ops), none realizing the five-layer open
+
+### First-pass scans (traceability.md, consumer-feedback.md, food-waste.md,
+open-in-culture.md, open-in-food.md)
+
+Five surface scans, each a map rather than a verification:
+
+- traceability.md: the regulatory floor (FSMA 204, EU, SFCR), the standards
+  plumbing (GS1 GTS, CTE/KDE, GDST), and the consumer-facing QR reality —
+  what reaches the eater is thin. The record layer exists; the eater-facing
+  surface is where the concept has design work.
+- consumer-feedback.md: how consumer sentiment attaches to food data today,
+  its behavioral force, and its integrity problems. Feedback is influential
+  and under-attached to portable product-linked data — a real gap the concept
+  could fill as a community layer rather than a platform-reputation layer.
+- food-waste.md: the scale and four-level opacity of grocery food waste, the
+  diversion ecosystem, and the FLW/ReFED standards layer. The distinctive
+  opportunity: make the waste stream legible and participatory.
+- open-in-culture.md: where "open" went when it left software, and what
+  happened — Creative Commons, Wikipedia, OpenGLAM, and the openwashing/
+  dilution negative case. The word "open" is stretched thin; the concept must
+  name its own meaning precisely.
+- open-in-food.md: Open Food Facts and the open-food-data landscape, recipes
+  as a failed open commons, food ontologies, foodways. Food has been opened
+  at the data level, not at operation/participation/culture — the same shape
+  the grocery passes find.
+
+Cross-cutting finding across the scans: food has been opened at the data
+level, almost never at the operation, participation, or culture level. The
+data layers (DFC, FLW, Open Food Facts) are real; the consumer-facing,
+participatory, and cultural layers are consistently the thin part.
 
 ### What the research does not yet cover
 
-- A proper Canadian grocery-co-op survey against the CMC directory
+- A proper Canadian grocery-co-op survey against the CMC directory (done
+  2026-08-28 as canadian-co-op-survey.md; CMC directory enumeration itself
+  remains a manual follow-up)
+- Second passes on the five scans, per each scan's own "does not yet cover"
+  block (FSMA 204 CTE/KDE content, platform-by-platform consumer-review map,
+  Canada-specific food-waste regs and programs, Foodsharing.de in detail,
+  organic/certification verification infrastructure, producer-facing
+  traceability and feedback burden, community-governed feedback design) —
+  consolidated in suggested-next-targets.md
 - Viability framing grounded in the Korpeoglu et al. MSOM paper and the Yale
   "Competitive Conduct of Consumer Cooperatives" paper (the UCLA Anderson
   Review summary is the current framing, not the paper itself)

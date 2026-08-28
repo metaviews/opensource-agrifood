@@ -153,9 +153,106 @@ some are narrow lookups, some are engagements.
 
 ---
 
+## I. From the traceability.md scan (2026-08-26)
+
+13. **Read the FSMA 204 CTE/KDE content in detail.** The FDA's downloadable
+    CTE/KDE document, supply-chain examples, and traceability-plan examples
+    (additional examples added Aug 6, 2025 — farm-packed produce, food hubs,
+    peanut butter crackers, dual-jurisdiction facilities, shell eggs, frozen
+    and fresh-cut produce). The food-hub example is directly relevant to the
+    concept's food-hub interest. This grounds what "tap into traceability
+    where available" concretely means at the record level.
+
+14. **Product-by-product read of consumer-facing traceability deployments.**
+    Carrefour, Nestlé, IBM Food Trust consumer-facing deployments, Ucrop.it,
+    FoodTraze, Scantrust/SAP — what the consumer actually sees behind the QR
+    code, deployment by deployment. Sharpens the "content behind the code is
+    the design question" finding.
+
+15. **Certification/verification infrastructure for credence claims.** USDA
+    organic verification, the organic fraud problem, PDO/PGI/MSC/Fairtrade
+    verification — relevant to which claims the concept could surface as
+    verifiable rather than merely asserted.
+
+16. **Producer-facing traceability tools: usability and burden.** The small-
+    producer side of the burden question — the concept wants to surface small
+    producers without burdening them.
+
+## J. From the consumer-feedback.md scan (2026-08-26)
+
+17. **Platform-by-platform map of consumer-review mechanisms for food.** What
+    each attaches to (product vs. producer vs. recipe vs. brand) and how
+    purchase is verified.
+
+18. **Producer-facing feedback practice.** How farms and small food producers
+    collect and use reviews and testimonials — burden and incentive
+    structures. Pairs with item 16 on the producer side.
+
+19. **Community-governance of consumer feedback.** What a community-governed
+    review/comment layer looks like in practice (moderation, surfacing,
+    contesting misinformation, producer response, relation to the
+    verification layer). Flagged as an open design space, not a lookup.
+
+20. **Willingness to engage with product-linked feedback.** The food-specific
+    analogue of the QR-code willingness-to-pay work in the traceability pass.
+
+## K. From the food-waste.md scan (2026-08-27)
+
+21. **Canada-specific food-waste regulations and diversion programs.**
+    Provincial organic waste bans, CFIA's role, Canada's diversion
+    infrastructure — Flashfood is the hint that the Canadian context has real,
+    distinct infrastructure. Directly serves the corpus's Canada-centred
+    convention.
+
+22. **Foodsharing.de in detail.** Whether the code is actually open, the
+    governance, scale mechanics, German legal/cultural context — the one
+    open-source-in-spirit example in the coordination layer.
+
+23. **PCFWC methodology and dataset in detail.** What the "best-in-class"
+    grocery food-waste dataset contains (department level, destination level,
+    how the 25% reduction was measured) — the model for what a comparable
+    measurement/reporting layer would look like.
+
+24. **Culturally appropriate food in the waste-to-food-bank connection.** The
+    Canada/community-specific form of the waste → food bank / farmer / compost
+    chain, including the CARE/FAIR tension and the Indigenous food sovereignty
+    material.
+
+## L. From the open-in-culture.md and open-in-food.md scans (2026-08-26)
+
+25. **Non-Western and Indigenous applications of "open" in culture.** The
+    CARE/FAIR tension in its cultural-heritage and food-specific forms. The
+    Indigenous food sovereignty research already in the tree makes this
+    urgent, not optional — what does "open" mean for culturally held food
+    knowledge?
+
+26. **Canada-specific foodways pass.** The foodways material in
+    open-in-food.md is largely US/UK/international; the culture layer wants
+    grounding in the corpus's home jurisdiction.
+
+27. **Open food data and the protection of traditional/Indigenous food
+    knowledge.** The food-specific version of the CARE/FAIR question (overlaps
+    item 25; keep both — one is culture-general, one is food-data-specific).
+
+28. **Failure case studies in open-in-culture and open-in-food.** Where open
+    projects actually failed, folded, or were absorbed into conventional
+    models — both scans surface critiques and tensions but not clean failure
+    cases. The concept should know what failure looks like.
+
+29. **Whether a large open recipe/cooking commons exists that the scan
+    missed.** Deeper look at recipe platforms (Wikipedia's recipe coverage,
+    archive.org collections, large community recipe sites that may have
+    opened). If none exists, that non-existence is itself a finding about the
+    cultural shape of food knowledge.
+
+---
+
 ## What is not yet on this list (status)
 
-- A proper Canadian grocery-co-op survey is on the list (item 6) but not yet done.
+- The Canadian grocery-co-op survey (item 6) was done 2026-08-28 — see
+  `canadian-co-op-survey.md`.
+- The second-pass targets from the five scans (items 13-29) are all not yet
+  done.
 - The culture/meaning layer is on the list (items 8, 9) but only the Indigenous food sovereignty
   frame has been researched; the broader framing is not yet done.
 - No operation combining multiple layers has been searched for (item 11).
