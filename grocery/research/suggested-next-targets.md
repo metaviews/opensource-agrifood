@@ -75,10 +75,9 @@ some are narrow lookups, some are engagements.
    (retail, food, accommodation, etc.) that are directly relevant to the concept's culture/meaning
    and food-justice layers.
 
-7. **Deep-dive one or two named Canadian food co-ops.** Karma Co-op (Toronto, one of Canada's
-   oldest, ~800 members per a Toronto Star piece) is a natural first candidate. Look at its
-   participation model, sourcing practices, and cultural/meaning dimensions as a concrete
-   Canadian case.
+7. **Deep-dive one or two named Canadian food co-ops.** Dropped per review
+   2026-08-28 (Karma deep-dive pruned; the survey's Karma sketch stands as
+   the reference).
 
 ---
 
@@ -198,25 +197,17 @@ some are narrow lookups, some are engagements.
 
 ## K. From the food-waste.md scan (2026-08-27)
 
-21. **Canada-specific food-waste regulations and diversion programs.**
-    Provincial organic waste bans, CFIA's role, Canada's diversion
-    infrastructure — Flashfood is the hint that the Canadian context has real,
-    distinct infrastructure. Directly serves the corpus's Canada-centred
-    convention.
-
-22. **Foodsharing.de in detail.** Whether the code is actually open, the
-    governance, scale mechanics, German legal/cultural context — the one
-    open-source-in-spirit example in the coordination layer.
-
-23. **PCFWC methodology and dataset in detail.** What the "best-in-class"
-    grocery food-waste dataset contains (department level, destination level,
-    how the 25% reduction was measured) — the model for what a comparable
-    measurement/reporting layer would look like.
-
-24. **Culturally appropriate food in the waste-to-food-bank connection.** The
-    Canada/community-specific form of the waste → food bank / farmer / compost
-    chain, including the CARE/FAIR tension and the Indigenous food sovereignty
-    material.
+21. ~~**Canada-specific food-waste regulations and diversion programs.**~~
+    **Done 2026-08-28** — see `food-waste-canada.md` (K21 section).
+22. ~~**Foodsharing.de in detail.**~~ **Done 2026-08-28** — see
+    `food-waste-canada.md` (K22 section; code confirmed open, governance
+    and scale documented, transferability assessed).
+23. ~~**PCFWC methodology and dataset in detail.**~~ **Done 2026-08-28** —
+    see `food-waste-canada.md` (K23 section; unsold-food-rate metric,
+    destination tracking, unknown-destination rate, anonymization gates).
+24. ~~**Culturally appropriate food in the waste-to-food-bank connection.**~~
+    **Done 2026-08-28** — see `food-waste-canada.md` (K24 section; CARE
+    constraint on diversion data named).
 
 ## L. From the open-in-culture.md and open-in-food.md scans (2026-08-26)
 
@@ -251,8 +242,10 @@ some are narrow lookups, some are engagements.
 
 - The Canadian grocery-co-op survey (item 6) was done 2026-08-28 — see
   `canadian-co-op-survey.md`.
-- The second-pass targets from the five scans (items 13-29) are all not yet
-  done.
+- Section K (food-waste second pass, items 21-24) was done 2026-08-28 —
+  see `food-waste-canada.md`.
+- The second-pass targets from the five scans (items 13-20, 25-29) are
+  all not yet done.
 - The culture/meaning layer is on the list (items 8, 9) but only the Indigenous food sovereignty
   frame has been researched; the broader framing is not yet done.
 - No operation combining multiple layers has been searched for (item 11).

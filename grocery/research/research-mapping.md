@@ -141,6 +141,27 @@ Current files:
   culture layer would enter a crowded, trend-language food-information
   landscape, and must hold the sacred/not-for-sale difference.
 
+- `food-waste-canada.md` — second pass on the food-waste scan's section-K
+  targets (2026-08-28): Canada-specific regulation (provincial patchwork —
+  NS 1997/98 organics ban first in Canada, Ontario IC&I targets and 300 kg/
+  week audit expectations, BC regional bans, Québec policy; no federal
+  mandate; donation tax credits in four provinces; liability protection
+  everywhere; Flashfood at 900+ Loblaw stores as the proprietary discount
+  channel); CSA K100:26 (April 2026) as the first national
+  food-loss-and-waste measurement standard — a Canada-specific reporting
+  language the concept could adopt; Foodsharing.de in detail (code
+  confirmed open/MIT, volunteer governance with a trained-foodsaver QA
+  gate, city-partnership instrument, self-reported 334M kg scale; no
+  Canadian equivalent exists); PCFWC methodology (ReFED calculators,
+  department-level unsold food rates, destination tracking with an
+  explicit Unknown Destination Rate, anonymization gates — the template
+  an open operation would adopt and invert into full publication); and
+  the culturally-appropriate-food constraint (CARE applied to diversion
+  data; some food and food knowledge is not redistributable at any life
+  stage). Key finding: the waste layer is now the concept's most
+  concretely specified surface — nationally standard-backed measurement
+  exists, operational openness remains unprecedented.
+
 - `canadian-co-op-survey.md` — Canadian grocery-co-op survey (2026-08-28,
   fills suggested-target #6). Two populations: federated retail systems
   (FCL/Co-op Western Canada, Calgary Co-op's defection to a private

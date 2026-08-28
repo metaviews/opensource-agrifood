@@ -278,9 +278,7 @@ that shows co-op ownership alone does not produce openness.
 
 ## Suggested next targets from this survey
 
-- Deep-dive Karma Co-op (target #7): participation model history, the
-  closed-system lesson, the near-death and recovery, current membership
-  tiers and information environment.
+- Deep-dive Karma Co-op — **dropped per review 2026-08-28**.
 - Deep-dive FCAQ: federation governance, member co-op autonomy, the
   Manger coop movement framing, and whether any member co-ops have
   internet-era information environments.
