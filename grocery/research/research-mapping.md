@@ -141,6 +141,51 @@ Current files:
   culture layer would enter a crowded, trend-language food-information
   landscape, and must hold the sacred/not-for-sale difference.
 
+- `csn-tps-landare-deep-dives.md` — the three follow-ups from the
+  multi-layer search (2026-08-28): (1) the Frontiers 2024 CSN study in
+  full — margin-simplicity framed as producer-side justice (rejecting
+  Big Retail's margin-compensation policy), the viability numbers (La
+  Osa: 3 years to break even; members must spend ~150€/month to cover
+  costs; only 22.5% reach it; distance decay r=-0.98 on membership; high
+  satisfaction coexisting with weak economic commitment), the quantified
+  activist member base, the SWOT (greenwashing/localwashing co-option as
+  the named threat), and the network's strategic agenda (joint
+  purchasing, Odoo ERP, a collective brand, an incubator); (2) The
+  People's Supermarket as the caution case (Muñoz et al. 2024, 6-year
+  longitudinal study: volunteering — the model's core — decayed under
+  commercial pressure; ethical aims became secondary to survive;
+  community decisions vetoed; current status unverified) — the
+  participation-vs-viability tension failing in documented practice;
+  (3) Landare, Pamplona (founded 1991, 2,600-3,600 members, 2 shops, no
+  external capital ever, 80% of sale price to producers as stated
+  policy, 122 direct producers, 95% direct in dairy, ideological
+  proximity definition) — the existence proof for viability-with-values
+  at city scale over decades, still without open data, participatory
+  information, or open software. Key findings: the viability condition
+  now has empirical numbers and a working counterexample; the concept's
+  open-economics layer gains the margin-justice framing and the obvious
+  extension (publish the split audibly); the culture layer gains an
+  operational precedent (value-proximity as a sourcing criterion).
+
+- `open-source-software-stack.md` — deep dive on the free-software layer
+  (2026-08-28): Foodsoft (357 stars, actively maintained Aug 2026; job
+  scheduling, workgroups, accounting; runs on a server in one member's
+  closet at Biobulkbende Rotterdam; 50-60 co-ops reportedly willing to
+  co-fund maintenance — the Democratic Tech Fund Funding Circle
+  proposal); FoodCoopShop (AGPL, single-developer open-core, very active,
+  producer-direct ordering with credit system, DACH deployment map);
+  OFN/Katuma (federated shopfront + DFC plumbing); Foodsharing.de (MIT,
+  movement devdocs); Co-op Cloud deployment recipes and the co-funding
+  maintenance economy as the surrounding commons; CoopCycle's protective
+  license; CSN's Odoo choice as the scale-limit signal. Key finding: the
+  software mirrors the landscape — structure-layer tools are mature, the
+  data layer is building, and the concept's information/participation/
+  culture layers have no free-software implementations anywhere. The
+  concept's software strategy: adopt the governance stack, integrate the
+  data layer, build the missing three as new free software maintained as
+  a commons — and reserve "open source" as a literal term for the
+  software tier.
+
 - `multi-layer-operations.md` — targeted search for any operation combining
   several concept layers in one (target #11, 2026-08-28). Negative result:
   no operation found combining all five layers or even the four-way
