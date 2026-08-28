@@ -141,6 +141,23 @@ Current files:
   culture layer would enter a crowded, trend-language food-information
   landscape, and must hold the sacred/not-for-sale difference.
 
+- `multi-layer-operations.md` — targeted search for any operation combining
+  several concept layers in one (target #11, 2026-08-28). Negative result:
+  no operation found combining all five layers or even the four-way
+  sourcing+information+participation+structure combination. Nearest
+  neighbours documented: the Spanish CSN agroecological supermarket network
+  (fixed ~20-25% gross margins as a defining transparency feature + member
+  work + network inter-cooperation — the closest existing "open structure"
+  economics); Unicorn Grocery Manchester (workers' co-op with sourcing
+  ethos, solidarity funds, public price-comparison boards vs. the big five);
+  the La Louve/Park Slope wave (participation + community culture); the
+  open-source software layer (OFN, Foodsoft, FoodCoopShop, Foodsharing —
+  modular and free-licensed); CoopCycle's protective license (open code
+  restricted to co-operative use — the anti-appropriation precedent).
+  Key findings: the novelty claim holds; the proven layers are the co-op
+  ones, the unbuilt layers are the internet-era ones; margin transparency
+  and price comparison are existing practices to cite, not invent.
+
 - `food-waste-canada.md` — second pass on the food-waste scan's section-K
   targets (2026-08-28): Canada-specific regulation (provincial patchwork —
   NS 1997/98 organics ban first in Canada, Ontario IC&I targets and 300 kg/

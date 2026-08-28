@@ -125,17 +125,11 @@ some are narrow lookups, some are engagements.
 
 ## G. Operations combining multiple layers
 
-11. **Look for any existing operation that combines several of the concept's layers in one.** Most
-    precedents in the scan address one or two layers, not the full stack. OFN has a platform,
-    open-source/Commons model, governance model, structural transparency at the consumer level, and
-    interoperability (through DFC) — but it is a platform, not a grocery operation, and it does not
-    have a continuous participatory information environment or a culture layer. NCG has federation
-    at scale and community benefit — but it is a pre-internet federation and does not have internet-
-    era interoperability or a continuous participatory environment. Co-ops have participation
-    (intermittent formal) and community ownership. Indigenous food sovereignty has a fully developed
-    culture/meaning framework. The concept is synthesizing these into a single grocery operation that
-    addresses all of them. A search for any operation that moves further toward that synthesis would
-    be informative — whether it exists or whether the concept's synthesis is genuinely novel.
+11. ~~**Look for any existing operation that combines several of the concept's layers in one.**~~
+    **Done 2026-08-28** — see `multi-layer-operations.md`. Negative result
+    (no operation found combining the layers); nearest neighbours documented
+    (CSN Spain, Unicorn Grocery, La Louve wave, open-source software stack,
+    CoopCycle license precedent).
 
 ---
 
@@ -244,6 +238,8 @@ some are narrow lookups, some are engagements.
   `canadian-co-op-survey.md`.
 - Section K (food-waste second pass, items 21-24) was done 2026-08-28 —
   see `food-waste-canada.md`.
+- Item 11 (multi-layer operations search) was done 2026-08-28 — see
+  `multi-layer-operations.md`.
 - The second-pass targets from the five scans (items 13-20, 25-29) are
   all not yet done.
 - The culture/meaning layer is on the list (items 8, 9) but only the Indigenous food sovereignty
