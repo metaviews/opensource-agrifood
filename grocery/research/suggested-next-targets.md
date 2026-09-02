@@ -250,4 +250,10 @@ some are narrow lookups, some are engagements.
 - OFN handbook, community pledge, and DFC standard documentation are on the list (items 4, 5) but
   not yet read in full.
 
+Cross-referenced 2026-09-02: this file is the grocery-side working list;
+the parent register (`research/field-guide-gap-and-question-register.md`,
+"Grocery queue" section) is the single consolidated queue and holds the
+mapping of these targets onto G-IDs. Promote items here to G-IDs there
+when they are acted on.
+
 See `research-mapping.md` for the cross-cutting findings that apply across these targets.

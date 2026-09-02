@@ -113,7 +113,11 @@ A project should normally satisfy at least three of these conditions:
 | [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | market information and warehouse receipts | candidate | Can structured grain trade improve farmer market access without becoming farmer-controlled open infrastructure? |
 | [Community seed banks and CSBAN](records/community-seed-banks-nepal.md) | farmer-managed biological commons and seed infrastructure | candidate | Can community seed banks function as farmer-controlled commons without open-source licensing? |
 | [DESIS 2.0](records/desis-nepal.md) | public-interest digital seed infrastructure | candidate | Does a national seed platform described as open source still expose code, data, and control? |
-| [SolarFood solar-drying project](records/solarfood-nepal.md) | local-manufacturing and cooperative technology lead | lead | Can locally manufactured post-harvest technology become a women-led open-transfer commons? |
+|| [SolarFood solar-drying project](records/solarfood-nepal.md) | local-manufacturing and cooperative technology lead | lead | Can locally manufactured post-harvest technology become a women-led open-transfer commons? |
+|| [Foodsoft](records/foodsoft.md) | food co-op operating software (AGPL-3.0-or-later); pooled co-funding circle | curated | Can food co-ops fund maintenance of their own shared software commons? |
+|| [FoodCoopShop](records/foodcoopshop.md) | producer-direct co-op ordering software (AGPL-3.0, single-maintainer open core) | curated | What does a one-person open-core look like at retail scale? |
+|| [Foodsharing.de](records/foodsharing.md) | open-source food-rescue coordination platform (AGPL-3.0) | curated | Can open software coordinate a mass-scale volunteer food-rescue movement? |
+|| [CSA K100:26](records/csa-k100-26.md) | national FLW terminology/measurement standard (paywalled, Canada-only view) | candidate | What gets built when the measurement layer is a paid national standard, not a commons? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
@@ -124,7 +128,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-02 (LiteFarm added to the index; it had a record since 2026-08-01 but was missing from both tables).
+Last reviewed: 2026-09-02 (four grocery-surfaced records added and verified: Foodsoft, FoodCoopShop, Foodsharing.de, CSA K100:26; collection now 88 records).
 
 Not legal advice.
 

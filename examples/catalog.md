@@ -91,7 +91,11 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [Agricultural Commodity Exchange for Africa (ACE)](records/ace-africa.md) | Malawi / Southern and Eastern Africa | market information, warehouse receipts, electronic trade | structured grain marketing and farmer market access | candidate |
 | [Community seed banks and CSBAN](records/community-seed-banks-nepal.md) | Nepal | farmer-managed biological commons, seed exchange, local-variety catalogue | seed sovereignty, agro-biodiversity, and farmer rights | candidate |
 | [DESIS 2.0](records/desis-nepal.md) | Nepal | public-interest digital seed infrastructure; openness unresolved | seed demand, certification, tracking, and coordination | candidate |
-| [SolarFood solar-drying project](records/solarfood-nepal.md) | Nepal / Bhutan | local-manufacturing and cooperative open-transfer lead | post-harvest preservation and women-led value capture | lead |
+|| [SolarFood solar-drying project](records/solarfood-nepal.md) | Nepal / Bhutan | local-manufacturing and cooperative open-transfer lead | post-harvest preservation and women-led value capture | lead |
+|| [Foodsoft](records/foodsoft.md) | International (DACH, NL) | co-op operating software (AGPL-3.0-or-later), Co-op Cloud recipe, Democratic Tech Fund co-funding circle | member-work food co-op operations | curated |
+|| [FoodCoopShop](records/foodcoopshop.md) | Austria / DACH | producer-direct ordering platform (AGPL-3.0), single-maintainer open core + paid services | food co-ops and farm shops | curated |
+|| [Foodsharing.de](records/foodsharing.md) | Germany/Austria/Switzerland | food-rescue coordination platform (AGPL-3.0) | peer-to-peer and business food rescue movement | curated |
+|| [CSA K100:26](records/csa-k100-26.md) | Canada | national FLW terminology/measurement standard (paywalled) | food-loss-and-waste measurement language | candidate |
 
 ## Coverage at a glance
 
@@ -194,6 +198,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-08-19. Collection now 84 records across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19), and Nepal community/digital seed and local-manufacturing leads (G-OSA-32).
+Last reviewed: 2026-09-02. Collection now 88 records (four grocery-surfaced additions: Foodsoft, FoodCoopShop, Foodsharing.de — retail co-op/rescue software layer; CSA K100:26 — Canadian FLW measurement standard). across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19), and Nepal community/digital seed and local-manufacturing leads (G-OSA-32).
 
 Not legal advice.

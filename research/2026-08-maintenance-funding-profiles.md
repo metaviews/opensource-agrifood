@@ -81,6 +81,35 @@ Status legend: `A` active (verified or current evidence), `D` dormant/stalled, `
 6. **VC-funded platforms invert the maintenance question** (FBN, ET Brain): maintenance is assured by capital, but value capture and data governance are the contested axes (G-OSA-20).
 7. **The donor-funded "farmer-centric" paradigm recommends governance it does not durably fund** — the USAID/Gates reports (Development Gateway/Athena) propose farmer-centric models; the collection's cooperative records (NAPDC, JoinData) show the funding gap in practice.
 
+## Seventh archetype: the pooled co-funding circle (added 2026-09-02)
+
+Provenance: `research/grocery-feedback-2026-08.md` §3 (grocery project,
+2026-08-28). Not present in the 2026-08-02 cycle's 49 records; identified
+through the grocery concept's software-stack research.
+
+7. **Pooled co-funding circle** — many small co-operatives each contributing
+   modest amounts to fund dedicated maintenance of shared tooling, rather
+   than relying on volunteers, a single institutional anchor, or a
+   commercial open-core revenue stream. Anchor case: the Democratic Tech
+   Fund's Foodsoft circle reports 50-60 food co-ops willing to co-fund a
+   maintenance team (provenance `grocery/research/open-source-software-stack.md`);
+   Co-op Cloud's deployment-recipe commons is the complementary
+   infrastructure practice (shared packaging + ops so no operator reinvents
+   deployment).
+
+This archetype is the organizational answer to archetype 5's chronic
+fragility (volunteer/community: 11 records) — it converts the user
+community into a maintenance payer without requiring an institutional or
+commercial anchor. Its mechanism (co-ops funding their own infrastructure
+commons) has no farm-side instance in the corpus; the closest analogues
+are NAPDC (co-op data governance, archetype 4) and farmOS (donations +
+hosting, archetype 3). Whether it is durable in practice is unverified —
+the Foodsoft circle reports willingness-to-fund, not yet paid maintenance
+at scale. Key observation for the G-OSA-08 durability question: it is
+member-economics-native (users fund what they use), but it presumes
+co-operative customers; it has no tested analogue where users are not
+already organized.
+
 ## G-OSA-08 resolution
 
 Partially addressed: the archetype taxonomy and per-record maintenance/funding status are now tabulated across all 49 records, and the four anchor verifications (OADA, GODAN, farmOS, ODK) confirm the live/active status of the oldest records. Residual work: ~15 records carry "unverified" maintenance status and would require organisational contacts or financial disclosures to resolve; GODAN's counters remain placeholder-level evidence.

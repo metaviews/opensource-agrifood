@@ -51,6 +51,19 @@ Each would need the parent's verification pass before curation; these are
 candidate records with provenance (`grocery/research/open-source-software-stack.md`,
 `grocery/research/food-waste-canada.md`), not verified records.
 
+Verification outcome (parent pass, 2026-09-02): all four confirmed.
+Foodsoft AGPL-3.0-or-later, curated (examples/records/foodsoft.md);
+FoodCoopShop AGPL-3.0, curated, single-maintainer ~98.5% of commits
+(examples/records/foodcoopshop.md); **Foodsharing.de licence corrected:
+MIT claim was wrong — repository LICENSE is AGPL-3.0; the MIT attribution
+traced to an unrelated mobile app (raph-ael/foodsharing)**, curated
+(examples/records/foodsharing.md); CSA K100:26 confirmed as National
+Standard of Canada (Domestic), published May 2026, 35 pages, paywalled
+with Canada-only view access, curated as candidate
+(examples/records/csa-k100-26.md). CSA publication date corrected:
+April 2026 claim → CSA news release dated 2026-05-12 (first edition,
+35 pages).
+
 ## 3. A new maintenance archetype: the pooled funding circle
 
 The parent's maintenance taxonomy (G-OSA-08) has six archetypes. The

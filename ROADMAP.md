@@ -10,7 +10,7 @@ Open Source Agrifood is a research and knowledge-building project asking who con
 
 | Workstream | State | Authoritative doc | Last moved |
 |---|---|---|---|
-| Research corpus | Discovery programme complete; 84 records; synthesis v3; register at G-OSA-32 | `research/2026-08-landscape-synthesis-v3.md`, `research/field-guide-gap-and-question-register.md` | 2026-08-19 |
+| Research corpus | Discovery programme complete; 88 records; synthesis v3; register at G-OSA-32; grocery records folded in (2026-09-02) | `research/2026-08-landscape-synthesis-v3.md`, `research/field-guide-gap-and-question-register.md` | 2026-09-02 |
 | Grocery concept | Research phase; 16 topic files + synthesis; novelty claim survived a searched negative; feedback transferred to parent corpus | `grocery/synthesis.md`, `grocery/research/research-mapping.md`, `grocery/research/suggested-next-targets.md` | 2026-08-28 |
 | Event | Framing and agenda settled and published; date fixed; Discord server live; production and outreach not yet started | `docs/events/event-agenda.md`, `docs/events/event-design-brainstorm.md` | 2026-08-22 (site), 2026-08-05 (briefing) |
 | Public site (`web/`) | Astro site at opensource.thefutureherd.ca; event page + accessible research overview | `web/src/pages/index.astro`, `web/src/pages/research.astro` | 2026-08-22 |
@@ -38,8 +38,8 @@ Event backlog (blocked on feedback):
 6. Sponsorship: the site invites sponsors; there is no sponsor brief or ask.
 
 Research — keep the corpus honest:
-7. Fold the four grocery-surfaced candidate records (Foodsoft, FoodCoopShop, Foodsharing.de, CSA K100:26) through the parent's verification pass and into `examples/`; add the seventh maintenance archetype (pooled funding circle) to `research/2026-08-maintenance-funding-profiles.md`; register the G-OSA-28 nuance. All are specified in `research/grocery-feedback-2026-08.md` and have not been acted on.
-8. Consolidate the two register threads into one: the field-guide register (G-OSA, Q-OSA, C-OSA) and the grocery `suggested-next-targets.md` are separate queues with no cross-reference.
+7. ~~Fold the four grocery-surfaced candidate records (Foodsoft, FoodCoopShop, Foodsharing.de, CSA K100:26) through the parent's verification pass and into `examples/`; add the seventh maintenance archetype (pooled funding circle) to `research/2026-08-maintenance-funding-profiles.md`; register the G-OSA-28 nuance.~~ **Done 2026-09-02** — all four verified (all confirmed; Foodsharing.de licence corrected MIT→AGPL-3.0 against the repo LICENSE; CSA K100:26 publication date corrected to May 2026) and curated (foodsoft.md, foodcoopshop.md, foodsharing.md curated; csa-k100-26.md candidate; collection now 88); seventh archetype added to the maintenance-funding taxonomy; G-OSA-28 nuance registered.
+8. ~~Consolidate the two register threads into one.~~ **Done 2026-09-02** — the field-guide register now holds a "Grocery queue" section cross-referencing `grocery/research/suggested-next-targets.md`; grocery items promote to G-IDs there when acted on.
 
 ### Next (after the event, Q4 2026)
 
