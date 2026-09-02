@@ -118,6 +118,12 @@ A project should normally satisfy at least three of these conditions:
 || [FoodCoopShop](records/foodcoopshop.md) | producer-direct co-op ordering software (AGPL-3.0, single-maintainer open core) | curated | What does a one-person open-core look like at retail scale? |
 || [Foodsharing.de](records/foodsharing.md) | open-source food-rescue coordination platform (AGPL-3.0) | curated | Can open software coordinate a mass-scale volunteer food-rescue movement? |
 || [CSA K100:26](records/csa-k100-26.md) | national FLW terminology/measurement standard (paywalled, Canada-only view) | candidate | What gets built when the measurement layer is a paid national standard, not a commons? |
+|| [IGFC mobile slaughter unit](records/igfc-mobile-slaughter.md) | farmer-co-op owned slaughter infrastructure (open governance; no open hardware) | curated | Can cooperative ownership hold licence-gated slaughter infrastructure — and does it produce open artifacts? |
+|| [OpenEPCIS epcis-repository-ce](records/openepcis.md) | open implementation of GS1 EPCIS 2.0 traceability (Apache-2.0 community edition, open-core) | curated | What does the open traceability substrate under the processing plant actually open? |
+|| [Underground Meats open-source HACCP plan](records/underground-meats-open-haccp.md) | CC0-validated food-safety compliance record (2013; infrastructure failed) | archived | Why did the first open HACCP plan die while demand was proven? |
+|| [Grain Bikes](records/grain-bikes.md) | CC BY 4.0 bicycle-powered grain-processing machine plans | curated | Where does the open layer in grain processing currently end — and what scale can it reach? |
+|| [ICAR Animal Data Exchange](records/icar-ade.md) | open livestock/milk-recording data standard (Apache-2.0) with production implementations | curated | How far can an open data standard reach into the chain before it stops at the plant wall? |
+|| [Canadian Grain Commission grading data](records/cgc-grading-data.md) | open government grading rules and quality data — as documents, not infrastructure | curated | What does it mean when the state publishes everything a mill system needs, as PDFs? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
@@ -128,7 +134,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-02 (four grocery-surfaced records added and verified: Foodsoft, FoodCoopShop, Foodsharing.de, CSA K100:26; collection now 88 records).
+Last reviewed: 2026-09-02 (six processing-cell records added after verification: IGFC, OpenEPCIS, Underground Meats [archived], Grain Bikes, ICAR ADE, CGC grading data; collection now 94 records).
 
 Not legal advice.
 

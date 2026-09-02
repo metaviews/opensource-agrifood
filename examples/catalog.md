@@ -96,6 +96,12 @@ This catalogue is the browseable index for the curated examples collection. It i
 || [FoodCoopShop](records/foodcoopshop.md) | Austria / DACH | producer-direct ordering platform (AGPL-3.0), single-maintainer open core + paid services | food co-ops and farm shops | curated |
 || [Foodsharing.de](records/foodsharing.md) | Germany/Austria/Switzerland | food-rescue coordination platform (AGPL-3.0) | peer-to-peer and business food rescue movement | curated |
 || [CSA K100:26](records/csa-k100-26.md) | Canada | national FLW terminology/measurement standard (paywalled) | food-loss-and-waste measurement language | candidate |
+|| [IGFC mobile slaughter unit](records/igfc-mobile-slaughter.md) | US (Washington State) / model cited in Canada | cooperative governance of mobile slaughter infrastructure (no open-licensed artifacts) | small-producer slaughter access | curated |
+|| [OpenEPCIS epcis-repository-ce](records/openepcis.md) | International (Germany-maintained) | EPCIS 2.0 event repository + tooling (Apache-2.0 community edition, open-core) | supply-chain traceability data layer | curated |
+|| [Underground Meats open-source HACCP plan](records/underground-meats-open-haccp.md) | United States (Madison, WI) | CC0-validated HACCP plan (2013); host dead, survives in Wayback | shared food-safety compliance records | archived |
+|| [Grain Bikes](records/grain-bikes.md) | US Northeast / global plans | bicycle-powered thresher, fanning mill, dehuller/flour mill build plans (CC BY 4.0) | micro-scale grain processing hardware | curated |
+|| [ICAR Animal Data Exchange (ADE)](records/icar-ade.md) | International (10+ countries; Lactanet Canada on working group) | open JSON/OpenAPI livestock data standard (Apache-2.0) | milk-recording and animal data exchange | curated |
+|| [Canadian Grain Commission grading data](records/cgc-grading-data.md) | Canada / federal | public grading rules and annual quality data (PDF/Excel, no schema; exports dataset OGL-Canada) | grain grading authority and quality data | curated |
 
 ## Coverage at a glance
 
@@ -198,6 +204,6 @@ The next additions should be selected through gap review. We may need more than 
 
 No additional quota is set at this stage.
 
-Last reviewed: 2026-09-02. Collection now 88 records (four grocery-surfaced additions: Foodsoft, FoodCoopShop, Foodsharing.de — retail co-op/rescue software layer; CSA K100:26 — Canadian FLW measurement standard). across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19), and Nepal community/digital seed and local-manufacturing leads (G-OSA-32).
+Last reviewed: 2026-09-02. Collection now 94 records (four grocery-surfaced additions: Foodsoft, FoodCoopShop, Foodsharing.de — retail co-op/rescue software layer; CSA K100:26 — Canadian FLW measurement standard; six processing-cell additions from G-OSA-33: IGFC mobile slaughter unit, OpenEPCIS, Underground Meats CC0 HACCP plan [archived — the failed-infrastructure case], Grain Bikes, ICAR ADE, CGC grading data) across software, data, standards, governance, hardware, machine data, DPI, China, Global South, cooperatives, biological commons, compost/soil-production open-knowledge (G-OSA-23), water/irrigation automation (G-OSA-25), livestock/pasture systems (G-OSA-26), post-harvest/cold-chain systems (G-OSA-27), cooperative logistics (G-OSA-28), open agroforestry canopy systems (G-OSA-29), open-science field spectroscopy/diagnostics (G-OSA-30), Chinese open IoT/LLM systems (G-LL-01 / G-OSA-19), Nepal community/digital seed and local-manufacturing leads (G-OSA-32), and plant-scale processing (G-OSA-33).
 
 Not legal advice.
