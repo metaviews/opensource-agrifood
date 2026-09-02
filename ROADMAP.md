@@ -10,7 +10,7 @@ Open Source Agrifood is a research and knowledge-building project asking who con
 
 | Workstream | State | Authoritative doc | Last moved |
 |---|---|---|---|
-| Research corpus | Discovery programme complete; 94 records; synthesis v3; register at G-OSA-33 (processing scan + verification pass complete 2026-09-02); grocery records folded in | `research/2026-08-landscape-synthesis-v3.md`, `research/2026-08-processing-sectoral-scan.md`, `research/field-guide-gap-and-question-register.md` | 2026-09-02 |
+| Research corpus | Discovery programme complete; 94 records; synthesis v3; register at G-OSA-34 (fisheries/aquaculture scan in progress); G-OSA-33 processing scan + verification complete; grocery records folded in | `research/2026-08-landscape-synthesis-v3.md`, `research/2026-08-processing-sectoral-scan.md`, `research/field-guide-gap-and-question-register.md` | 2026-09-02 |
 | Grocery concept | Research phase; 16 topic files + synthesis; novelty claim survived a searched negative; feedback transferred to parent corpus | `grocery/synthesis.md`, `grocery/research/research-mapping.md`, `grocery/research/suggested-next-targets.md` | 2026-08-28 |
 | Event | Framing and agenda settled and published; date fixed; Discord server live; production and outreach not yet started | `docs/events/event-agenda.md`, `docs/events/event-design-brainstorm.md` | 2026-08-22 (site), 2026-08-05 (briefing) |
 | Public site (`web/`) | Astro site at opensource.thefutureherd.ca; event page + accessible research overview | `web/src/pages/index.astro`, `web/src/pages/research.astro` | 2026-08-22 |
