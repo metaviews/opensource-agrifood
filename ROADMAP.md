@@ -27,10 +27,10 @@ Open Source Agrifood is a research and knowledge-building project asking who con
 
 ### Now (September 2026)
 
-Event work dominates because the date is fixed. Research continues at a lower tempo.
+Event: **waiting on stakeholder feedback to briefing #1 (2026-08-05).** No briefing #2 and no production brief until that feedback arrives (decision 2026-09-02). The items below are the backlog that unblocks once it does, in rough order. Research continues meanwhile.
 
-Event — eight weeks out:
-1. Stakeholder briefing #2. Briefing #1 promised a follow-up "within two to three weeks" after Discord setup, role-play design, and scheduling; all three are done and the update is a month overdue.
+Event backlog (blocked on feedback):
+1. Stakeholder briefing #2, incorporating the feedback received.
 2. Invitation copy and outreach list. Draw first from the Future Herd guest network (`future-herd/src/_data/leaders.json`, episode files), then Canadian open-agrifood practitioners already in the corpus (Tischler, Reimer, OFN Canada, LiteFarm, UBC Farm, Sovereign Seeds, Agri-food Data Canada).
 3. Production brief: facilitator run-of-show for the half day, session 3 facilitation notes (situation intro + turn + how the room is held), break/care check-in rhythm, recording plan (Craig.chat interim per the recording-bot decision), backstage roles.
 4. Discord first-time experience: arrival channel, plain-language channel structure, participation paths, norms. The design constraint is stated in the brainstorm; the checklist against the live server does not yet exist.
