@@ -40,6 +40,7 @@ A project should normally satisfy at least three of these conditions:
 | [CGIAR / AgriLLM](records/cgiar-agrillm.md) | agricultural model artifact and public-interest AI | candidate | What does “open” mean across an agricultural AI stack? |
 | [Bioleft](records/bioleft.md) | biological commons and participatory seed data | curated | Can open seeds combine biological circulation with community-generated knowledge? |
 | [farmOS](records/farmos.md) | farm management and records | curated | Can open farm software support durable operational autonomy? |
+| [LiteFarm](records/litefarm.md) | GPL-3.0 farm-management software (UBC-anchored) | curated | Can university-anchored participatory open farm software serve diversified farms without becoming a hosted dependency? |
 | [Ekylibre](records/ekylibre.md) | open-source FMIS (AGPL-3.0) | curated | Can a company-backed open-source farm management system sustain 15 years of maintenance? |
 | [ROMI](records/romi.md) | open hardware and robotics | curated | Does open agricultural hardware change practical control and repairability? |
 | [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | open geospatial workflow | curated | Can open analytical workflows create durable African technical capacity? |
@@ -118,12 +119,12 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 
 ## Next curation work
 
-- The collection is current as of 2026-08-14 (79 records); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), G-OSA-30 open-science field spectroscopy (Our Sci Reflectometer, OpenFlexure Microscope), and the Chinese open IoT/LLM ecosystem (农业岛, AgriMa/AgriAgent).
+- The collection is current as of 2026-08-19 (84 records; see catalog.md for the G-OSA-31/32 additions); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), G-OSA-30 open-science field spectroscopy (Our Sci Reflectometer, OpenFlexure Microscope), and the Chinese open IoT/LLM ecosystem (农业岛, AgriMa/AgriAgent).
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-08-03.
+Last reviewed: 2026-09-02 (LiteFarm added to the index; it had a record since 2026-08-01 but was missing from both tables).
 
 Not legal advice.
 

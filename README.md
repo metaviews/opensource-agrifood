@@ -30,14 +30,14 @@ The project examines open source broadly across agrifood, including:
 
 The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjacent research base covering AI across the agrifood sector. Open Source Agrifood can stand on that work while independently checking and citing its underlying sources. Research may feed back into both repositories when it materially strengthens each project's scope; neither repository is subordinate to the other.
 
-## Current phase
+## What is in this repository
 
-The current phase is event design. Foundation-building through the discovery programme is complete (see research/2026-08-programme-briefing.md and research/2026-08-landscape-synthesis-v2.md); the event framing is now settled and documented in `docs/events/event-design-brainstorm.md`. The next work is Discord server design for the *Future Herd* spectacular event *Building the Open-Source Future of Canadian Agrifood*, followed by stakeholder briefing and outreach.
+- `research/` — scan documents, syntheses, the gap/question/claims register, and source practice. Start with `research/2026-08-programme-briefing.md`, then `research/2026-08-landscape-synthesis-v3.md`.
+- `examples/` — the curated collection of verified records (84 as of 2026-08-19), with `examples/README.md` and `examples/catalog.md` as indexes.
+- `grocery/` — a concept-development space for open grocery operations. It is neither research output nor part of the examples collection; it tests a concept against real cases and feeds findings back to the corpus through `research/grocery-feedback-2026-08.md`.
+- `docs/events/` — design and agenda for *Building the Open-Source Future of Canadian Agrifood*, a Future Herd spectacular event on AI and agrifood (29 October 2026, online, Discord).
+- `web/` — the Astro site at https://opensource.thefutureherd.ca (event page and accessible research overview).
 
-## Event status (2026-08-05)
+## Status and roadmap
 
-Title and subtitle: *Building the Open-Source Future of Canadian Agrifood — A Future Herd spectacular event on AI and agrifood*. Four sessions organised around a logic of inquiry: *who, what, how, when*. Open-source AI in Canadian agrifood is the substantive focus; the substance is the people in the room and the knowledge they have and share. Discord will be the platform, with a new custom server for *Future Herd* nested inside the metaviews ecosystem. Role-play design, production design, scheduling, and the stakeholder briefing remain to follow. See `docs/events/event-design-brainstorm.md` for the full framing work.
-
-## Programme status (2026-08-03)
-
-Twelve discovery cycles and four verification passes have mapped the landscape: 58 verified records across hardware, machine data, DPI, AI, cooperatives, biological commons, language infrastructure, and every major region. The contested-claims ledger carries provisional verdicts (standards-lock-in contested; open-data-benefit split; open-AI readiness split with the language layer partially evidenced; seed-licensing equivalence rejected); the Global South farmer-led open-hardware absence and the data-cooperative scale question are answered in the negative with evidence. All public-source-verifiable gap-queue items are resolved; the remaining queue is tracking-only and fieldwork-bound. Read the full picture in research/2026-08-programme-briefing.md, then the synthesis (research/2026-08-landscape-synthesis-v2.md).
+Where each workstream stands, what is done, what is next, and the open decisions are kept in one place: [`ROADMAP.md`](ROADMAP.md). Historical status prose lives in the dated documents it cites (programme briefing 2026-08-03, stakeholder briefing 2026-08-05) and is not rewritten.

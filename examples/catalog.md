@@ -2,7 +2,7 @@
 
 Research date: 2026-08-01
 
-This catalogue is the browseable index for the curated examples collection. It is intentionally selective. The collection may grow beyond the current seven examples; there is no predetermined final count. Expansion should respond to analytical, regional, governance, or non-AI coverage gaps.
+This catalogue is the browseable index for the curated examples collection. It is intentionally selective. The collection has no predetermined final count. Expansion should respond to analytical, regional, governance, or non-AI coverage gaps.
 
 ## Collection map
 
@@ -18,6 +18,7 @@ This catalogue is the browseable index for the curated examples collection. It i
 | [CGIAR / AgriLLM](records/cgiar-agrillm.md) | Global South / multilateral | model artifact, public-interest AI | agricultural advisory and research AI | candidate |
 | [Bioleft](records/bioleft.md) | Argentina / Latin America | seed commons, participatory data | open breeding and seed exchange | curated |
 | [farmOS](records/farmos.md) | International | software, farm records | farm management and planning | curated |
+| [LiteFarm](records/litefarm.md) | Canada-connected (UBC) / international | GPL-3.0 farm-management software, API, participatory design | diversified and agroecological farm management | curated |
 | [Ekylibre](records/ekylibre.md) | France-origin / global | open-source FMIS (AGPL-3.0) | farm management software | curated |
 | [ROMI](records/romi.md) | Europe / microfarms | hardware, software, robotics | weeding, monitoring, phenotyping | curated |
 | [Digital Earth Africa crop-type mapping](records/digital-earth-africa-crop-type.md) | Africa | geospatial workflow, notebooks | crop mapping and analytics | curated |
