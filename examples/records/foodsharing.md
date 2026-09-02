@@ -20,11 +20,11 @@ The platform code is licensed **GNU Affero General Public License v3 (AGPL-3.0)*
 
 ## Governance and maintenance
 
-Operated with support from the non-profit foodsharing e.V. ("Der Verein als Möglich-Macher"); funding per the project wiki is member donations and one-off contributions. The project maintains its own devdocs. Unique in the corpus as an open-source *waste*-coordination layer: the software commons serves rescue logistics, not commerce.
+Operated by the non-profit foodsharing e.V. (registered charitable association); funded almost entirely by donations (supporting members plus one-off contributions), with near-100% volunteer development coordinated via the yunity network; devdocs at devdocs.foodsharing.network. The 2019 open-sourcing explicitly aimed to unlock open-source funding and donated tooling licences (translations via Weblate, testing via donated BrowserStack). Unique in the corpus as an open-source *waste*-coordination layer: the software commons serves rescue logistics, not commerce.
 
 ## Evidence of use
 
-Live, actively developed platform in daily use across three countries; project-reported statistics (500K+ users, 18,000+ partner businesses) are self-reported and not independently audited.
+Live, actively developed platform in daily use across three countries (commits within hours of verification; protected releases 2020-2026). Platform statistics page (2026-09-02): 496,141 registered Foodsharer, 200,145 active Foodsaver, 18,352 cooperating businesses, 335 million kg rescued, 1,505 Fairteiler — self-reported, not independently audited. Note: the platform launched 2012 but the code was only open-sourced in 2019 (AGPLv3); the "Caritas-run" framing sometimes attached to foodsharing could not be confirmed — governance sits with foodsharing e.V.
 
 ## Why it belongs
 

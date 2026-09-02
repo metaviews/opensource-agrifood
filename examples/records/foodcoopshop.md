@@ -20,7 +20,7 @@ The full ordering/management platform code is publicly available under AGPL-3.0.
 
 ## Governance and control
 
-Effectively a single-maintainer project: Mario Rothauer (Austria) authored ~9,900 of ~10,050 commits (~98.5%), with 22 total contributors. The open core is paired with paid installation, maintenance, and support sold via foodcoopshop.com, and many listed deployments are hosted by the maintainer's services — a textbook open-core/service model (maintenance archetype 3) at retail scale.
+Effectively a single-maintainer project: one developer (Austria) authored ~98.5% of commits (~9,900 of ~10,050), with 22 total contributors — sources conflict on the maintainer's identity (Mario Rothauer vs Mario Halbrügner / projectio GmbH), so the name is deliberately not asserted here. The open core is paired with paid installation, maintenance, and support sold via foodcoopshop.com, and many listed deployments are hosted by the maintainer's services — a textbook open-core/service model (maintenance archetype 3) at retail scale.
 
 ## Evidence of use
 
