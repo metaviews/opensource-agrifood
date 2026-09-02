@@ -10,7 +10,7 @@ Open Source Agrifood is a research and knowledge-building project asking who con
 
 | Workstream | State | Authoritative doc | Last moved |
 |---|---|---|---|
-| Research corpus | Discovery programme complete; 88 records; synthesis v3; register at G-OSA-32; grocery records folded in (2026-09-02) | `research/2026-08-landscape-synthesis-v3.md`, `research/field-guide-gap-and-question-register.md` | 2026-09-02 |
+| Research corpus | Discovery programme complete; 88 records; synthesis v3; register at G-OSA-33 (processing scan complete 2026-09-02); grocery records folded in | `research/2026-08-landscape-synthesis-v3.md`, `research/2026-08-processing-sectoral-scan.md`, `research/field-guide-gap-and-question-register.md` | 2026-09-02 |
 | Grocery concept | Research phase; 16 topic files + synthesis; novelty claim survived a searched negative; feedback transferred to parent corpus | `grocery/synthesis.md`, `grocery/research/research-mapping.md`, `grocery/research/suggested-next-targets.md` | 2026-08-28 |
 | Event | Framing and agenda settled and published; date fixed; Discord server live; production and outreach not yet started | `docs/events/event-agenda.md`, `docs/events/event-design-brainstorm.md` | 2026-08-22 (site), 2026-08-05 (briefing) |
 | Public site (`web/`) | Astro site at opensource.thefutureherd.ca; event page + accessible research overview | `web/src/pages/index.astro`, `web/src/pages/research.astro` | 2026-08-22 |
@@ -71,7 +71,7 @@ Assessed 2026-09-02 against the corpus. Coverage counts are file hits across `re
 | C4 | **Energy and biological byproducts** — biogas, digesters, agrivoltaics, farm microgrids | application | Major farm cost and concentration point (utilities); active open-hardware layer (open digester designs, open microgrid controllers); connects to existing compost and biochar records. | none | Open Source Ecology; Solar Biogas/HomeBiogas open designs; agrivoltaics research consortia; Ontario Renewable Energy Co-ops; Kon-Tiki/compost records as adjacent |
 | C5 | **Fibre and non-food agriculture** — wool, hemp, flax | application (low) | Genuine gap, low Canadian salience relative to the above; note for completeness. | 1 hit | Fibreshed movement; Canadian hemp regulatory history |
 
-Reading the table: A1, C1, and A2 were judged highest-value on 2026-09-02 (A1 as the next grocery-sized application; C1 as overdue by the project's own plan; A2 as the largest conceptual hole in a project asking "who controls"). A4 is the shortest and most event-relevant. When one is started, move it from this table to "Now" and open a register entry or a `<topic>/` concept directory as appropriate.
+Reading the table: A1, C1, and A2 were judged highest-value on 2026-09-02 (A1 as the next grocery-sized application; C1 as overdue by the project's own plan; A2 as the largest conceptual hole in a project asking "who controls"). A4 is the shortest and most event-relevant. When one is started, move it from this table to "Now" and open a register entry or a `<topic>/` concept directory as appropriate. **A1 started 2026-09-02**: G-OSA-33 opened and the broad processing sectoral scan is complete (research/2026-08-processing-sectoral-scan.md; five sub-cells; provisional resolution into four shapes; six verification targets identified for `examples/`).
 
 ## Open decisions (yours, not the roadmap's)
 

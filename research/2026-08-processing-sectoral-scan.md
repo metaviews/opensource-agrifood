@@ -78,7 +78,32 @@ Processing is where Canadian agrifood concentration is most extreme and where sm
 
 ## Sub-cell 3: Dairy processing
 
-[findings pending — sub-scan re-running]
+### Candidates
+
+| Candidate | What it is | Open layer | Licence | Status |
+|---|---|---|---|---|
+| ICAR Animal Data Exchange (ADE) JSON Standard | Open JSON message standard for livestock/milk-recording data exchange (v1.5, 2025, with herd-level milk-recording statistics); hosted by ICAR's ADE Working Group | Open data standard — machine-readable schemas, openly implementable; CC-licensed ICAR guidelines wiki | Apache-2.0 (verified via GitHub API on adewg/ICAR) | confirmed open — repo pushed 2026-08-30, 73 stars. Scoped to animal recording/milk analysis, NOT plant operations |
+| ERPNext (dairy use) | General open-source ERP adapted for dairy manufacturing via third-party implementations (Dexciss playbook, community apps); no first-party dairy module | Application layer; dairy logic in forked/custom apps of varying openness | GPL-3.0 (verified) | very active (38.8k stars; pushed 2026-09-02) |
+| Odoo dairy modules (dev_dairy_farm_management, pways_milk_manufacturing) | Milk collection with FAT/SNF pricing, lab grading, processing batches | Module ecosystem on open-core Odoo | Unverified — Odoo app-store apps often carry the Odoo Enterprise Licence, not LGPL | mixed, licence unverified per app |
+| CheeseTrace (counter-example) | The only active artisan-cheese batch tracker (beta) — explicitly NOT open source per maker; the r/cheesemaking community repeatedly requests an open alternative | None | Proprietary | closed reference point with documented unmet demand |
+| Low-cost open NIR spectrometer for milk quality | Peer-reviewed open-component VIS/NIR spectrometer for milk fat/protein; open milk-spectra datasets | Open hardware design + datasets | Dataset repo has NO licence file (verified) — flagged | research-grade only |
+| DominionCider pasteurizer controller firmware | Open firmware for a pasteurizer controller (cider context, transferable to vat pasteurization) | Open hardware/firmware | No licence declared — source-available only | dormant (2016); GitHub 'pasteurization controller' search returns 2 repos total |
+| Farmer-owned cooperative creameries (Tillamook 1909, DFA, Gay Lea ~1,200 members, Agropur ~2,700 farmer-owners) | Governance substrate: co-op ownership historically drove creamery technology diffusion (Clarks Grove MN, 1890, statewide model) | Governance only — member ownership; proprietary in-house IT | N/A | confirmed open-governance; Canadian instances Agropur, Gay Lea |
+
+### Honest absences (dairy)
+
+- No purpose-built open-source cheese-plant/creamery batch-record software exists: GitHub API searches return essentially zero relevant maintained projects (only farm-management student apps, mostly unlicensed).
+- No open-source milk-receiving/lab-record system at plant scale — the domain is entirely proprietary (Milk Moovement, MADCAP/CGI, commercial dairy ERPs).
+- No maintained open pasteurizer or CIP controller: two repos found, one dormant since 2016, one licence-less. Regulatory shape explains it: PMO/HACCP validated, auditable CCP records push licensed plants to vendor-certified software; unvalidated open controllers are legally risky.
+- No open standard for *plant processing* data exchange (pasteurization logs, CIP records, HACCP CCP data) — ICAR ADE covers animal recording/milk analysis and stops at the farm gate. That layer appears to have no open standard at all.
+- No Canadian open dairy-processing technology found; the Canadian angle is co-op ownership (Agropur, Gay Lea) inside a highly concentrated proprietary market (Saputo leads per IBISWorld).
+- Signal that this is a genuine empty cell, not an unindexed one: GitHub 'dairy' results are dominated by unlicensed student CRUD apps.
+
+### Key facts (dairy)
+
+- Regulatory shape: US PMO pasteurization rules and HACCP/FSMA-style plans demand validated, auditable CCP records — pushing plants toward closed, vendor-certified software; creameries' openness demand centers on batch records, traceability, and lab data, not control firmware.
+- Canada's artisan/farmstead creamery movement is real (Fromagerie la Station, Alfred le Fermier winning international awards) and is the most plausible adopter class for lightweight open batch tools.
+- US co-op creamery heritage (Clarks Grove 1890; Tillamook 1909) shows member ownership historically drove technology diffusion — a governance template for any future open plant-software initiative.
 
 ## Sub-cell 4: Cross-sector processing software and data standards
 
@@ -163,19 +188,38 @@ Note: the corpus's Episode 36 "two firms ≈ 95%" framing should be carried forw
 - Mobile-abattoir pilots publish no operational/throughput data; the 2008 Quebec failure is documented only in secondary writeups.
 - Indigenous- and community-led processing initiatives (Treaty #3, Sik-E-Dakh, Fort Simpson) have no open-data or open-source component; status reporting is limited to funder announcements.
 
----
-
 ## Cross-cell synthesis
 
-[to be completed when the five sub-cells return]
+The five sub-cells converge on one verdict, stated in four registers:
+
+1. **The openness thesis is confirmed at plant scale — and refined.** The open layer in processing is almost entirely *governance* (cooperative ownership, community organizing) and *tacit knowledge* (practice-sharing networks), never codified artifacts. Where the farm layer of this corpus found open hardware and software even at small scale, the plant layer has none: no open carcass-tracking or kill-floor software, no open mill CAD at plant scale, no open pasteurizer controller, no open dairy plant records, no OSHWA-certified processing equipment of any kind. The scan found exactly one codified-and-licensed open artifact in the entire processing operation layer: the Underground Meats CC0 HACCP plan (2013) — dormant, host unconfirmed, no successor.
+
+2. **The regulatory-gravity finding.** Where safety regulation demands *validated* records (HACCP plans are plant-specific; PMO pasteurization requires certified control), open alternatives are not just absent but structurally disincentivized: an unvalidated open controller is a legal liability for a licensed plant. This explains the empty cells better than capital intensity alone. It also identifies the viable open seam: *records, traceability, and batch data* (where validation is documentary, not machine-safety) rather than *control*.
+
+3. **The open layer that does exist serves the big, not the small.** GS1 EPCIS 2.0 (royalty-free standard, paid identifiers) and its open implementations (OpenEPCIS, Oliot — both Apache-2.0) are driven by large-retailer/regulatory pressure (FSMA 204, whose compliance date was extended to July 2028 — further weakening open-tooling incentive). Small processors are downstream beneficiaries at best. PackML, the machine-interop standard for processing lines, is itself paywalled: the standard layer is closed above the plant too.
+
+4. **Canada's processing layer is the terminal case of the corpus's pattern.** Extreme concentration (beef ~85%+ two firms; flour ~75% ADM; dairy big three; Lineage/Americold in cold storage), a small-abattoir access crisis with named community and Indigenous-led responses (Treaty #3, Sik-E-Dakh, Fort Simpson, Thunder Bay feasibility) — and zero open software, hardware, or data components in any of them. The one Canadian public open asset, the CGC grading system, is open as *documents*, not as machine-readable data exchange; the digital layer consuming it is proprietary and consolidating (DTN's 2023 acquisition of Grain Discovery).
+
+The cell's contribution to the grocery parallel: at retail, food is open at the data level and closed at the operation level. At processing, the open layer retreats one step further — open at the *governance* level (who owns the plant) and the *standards* level (EPCIS, ICAR ADE, both outside the plant), and closed at every operational layer inside the plant. The one open codification attempt in food-safety records (Underground Meats) demonstrates both that demand exists and that regulatory validation dynamics, not lack of interest, killed its durability. G-OSA-33 resolves provisionally into four shapes: (1) open governance without open assets (co-op abattoirs, creameries, community mills); (2) open standards + implementations adjacent to the plant (EPCIS, ICAR ADE) that stop at its walls; (3) generic open ERP/WMS/SCADA (ERPNext, Odoo, OpenWMS) as the only plant-scale open entry point, food-functionalized by commercial integrators; (4) a regulatory-validation wall around control and CCP records that no open project has crossed.
+
+### Priority verification targets for `examples/` (follow-up pass)
+
+1. **IGFC mobile slaughter unit** — the anchor open-governance case; strongest candidate for a curated record.
+2. **OpenEPCIS epcis-repository-ce** — Apache-2.0, active; the open-traceability substrate record.
+3. **Underground Meats CC0 HACCP plan** — the failed-open-infrastructure case; verify current host status.
+4. **Grain Bikes (FarmHack)** — CC BY 4.0 verified; the only licensed open processing-hardware design at any scale.
+5. **ICAR ADE** — Apache-2.0 verified; the open-standard-at-the-farm-gate boundary record.
+6. **CGC grading data** (Canadian) — the open-government-data-without-interoperability case.
+
+## Sources
+
+Primary sources are cited inline per sub-cell and were read 2026-09-02. Full source lists from each sub-cell's search log are preserved in the delegation records; the register entry (G-OSA-33) carries the scan reference.
+
+---
 
 ## What this scan does not do
 
 - It does not cycle candidate records through full verification or curate them into `examples/` — that is the follow-up pass, per house practice.
 - It does not treat cooperation or community ownership alone as an open layer; ownership models are recorded with their open layers (or the honest absence of one) separately.
-
-## Sources
-
-[to be completed]
 
 Not legal advice.
