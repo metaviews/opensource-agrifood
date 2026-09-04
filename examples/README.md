@@ -131,6 +131,13 @@ A project should normally satisfy at least three of these conditions:
 || [Monitorfish](records/monitorfish.md) | France's national fisheries-control system (AGPL-3.0, in daily production) | curated | Is vendor lock-in in regulatory reporting a necessity — or a procurement choice? |
 || [DFO aquaculture/sea-lice reporting](records/dfo-aquaculture-reporting.md) | BC sea-lice, fish-health, transfers, national aquaculture data (OGL-Canada) | curated | When a department opens its watching data but closes its operations data, what does that reveal? |
 || [Skipper Otto CSF](records/skipper-otto.md) | Canada's largest community-supported fishery (B Corp, not a co-op; no open assets) | curated | Does market success in community seafood produce open infrastructure? |
+|| [BC Land Owner Transparency Registry](records/bc-lotr.md) | public beneficial-land-ownership registry (searchable, not bulk; first of its kind in Canada) | curated | What can a state see about who owns land — and what did it choose to let everyone see? |
+|| [Terre de Liens](records/terre-de-liens.md) | citizen-financed farmland commons (449 farms, 63,524 members; closed stewardship) | curated | Does the strongest commons-tenure tradition produce open assets — or closed stewardship? |
+|| [Land Matrix](records/land-matrix.md) | open database of large-scale land acquisitions (CC BY 4.0, CSV/API) | curated | Can donor-built transparency substitute for state registry openness? |
+|| [fiboa & EuroCrops](records/fiboa-eurocrops.md) | open field-boundary specification (Apache-2.0) + EU parcel/crop dataset (CC BY-SA 4.0); Canada absent | curated | What does the world's open farm-geodata commons look like — and why does Canada contribute nothing? |
+|| [CanSIS / National Soil Database](records/cansis.md) | Canada's open soil/land data (OGL-Canada, downloads + web services) | curated | Which land layers did the state open — and why soil but not parcels? |
+|| [HM Land Registry open data](records/hm-land-registry.md) | transaction-level Price Paid Data (OGL v3.0) + 289 open-source repos | curated | What does it look like when a land registry chooses openness — line by line? |
+|| [Framework Agreement land codes](records/framework-agreement-land-codes.md) | 224 First Nations exiting the Indian Act land regime via community land codes (governance, not open data) | curated | What does land control look like when the open-layer question is jurisdiction? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
@@ -141,7 +148,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-04 (seven fisheries/aquaculture records added after verification — G-OSA-34: Global Fishing Watch, sdmTMB, SS3, OpenCTD, Monitorfish, DFO aquaculture/sea-lice reporting, Skipper Otto; collection now 101 records).
+Last reviewed: 2026-09-04 (eight land records added after verification — G-OSA-35: BC LOTR, Terre de Liens, Land Matrix, fiboa & EuroCrops, CanSIS, HM Land Registry, Framework Agreement land codes; collection now 109 records).
 
 Not legal advice.
 
