@@ -124,6 +124,13 @@ A project should normally satisfy at least three of these conditions:
 || [Grain Bikes](records/grain-bikes.md) | CC BY 4.0 bicycle-powered grain-processing machine plans | curated | Where does the open layer in grain processing currently end — and what scale can it reach? |
 || [ICAR Animal Data Exchange](records/icar-ade.md) | open livestock/milk-recording data standard (Apache-2.0) with production implementations | curated | How far can an open data standard reach into the chain before it stops at the plant wall? |
 || [Canadian Grain Commission grading data](records/cgc-grading-data.md) | open government grading rules and quality data — as documents, not infrastructure | curated | What does it mean when the state publishes everything a mill system needs, as PDFs? |
+|| [Global Fishing Watch](records/global-fishing-watch.md) | fishing-effort/transparency platform (datasets CC-BY-NC-4.0, code Apache-2.0/GPL-3.0, raw AIS closed) | curated | What does the flagship of ocean transparency actually open — and what stays closed beneath it? |
+|| [sdmTMB](records/sdmtmb.md) | spatiotemporal stock-assessment GLMMs (GPL-3, built inside DFO) | curated | Is the most open layer in fisheries the state's own science? |
+|| [Stock Synthesis 3 (SS3)](records/ss3.md) | NOAA's flagship assessment engine (CC0, adopted by DFO Pacific 2021) | curated | What happens when the sector's core scientific infrastructure is public-domain code? |
+|| [OpenCTD](records/openctd.md) | ~$370 open-source CTD (MIT, peer-reviewed, 40+ community-built) | curated | Can open marine sensing do for aquaculture what Vinduino did for irrigation? |
+|| [Monitorfish](records/monitorfish.md) | France's national fisheries-control system (AGPL-3.0, in daily production) | curated | Is vendor lock-in in regulatory reporting a necessity — or a procurement choice? |
+|| [DFO aquaculture/sea-lice reporting](records/dfo-aquaculture-reporting.md) | BC sea-lice, fish-health, transfers, national aquaculture data (OGL-Canada) | curated | When a department opens its watching data but closes its operations data, what does that reveal? |
+|| [Skipper Otto CSF](records/skipper-otto.md) | Canada's largest community-supported fishery (B Corp, not a co-op; no open assets) | curated | Does market success in community seafood produce open infrastructure? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 
@@ -134,7 +141,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-02 (six processing-cell records added after verification: IGFC, OpenEPCIS, Underground Meats [archived], Grain Bikes, ICAR ADE, CGC grading data; collection now 94 records).
+Last reviewed: 2026-09-04 (seven fisheries/aquaculture records added after verification — G-OSA-34: Global Fishing Watch, sdmTMB, SS3, OpenCTD, Monitorfish, DFO aquaculture/sea-lice reporting, Skipper Otto; collection now 101 records).
 
 Not legal advice.
 
