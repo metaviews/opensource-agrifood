@@ -58,13 +58,18 @@ The industry term covers (a) **surplus redistribution** — moving edible surplu
 
 **Guest/corpus grounding:** Camden Lawrence's episodes 9/23 framing (upcycling as Indigenous community food-system innovation, feeding "that community") sits closest to the community-cannery governance shape — a live lead for the event's room, and a reminder that the grocery feedback's CARE-governed refusal pattern applies: *where surplus went and who processed it* can be culturally governed information, not publishable data.
 
-## Priority verification targets for `examples/` (follow-up pass)
+## Verification pass (completed 2026-09-07, same day)
 
-1. **Pioreactor** — MIT verified from repo; the Canadian open-fermentation record; confirm hardware documentation licence.
-2. **Sharing Excess** — the open-claim-without-licence case; record the GitHub API licence-null finding with date; contact would be cheap (public org, docs site).
-3. **Second Harvest Food Rescue App licensing** — the closed-and-monetized counter-example; confirm licence terms page details.
-4. **Upcycled Certified / WFCF** — the certification-capture record; confirm standard document pricing/access terms.
-5. **LOOP Mission** — Canadian flagship counter-example; sourcing and HPP process opacity documented from public materials only.
+All five priority candidates verified against primary sources and curated into `examples/` — plus FoodMesh, added at the user's direction as a sixth record (an additional Canadian company the scan had missed):
+
+1. **Pioreactor** — curated (pioreactor.md). MIT software verified from repo LICENSE (full text read); hardware confirmed CC BY-SA 4.0 from Pioreactor/hardware LICENSE (read 2026-09-07); open-designs index confirmed on the project forum; active (last push 2026-08-19).
+2. **Sharing Excess** — archived (sharing-excess.md), the open-claim-without-licence case. GitHub API org endpoint: exactly two public repos (marketing site + org README), `"license": null` on both; Surplus platform source unpublished despite the docs site; open-source claim documented on Medium and repeated by ReFED.
+3. **Second Harvest Food Rescue App** — curated (second-harvest-app.md), closed-and-monetized counter-example. Licensing page read: the charity sells licences of the app ("power scalable, branded food rescue solutions"), 226M meals self-reported since 2018.
+4. **Upcycled Certified / WFCF** — curated (upcycled-certified.md). 2024 fee schedule read from WFCF's library (primary source): $250 application, $1,250 for 1–5 product reviews, $175/product/year licensing fee, $500/location chain-of-custody audit; WFCF the "exclusive source."
+5. **LOOP Mission** — curated (loop-mission.md). HPP dependency confirmed (five Hiperbaric 420 machines, "biggest buy" per founders); 36M+ lb self-reported; no open component anywhere in the stack.
+6. **FoodMesh / Mesh Exchange** (added on user direction) — curated (foodmesh.md). Vancouver B Corp; proprietary Salesforce-based marketplace (Traction on Demand build, Digital Technology Supercluster consortium); **Metro Vancouver contract** to run the regional food recovery network — public waste policy on closed infrastructure; Sobeys/Save-On-Foods zero-surplus delivery partner alongside Loop Resources.
+
+Collection now 116. Verification sharpened the scan's shapes: FoodMesh adds a distinctly Canadian enclosure form — closed infrastructure winning public contracts — and the Pioreactor hardware licence (CC BY-SA 4.0) makes it the A1 layer's second fully dual-licensed open hardware platform after Grain Bikes (CC BY 4.0).
 
 ## Sources
 
