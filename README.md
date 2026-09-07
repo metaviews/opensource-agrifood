@@ -32,7 +32,7 @@ The Agrifood AI Field Guide (https://agrifood.metaviews.ca/) is a valuable adjac
 
 ## What is in this repository
 
-- `research/` — scan documents, syntheses, the gap/question/claims register, and source practice. Start with `research/2026-08-programme-briefing.md`, then `research/2026-08-landscape-synthesis-v3.md`.
+- `research/` — scan documents, syntheses, the gap/question/claims register, and source practice. Start with `research/2026-08-programme-briefing.md`, then `research/2026-08-landscape-synthesis-v3.md`. The definition document (what open means here, and the kinds of openness) is `research/2026-09-definition-of-open-agrifood.md`.
 - `examples/` — the curated collection of verified records (84 as of 2026-08-19), with `examples/README.md` and `examples/catalog.md` as indexes.
 - `grocery/` — a concept-development space for open grocery operations. It is neither research output nor part of the examples collection; it tests a concept against real cases and feeds findings back to the corpus through `research/grocery-feedback-2026-08.md`.
 - `docs/events/` — design and agenda for *Building the Open-Source Future of Canadian Agrifood*, a Future Herd spectacular event on AI and agrifood (29 October 2026, online, Discord).
