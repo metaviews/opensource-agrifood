@@ -148,7 +148,7 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-04 (eight land records added after verification — G-OSA-35: BC LOTR, Terre de Liens, Land Matrix, fiboa & EuroCrops, CanSIS, HM Land Registry, Framework Agreement land codes; collection now 109 records).
+Last reviewed: 2026-09-07 (labour layer added — G-OSA-36: WeClock, Digger's Mirth; collection now 111 records. Prior: 2026-09-04, eight land records after verification — G-OSA-35: BC LOTR, Terre de Liens, Land Matrix, fiboa & EuroCrops, CanSIS, HM Land Registry, Framework Agreement land codes; collection 109 records).
 
 Not legal advice.
 
