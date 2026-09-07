@@ -23,6 +23,10 @@ Use these verification labels:
 - `stale-or-uncertain`: source exists, but status, date, scale, or interpretation needs another check;
 - `not-evidence-of-scale`: useful description that does not establish deployment or adoption scale.
 
+## Naming convention
+
+Research documents use `YYYY-MM-DD-topic.md` (adoption date 2026-09-07). Earlier documents keep their original names; renaming them would break citations in the register, scans, and syntheses, so this applies to new files only.
+
 ## Freshness model
 
 - Facts, statistics, claims, and examples: re-check annually.

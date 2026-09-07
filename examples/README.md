@@ -143,12 +143,12 @@ The current set is a starting backbone, not a fixed target of seven or ten examp
 
 ## Next curation work
 
-- The collection is current as of 2026-08-19 (84 records; see catalog.md for the G-OSA-31/32 additions); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), G-OSA-30 open-science field spectroscopy (Our Sci Reflectometer, OpenFlexure Microscope), and the Chinese open IoT/LLM ecosystem (农业岛, AgriMa/AgriAgent).
+- The collection is current as of 2026-09-07 (110 records; see catalog.md for the full history); recent additions include G-OSA-25 water/irrigation (OpenSprinkler, AquaCrop-OSPy), G-OSA-26 livestock/pasture (OpenFence, OSR GPS Collar), G-OSA-27 post-harvest/cold-chain (Real Seeds Cleaner, ColdSnap/CoolBot), G-OSA-28 cooperative logistics (CoopCycle), G-OSA-29 agroforestry canopy systems (Open Foris / SEPAL), G-OSA-30 open-science field spectroscopy (Our Sci Reflectometer, OpenFlexure Microscope), and the Chinese open IoT/LLM ecosystem (农业岛, AgriMa/AgriAgent).
 - Promote records to `featured` only when they support a comparative synthesis; the landscape synthesis (research/2026-08-landscape-synthesis-v2.md) is the current candidate basis.
 - Keep unresolved leads in the research gap register rather than expanding this collection indiscriminately.
 - Fieldwork-bound additions would strengthen the collection most: farmer-level outcome evidence, verified maintenance statuses, and Global South field verification.
 
-Last reviewed: 2026-09-07 (labour layer added — G-OSA-36: WeClock, Digger's Mirth; collection now 111 records. Prior: 2026-09-04, eight land records after verification — G-OSA-35: BC LOTR, Terre de Liens, Land Matrix, fiboa & EuroCrops, CanSIS, HM Land Registry, Framework Agreement land codes; collection 109 records).
+Last reviewed: 2026-09-07 (labour layer added — G-OSA-36: WeClock, Digger's Mirth; collection now 110 records. Prior: 2026-09-04, eight land records after verification — G-OSA-35: BC LOTR, Terre de Liens, Land Matrix, fiboa & EuroCrops, CanSIS, HM Land Registry, Framework Agreement land codes; collection 108 records).
 
 Not legal advice.
 
