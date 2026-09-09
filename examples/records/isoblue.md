@@ -1,65 +1,45 @@
-# ISOBlue
+# ISOBlue 2.0
 
 - Status: `curated`
-- Region / reach: United States (Purdue University, West Lafayette, Indiana); internationally applicable
-- Project: https://isoblue.org/
-- GitHub organisation: https://github.com/ISOBlue
-- Field-guide context: new discovery from the machine-data-access/telematics cycle, 2026-08-02
+- Region / reach: United States (Purdue University origin; AFIN — Agricultural Informatics Lab; open hardware + software, replicated internationally)
+- Project: open telematics data-capture platform for agricultural machinery (ISOBUS/CAN data)
+- Field-guide context: opened via the A4 cybersecurity/resilience scan (G-OSA-38, `research/2026-09-cybersecurity-resilience-scan.md`); previously known to the corpus through the machine-data literature; verified 2026-09-09
+- Record type: positive case — local operability as a security property
 
 ## Problem addressed
 
-Modern farm machinery produces rich operational data (CAN bus signals, GPS position), but that data is typically accessible only through vendor-controlled telematics systems. ISOBlue is an open-source telematics platform that connects to a machine's ISOBUS diagnostic port and collects CAN and GPS data under the farmer's control. The project's stated purpose, per Purdue and trade coverage, is to free farmers from vendor-controlled data.
+Farm-machine data (as-applied, harvest, diagnostics) flows through OEM telematics to vendor clouds on vendor terms. Farmers cannot capture, hold, or reuse the full ISOBUS data stream their own machines generate; and any cloud-dependent capture chain fails when connectivity — or the vendor — does.
 
 ## Open layer
 
-Open hardware/software telematics platform built on free and open-source software. Plugging into the ISOBUS diagnostic port, an ISOBlue device collects CAN and GPS data, supports additional sensor peripherals, and streams or stores data.
+- **Hardware**: ISOBlue 2.0 is an open designed device (Raspberry Pi Compute Module + CAN interfaces, 500GB local SSD, 4G/LTE) — schematic/design repos in the ISOBlue GitHub org; the project's first-generation hardware and enclosures are published.
+- **Software**: device software and Yocto-based image build repos published under **MIT** (verified via GitHub API across the ISOBlue org, 2026-09-09: isoblue2, meta-isoblue, meta-isoblue-demos, isoblue-android, libsocket-can-java — all MIT; resin-toradex Apache-2.0; early 2013–14 repos unlicensed). Peer-reviewed: *ISOBlue HD: An Open-Source Platform for Collecting Context-Rich Agricultural Machinery Datasets* (Sensors, 2020, PMC7600794).
+- **Data**: the design's purpose is farmer/researcher-side capture — the data lands on the device's own 500GB SSD first.
 
 ## What is actually open
 
-- Repositories under the ISOBlue GitHub organisation are MIT-licensed (isoblue2, meta-isoblue, isoblue-android, meta-toradex-nxp, and others verified via GitHub API 2026-08-02); some repos carry no detected SPDX licence and should be checked per asset before reuse.
-- Design, software, and documentation are published openly; the project frames itself as "driven by community" and built on FOSS.
-- Academic documentation is substantial: ISOBlue HD, an open-source platform for context-rich agricultural machinery datasets (Wang et al., 2020, cited 11 times); ISOBlue Avena, an agricultural edge-computing framework (IEEE Computer, 2022); and a Purdue dissertation describing ISOBlue 2.0 as a logger of both GPS and CAN data with wireless streaming.
+MIT-licensed software stack and published hardware designs for an ISOBUS data-capture device; peer-reviewed dataset methodology. Not open: the ISOBUS standard's paywalled spec itself (ISO 11783), and OEM clouds remain closed — ISOBlue works *around* them, not through them.
 
-## Governance and control
+## The resilience property (why it anchors G-OSA-38's shape 3)
 
-ISOBlue is institution-backed: developed at Purdue University, most recently under the Open Ag Technology and Systems Center (OATS), which describes participation in open telematics development since 2014. Control of the project rests with the university center and its contributors rather than with farmers; the data collected by a farmer's own device is under the farmer's control by design, but data governance terms for shared or published datasets were not documented in this pass.
+The device is engineered so that **the cloud is an optimization, not a dependency**: a full season of machine data is stored locally; unsent data queues and streams opportunistically whenever 4G returns ("even when the cellular coverage is intermittent in rural areas"). Wake-on-CAN means it records whenever the machine runs. Translated to the A4 scan's terms: if the vendor cloud is encrypted, unreachable, or simply gone, the farmer's data capture continues on the farmer's disk. This is the positive-case counterpoint to JBS/Sobeys/NEW Cooperative records — the same design philosophy as OpenSprinkler's offline operation and self-hosted farmOS, proven on a tractor.
 
-## Evidence of use
+## Governance and history
 
-- Peer-reviewed and IEEE coverage establish the platform's technical development (ISOBlue HD 2020; Avena 2022).
-- Trade coverage (Precision Farming Dealer) frames the project's purpose as making precision-farming data more open.
-- Deployment scale — the number of machines instrumented by farmers or researchers — was not verified in this pass.
-
-## Maintenance and funding
-
-Repository activity is largely dormant: most telematics repos saw their last pushes in 2014-2020 (isoblue2 last pushed September 2020; the project website in 2023). The academic pipeline continued to 2022 (Avena). This pattern — an institution-backed open-hardware project whose code activity stalls when research priorities move on — is itself a finding for the maintenance question. Current maintenance should not be assumed without checking.
-
-## What this case demonstrates
-
-ISOBlue is the hardware layer of the machine-data-sovereignty question: it shows that open telematics exists as an institution-backed alternative to vendor telematics, and it bridges this collection's hardware cell to its data-governance cell (OADA, JoinData). It also demonstrates the maintenance fragility of institution-dependent open hardware: strong academic documentation, dormant repositories.
+Academic origin: Purdue University's AFIN (Agricultural & Biological Engineering); first-generation ISOBlue papers date to 2013–2014 (Layton et al.), ISOBlue 2.0 hardware circa 2018–2020. Development activity peaked ~2020 (last MIT repo push 2020-09-21); the project site documents the 2.0 device as the current generation. Honest status: active as published, maintained designs; not a product with ongoing release engineering — replication requires competence (cf. the maintenance-funding profile this corpus applies to such artefacts).
 
 ## What it does not demonstrate
 
-- It does not establish deployment scale or farmer uptake.
-- It does not establish who owns or controls data once collected, or the governance of any shared datasets.
-- It does not establish that the ISOBUS diagnostic port is available or open on all machine brands.
-- Dormant repositories do not prove the project is dead; equally, the 2023 website does not prove it is active.
+- That OEMs' own clouds can be replaced — ISOBlue captures data; it does not provide the fleet-management services Deere's Operations Center does.
+- Security hardening at production grade — the MIT stack is research-grade; no security audit located. Local storage shifts the attack surface onto the device; an unpatched open device on a farm network is the scan's sub-cell 3 warning made concrete.
+- Commercial replication at scale — adoption beyond research deployments is not documented.
 
 ## Sources and verification
 
-- ISOBlue project: https://isoblue.org/
-- GitHub organisation (licences verified via GitHub API): https://github.com/ISOBlue
-- ISOBlue HD paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC7600794/
-- IEEE Computer, "ISOBlue Avena": https://www.computer.org/csdl/magazine/mi/2022/01/09705189/1AIInizMjPG
-- Precision Farming Dealer: https://www.precisionfarmingdealer.com/articles/442-purdues-isoblue-project-aims-to-make-precision-farming-data-more-open
-- Purdue OATS context: https://www.hoosieragtoday.com/2019/10/17/purdue-partnering-on-5g-research-to-improve-ag-automation/
-- Last checked: 2026-08-02
-
-## Freshness
-
-- Licences: `fact` — re-verify annually.
-- Repository activity: `fact` — re-verify annually; dormant as of research date.
-- Deployment and uptake: `claim` — treat as unverified; seek evidence before use in an argument.
-- Institution and governance status: `claim` — re-verify annually.
+- Project documentation (design rationale, local storage, opportunistic sync): https://isoblue.org/docs/
+- Peer-reviewed: ISOBlue HD, *Sensors* 2020 (open access): https://pmc.ncbi.nlm.nih.gov/articles/PMC7600794/
+- GitHub org (MIT licences verified via API 2026-09-09): https://github.com/ISOBlue
+- Original paper: Layton, Balmos, Sabo, et al., "ISOBlue: An Open Source Project to Bring Agricultural Machinery Data Cloud," 2014.
+- Last checked: 2026-09-09
 
 Not legal advice.
