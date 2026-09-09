@@ -24,8 +24,8 @@ Processing is where Canadian agrifood concentration is most extreme and where sm
 | ScotEID + SAOS (already in corpus, saos.md) | Statutory livestock movement data incl. from abattoirs; industry-owned data infrastructure via co-op sector body; MyHerdStats returns derived stats to keepers | Data governance (industry-owned via co-ops) — NOT open-licensed data | Not openly licensed; statutory data restricted | verified precedent |
 | Deonar-AI (Ubada12/Deonar-AI) | Real-time livestock detection/counting (YOLOv11 + ByteTrack on CCTV) built for Deonar abattoir, Mumbai — one of very few open-source projects targeting an operating abattoir | Software (throughput/queue management) | Apache-2.0 (verified) | candidate — small community (3 stars; last commit 2026-07-26) |
 | Campaign for Local Abattoirs / Sustainable Food Trust (UK) | Advocacy + evidence network documenting UK small-abattoir collapse (2,500 in 1970s → ~203 today; 59% of small abattoirs expect to close within 5 years) | Openly published research reports (copyrighted, not licensed) | Reports freely published | curated (sector context) |
-| Canadian community abattoir initiatives (Leeds & Grenville; Rainy River; Northern Ontario co-op feasibility) | Community-owned abattoir attempts amid access crisis | Governance only — no open software/hardware/data component found | N/A | lead (all at feasibility/announcement stage) |
-| HASSAPP (AndrewOwens121/HASSAPP) | Android HACCP-compliance app for small food businesses | Software (HACCP records) | NO LICENCE FILE — public code, not legally open | lead — dormant (last commit 2017-04-26) |
+| Canadian community abattoir initiatives (Leeds & Grenville; Rainy River; Northern Ontario co-op feasibility) | Community-owned abattoir attempts amid access crisis | Governance only — no open software/hardware/data component found | N/A | follow-up verified 2026-09-09 — see scan addendum below |
+| HASSAPP (AndrewOwens121/HASSAPP) | Android HACCP-compliance app for small food businesses | Software (HACCP records) | NO LICENCE FILE — public code, not legally open (re-confirmed via GitHub API 2026-09-09: licence null, last push 2017-04-26) | lead — dormant, stays a lead not a record |
 
 ### Honest absences (slaughter/meat)
 
@@ -84,7 +84,7 @@ Processing is where Canadian agrifood concentration is most extreme and where sm
 |---|---|---|---|---|
 | ICAR Animal Data Exchange (ADE) JSON Standard | Open JSON message standard for livestock/milk-recording data exchange (v1.5, 2025, with herd-level milk-recording statistics); hosted by ICAR's ADE Working Group | Open data standard — machine-readable schemas, openly implementable; CC-licensed ICAR guidelines wiki | Apache-2.0 (verified via GitHub API on adewg/ICAR) | confirmed open — repo pushed 2026-08-30, 73 stars. Scoped to animal recording/milk analysis, NOT plant operations |
 | ERPNext (dairy use) | General open-source ERP adapted for dairy manufacturing via third-party implementations (Dexciss playbook, community apps); no first-party dairy module | Application layer; dairy logic in forked/custom apps of varying openness | GPL-3.0 (verified) | very active (38.8k stars; pushed 2026-09-02) |
-| Odoo dairy modules (dev_dairy_farm_management, pways_milk_manufacturing) | Milk collection with FAT/SNF pricing, lab grading, processing batches | Module ecosystem on open-core Odoo | Unverified — Odoo app-store apps often carry the Odoo Enterprise Licence, not LGPL | mixed, licence unverified per app |
+| Odoo dairy modules (dev_dairy_farm_management, pways_milk_manufacturing) | Milk collection with FAT/SNF pricing, lab grading, processing batches | Module ecosystem on open-core Odoo | dev_dairy_farm_management VERIFIED 2026-09-09: Odoo Proprietary License v1.0, paid app ($80.19) — confirmed closed. pways_milk_manufacturing: same vendor class presumed; left unverified | closed — confirms the "food-functionalized commercial Odoo" pattern |
 | CheeseTrace (counter-example) | The only active artisan-cheese batch tracker (beta) — explicitly NOT open source per maker; the r/cheesemaking community repeatedly requests an open alternative | None | Proprietary | closed reference point with documented unmet demand |
 | Low-cost open NIR spectrometer for milk quality | Peer-reviewed open-component VIS/NIR spectrometer for milk fat/protein; open milk-spectra datasets | Open hardware design + datasets | Dataset repo has NO licence file (verified) — flagged | research-grade only |
 | DominionCider pasteurizer controller firmware | Open firmware for a pasteurizer controller (cider context, transferable to vat pasteurization) | Open hardware/firmware | No licence declared — source-available only | dormant (2016); GitHub 'pasteurization controller' search returns 2 repos total |
@@ -221,5 +221,21 @@ Primary sources are cited inline per sub-cell and were read 2026-09-02. Full sou
 
 - It does not cycle candidate records through full verification or curate them into `examples/` — that is the follow-up pass, per house practice.
 - It does not treat cooperation or community ownership alone as an open layer; ownership models are recorded with their open layers (or the honest absence of one) separately.
+
+---
+
+## Addendum: residual follow-up on the community-abattoir leads (2026-09-09)
+
+The broad scan left three Canadian community-abattoir leads at "feasibility/announcement stage." All three were re-checked against current sources; none has grown an open software, hardware, or data layer — the "governance without open assets" shape holds, and the governance itself is the story:
+
+- **Rainy River District Regional Abattoir (Emo, ON)** — the decade-long community project that actually built its plant (opened 2010) came close to permanent closure: at its June 2024 AGM the volunteer board set a 31 July deadline to sell the attached Rainy River Meats retail/processing outlet, citing volunteer-board burnout ("a volunteer board should not be running a business that's open 250 days of the year"), thin cattle volumes after the 2021 drought herd culls, and producers selling live at high prices instead of booking slaughter (Fort Frances Times via Food in Canada, 2024-06-06). The abattoir society remains active (AGM scheduled June 2026 per its public page). The material point for G-OSA-33: community ownership carried the plant through construction but not through operations — the open-governance shape has an operating-viability failure mode, not just a licensing absence.
+- **Leeds & Grenville (Farmersville Community Abattoir Ltd., Athens ON)** — the feasibility stage matured into an operating provincially inspected red-meat abattoir, owned and run by the Hunt family (beef farmers), with a producer handbook last updated March 2026 and OFA young-farmer tours in 2025. Note the trajectory: a *community* initiative landed as a family-run commercial operation with booking/weight/pickup rules published as plain web copy — no open data, no shared scheduling infrastructure, no open anything; even the "community" governance did not survive to operation.
+- **Northern Ontario co-op feasibility (NORDIK Institute, 2021 thesis "Expanding Locally Sourced Beef in Northern Ontario through the Co-operative Model")** — remains at study/advocacy stage; no operating facility or open artifact located since.
+
+Corrections to the 2026-09-02 table rows made in the same pass:
+- **HASSAPP** re-confirmed via GitHub API (2026-09-09): licence null, last push 2017-04-26 — stays a dormant lead, not a record.
+- **Odoo dairy module** `dev_dairy_farm_management` verified against its Odoo Apps Store listing: **Odoo Proprietary License v1.0**, paid ($80.19) — confirmed closed. This converts the sub-cell 4 "mixed, licence unverified" hedge to closed and strengthens shape (3): the food-functionalized Odoo layer is commercial on top of the open core, exactly the ERPNext/Odoo asymmetry the scan predicted.
+
+No new records curated; the collection stands at 116. G-OSA-33's provisional resolution (four shapes) is unchanged by this addendum; the operating-viability failure mode of shape (1) is its one sharpening.
 
 Not legal advice.
