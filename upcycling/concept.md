@@ -78,17 +78,42 @@ explicit that its claim was novelty — "no one has built this" — and that fea
 remained unearned. This concept inverts that: it does not much care whether it is novel,
 and it cares a great deal whether the numbers close and the paperwork is reachable.
 
-So the documents here carry two kinds of statement, and they are kept visibly separate:
+So the documents here carry three kinds of statement, and they are kept visibly separate:
 
 - **Verified**: a fact read from a primary source, with the source named and the date
   checked, in the house style of `examples/records/`.
-- **Unverified or assumed**: a plausible figure, a working number, a thing everyone in
-  the sector repeats. These are marked as such, never dressed up as findings.
+- **Observed**: what direct experience and practitioner sourcing indicate about how the
+  sector actually works. This is evidence, not a document, and it is often the most
+  accurate thing available — but it is recorded as observation with its source named as
+  such, never laundered into a citation.
+- **Unverified or assumed**: a plausible figure, a working number, a thing everyone in the
+  sector repeats. These are marked as such, never dressed up as findings.
 
-No cost figure appears here without one of those two labels. Where the literature or the
+No cost figure appears here without one of those labels. Where the literature or the
 market-report layer contradicts itself, the contradiction is recorded rather than
 averaged — the upcycled market-size estimates currently differ by roughly half for the
 same year, which is itself a finding about the sector's maturity.
+
+**The anticonflation rule.** Regulatory text and published research describe the envelope
+and the discourse; neither describes practice. A regulation states the outer bound of what
+is permitted, not what is inspected, enforced, or done. A research finding states what was
+measurable and publishable, not what is happening in the parts of the sector that do not
+publish. Both are inputs; neither is the ground truth about how food actually moves.
+
+The consequences for this concept, adopted 2026-09-11 at the user's direction:
+
+- Where a documented rule and observed practice disagree, **practice is the working
+  reality and the rule is the risk** — the concept plans around what happens and carries
+  the rule as a cost of covering it up later.
+- Practitioner and direct-experience evidence outranks web-searchable documentation for
+  questions about how the market behaves (availability, terms, price, who really takes the
+  surplus), and is cited as observation rather than as a source.
+- The research pass therefore pairs every regulatory document it reads with a question
+  about enforcement and practice, and treats a "no one does this" answer that rests only on
+  the absence of published evidence as weak.
+- Where the corpus's method already says an item is fieldwork-bound (G-OSA-18 farmer
+  agency, G-OSA-02 current scale), the same applies here: correspondence and interviews,
+  not more search.
 
 ## The openness thesis: a ladder, not a switch
 

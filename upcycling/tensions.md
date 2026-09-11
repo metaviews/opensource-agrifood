@@ -4,26 +4,38 @@ These are not problems to be solved before starting. They are contradictions the
 holds open, because resolving them prematurely would settle questions the concept is not
 entitled to settle yet.
 
-## The surplus does not belong to the processor
+## The surplus does not obviously belong to the processor — but it is not scarce
 
-The stream is contested, and the claim order matters. Food banks and food-rescue
-organizations get first call on edible surplus, animal-feed diversion takes a large share of
-what remains (Loop Resource moves grocery surplus to farms as feed, self-reported at 1.66
-million kg in a year), and composting or landfill takes the rest. A processing operation
-enters that hierarchy late, and as a business — it would be buying, or being given, food
-that charity currently receives free.
+*Revised 2026-09-11. The first version of this section asserted that a for-profit processor
+enters the surplus hierarchy late and as a competitor for a stream charity receives free. The
+availability half of that was wrong, and it was wrong because it reasoned from policy
+convention rather than from practice.*
 
-The tension: an upcycling processor that outbids or out-prioritizes a food bank for edible
-surplus is a business that profits from scarcity while making the scarcity worse. There is
-no way to argue that away.
+The stream is ordered conventionally: food banks and rescue organizations first, animal-feed
+diversion second (Loop Resource moves grocery surplus to farms as feed; FoodMesh handles the
+donation channel for much of the same retail surplus), composting and landfill last. A
+processing operation that buys surplus for a commercial product is outside that hierarchy
+entirely, and there is no way to argue that its claim ranks above a food bank's.
 
-The possible line — and it is a hypothesis, not a defence — is that the processor's real
-niche is what donation cannot absorb: over-ripe or structurally damaged stock that a food
-bank cannot distribute before it spoils, and volume that arrives faster than charities can
-place it. That reframes the operation from competitor to release valve: the plant becomes
-where surplus goes *when there is too much of it*. If that reframing does not hold in
-practice — if the plant's intake is the same grade food banks want — the operation's
-legitimacy is genuinely weak and the concept should say so.
+But the ordering describes a claim convention, not the flow. Considerable food continues to
+be wasted even with donation and feed channels running, and an upcycling marketplace layer is
+emerging that sells surplus to processors at low cost. So the processor is not fighting
+charity over a fixed and nearly exhausted pool. It is a buyer in a forming market,
+alongside other non-charity buyers.
+
+The tension that remains is therefore reputational and ethical rather than material:
+
+- A business making margin from food that a charity would have taken for free still has to
+  justify the position. The available justification — that it processes what donation cannot
+  place in time, at the volumes and grades donation cannot absorb — is a real one, but it is
+  a claim about the operation's actual intake, and it is falsifiable. If the plant's intake
+  turns out to be the same grade and volume a food bank wanted, the justification is gone and
+  the concept should say so plainly rather than reach for the "too ripe, too much" defence.
+- The reverse risk now matters more than the original one: if low-cost commercial surplus is
+  abundant, an operation could quietly become a buyer in a market that exists precisely
+  because the fresh market's grading rules discard food that is fine. Sourcing from that
+  market is cheap, legal, and does nothing about the cause. The concept should not confuse
+  participating in a waste market with reducing waste.
 
 ## Openness versus copying
 

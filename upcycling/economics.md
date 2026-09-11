@@ -106,7 +106,7 @@ Working structure, with what each line rests on:
 | Cost line | Character | Provenance |
 |---|---|---|
 | Food input | Near zero to low; gleaning/collection labour is the real cost | Assumed — the stream's terms vary by grower and by year |
-| Packaging (jar, lid, label, case) | Suspected largest per-unit input for preserved goods | **Unverified** — sector commonplace, no source. Research target 4 |
+| Packaging (jar, lid, label, case) | Suspected largest per-unit input for preserved goods | **Unverified** — sector commonplace, no source. Research target 5 |
 | Direct labour | Seasonal, collides with the farm season's peak; the honesty test for the model | Assumed — see `layers.md` section 7 |
 | Facility | Shared kitchen time by the hour, or leased/fitted space | **Unverified in Canada** — the pricing sources found are US-centric and not transferable |
 | Process validation and documentation | Fixed cost, largely independent of volume — the sector's central economic fact | Structure verified, magnitude unverified |
@@ -163,21 +163,40 @@ openness is free is not a viability concept.
 
 ## Part 3 — Availability of and demand for the food
 
-### Availability: the stream is contested and ordered
+### Availability: ordered in principle, and much larger in practice
 
-The claim order on edible surplus is charity first, animal feed second, then composting or
-landfill. Loop Resource (a Canadian farmer-facing diversion program, tied to the same grocery
-surplus that FoodMesh handles as a donation channel per the corpus) moves grocery surplus to
-small farms as livestock feed; its own social channels report 1.66 million kg diverted in a
-year (self-reported, therefore low reliability, and recorded here only to establish that the
-channel is large).
+**The claim order, in policy.** Edible surplus is conventionally ordered charity first,
+animal feed second, then composting or landfill. Loop Resource (a Canadian farmer-facing
+diversion program, tied to the same grocery surplus that FoodMesh handles as a donation
+channel per the corpus) moves grocery surplus to small farms as livestock feed; its own
+social channels report 1.66 million kg diverted in a year (self-reported, therefore low
+reliability, and recorded here only to establish that the channel is large).
 
-An upcycling processor therefore competes for a stream that someone else gets free for human
-consumption. `tensions.md` treats this at length; economically it means **the affordable input
-stream is the fraction that donation and feed cannot absorb** — too ripe, too damaged, too
-much, too far — which also means the input profile is a residue, and a residue is harder to
-plan production around than a specification. That is a genuine cost, not just an ethical
-footnote.
+**What this concept got wrong at first, corrected 2026-09-11.** The first draft of this
+document reasoned from that claim order to an economic conclusion — that the affordable
+input stream is "the residue that donation and feed cannot absorb" — and treated the
+processor as a late claimant on a contested, scarce stream. That was the anticonflation
+error named in `concept.md`: it read a policy convention as a description of flows, from
+rescue-sector and regulatory discourse rather than from anyone who buys or moves surplus.
+
+**Observed (user's direct experience and research, 2026-09-11).** A considerable amount of
+food continues to be wasted despite the donation and feed channels, and the emergence of
+upcycling and comparable marketplaces indicates that a **non-charity, low-cost supply is
+forming** — surplus offered on commercial terms to buyers who will process it. If that
+holds, the input is not a residue left after charity and feed have taken what they can. It
+is a category of supply with sellers, buyers, and emerging terms, and the processor is a
+buyer in it rather than an applicant to it.
+
+That reframes the supply question from *whether surplus will be released to a
+non-charitable buyer* to *what terms a low-cost surplus market is converging on* — price,
+grade, volume reliability, seasonality, and who is already buying. It is a materially
+better question, and it is research targets 3 and 4.
+
+What does **not** change: the legitimacy question. If the stream is ample, that removes a
+supply constraint, not the reputational and ethical one — a for-profit processor taking
+food that could have gone to a food bank still has to justify its position, and the
+strongest justification remains that it takes what donation cannot place in time. The
+scarcity framing weakens; the justification burden does not.
 
 ### Demand: what the evidence actually supports
 
@@ -194,7 +213,7 @@ footnote.
   by itself a price premium.
 - **What has not been established:** what the products actually sell for at retail and
   wholesale in Canada, what margin a small producer holds, and whether the upcycled framing
-  changes willingness to pay. All of it research target 8.
+  changes willingness to pay. All of it research target 9.
 
 ## What has to be true before this concept claims viability
 
@@ -202,7 +221,7 @@ footnote.
 2. The validation requirement for high-acid and acidified products in Canada is established,
    because the concept's best openness argument depends on it being shareable.
 3. A region's surplus volumes, grades, and timing are documented — including who already
-   takes them.
+   takes them, and on what commercial terms an operation could buy (targets 3 and 4).
 4. Packaging, facility, labour, insurance, and distribution costs are real quotes rather
    than sector commonplaces.
 5. The idle-capacity problem has at least one credible answer.
