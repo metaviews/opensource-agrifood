@@ -10,10 +10,39 @@ infrastructure.
 
 ## The MVP question, reframed
 
-The first pass on facility cost asked "what does a compliant kitchen cost." The better
-question is "what is the cheapest compliant kitchen that could actually run," and the answer
-turns out to be a sequencing question rather than a construction question. Four routes, in
-ascending order of capital commitment:
+*Leading correction, 2026-09-11 (user direction).* This file was first written as though the
+project needed to acquire a kitchen, and the four routes below read as a procurement
+sequence. That framing is wrong and the user named it: the subject is the larger context —
+**how more processing capacity comes to exist on-site and in communities** — not which asset
+one operator buys. The routes below are therefore a menu of *where capacity can come from*,
+and they are not mutually exclusive, not ordered, and not all of them involve the operation
+owning or renting anything.
+
+Two consequences that matter more than the ordering:
+
+1. **The zero-facility route was missing entirely.** **Co-packing** — contracting an existing
+   licensed processor to manufacture your product to your specification — requires no
+   facility, no premises approval, no equipment and no capital. It was absent from the first
+   draft of this file, which is the clearest evidence that the procurement framing had taken
+   hold. For a concept asking what makes capacity exist, co-packing is essential: it is the
+   form that creates *output* without creating *capacity*, and knowing where its limits are
+   is how the case for genuinely new local capacity gets made. Note that CFIN's YODL member
+   platform maintains a co-packer directory (`cfin-and-support-programmes.md`).
+2. **Shared capacity is a public-infrastructure question, not a shopping question.** A
+   community kitchen, an underused institutional kitchen, a co-op facility or a
+   community-owned modular unit are all ways of making capacity exist for many users at once.
+   Whether they exist is determined by policy, funding and governance — which is why this
+   file's findings feed `docs/policy/community-processing-regulatory-design.md` rather than
+   only a budget.
+
+With that framing, the four routes below remain useful, and the ordering claim they support is
+still the sharpest thing in this file: for a seasonal operation, *renting inspected hours beats
+owning a kitchen* at any volume it is likely to reach.
+
+The earlier framing, restated for clarity: this file first asked "what does a compliant kitchen
+cost." The better question is "what is the cheapest compliant kitchen that could actually run,"
+and the larger question — the one the project is actually about — is "what forms of capacity
+exist, and what would make more of them." Routes, in ascending order of capital commitment:
 
 | Route | Character | Capital | Evidence in this file |
 |---|---|---|---|

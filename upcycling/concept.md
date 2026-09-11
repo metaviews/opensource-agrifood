@@ -79,6 +79,25 @@ Note that this is a departure from `grocery/`, which went federated by design. H
 pilot is singular on purpose: the openness propositions that follow are only interesting
 if the first plant is a thing that could actually be built and inspected.
 
+*Framing correction, 2026-09-11 (user direction).* The paragraph above is prone to being read
+as though **the project's subject were one entity acquiring one kitchen.** It is not, and the
+research tree drifted into that reading. The subject is **where processing capacity comes
+from, and how more of it can exist on-site and in communities** — a system question. A single
+micro plant is one instantiation, and possibly not the most useful one to start with.
+
+Practically, this widens the space. Capacity in a given place can come from: a farm's own
+on-site unit; a community or shared facility; a co-operative; rented hours in someone else's
+inspected kitchen; **contract processing at a co-packer, where the operation owns no facility
+at all**; a modular unit owned by a community organisation or a third party; a repurposed
+underused commercial kitchen; or a facility that another organisation already owns and
+underuses. Several of these require no capital and no premises of one's own. The concept's
+question is not "can we buy a kitchen" but "which of these forms makes capacity exist, for
+whom, at what cost, and what stops it."
+
+The pilot therefore matters as a *demonstration of one form*, and its value is partly in
+showing what the alternatives would have been. It should not be written up as a procurement
+plan, and `research/kitchen-mvp-and-shared-infrastructure.md` now says so explicitly.
+
 ## What this is
 
 This is concept development with an evidence layer. It is not a business plan, not a

@@ -39,7 +39,7 @@ throughout.
 | 3 | Input availability in Ontario | **Open.** No document gathered in this pass. Fieldwork-bound. |
 | 4 | The emerging non-charity surplus supply market | **Open.** Not researched. Fieldwork-bound; absence of published prices for private commercial surplus is expected and is not a negative finding. |
 | 5 | Packaging cost structure | **Partly answered.** Two verified list prices and a clear run-length effect on labels. MOQ and Canadian distributor quotes outstanding. |
-| 6 | Facility and equipment economics | **Partly answered, and reframed.** The facility question is a sequencing question before it is a capital question: rented certified kitchen hours (~$0 capital, verified Ontario rates) beat owning a kitchen below roughly 90–160 production hours a month, which a seasonal operation is unlikely to clear. A named Ontario preserves operation (Manning Canning) already rents exactly the equipment a small preserves plant needs. Modular container facilities (AgriKit) are a real Canadian option with no published price. Second-generation food space and build-out remain unpriced. |
+| 6 | Facility and equipment economics | **Partly answered, and twice reframed.** First as a sequencing question, then (user direction, 2026-09-11) as a **capacity question rather than an acquisition question**: the subject is how processing capacity comes to exist on-site and in communities, not which kitchen one operator buys. Rented certified kitchen hours (~$0 capital, verified Ontario rates) beat owning a kitchen below roughly 90–160 production hours a month. Manning Canning already rents exactly the equipment a small preserves plant needs. Modular container facilities (AgriKit) are a real Canadian option with no published price. **Co-packing — the zero-facility route — was missing from the first draft and is now recorded as essential but unpriced.** Build-out and second-generation space remain unpriced. |
 | 7 | Open artefacts adjacent to a processor | **Open.** Not researched in this pass; the corpus's belief that open food-safety documentation is close to absent still needs a licence-verified check. |
 | 8 | Ownership forms and capitalization | **Open.** Not researched. |
 | 9 | Demand, priced honestly | **Open.** Not researched. |
@@ -93,7 +93,13 @@ throughout.
    the facility from a cost centre into funded demonstration work. First step is reading the
    Foodtech Next program guide (published) and asking a Regional Innovation Director whether a
    non-technology host qualifies.
-9. **Then** consider target 4 (commercial surplus terms) with named people, and targets 7–9.
+9. **Price the co-packing route.** The zero-facility form is now recorded as essential and is
+   entirely unpriced. What does contract processing cost per unit at Canadian co-packers, at
+   what minimum volumes, what do they require of a brand owner (recipe disclosure, minimum
+   runs, packaging), and what does the brand owner keep? This is the comparison that decides
+   whether local capacity is worth creating at all — and it is answerable by asking, with
+   CFIN's YODL co-packer directory as the starting list.
+10. **Then** consider target 4 (commercial surplus terms) with named people, and targets 7–9.
 
 ## Housekeeping
 
