@@ -34,7 +34,7 @@ throughout.
 | # | Question | State |
 |---|---|---|
 | 1 | Regulatory cost in Ontario | **Partly answered.** The regime is mapped and one fee is verified (no fee for the health-unit notice of intent). The low-risk home-based carve-out does not clearly cover preserves, which removes the home-kitchen option. Municipal licence fees and certified-handler course costs remain unpriced. |
-| 2 | What "validated process" requires in Canada | **Partly answered, with the key line still open.** Ontario expects a thermal process authority. No Canadian equivalent to the US registration-and-filing scheme was located. Whether a high-acid water-bath product needs authority validation, lab work, or neither is **not resolved** and is the concept's most important open question. |
+| 2 | What "validated process" requires in Canada | **Partly answered, and materially reframed.** Ontario expects a thermal process authority. No Canadian equivalent to the US registration-and-filing scheme was located. US land-grant fee schedules are published and modest ($75–$195 per product/recipe; BPCS $315–$480; FDA filing free; 3–5 week timeline), so validation is not the capital barrier the concept first treated it as — but Canada publishes no equivalent service, and the US capacity is contracting (WSU withdrew bundled lab testing in July 2025 on funding grounds). Two corrections also landed: jams and jellies meeting standards of identity are **exempt** from the US acidified-foods regime on water-activity grounds, and **fermented products are excluded** from it and from at least one provider's service. Whether a high-acid or preserve product needs validation at all in Ontario remains the highest-value open question. |
 | 3 | Input availability in Ontario | **Open.** No document gathered in this pass. Fieldwork-bound. |
 | 4 | The emerging non-charity surplus supply market | **Open.** Not researched. Fieldwork-bound; absence of published prices for private commercial surplus is expected and is not a negative finding. |
 | 5 | Packaging cost structure | **Partly answered.** Two verified list prices and a clear run-length effect on labels. MOQ and Canadian distributor quotes outstanding. |
@@ -45,13 +45,20 @@ throughout.
 
 ## Suggested next targets, in priority order
 
-1. **Resolve the process-authority line for a high-acid water-bath product in Ontario.** This
-   is now the single highest-value question in the concept, because the openness ladder's
-   strongest rung depends on it and because it is answerable by asking one named authority.
-   Named ask: the Ontario Ministry of Agriculture, Food and Agribusiness's Agricultural
-   Information Contact Centre (1-877-424-1300) and the food inspection branch it points to;
-   then the public health unit of the chosen pilot municipality; then a laboratory or
-   technology centre that performs thermal process validations.
+1. **Resolve the process-authority line for a conserving product in Ontario — and establish
+   whether a Canadian service exists at all.** This is still the highest-value question in the
+   concept. Two questions now, not one: (a) does a preserve (water activity at or below 0.85) or
+   a high-acid product in Ontario require process-authority validation, and (b) does Ontario or
+   Canada have any published equivalent to the US land-grant process authority service, and what
+   does it charge? The US price anchors are known ($75–$195 per product/recipe; BPCS $315–$480;
+   FDA filing free; 3–5 weeks), so the Canadian answer is directly comparable rather than
+   hypothetical. Named ask: the Ontario Ministry of Agriculture, Food and Agribusiness's
+   Agricultural Information Contact Centre (1-877-424-1300) and the food inspection branch it
+   points to; then the public health unit of the chosen pilot municipality; then a laboratory or
+   technology centre that performs thermal process validations. Also worth asking: whether
+   commercially sold fermented products (sauerkraut, kimchi) have a defined Canadian position,
+   since they are excluded from the US acidified-foods regime and from at least one public
+   provider's service.
 2. **Ask the pilot municipality's health unit whether a rented premises — a shared kitchen or
    a former ghost kitchen suite — can hold approval to *manufacture* shelf-stable preserves.**
    Premises approval attaches to a food premises and its activities, not to a marketing

@@ -130,14 +130,21 @@ From `upcycling/research/` (all documents read 2026-09-11):
   to canning-specific material instead of answering it. Jams, pickles and preserves, which are
   among the safest shelf-stable products in existence, are left in a default category that the
   regulation treats as potentially hazardous.
-- **Validation is a private fixed cost with no commons.** Ontario expects that validating a
-  thermal process "must be done by an appropriate laboratory or technology centre with a
-  thermal process authority." That validated process is established for a specific product,
-  container type and size. There is no public, adoptable, liability-bearing library of validated
-  processes for commercial producers — so every micro plant pays the same fixed cost alone and
-  rationally keeps the result secret. (The US publishes tested processes for *household* canning
-  through the National Center for Home Food Preservation; that public-good precedent exists one
-  scale down and not at commercial scale.)
+- **Validation is a private fixed cost with no commons — and it is cheaper than assumed, but
+  the public capacity that provides it is closing.** Ontario expects that validating a thermal
+  process "must be done by an appropriate laboratory or technology centre with a thermal process
+  authority." Published US land-grant fee schedules put process classification and a process
+  letter at **$75–$195 per product/recipe**, scaling with each recipe variation and container
+  size rather than with volume; the process authority timeline is typically 3–5 weeks; FDA
+  establishment registration and scheduled process filing are free. So the fee is not a capital
+  barrier. What is missing in Canada is any published equivalent — and the US model is
+  contracting: Washington State University announced that from 1 July 2025 it continues process
+  authority services but can no longer offer its discounted laboratory testing, stating that
+  funding cuts have brought the service to the point of unsustainability. The American
+  household-scale precedent (the National Center for Home Food Preservation's tested processes)
+  shows the public-good move is possible; no jurisdiction has made it at commercial scale, and
+  the services that provide the commercial equivalent are being defunded. The heavier obligation
+  is not the fee but the mandatory records that attach to it.
 - **Approval attaches to a place, not a process.** Premises approval follows the site, so a
   modular or container facility, or a shared kitchen hosting several producers, meets
   re-approval at each site and each user rather than carrying an approval with it.
@@ -275,6 +282,33 @@ the same public-good move at commercial scale, which is the gap.
 fixed cost of entering community processing, because it converts a cost every operator pays
 alone into a cost paid once.
 
+**What it costs, on the published evidence.** US land-grant process authority services publish
+their schedules: **$75 per product/recipe in-state and $150 out-of-state** (Washington State
+University, hot fill-hold and hot water bath alike, with each recipe variation and container
+size charged separately — three salsa heats are three charges), **$195** for product
+classification (Georgia), and quote-only for validation studies, challenge tests and shelf-life
+work. Better Process Control School runs **$315–$480**. A state plan review and annual permit
+run **$400 + $400** (Alaska), a business licence **$50**, and FDA establishment registration and
+process filing are **free**. A public commons is therefore not an expensive proposition to
+justify on affordability grounds — which is not the argument for it.
+
+**The argument for it is availability and timing.** Canada appears to publish no equivalent
+service or fee schedule, so a Canadian operator cannot buy the $75 evaluation at any price. And
+the US capacity is closing: WSU's own notice states that federal and state funding for
+extension services "has consistently reduced over the years" and that the service has reached
+the point of being unsustainable. A jurisdiction that builds the commons now builds something
+that others are letting lapse. This is the strongest available reason for the proposal, and it
+is a reason about infrastructure, not about cost.
+
+**The honest reweighting.** Because validation turns out to be a few hundred dollars rather than
+a capital barrier, this document's own emphasis shifts: **the record-keeping regime, not the
+fee, is the binding obligation for a small operator** (raw material examination, pH and acidity
+controls, fill and process temperatures, closure inspections, thermometer calibrations,
+deviation records and corrective actions, distribution by code, supplier guarantees, a recall
+plan — three-year retention). P1 (a proportionate tier) and P4 (one front door) therefore carry
+more of the weight than this document first implied, and P2's value is availability plus the
+shared-record architecture rather than cost relief.
+
 **How it could fail.** Liability: whoever publishes a process owns its adequacy, which is
 exactly why no one has published one. It fails if the library is stale, if adoption is
 unverifiable in practice, or if the published processes don't match what producers actually
@@ -347,8 +381,17 @@ soups, pickles, etc." It requires a food-production element, sets a minimum $25,
 costs, caps motorized equipment at $50,000 per item, excludes consumables, food and staff
 salaries, and requires project completion by a fixed date. **Nothing in that structure pays for
 validation, documentation or permitting** — the costs this project's research identifies as the
-binding constraint. The committee's Recommendation 4 asked to expand this fund for processing
-capacity; this proposal is a specific, small amendment in the same direction.
+operational constraint. The committee's Recommendation 4 asked to expand this fund for
+processing capacity; this proposal is a specific, small amendment in the same direction.
+
+**The line items to fund, now that they are documented.** Process classification and a process
+letter at **$75–$195 per product/recipe** (US land-grant published rates), scaling with each
+recipe variation and container size; Better Process Control School at **$315–$480**; nutrition
+panel generation at **$75–$150**; state or provincial plan review and annual permits at
+**$400 + $400** in the state schedule examined; and the preparation of a food safety plan, for
+which at least one public provider publishes separate pricing. For a community processor, these
+total in the low thousands — small enough that a funder can cover them without a new program,
+and large enough that they are the difference between a funded kitchen and a legal one.
 
 **Fixes.** F3, in the one place where a funder can fix it cheaply and immediately. It also
 aligns incentives: a funded plant that cannot be legally operated is a wasted grant.

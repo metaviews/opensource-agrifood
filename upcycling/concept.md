@@ -56,6 +56,17 @@ seasonal.
   they carry a materially different validation, facility, and liability regime, and a
   concept that holds all of them at once cannot say anything testable about cost.
 
+  *Refined 2026-09-11 after the validation research pass:* the two halves of the committed
+  class turn out to sit in different regulatory situations, and the concept should not treat
+  them as one problem. Jams and jellies meeting published standards of identity are **exempt**
+  from the acidified-foods regime in the US model, on water-activity grounds (aw at or below
+  0.85), which makes preserves the *easier* half rather than the harder one. Fermented
+  products are **excluded** from that regime and from at least one public provider's process
+  authority service, which means less paperwork but also less available expertise and a
+  less-defined position rather than a clearly easier one. The wording "high-acid water-bath"
+  is the food-science label; the regulatory labels are water activity and exclusion, and they
+  differ per half. See `research/process-validation-and-canning.md`.
+
 **Form — a pilot, not a plan for a chain.**
 
 One certified micro plant, deliberately small, treated as a pilot for a federated network
