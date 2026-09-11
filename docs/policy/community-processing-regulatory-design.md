@@ -536,7 +536,61 @@ P1, P3 and P6 require statutory or regulatory amendment. P7 requires a funding c
 the will to attach it. P9 requires negotiation before drafting, and should not be attempted
 without it.
 
-## 6. What this document does not claim
+## 6. Channels and funding paths that already exist
+
+Two things discovered while investigating the support layer, both of which bear on whether these
+proposals have anywhere to go.
+
+### Food 4.0 — an industry network already advocating this
+
+**Food 4.0 / Food Action Plan Canada is the Canadian Food Innovation Network's *proposed* action
+plan** for productivity, industrial transformation and innovation capacity among small and
+medium food businesses. It is not enacted policy and not a program one can apply to; it is an
+agenda advanced by a member network of 26,000-plus members and social followers, with five
+Regional Innovation Directors, that has distributed $23.7 million across 130-plus projects.
+
+Why it matters to this document: it is a **live channel with a stated reform agenda**, and its
+own public material states the case better than this document can, because it comes from
+industry rather than from a critic. Verbatim from that page: food is "deeply tied to national
+prosperity, security, and sustainability, yet **largely absent from Canada's core innovation
+agenda**." The same page reports the sector at over **$145 billion of GDP** and more than **two
+million jobs**, Canada **7th in the world** by food and agriculture export size but **11th in
+global food sector competitiveness**, more than **4,500 small and medium food processors**, and
+that "the high cost of importing foreign equipment and ingredients can make new solutions feel
+out of reach" for SMEs.
+
+That last point is unplanned corroboration of one of this project's own findings — the equipment
+cost gap in `upcycling/research/packaging-facility-and-equipment-costs.md`, which is entirely
+unpriced — from an industry body with no interest in this project's conclusions.
+
+**Implication for the proposals:** P1 (a proportionate tier), P4 (one front door) and P5 (fund
+compliance) are not lonely positions. They are consistent with what the network representing
+smaller food businesses is already asking for, and with Recommendation 6 of the Standing
+Committee's *Room to Grow*. The document's job becomes less "persuade anyone this is needed" and
+more "say precisely what the change is."
+
+### The support programmes do not fund infrastructure — but one of them needs hosts
+
+CFIN's three funding programmes (Innovation Booster, Foodtech Next, Food Innovation Challenge)
+fund **technology demonstration and commercialisation**, not buildings. Innovation Booster
+expressly excludes agriculture and primary production; Food Innovation Challenge operates at
+$1M–$4M project scale. No CFIN programme will buy a community a kitchen, and this document
+should not imply otherwise.
+
+**But Foodtech Next funds early-stage firms to demonstrate their technology in an operational
+environment — which means it requires host sites.** A community processing pilot is a plausible
+*host* for someone else's funded demonstration — a batch-record system, a traceability tool, a
+small-scale processing technology — rather than an applicant in its own right. That converts part
+of the facility's cost from a burden into funded demonstration work, and it does not require the
+processor to become a technology company. It is recorded here as an available mechanism rather
+than a proposal, because it requires no regulatory change at all.
+
+**The unglamorous version of the same point:** the Local Food Infrastructure Fund already funds
+processing equipment and community kitchens (see P5). CFIN funds demonstrations. Neither funds
+the compliance work that stands between a funded kitchen and a legal one. That gap is the whole
+substance of P5.
+
+## 7. What this document does not claim
 
 - It does not claim consensus beyond the sources named. It claims that a parliamentary committee
   recommended a regulatory review, that the processors' association reports what it reports, and
@@ -551,9 +605,9 @@ without it.
 - It does not address labour (the corpus's C2 workstream), land, or finance beyond Rec 17, all of
   which bear on whether community processing can survive even under a better framework.
 - It is not legal advice, and nothing here should be relied on as a statement of what the law
-  currently requires. For that, read the sources in §7 and, where it matters, ask the regulator.
+  currently requires. For that, read the sources in §8 and, where it matters, ask the regulator.
 
-## 7. Sources
+## 8. Sources
 
 Last checked 2026-09-11.
 
@@ -596,7 +650,13 @@ Last checked 2026-09-11.
   `upcycling/research/process-validation-and-canning.md`,
   `upcycling/research/kitchen-mvp-and-shared-infrastructure.md`,
   `upcycling/research/packaging-facility-and-equipment-costs.md`,
+  `upcycling/research/cfin-and-support-programmes.md`,
   `research/2026-09-upcycling-subcell-scan.md` (G-OSA-37),
   `research/2026-09-northern-remote-food-systems-scan.md` (G-OSA-39).
+- Canadian Food Innovation Network — `cfin-rcia.ca` (organisational description, impact figures,
+  programme terms, YODL functions, the CFIN+ restriction on the ecosystem report) and
+  `foodactionplancanada.ca` (Food 4.0 as CFIN's proposed action plan; the sector figures and the
+  "largely absent from Canada's core innovation agenda" statement; the imported-equipment cost
+  claim). Read 2026-09-11.
 
 Not legal advice.
