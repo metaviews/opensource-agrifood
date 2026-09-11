@@ -17,11 +17,13 @@ donation channel for much of the same retail surplus), composting and landfill l
 processing operation that buys surplus for a commercial product is outside that hierarchy
 entirely, and there is no way to argue that its claim ranks above a food bank's.
 
-But the ordering describes a claim convention, not the flow. Considerable food continues to
-be wasted even with donation and feed channels running, and an upcycling marketplace layer is
-emerging that sells surplus to processors at low cost. So the processor is not fighting
-charity over a fixed and nearly exhausted pool. It is a buyer in a forming market,
-alongside other non-charity buyers.
+But the ordering describes a claim convention, not necessarily the flow. Whether a great deal
+of food continues to be wasted, and whether an upcycling marketplace layer is emerging that
+sells surplus to processors at low cost, are empirical questions this concept has not
+answered — they are research target 4, and the direction for asking came from experience that
+cannot be independently confirmed. If it holds, the processor is not fighting charity over a
+fixed and nearly exhausted pool. It is a buyer in a forming market, alongside other non-charity
+buyers.
 
 The tension that remains is therefore reputational and ethical rather than material:
 

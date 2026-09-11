@@ -63,21 +63,47 @@ question, a certified-handler obligation, and a low-risk home-based carve-out wh
 are the interesting part. **What it does not establish is any actual fee, timeline, or
 inspection burden.** Those are unverified below.
 
-### Unverified / assumed: regulatory costs to be pinned down
+### Regulatory costs: what is now verified, and what is still open
 
-- Municipal food premises licence fees (varies by municipality; no figure verified).
-- Whether a micro preserving operation qualifies for any low-risk or home-based carve-out
-  in the pilot province, and what the volume or sales ceiling is.
-- What "validated process" requires in Canada for high-acid and acidified products. The
-  United States has a documented statutory model (registration and scheduled-process filing
-  for acidified and low-acid canned foods). Canada's equivalent must not be assumed to
-  mirror it — the older Processed Products Regulations appear archived, with the SFCR
-  regime in force. **This is the top research target in `research-direction.md`.**
-- Lab testing costs for pH, water activity, and shelf-life substantiation.
-- Product liability insurance for a small food manufacturer (widely described in the sector
-  as the hardest cost to anticipate; no figure verified).
-- Label compliance costs: bilingual requirements, nutrition labelling, and whether any
-  small-business labelling flexibility applies.
+Verified in the first research pass (2026-09-11, `research/ontario-regulatory-path.md` and
+`research/process-validation-and-canning.md`):
+
+- **The health-unit layer carries no application fee.** The Notice of Intent to Operate a Food
+  Premises is a notification, and at least one Ontario health unit states in its operator
+  guide that there is no fee for the application or its processing. The regulatory cost here
+  is compliance and time, not a licence purchase.
+- **The home-kitchen route does not clearly exist for preserves.** The low-risk foods exempt
+  from parts of O. Reg. 493/17 are bakery-shaped (breads, baked goods without custard,
+  chocolate, granola, nuts, cookies); preserves, pickles, and jams are absent from the list,
+  and the health-unit guidance routes the preserves question to canning-specific material
+  rather than answering it with an exemption. A micro preserving operation therefore needs an
+  approved commercial premises — dedicated or shared — and a Certified Food Handler on site.
+  **This removes the cheapest facility option from the arithmetic, and it is a document
+  finding, not a preference.**
+- **A federal PCP may not be required at small scale.** The CFIA notes that certain food
+  businesses may not be required to have a written preventive control plan, for example where
+  annual gross food sales are $100,000 or less. That is a threshold worth carrying carefully:
+  it applies to the federal PCP requirement, and it does not remove provincial premises
+  obligations.
+- **Ontario expects a thermal process authority.** The province's own manufacturing guide
+  states that validating a thermal process "must be done by an appropriate laboratory or
+  technology centre with a thermal process authority."
+
+Still open, in order of consequence:
+
+- **Whether a high-acid water-bath product needs that validation at all.** The guide's
+  statement sits in general thermal-processing material and does not draw the line by product
+  class. This is the concept's single most important open question, because the second rung of
+  the openness ladder depends on it.
+- Municipal business licence fees; certified food handler course costs; the SFC licence fee
+  (only relevant once the operation sells across a provincial border).
+- Laboratory costs for pH, water activity, and shelf-life substantiation, and a process
+  authority's engagement fee.
+- Product liability and recall insurance for a Canadian food manufacturer. Only US figures
+  were located and none is transferable.
+- Label compliance costs: bilingual requirements, nutrition labelling, standards of identity
+  (what may legally be called a "jam"), and whether any small-business labelling flexibility
+  applies.
 - Whether any federal food-donation incentive exists in Canada. The Global Food Donation
   Policy Atlas documents a *recommendation* to amend the Income Tax Act to allow food
   businesses to benefit from a deduction for donated food, which implies absence as of that
@@ -106,9 +132,9 @@ Working structure, with what each line rests on:
 | Cost line | Character | Provenance |
 |---|---|---|
 | Food input | Near zero to low; gleaning/collection labour is the real cost | Assumed — the stream's terms vary by grower and by year |
-| Packaging (jar, lid, label, case) | Suspected largest per-unit input for preserved goods | **Unverified** — sector commonplace, no source. Research target 5 |
+| Packaging (jar, lid, label, case) | Suspected largest per-unit input for preserved goods | **Partly sourced** — verified list prices (a 16 oz jar at $1.40–$1.50 each at case and pallet quantities; a 12 oz bottle listed from $0.74) and a clear run-length effect on labels (about 18¢ each at 1,000 versus 73¢ at 250). MOQ and Canadian distributor quotes outstanding. See `research/packaging-facility-and-equipment-costs.md` |
 | Direct labour | Seasonal, collides with the farm season's peak; the honesty test for the model | Assumed — see `layers.md` section 7 |
-| Facility | Shared kitchen time by the hour, or leased/fitted space | **Unverified in Canada** — the pricing sources found are US-centric and not transferable |
+| Facility | Shared kitchen time by the hour, or leased/fitted space — **an approved commercial premises in either case**, since the home-kitchen route does not cover preserves | **Partly sourced** — one secondary Ontario figure (GTA shared kitchens from $22/hour; $200–400/month typical for 8–16 hours) from a platform's own marketing. No named facility quote obtained |
 | Process validation and documentation | Fixed cost, largely independent of volume — the sector's central economic fact | Structure verified, magnitude unverified |
 | Licensing, inspection, certification | Low cash cost, non-trivial time cost; steps up at the provincial border | Fork verified, amounts unverified |
 | Insurance | Unknown | **Unverified** |
@@ -179,13 +205,18 @@ processor as a late claimant on a contested, scarce stream. That was the anticon
 error named in `concept.md`: it read a policy convention as a description of flows, from
 rescue-sector and regulatory discourse rather than from anyone who buys or moves surplus.
 
-**Observed (user's direct experience and research, 2026-09-11).** A considerable amount of
-food continues to be wasted despite the donation and feed channels, and the emergence of
-upcycling and comparable marketplaces indicates that a **non-charity, low-cost supply is
-forming** — surplus offered on commercial terms to buyers who will process it. If that
-holds, the input is not a residue left after charity and feed have taken what they can. It
-is a category of supply with sellers, buyers, and emerging terms, and the processor is a
-buyer in it rather than an applicant to it.
+**Informing observation, not admitted as evidence (2026-09-11).** The starting direction for
+this section came from the user's first-hand experience of the sector — considerable food
+continues to be wasted despite the donation and feed channels, and the emergence of upcycling
+and comparable marketplaces suggests a non-charity, low-cost supply is forming. That is not
+independently confirmable, so it is not a finding here: it is the reason target 4 exists, and
+target 4 is what decides the question.
+
+If it holds, the input is not a residue left after charity and feed have taken what they can.
+It is a category of supply with sellers, buyers, and emerging terms, and the processor is a
+buyer in it rather than an applicant to it. Per the evidence classes in
+`research-direction.md`, the finding has to arrive as documents, listed terms, or transaction
+evidence — not as a premise, and not as an inference from anyone's experience.
 
 That reframes the supply question from *whether surplus will be released to a
 non-charitable buyer* to *what terms a low-cost surplus market is converging on* — price,

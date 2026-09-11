@@ -11,19 +11,24 @@ in Canadian regulatory and business reality. Cost claims made without that groun
 be the failure mode of every upcycling pitch deck.
 
 **Evidence classes, per the anticonflation rule in `concept.md`.** Three kinds of evidence
-count here and they are not interchangeable:
+matter here, and only two of them can carry a finding:
 
-- **Documents** — regulatory text, standards, published research. They describe the envelope
-  and the discourse, and they are the weakest evidence about how the market behaves.
-- **Observation** — direct experience and practitioner accounts. For availability, terms,
-  price, and enforcement, this outranks documents, and it is recorded as observation rather
-  than dressed as a citation.
-- **Transaction evidence** — quotes, invoices, contracts, listing platforms, anything
-  showing what was actually paid and moved. Strongest, and the hardest to obtain.
+- **Documents** — regulatory text, standards, published research, government guidance.
+  Governing, provided the document's scope is stated precisely: a regulation describes what
+  is permitted and required, not what is inspected or done.
+- **Transaction evidence** — supplier quotes, invoices, published price lists, contracts,
+  listed fees, anything showing what is actually charged or paid. Governing, and the
+  strongest available evidence for a cost question.
+- **Observation** — direct experience and practitioner accounts. **Informs direction only.**
+  It decides where to look and what to ask, and is recorded as a lead with provenance
+  stated; it does not stand as the basis for a claim, because it cannot be independently
+  confirmed.
 
 A research pass that returns only documents on a market question has not answered the
-question. Where the terrain is fieldwork-bound, the output is a named list of who to ask,
-not a conclusion drawn from the absence of published material.
+question — but the answer, when it comes, is still a document, a quote, a price, or an
+account that can be checked. Where the terrain is fieldwork-bound, the deliverable is a
+named list of who to ask and what to ask them, not a conclusion drawn from the absence of
+published material.
 
 The research is bounded on purpose. `research/2026-09-upcycling-subcell-scan.md` (G-OSA-37)
 and its six curated records already cover the sector: who the incumbents are, what is
@@ -33,6 +38,14 @@ parent corpus has never asked, most of which are about a specific place, a speci
 jurisdiction, and specific price tags.
 
 ## What we are looking for, in priority order
+
+**Status 2026-09-11:** targets 1, 2, 5, and 6 had a first document-and-quote pass
+(`research/ontario-regulatory-path.md`, `research/process-validation-and-canning.md`,
+`research/packaging-facility-and-equipment-costs.md`). Target 2's key line — whether a
+high-acid water-bath product needs process-authority validation in Ontario — is still open and
+is now the highest-value question in the concept. Targets 3, 4, 7, 8, and 9 are unstarted;
+3 and 4 are fieldwork-bound. The index and the next-target list live in
+`research/research-mapping.md`.
 
 ### 1. The regulatory cost of a micro plant in Ontario
 

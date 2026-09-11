@@ -83,9 +83,11 @@ So the documents here carry three kinds of statement, and they are kept visibly 
 - **Verified**: a fact read from a primary source, with the source named and the date
   checked, in the house style of `examples/records/`.
 - **Observed**: what direct experience and practitioner sourcing indicate about how the
-  sector actually works. This is evidence, not a document, and it is often the most
-  accurate thing available — but it is recorded as observation with its source named as
-  such, never laundered into a citation.
+  sector actually works, recorded with its source named as such. Direct experience
+  **informs** this project — it decides where to look, which questions are worth asking,
+  and which documented claims are suspect — but it does not **govern** it. Experience that
+  cannot be independently confirmed is not admissible here as the basis for a claim, and
+  never appears in place of a source.
 - **Unverified or assumed**: a plausible figure, a working number, a thing everyone in the
   sector repeats. These are marked as such, never dressed up as findings.
 
@@ -100,20 +102,26 @@ is permitted, not what is inspected, enforced, or done. A research finding state
 measurable and publishable, not what is happening in the parts of the sector that do not
 publish. Both are inputs; neither is the ground truth about how food actually moves.
 
-The consequences for this concept, adopted 2026-09-11 at the user's direction:
+The consequences for this concept, adopted 2026-09-11 and tightened the same day:
 
-- Where a documented rule and observed practice disagree, **practice is the working
-  reality and the rule is the risk** — the concept plans around what happens and carries
-  the rule as a cost of covering it up later.
-- Practitioner and direct-experience evidence outranks web-searchable documentation for
-  questions about how the market behaves (availability, terms, price, who really takes the
-  surplus), and is cited as observation rather than as a source.
-- The research pass therefore pairs every regulatory document it reads with a question
-  about enforcement and practice, and treats a "no one does this" answer that rests only on
-  the absence of published evidence as weak.
+- **Documents and transaction evidence govern.** Every finding here must be checkable: a
+  cited document, a published fee, a supplier quote, an invoice, a listed price. This is a
+  deliberate constraint, and it is the reason the concept cannot be built on anyone's
+  first-hand experience of the sector — including the user's, which is extensive but cannot
+  be independently confirmed.
+- **Direct experience informs but does not govern.** It sets direction: where to look, what
+  to ask, which documented claim is suspicious. It is recorded as a lead with its
+  provenance stated, never as a finding and never in place of a source.
+- **The gap between rule and practice is a research target, not a premise.** Where a
+  regulation and market reality are believed to diverge, that divergence is a question to
+  be answered with a checkable artefact — a document, a quote, an account with a name on
+  it — not a position to reason from. Meanwhile the concept carries the uncertainty
+  explicitly rather than resolving it silently in either direction.
+- **A "no one does this" conclusion resting only on absent published evidence is weak,**
+  and for private commercial activity it is close to meaningless. The correct output there
+  is a named list of who to ask, not a negative finding.
 - Where the corpus's method already says an item is fieldwork-bound (G-OSA-18 farmer
-  agency, G-OSA-02 current scale), the same applies here: correspondence and interviews,
-  not more search.
+  agency, G-OSA-02 current scale), the same applies here.
 
 ## The openness thesis: a ladder, not a switch
 
