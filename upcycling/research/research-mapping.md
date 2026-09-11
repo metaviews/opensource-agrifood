@@ -18,8 +18,16 @@ is worse than none.
 The direction for target 4 (the commercial surplus market) came from the user's first-hand
 experience of the sector. Per the evidence classes in `../research-direction.md`, that
 experience sets direction and is not evidence: it does not appear as a finding anywhere, and
-`../concept.md` records it as informing rather than governing. Every claim in these three
-files is a document or a published price.
+`../concept.md` records it as informing rather than governing. Every claim in these files is a
+document or a published price.
+
+**The policy design document draws on this tree.** `docs/policy/community-processing-regulatory-design.md`
+(2026-09-11) converts the document findings here — the licensing cliff, the misclassification
+of preserves, the privatised validation cost, the site-bound approval, the fragmented
+authority interface, the paywalled standards, the closed grading specifications — into ten
+regulatory proposals. It is a design document, not a research file: its proposals are the
+project's own and are labelled as such, and it keeps documented claims separate from proposals
+throughout.
 
 ## Where the concept's open questions now stand
 
