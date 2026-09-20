@@ -1,4 +1,4 @@
-# Case study: the open milking robot: what openness would change in Canada's most automated livestock sector
+# The open milking robot: what openness would change in Canada's most automated livestock sector
 
 On roughly 700 Ontario farms, a robot milks the cows before anyone gets out of bed. That number has doubled in five years, and every one of those robots belongs to one of four companies (Lely, DeLaval, GEA, BouMatic) that sell it, service it, and hold its data layer. None of it is open: no published designs, no open firmware, no farmer-controlled data. And nobody has built the alternative.
 
