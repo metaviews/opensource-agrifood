@@ -1,11 +1,8 @@
 # Case study: the open milking robot — what openness would change in Canada's most automated livestock sector
 
-**Status:** working document (viability case study, not a scan; no G-ID)
-**Written:** 2026-09-19
-**Frame:** an ~80-cow Ontario dairy farm under supply management
-**Prior evidence:** the livestock/pasture scan (`research/2026-08-livestock-pasture-virtual-fencing-scan.md`), the open-hardware/robotics/sensing scan (`research/2026-08-open-hardware-robotics-sensing-scan.md`), the machine-data/telematics scan (`research/2026-08-machine-data-access-telematics-scan.md`), and the definition document (`research/2026-09-definition-of-open-agrifood.md`). This document does not re-scan those sectors.
+On roughly 700 Ontario farms, a robot milks the cows before anyone gets out of bed. That number has doubled in five years — and every one of those robots belongs to one of four companies (Lely, DeLaval, GEA, BouMatic) that sell it, service it, and hold its data layer. None of it is open: no published designs, no open firmware, no farmer-controlled data. And nobody has built the alternative.
 
-**How to read this document.** Every figure carries a provenance label — **verified** (primary source named in *Sources and verification* at the end), **unverified**, **assumed**, or **derived**. Where sources contradict, the contradiction is recorded rather than averaged. Section 10 states what the document does not demonstrate. It is a viability argument, not a legal analysis: regulatory requirements are named in §10, not analysed.
+This case study asks what would change if someone did. It runs the question against a real constraint — an ~80-cow Ontario dairy farm under supply management, a farm that cannot grow its way out of costs and whose milk cheque is fixed — and finds that the answer turns less on the sticker price than on a $16,000–$38,000-a-year service stream the farm is asked to buy without ever seeing its price.
 
 ## 1. The premise
 
@@ -202,3 +199,12 @@ Named in advance, per the upcycling concept's discipline: if the numbers demand 
 - Robot-arm market ranges (industrial 6-axis from ~$15K; cobots $3K–$30K; open-source arms cheaper) — market-survey sources, **verified as ranges**, last checked 2026-09-19.
 - GitHub API licence checks: MikesMachines/MilkIt (GPL-2.0, pushed 2024-01); Leijtenss/Milking-Robot (no licence, pushed 2019-08). Last checked 2026-09-19.
 - Parent corpus: G-OSA-26 livestock scan; open-hardware/robotics/sensing scan; machine-data/telematics scan; definition document.
+
+## Document status and conventions
+
+Machine-facing notes; humans can stop at the sources above.
+
+- **Status:** working document (viability case study, not a scan; no G-ID). Written 2026-09-19; restructured for human readers 2026-09-20.
+- **Frame:** an ~80-cow Ontario dairy farm under supply management.
+- **Prior evidence:** the livestock/pasture scan (`research/2026-08-livestock-pasture-virtual-fencing-scan.md`), the open-hardware/robotics/sensing scan (`research/2026-08-open-hardware-robotics-sensing-scan.md`), the machine-data/telematics scan (`research/2026-08-machine-data-access-telematics-scan.md`), and the definition document (`research/2026-09-definition-of-open-agrifood.md`). This document does not re-scan those sectors.
+- **Provenance convention:** every figure carries a label — **verified** (primary source named in *Sources and verification* above), **unverified**, **assumed**, or **derived**. Where sources contradict, the contradiction is recorded rather than averaged. §10 states what the document does not demonstrate.
