@@ -1,8 +1,19 @@
 # The open milking robot: what openness would change in Canada's most automated livestock sector
 
+## Executive summary
+
 On roughly 700 Ontario farms, a robot milks the cows before anyone gets out of bed. That number has doubled in five years, and every one of those robots belongs to one of four companies (Lely, DeLaval, GEA, BouMatic) that sell it, service it, and hold its data layer. None of it is open: no published designs, no open firmware, no farmer-controlled data. And nobody has built the alternative.
 
 This case study asks what would change if someone did. Its test case is an ~80-cow Ontario dairy farm under supply management, a farm that cannot grow its way out of costs and whose milk cheque is fixed. Against that constraint, the answer turns out to hinge less on the sticker price than on a $16,000–$38,000-a-year service stream the farm is asked to buy without ever seeing its price.
+
+Four things are worth carrying out of the document:
+
+- **The claim is viability, not novelty.** Novelty is already settled: the corpus's verified scan found open dairy automation "completely unaddressed in open repos" (G-OSA-26, last searched 2026-08-14). What this case asks is whether an open robot's savings mechanisms are real, how large they are, and what would have to be true before a farm bets on one.
+- **The money is in the stream, not the sticker.** Two robots at the benchmarked 51 cows per robot put the farm at **$400,000+** before barn work — and the largest figures there are unverified, because vendors publish no prices. The recurring maintenance and software stream runs **$16,000–$38,000 a year** (derived): **$192,000–$456,000 over an assumed 12-year life — half to more than the entire purchase price.** Openness attacks that stream, not the showroom price; the contestable share (30–50%, **assumed**) is the pivotal number a farm-record pilot must test.
+- **Upfront savings: three routes, honestly ordered.** A used-robot on-ramp made safe by open firmware (verified from Lely's own listings: used A4+ from **$80,000 USD** against new from $186,308 — 57% off, checked 2026-09-19); a design-commons assembly route à la AgOpenGPS's ~78% cut (**speculative**, $200,000–$280,000 for two robots); and FarmBot as the honesty check that open does not automatically mean cheap. The candid headline: a first-generation open robot probably will not be cheaper up front.
+- **Supply management is the funding mechanism.** Quota closes the yield lever, so the robot need only cost less to own and service — and quota removes the competitive reason to keep an open robot proprietary. Canada's 9,048 near-identical farms (verified) amortize one shared design: a $5M–$10M platform (**assumed**) levied across them is **$553–$1,105 per farm one-time, or $111–$221 per year on a five-year check-off** (**derived**) — less than a single maintenance visit per year, against the $7,000–$15,000 it attacks.
+
+What has to be true first: maintenance figures from real farm records instead of aggregators, an independent-service route, and a Stage 1–2 pilot on an installed machine (§9).
 
 ## 1. The premise
 
@@ -204,7 +215,7 @@ Named in advance, per the upcycling concept's discipline: if the numbers demand 
 
 Machine-facing notes; humans can stop at the sources above.
 
-- **Status:** working document (viability case study, not a scan; no G-ID). Written 2026-09-19; restructured for human readers 2026-09-20.
+- **Status:** working document (viability case study, not a scan; no G-ID). Written 2026-09-19; restructured for human readers 2026-09-20; executive summary added above the lede 2026-10-07 (readability only — no figure, label or claim changed).
 - **Frame:** an ~80-cow Ontario dairy farm under supply management.
 - **Prior evidence:** the livestock/pasture scan (`research/2026-08-livestock-pasture-virtual-fencing-scan.md`), the open-hardware/robotics/sensing scan (`research/2026-08-open-hardware-robotics-sensing-scan.md`), the machine-data/telematics scan (`research/2026-08-machine-data-access-telematics-scan.md`), and the definition document (`research/2026-09-definition-of-open-agrifood.md`). This document does not re-scan those sectors.
 - **Provenance convention:** every figure carries a label: **verified** (primary source named in *Sources and verification* above), **unverified**, **assumed**, or **derived**. Where sources contradict, the contradiction is recorded rather than averaged. §10 states what the document does not demonstrate.

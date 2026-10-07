@@ -1,10 +1,23 @@
 # The open climate computer: what openness would change in Canada's most closed farming sector
 
+## Executive summary
+
+In Leamington, Ontario, the largest greenhouse cluster in North America grows food under computers, and every one of those climate computers is proprietary. So is every one in Canada's north, where the same technology class — a controlled environment that makes a growing season instead of waiting for one — is most needed and least available. Between the backyard unit and the 40-hectare facility there is no open layer at all. This case asks what openness would change, and where on that ladder it pencils first.
+
+Four things are worth carrying out of the document:
+
+- **Novelty is settled in the negative; the claim is viability.** The corpus's verified scan (G-OSA-22, verified 2026-08-06) found open control software only at maker scale (Mycodo, GPL-3.0, with a peer-reviewed deployment in Bhutan), open research data that does exist (Wageningen's DOI-published Autonomous Greenhouse Challenge datasets, four editions), an open standard with zero vendor adoption (Common Greenhouse Ontology, Apache-2.0), one all-layers flagship that died (MIT OpenAg — archived, licence-unresolved), and nothing open at commercial scale at any price.
+- **The protagonist is a scale ladder, not a single farm.** Three rungs: a backyard unit, a northern community greenhouse (the costed spine), a commercial facility (bounded, not claimed). The money math sits at rung B deliberately — in the North, energy and freight costs are extreme and the vendor service model outright breaks: there are no local climate-computer technicians, and a service call is measured in flights. Openness's first product there is uptime, not savings.
+- **The energy numbers are real, and so is the honest gap.** Cold-climate greenhouses consume 700–1,200 kWh/m²/yr for heat and light (verified, CC BY *Applied Energy*) — $435–$745/m²/yr at Nunavut's verified 62.08¢/kWh commercial rate — while peer-reviewed control strategies save 17.7–43% and a documented Kuujjuaq thermal store raised its night temperature floor ~7°C (Piché et al. 2020). The gap: no northern community greenhouse has published its own kWh/kg, and the Kuujjuaq design sits in a paywalled paper — open by publication is not open by licence.
+- **The funding precedent exists in miniature.** Inuvik's community greenhouse has run cost-recovery since 1999 (174 plots at $50/year), Kuujjuaq has run 20+ years on regional-government funding, and Nutrition North already spends roughly $2.84/kg (derived) subsidizing imported produce — public money is already in the northern food system; the open question is whether it can fund shared growing infrastructure instead of freight.
+
+What has to be true first: the energy model and energy-design commons from published sources, Mycodo beyond maker scale, and one real price (§8). Nothing in this case is priced yet — the cost spine is a provenance-labelled list of research targets, and the claim is framed, not secured.
+
 | | |
 |---|---|
 | **Status** | Premise document (viability case study, framed; cost spine is a research direction, not a result) |
 | **Frame** | A three-rung scale ladder — backyard unit, northern community greenhouse, commercial facility — costed at rung B |
-| **Written** | 2026-09-21 |
+| **Written** | 2026-09-21; executive summary added 2026-10-07 (readability only) |
 
 ## 0. The premise
 
