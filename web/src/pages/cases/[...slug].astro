@@ -1,0 +1,99 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// Case studies live in the repo as first-class documents (dairy/, cea/).
+// They are rendered as real HTML pages here so readers get the full case on
+// the site, not a link off to GitHub. The glob must live inside
+// getStaticPaths (Astro runs that function in an isolated scope).
+export function getStaticPaths() {
+  const modules = {
+    ...import.meta.glob('../../../../dairy/*.md'),
+    ...import.meta.glob('../../../../cea/*.md'),
+  };
+  return Object.entries(modules)
+    .filter(([key]) => /case-study\.md$/.test(key))
+    .map(([key, load]) => {
+      const slug = key.replace('../../../../', '').replace(/\.md$/, '');
+      return { params: { slug }, props: { load, slug } };
+    });
+}
+
+const { load, slug } = Astro.props;
+const mod = await load();
+const Content = mod.default;
+// Title = the document's first '# ' line (heading metadata is not reliably
+// exposed on lazily-loaded markdown modules, so read the raw source).
+const raw = typeof mod.rawContent === 'function' ? mod.rawContent() : '';
+const titleMatch = raw.match(/^#\s+(.+)$/m);
+const heading = (mod.headings ?? []).find((h) => Number(h.depth) === 1);
+const title = (titleMatch && titleMatch[1].trim()) || (heading && heading.text) || slug;
+const section = slug.split('/')[0];
+const sectionLabel = section === 'dairy' ? 'Dairy case study' : 'Controlled environment agriculture case study';
+---
+
+<Base title={`${title} | Open-Source Agrifood`} description={`${title} — a case study from the Open Source Agrifood research corpus.`}>
+  <article class="case shell">
+    <header class="case-head">
+      <p class="eyebrow"><a href="/research">The research</a> <span class="crumb">/</span> <a href="/research">Case studies</a></p>
+      <p class="case-section">{sectionLabel}</p>
+      <h1>{title}</h1>
+    </header>
+
+    <div class="case-body">
+      <Content />
+    </div>
+
+    <nav class="case-foot" aria-label="Case navigation">
+      <a href="/research">← All case studies</a>
+    </nav>
+  </article>
+</Base>
+
+<style is:global>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+
+  .case { padding-top: clamp(3.5rem, 7vw, 6.5rem); padding-bottom: clamp(4rem, 8vw, 7rem); }
+  .case-head { max-width: 60rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--line); }
+  .eyebrow { margin: 0 0 1.6rem; color: var(--ochre); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; line-height: 1.3; text-transform: uppercase; }
+  .eyebrow a { color: inherit; text-decoration: none; }
+  .eyebrow a:hover { color: var(--moss); }
+  .eyebrow .crumb { color: var(--ink-faint); padding: 0 0.45rem; }
+  .case-section { margin: 0 0 0.9rem; color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.15rem, 2vw, 1.5rem); letter-spacing: -0.02em; line-height: 1.2; }
+  .case h1 { margin: 0; color: var(--moss-dark); font-family: var(--display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 4rem); letter-spacing: -0.055em; line-height: 1.02; }
+
+  .case-body { max-width: 52rem; padding-top: 2.5rem; }
+  .case-body p, .case-body li { color: var(--ink); font-size: 1.06rem; line-height: 1.72; }
+  .case-body p { margin: 0 0 1.15rem; }
+  .case-body h2 { margin: 3.2rem 0 1.1rem; color: var(--moss-dark); font-family: var(--display); font-weight: 400; font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -0.04em; line-height: 1.1; }
+  .case-body h3 { margin: 2.2rem 0 0.8rem; color: var(--moss-dark); font-family: var(--display); font-weight: 400; font-size: clamp(1.25rem, 2vw, 1.5rem); letter-spacing: -0.03em; line-height: 1.2; }
+  .case-body h4 { margin: 1.8rem 0 0.6rem; color: var(--moss-dark); font-size: 1rem; font-weight: 750; letter-spacing: 0.02em; }
+  .case-body strong { color: var(--moss-dark); font-weight: 700; }
+  .case-body a { color: var(--moss); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  .case-body a:hover { color: var(--ochre); text-decoration-color: var(--ochre); }
+  .case-body ul, .case-body ol { margin: 0 0 1.3rem; padding-left: 1.35rem; }
+  .case-body li { margin-bottom: 0.55rem; }
+  .case-body li::marker { color: var(--ochre); }
+  .case-body blockquote { margin: 1.6rem 0; padding: 0.2rem 0 0.2rem 1.1rem; border-left: 3px solid var(--ochre); color: var(--ink-soft); }
+  .case-body hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
+  .case-body code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.9em; background: var(--paper-warm); padding: 0.12em 0.35em; border-radius: 3px; overflow-wrap: anywhere; }
+  .case-body pre { margin: 1.6rem 0; padding: 1rem 1.2rem; background: var(--ink); color: var(--paper); overflow-x: auto; font-size: 0.88rem; line-height: 1.55; }
+  .case-body pre code { background: none; padding: 0; color: inherit; }
+  .case-body table { width: 100%; margin: 1.6rem 0; border-collapse: collapse; font-size: 0.95rem; }
+  .case-body th, .case-body td { padding: 0.6rem 0.75rem; border: 1px solid var(--line); text-align: left; vertical-align: top; line-height: 1.55; }
+  .case-body th { background: var(--paper-warm); color: var(--moss-dark); font-weight: 700; }
+  .case-body tbody tr:nth-child(even) { background: rgba(232, 225, 210, 0.35); }
+  .case-body img { max-width: 100%; height: auto; }
+
+  .case-foot { max-width: 52rem; margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--line); }
+  .case-foot a { color: var(--moss); font-size: 0.95rem; font-weight: 700; text-decoration: none; }
+  .case-foot a:hover { color: var(--ochre); }
+
+  @media (max-width: 900px) {
+    .case-body { max-width: none; }
+    .case-body table { display: block; overflow-x: auto; }
+  }
+  @media (max-width: 600px) {
+    .case-body p, .case-body li { font-size: 1rem; }
+    .case-body th, .case-body td { padding: 0.5rem 0.6rem; }
+  }
+</style>
