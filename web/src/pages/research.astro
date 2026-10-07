@@ -32,6 +32,24 @@ const findings = [
     ],
   },
 ];
+
+const caseStudies = [
+  {
+    title: 'The open milking robot',
+    href: 'https://github.com/metaviews/opensource-agrifood/blob/main/dairy/open-milking-robot-case-study.md',
+    text: 'A viability case for an open milking robot against a quota-capped Ontario dairy farm, where supply management means the value case reduces to labour, service, data and capital cost — exactly where openness changes the picture.',
+  },
+  {
+    title: 'The open climate computer',
+    href: 'https://github.com/metaviews/opensource-agrifood/blob/main/cea/open-climate-control-case-study.md',
+    text: 'What openness would change in Canada’s most closed farming sector, followed across a three-rung ladder: a backyard unit, a northern community greenhouse where the vendor service model fails outright, and the commercial facility where no open layer exists at any price.',
+  },
+  {
+    title: 'The heat host',
+    href: 'https://github.com/metaviews/opensource-agrifood/blob/main/cea/data-center-heat-case-study.md',
+    text: 'Data-center waste heat as an energy input for controlled environment agriculture: what actually operates today, what the physics allows, what is only announced — and where an open layer could still enter a pairing that is forming entirely closed.',
+  },
+];
 ---
 
 <Base title="What We Are Learning | Open-Source Agrifood" description="A human-readable introduction to the research behind Building the Open-Source Future of Canadian Agrifood.">
@@ -69,6 +87,21 @@ const findings = [
     </div>
   </section>
 
+  <section class="cases shell">
+    <div class="section-label">Case studies</div>
+    <div class="cases-copy">
+      <p class="cases-lede">Three viability questions followed all the way into the open record — each with evidence labelled by provenance, an honesty clause, and a plain statement of what the case does not demonstrate.</p>
+      <div class="case-list" aria-label="Case studies">
+        {caseStudies.map((item) => (
+          <article class="case-row">
+            <a href={item.href}>{item.title} <span>↗</span></a>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="quote shell">
     <div class="section-label">A question worth carrying</div>
     <blockquote>
@@ -85,7 +118,9 @@ const findings = [
       <p>Read the landscape synthesis, browse the records, and bring your own experience to the conversation. The event is an opportunity to put this knowledge in motion.</p>
       <div class="cta-links">
         <a href="https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md">Read the landscape synthesis <span>↗</span></a>
+        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/cea/synthesis.md">Read the CEA synthesis <span>↗</span></a>
         <a href="https://github.com/metaviews/opensource-agrifood/tree/main/examples/records">Browse the research records <span>↗</span></a>
+        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/ROADMAP.md">See where the project stands <span>↗</span></a>
         <a href="/">Return to the event <span>↗</span></a>
       </div>
     </div>
@@ -101,8 +136,8 @@ const findings = [
   h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 8rem); letter-spacing: -0.07em; line-height: 0.92; }
   h1 em { color: var(--moss); font-style: normal; }
   .lede { max-width: 42rem; color: var(--ink-soft); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.4; }
-  .opening, .findings, .quote, .research-cta { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
-  .opening, .research-cta { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .opening, .findings, .quote, .research-cta, .cases { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .opening, .research-cta, .cases { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
   .opening-copy { max-width: 50rem; font-size: 1.15rem; line-height: 1.65; }
   .opening-copy p:first-child { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.55rem, 2.8vw, 2.35rem); line-height: 1.15; }
   .finding-list { margin-left: 20%; }
@@ -123,15 +158,22 @@ const findings = [
   .quote-follow { max-width: 52rem; margin-left: 20%; color: var(--ink-soft); font-size: 1.1rem; line-height: 1.6; }
   .research-cta h2 { margin-bottom: 0.8rem; color: var(--moss-dark); font-size: clamp(2.3rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
   .research-cta p { max-width: 43rem; color: var(--ink-soft); font-size: 1.12rem; }
+  .cases-lede { max-width: 50rem; font-size: 1.15rem; line-height: 1.65; color: var(--ink-soft); margin-bottom: 2rem; }
+  .case-row { max-width: 56rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+  .case-row:last-child { border-bottom: 1px solid var(--line); }
+  .case-row a { display: inline-flex; gap: 0.4rem; color: var(--moss); font-family: var(--display); font-size: clamp(1.4rem, 2.4vw, 2rem); letter-spacing: -0.04em; text-decoration: none; }
+  .case-row a:hover { color: var(--ochre); }
+  .case-row a span { color: var(--ochre); }
+  .case-row p { max-width: 46rem; margin-top: 0.5rem; color: var(--ink-soft); font-size: 1.02rem; line-height: 1.6; }
   .cta-links { display: grid; max-width: 42rem; }
   .cta-links a { display: flex; justify-content: space-between; padding: 0.85rem 0; border-top: 1px solid var(--line); font-size: 1rem; }
   .cta-links a:last-child { border-bottom: 1px solid var(--line); }
   @media (max-width: 800px) {
-    .opening, .research-cta { grid-template-columns: 1fr; gap: 1rem; }
+    .opening, .research-cta, .cases { grid-template-columns: 1fr; gap: 1rem; }
     .finding-list, blockquote, .quote-follow { margin-left: 0; }
   }
   @media (max-width: 560px) {
     .finding { grid-template-columns: 1fr; gap: 0.5rem; }
-    .opening, .findings, .quote, .research-cta { padding-bottom: 4rem; }
+    .opening, .findings, .quote, .research-cta, .cases { padding-bottom: 4rem; }
   }
 </style>
