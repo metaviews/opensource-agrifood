@@ -151,6 +151,7 @@ A project should normally satisfy at least three of these conditions:
 || [CanSIS / National Soil Database](records/cansis.md) | Canada's open soil/land data (OGL-Canada, downloads + web services) | curated | Which land layers did the state open — and why soil but not parcels? |
 || [HM Land Registry open data](records/hm-land-registry.md) | transaction-level Price Paid Data (OGL v3.0) + 289 open-source repos | curated | What does it look like when a land registry chooses openness — line by line? |
 || [Framework Agreement land codes](records/framework-agreement-land-codes.md) | 224 First Nations exiting the Indian Act land regime via community land codes (governance, not open data) | curated | What does land control look like when the open-layer question is jurisdiction? |
+| [Wiki Agri Tech](records/wiki-agri-tech.md) | ODbL open-data agri-tool catalogue with free REST API; editorial CC BY-NC-SA | candidate | Can a paid consultancy's free, licensed tool directory function as identification infrastructure for everyone else? |
 
 The current set is a starting backbone, not a fixed target of seven or ten examples. Further examples should be added when they correct a meaningful coverage gap, introduce a distinct governance or technical pattern, or materially improve the comparative argument. In particular, the collection should not be allowed to become AI-heavy by default; non-AI agrifood examples may be needed to establish the wider field.
 

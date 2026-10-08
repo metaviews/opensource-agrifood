@@ -131,6 +131,7 @@ This catalogue is the browseable index for the curated examples collection. It i
 || [CanSIS / National Soil Database](records/cansis.md) | Canada / federal | soil landscapes, detailed surveys, 100m grids (OGL-Canada, FGDB/GPKG/GeoTIF) | soil and land-capability data | curated |
 || [HM Land Registry open data](records/hm-land-registry.md) | England & Wales | Price Paid Data (OGL v3.0, monthly since 2014) + 289 GitHub repos (192 MIT) | land transaction and registry data | curated |
 || [Framework Agreement land codes](records/framework-agreement-land-codes.md) | Canada (224 signatory First Nations) | none — community land codes, knowledge-sharing-only repository | Indigenous land jurisdiction | curated |
+| [Wiki Agri Tech](records/wiki-agri-tech.md) | France (Montpellier) / French-speaking market | ODbL 1.0 catalogue data + free REST API; CC BY-NC-SA 4.0 editorial; software not located | open catalogue of the agricultural digital-tool market | candidate |
 
 ## Coverage at a glance
 
