@@ -4,7 +4,7 @@ Status: framing settled; session design underway; production design to follow.
 
 Date: 2026-08-05
 Project: opensource-agrifood/ (clearing house concept deferred — emerges when it emerges)
-Format: online, Discord, half-day, four sessions, summit-shaped with salon texture
+Format: online, Discord, condensed afternoon: four 30-minute sessions with one mid-day break, summit-shaped with salon texture (condensed 2026-11-04; originally a half-day with hourly sessions)
 Outputs: byproducts of an experience; the experience itself is the deliverable
 
 ## Event identity (settled)

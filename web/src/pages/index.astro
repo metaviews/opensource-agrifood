@@ -5,7 +5,7 @@ const sessions = [
   {
     number: '01',
     question: 'Who',
-    time: '12:00–1:00pm',
+    time: '12:00–12:30pm',
     title: 'Power goes to those who show up ready to do something',
     paragraphs: [
       'Canadian agrifood is shaped by people who grow food, build tools, and care for the systems around it. This is where we meet one another—not as an audience, but as people whose experience and imagination belong at the centre of the conversation.',
@@ -17,7 +17,7 @@ const sessions = [
   {
     number: '02',
     question: 'What',
-    time: '1:15–2:15pm',
+    time: '12:30–1:00pm',
     title: 'Intelligence begins on the farm and in the food',
     paragraphs: [
       'From farms and fields to processing and distribution, intelligence is taking on new forms. We will travel across the food system and meet people living with these changes.',
@@ -29,7 +29,7 @@ const sessions = [
   {
     number: '03',
     question: 'How',
-    time: '2:30–3:30pm',
+    time: '1:15–1:45pm',
     title: 'The Future Is Something We Practise',
     paragraphs: [
       'A crisis moves through the food system, and the familiar ways of making decisions are no longer enough. The situation is fictional, but we can learn from the questions the scenario raises.',
@@ -41,7 +41,7 @@ const sessions = [
   {
     number: '04',
     question: 'When',
-    time: '3:45–4:45pm',
+    time: '1:45–2:15pm',
     title: 'The Plot Thickens',
     paragraphs: [
       'After the speculation and discussion, we gather the threads. The day may have changed how we see the food system, the technologies moving through it, or the people trying to understand it.',
@@ -58,10 +58,10 @@ const sessions = [
     <div class="hero-copy">
       <p class="eyebrow">A Future Herd spectacular event on AI and agrifood</p>
       <h1>Building the<br /><em>Open-Source</em> Future<br />of Canadian Agrifood</h1>
-      <p class="hero-lede">A half-day gathering for people who care about where food, intelligence, and collective possibility meet.</p>
+      <p class="hero-lede">An afternoon gathering for people who care about where food, intelligence, and collective possibility meet.</p>
       <p class="event-date">Tuesday, November 24, 2026<br /><strong>From 12 noon Eastern Time (ET)</strong></p>
       <div class="event-meta">
-        <span>Online</span><span>Discord</span><span>Half-day</span><span>Four sessions</span>
+        <span>Online</span><span>Discord</span><span>Afternoon</span><span>Four sessions</span>
       </div>
     </div>
     <div class="hero-art" aria-hidden="true">
@@ -100,12 +100,12 @@ const sessions = [
     <div class="section-label">The day</div>
     <div class="agenda-head">
       <h2><span class="agenda-word">Who</span><span class="agenda-arrow">→</span><span class="agenda-word">What</span><span class="agenda-arrow">→</span><span class="agenda-word">How</span><span class="agenda-arrow">→</span><span class="agenda-word">When</span></h2>
-      <p>Four ways of being together. One day to see what becomes possible. Each session is one hour, with a 15-minute break between sessions.</p>
+      <p>Four ways of being together. One afternoon to see what becomes possible. Each session is 30 minutes, with one 15-minute break in the middle of the day.</p>
     </div>
     <div class="session-list">
       {sessions.map((session, index) => (
         <Fragment>
-          {index > 0 && <div class="agenda-break">Break · {sessions[index - 1].time.split('–')[1]}–{session.time.split('–')[0]}</div>}
+          {index === 2 && <div class="agenda-break">Break · 1:00–1:15pm</div>}
           <article class={`session session-${session.tone}`}>
           <div class="session-number">{session.number}</div>
           <div class="session-question">{session.question}</div>
@@ -121,7 +121,7 @@ const sessions = [
         <div class="session-number">—</div>
         <div class="session-question">Wind down</div>
         <div class="session-body">
-          <p class="session-time">From 4:45pm</p>
+          <p class="session-time">From 2:15pm</p>
           <h3>Socialize and hang out</h3>
           <p>The formal part of the day gives way to a more relaxed time together. Stay with us, settle into conversation, and spend time with the people you have met across the sessions.</p>
           <p>There is no further agenda to follow and no conclusion we need to reach. This is time to compare notes, share what stayed with you, follow an interesting thread, or simply enjoy being in the same online space.</p>

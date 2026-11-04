@@ -2,7 +2,7 @@
 
 *A Future Herd spectacular event on AI and agrifood*
 
-**Tuesday November 24, 2026 · From 12 noon Eastern Time (ET) · Online · Discord · Half-day · Four sessions**
+**Tuesday November 24, 2026 · From 12 noon Eastern Time (ET) · Online · Discord · Four sessions**
 
 ## What is happening
 
@@ -22,31 +22,27 @@ The day is an opportunity to encounter one another differently: to recognize wha
 
 ## The agenda
 
-### 1 — *Who:* **Power goes to those who show up ready to do something** *(12:00–1:00pm)*
+### 1 — *Who:* **Power goes to those who show up ready to do something** *(12:00–12:30pm)*
 
 We begin with the people who have come together. What do you know? What are you curious about? What are you trying to understand or make possible? There is no need to arrive with a finished position. Curiosity, attention, and lived experience all have a place here.
 
-### Break *(1:00–1:15pm)*
-
-### 2 — *What:* **Intelligence begins on the farm and in the food** *(1:15–2:15pm)*
+### 2 — *What:* **Intelligence begins on the farm and in the food** *(12:30–1:00pm)*
 
 What is happening with open-source AI in Canadian agrifood—and what are people seeing that others may not yet see? We will look across the food system, listen for what is real and what is still emerging, and make room for the questions that become visible when different kinds of knowledge meet.
 
-### Break *(2:15–2:30pm)*
+### Break *(1:00–1:15pm)*
 
-### 3 — *How:* **The Future Is Something We Practise** *(2:30–3:30pm)*
+### 3 — *How:* **The Future Is Something We Practise** *(1:15–1:45pm)*
 
 Then the day takes a turn. We will enter a simple theatrical situation together. First, a significant cyberattack disrupts systems on which Canadian agrifood depends. Then, a second development changes how the incident is understood: it appears to have been caused by a rogue AI.
 
 You do not need to play a character or arrive with technical expertise. Respond as yourself, bring what you know, and see what the room makes of the situation. The exercise does not presume an open-source agrifood system or prescribe open source as a solution. The meaning belongs to the participants.
 
-### Break *(3:30–3:45pm)*
-
-### 4 — *When:* **The Plot Thickens** *(3:45–4:45pm)*
+### 4 — *When:* **The Plot Thickens** *(1:45–2:15pm)*
 
 We close by looking back at what happened among us. What became newly visible? Which questions grew more interesting? What did we hear in one another that we could not have heard alone? We will not force the day into a conclusion. We will leave room for the conversation to keep unfolding.
 
-### 5 — *Wind down:* **Socialize and hang out** *(from 4:45pm)*
+### 5 — *Wind down:* **Socialize and hang out** *(from 2:15pm)*
 
 The formal part of the day gives way to a more relaxed time together. Stay with us, settle into conversation, and spend time with the people you have met across the sessions.
 
