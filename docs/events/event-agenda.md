@@ -30,19 +30,19 @@ We begin with the people who have come together. What do you know? What are you 
 
 What is happening with open-source AI in Canadian agrifood—and what are people seeing that others may not yet see? We will look across the food system, listen for what is real and what is still emerging, and make room for the questions that become visible when different kinds of knowledge meet.
 
-### Break *(1:00–1:15pm)*
+### Break *(1:00–1:10pm)*
 
-### 3 — *How:* **The Future Is Something We Practise** *(1:15–1:45pm)*
+### 3 — *How:* **The Future Is Something We Practise** *(1:10–2:00pm)*
 
 Then the day takes a turn. We will enter a simple theatrical situation together. First, a significant cyberattack disrupts systems on which Canadian agrifood depends. Then, a second development changes how the incident is understood: it appears to have been caused by a rogue AI.
 
 You do not need to play a character or arrive with technical expertise. Respond as yourself, bring what you know, and see what the room makes of the situation. The exercise does not presume an open-source agrifood system or prescribe open source as a solution. The meaning belongs to the participants.
 
-### 4 — *When:* **The Plot Thickens** *(1:45–2:15pm)*
+### 4 — *When:* **The Plot Thickens** *(2:00–2:20pm)*
 
 We close by looking back at what happened among us. What became newly visible? Which questions grew more interesting? What did we hear in one another that we could not have heard alone? We will not force the day into a conclusion. We will leave room for the conversation to keep unfolding.
 
-### 5 — *Wind down:* **Socialize and hang out** *(from 2:15pm)*
+### 5 — *Wind down:* **Socialize and hang out** *(from 2:20pm)*
 
 The formal part of the day gives way to a more relaxed time together. Stay with us, settle into conversation, and spend time with the people you have met across the sessions.
 
