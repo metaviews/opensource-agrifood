@@ -92,6 +92,7 @@ const sessions = [
       <h2>Meet the Future Herd</h2>
       <p>The Future Herd is a podcast and a growing conversation about the changes reshaping food and agriculture. It explores how collective wisdom and adaptive leadership can help us navigate a changing food system.</p>
       <p>That conversation brings together people with different experiences of the food system—people who work in it, study it, build for it, govern it, and care about where it is going. This event is one way the conversation becomes a shared experience rather than something we only encounter through a screen.</p>
+      <p>Ahead of our November 24 gathering, listen to <a href="https://thefutureherd.ca/episodes/episode-052/">Future Herd episode 52: The Competitive Advantage Offered by Open Source Agriculture</a>. Joshua Pearce explores how open-source tools, shared designs, and collaboration can build capacity across agriculture—and why food sovereignty, repair, and control over essential technology matter now. The episode opens up questions we will explore together at the event.</p>
       <p class="discord-note">The event will take place on the <strong>Future Herd Discord server</strong>: a shared online space where the gathering can happen, where participants can find one another, and where the conversation can continue beyond this day. <a href="https://thefutureherd.ca">Learn more about Future Herd</a>.</p>
     </div>
   </section>
@@ -113,6 +114,9 @@ const sessions = [
             <p class="session-time">{session.time}</p>
             <h3>{session.title}</h3>
             {session.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+            {session.number === '03' && (
+              <p>The role-playing scenario is fictional, but its stakes are already visible. Metaviews’ November 8 digest, <a href="https://metaviews.ca/signal/2026-11-08-082816-supermarket-freezers-europe-hybrid-war/">Supermarket Freezers Become Europe’s Hybrid-War Targets</a>, follows reports of hacked supermarket fridges and freezers across Europe. These developments make our November 24 exercise timely: how would we work together to protect food supplies, share reliable information, and respond when the systems we depend on are disrupted?</p>
+            )}
           </div>
           </article>
         </Fragment>
