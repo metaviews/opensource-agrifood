@@ -9,9 +9,13 @@ export function getStaticPaths() {
   const modules = {
     ...import.meta.glob('../../../../dairy/*.md'),
     ...import.meta.glob('../../../../cea/*.md'),
+    // The succession research program publishes all of its documents (frame,
+    // research map, cycle passes), not just case studies.
+    ...import.meta.glob('../../../../succession/*.md'),
+    ...import.meta.glob('../../../../succession/research/*.md'),
   };
   return Object.entries(modules)
-    .filter(([key]) => /case-study\.md$/.test(key))
+    .filter(([key]) => /case-study\.md$/.test(key) || /succession\//.test(key))
     .map(([key, load]) => {
       const slug = key.replace('../../../../', '').replace(/\.md$/, '');
       return { params: { slug }, props: { load, slug } };
@@ -28,13 +32,19 @@ const titleMatch = raw.match(/^#\s+(.+)$/m);
 const heading = (mod.headings ?? []).find((h) => Number(h.depth) === 1);
 const title = (titleMatch && titleMatch[1].trim()) || (heading && heading.text) || slug;
 const section = slug.split('/')[0];
-const sectionLabel = section === 'dairy' ? 'Dairy case study' : 'Controlled environment agriculture case study';
+const sectionLabels = {
+  dairy: 'Dairy case study',
+  cea: 'Controlled environment agriculture case study',
+  succession: 'Succession research program',
+};
+const sectionLabel = sectionLabels[section] ?? section;
+const crumbLabel = section === 'succession' ? 'Succession research' : 'Case studies';
 ---
 
 <Base title={`${title} | Open-Source Agrifood`} description={`${title} — a case study from the Open Source Agrifood research corpus.`}>
   <article class="case shell">
     <header class="case-head">
-      <p class="eyebrow"><a href="/research">The research</a> <span class="crumb">/</span> <a href="/research">Case studies</a></p>
+      <p class="eyebrow"><a href="/research">The research</a> <span class="crumb">/</span> <a href="/research">{crumbLabel}</a></p>
       <p class="case-section">{sectionLabel}</p>
     </header>
 

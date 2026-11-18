@@ -50,6 +50,39 @@ const caseStudies = [
     text: 'Data-center waste heat as an energy input for controlled environment agriculture: what actually operates today, what the physics allows, what is only announced — and where an open layer could still enter a pairing that is forming entirely closed.',
   },
 ];
+
+const successionDocs = [
+  {
+    title: 'The frame: open source agriculture and the succession crisis',
+    href: '/cases/succession/concept',
+    text: 'The research question decomposed: five stacked stresses — the demographic cliff, the capital wall, the mechanism enclosure, the knowledge transfer, and rural viability — and the six layers where open source plausibly bites, with what it honestly cannot do written in from the start.',
+  },
+  {
+    title: 'The research map: eleven cycles',
+    href: '/cases/succession/research/research-mapping',
+    text: 'The standing research tree — succession knowledge, land linking, open legal assets, the entry-cost floor, farm-data continuity, visibility, conflict, financing, longevity, gender and power, and media — each as a bounded cycle with its status.',
+  },
+  {
+    title: 'C3: Open legal assets for farm tenure',
+    href: '/cases/succession/research/2026-11-c3-open-legal-assets-pass',
+    text: 'The gap is a licensing gap, not a drafting gap: model legal documents exist free-to-read across the sector, but the right to adapt and redistribute them exists at exactly one organization. Verified across the US, Canada, and the UK.',
+  },
+  {
+    title: 'C1: Succession knowledge as a commons',
+    href: '/cases/succession/research/2026-11-c1-succession-knowledge-pass',
+    text: 'Canadian succession knowledge is rich, free to read, and nowhere open-licensed — while the one genuinely open-licensed succession workbook found anywhere is American, and exactly the base a Canadian fork would start from.',
+  },
+  {
+    title: 'C6: Seeing the transition',
+    href: '/cases/succession/research/2026-11-c6-visibility-policy-pass',
+    text: 'The transfer wave is still unseen — no federal beneficial-ownership registry, one provincial land registry — but public titles data already proves the open-analysis method, and the tax architecture is verified family-shaped.',
+  },
+  {
+    title: 'C8: Alternative financing models',
+    href: '/cases/succession/research/2026-11-c8-alternative-financing-pass',
+    text: 'The world’s non-family farm-transfer financing models — share-milking, community capital, land pensions — are real, operating, and none is open, with one statutory near-exception: New Zealand’s published sharemilking contract.',
+  },
+];
 ---
 
 <Base title="What We Are Learning | Open-Source Agrifood" description="A human-readable introduction to the research behind Building the Open-Source Future of Canadian Agrifood.">
@@ -102,6 +135,21 @@ const caseStudies = [
     </div>
   </section>
 
+  <section class="succession shell">
+    <div class="section-label">Succession research program</div>
+    <div class="succession-copy">
+      <p class="cases-lede">An ongoing research program asking how open source agriculture can address Canadian farm succession — the aging of the operator population, farmland values compounding away from new entrants, and what the land research called the largest private wealth transfer in the sector’s history, which the public cannot currently see. Each document is a bounded cycle with its sources labelled; the program continues.</p>
+      <div class="case-list" aria-label="Succession research documents">
+        {successionDocs.map((item) => (
+          <article class="case-row">
+            <a href={item.href}>{item.title} <span>↗</span></a>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="quote shell">
     <div class="section-label">A question worth carrying</div>
     <blockquote>
@@ -136,8 +184,8 @@ const caseStudies = [
   h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 8rem); letter-spacing: -0.07em; line-height: 0.92; }
   h1 em { color: var(--moss); font-style: normal; }
   .lede { max-width: 42rem; color: var(--ink-soft); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.4; }
-  .opening, .findings, .quote, .research-cta, .cases { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
-  .opening, .research-cta, .cases { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .opening, .findings, .quote, .research-cta, .cases, .succession { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .opening, .research-cta, .cases, .succession { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
   .opening-copy { max-width: 50rem; font-size: 1.15rem; line-height: 1.65; }
   .opening-copy p:first-child { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.55rem, 2.8vw, 2.35rem); line-height: 1.15; }
   .finding-list { margin-left: 20%; }
@@ -169,11 +217,11 @@ const caseStudies = [
   .cta-links a { display: flex; justify-content: space-between; padding: 0.85rem 0; border-top: 1px solid var(--line); font-size: 1rem; }
   .cta-links a:last-child { border-bottom: 1px solid var(--line); }
   @media (max-width: 800px) {
-    .opening, .research-cta, .cases { grid-template-columns: 1fr; gap: 1rem; }
+    .opening, .research-cta, .cases, .succession { grid-template-columns: 1fr; gap: 1rem; }
     .finding-list, blockquote, .quote-follow { margin-left: 0; }
   }
   @media (max-width: 560px) {
     .finding { grid-template-columns: 1fr; gap: 0.5rem; }
-    .opening, .findings, .quote, .research-cta, .cases { padding-bottom: 4rem; }
+    .opening, .findings, .quote, .research-cta, .cases, .succession { padding-bottom: 4rem; }
   }
 </style>
