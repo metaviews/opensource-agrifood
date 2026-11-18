@@ -166,7 +166,20 @@ post-sale support, C10 gender/longevity/power, C11 decision-making and media inf
   document rather than a scan.
 - **Budget:** one discovery pass, three cells.
 
-## C7. Conflict and dispute resolution in farm succession (candidate)
+## C7. Conflict and dispute resolution in farm succession (run 2026-11-18)
+
+**Run** — pass document: `research/2026-11-c7-conflict-dispute-pass.md`. Resolution:
+**a human-service layer with an open-document floor.** The institutional layer exists
+and its criteria are published law — the USDA certified mediation programs make
+"Family farm transition" an eligible public topic (verified; Ohio reports ~70% of
+docket is farm transition, verified as reported), while Canada's public layer
+(FDMS) is insolvency-only and no farm-succession ombudsman exists anywhere. The
+professional competency layer is the most enclosed found in this program (IFTN
+certification $900–$999; Froese commercial). The buildable open surface: model
+dispute-resolution clauses for tenure/transfer instruments (Purdue's mediation
+clause, the NZ Order, the Schumacher lease as instances) — added to the adaptation
+commons as a conflict annex. One record curated (`usda-certified-mediation-programs.md`,
+collection 159).
 
 - **Question:** Succession is a family-conflict process — unequal inheritances between
   on-farm and off-farm siblings, buyout disputes, will contests, negotiation breakdowns.
@@ -219,40 +232,32 @@ before C9 runs). Design notes carried to P5: the USDA guarantee's uptake caution
   equity-partnership; community/patient capital; retirement-in-place models), with
   licence/formality recorded per model.
 
-## C9. Longevity and post-sale support (candidate)
+## C9. Longevity and post-sale support (run 2026-11-18 — with C10, one pass)
 
-- **Question:** People live longer and need more support after they sell the farm.
-  How does extending lifespan reshape succession design — later and longer transitions
-  (the Young Agrarians toolkit's one-to-fifteen-year estimate), retirement income
-  security for sellers, phased-retirement and care provisions inside tenure
-  instruments, and the risk that a transfer vehicle designed for a 10-year retirement
-  fails a 30-year one?
-- **Corpus hooks:** the Schumacher lease's lease-continuation-on-death clause and the
-  Agrarian Commons lease's 2-year-to-99-year staged term (C3) — tenure instruments
-  already encode longevity; the YA toolkit's "1 to 15 years" planning horizon; the
-  corpus holds nothing on post-sale income security (new ground, recorded as such).
-- **Expected frame change:** adds a time dimension to every other layer — vehicles
-  must be designed for the seller's remaining life, not the transaction.
-- **Budget:** one discovery pass, three cells (demography of farm retirement; phased/
-  life-tenure instruments; post-sale income models), honestly expecting thin sources.
+**Run** — pass document: `research/2026-11-c9-c10-demography-gender-pass.md`.
+Resolution: the post-sale window is long and longer for women (life expectancy at 65:
+females 22.3 years vs males 19.7, StatCan 2023, verified); succession is a years-long
+process (JRC, CC BY 4.0, curated); the seller-longevity failure mode is documented
+inside installment-sale guidance ("if the seller outlives the term of the contract,
+income problems could result"); Canada has no farm-specific post-sale income layer
+(absence); Leibrente remains the only verified care-in-transfer instrument. Design
+note: vehicles must be designed for the seller's remaining life, not the transaction;
+care-in-transfer provisions join the adaptation commons as a named template element.
 
-## C10. Gender, longevity, and power in farm succession (candidate)
+## C10. Gender, longevity, and power in farm succession (run 2026-11-18 — with C9, one pass)
 
-- **Question:** Women live longer than men; farm operators are majority male; widows
-  inherit effective control. Could demographic arithmetic — not ideology — shift
-  patriarchal power in agriculture over the transfer wave, and what do the data show
-  about women's ownership, inheritance, and decision-making in farm succession?
-- **Corpus hooks:** the corpus's labour-layer finding (the farm as enterprise, not a
-  life — gender is invisible in it); the YA toolkit's case stories include women-led
-  transitions (unverified for gender analysis); StatCan operator data disaggregates by
-  sex (open data). New ground; recorded as such.
-- **Expected frame change:** tests whether the program's build objects (open knowledge,
-  adaptation commons, tenure vehicles) serve a succession population that is
-  increasingly female-controlled — or whether their design assumptions are implicitly
-  patriarchal (the patriarch-to-son model that the instruments encode).
-- **Budget:** one discovery pass, three cells (operator/ownership data by sex;
-  inheritance and survivorship patterns; women-led transition programs), with the
-  honesty note that this is a hypothesis-generating pass, not a verdict.
+**Run** — same pass document. Resolution: the hypothesis is **half-confirmed**.
+Confirmed by open data (verified from the downloaded Agriculture–Population Linkage
+CSV): 9,685 widowed farm operators, **Women+ 58.6%**, 95.5% aged 55+; female
+operators 30.4% (first rise since 1991). Quantified where measured (Iowa State,
+curated): 57% of identified successors are sons vs 8% daughters — but the
+transferor's gender doubles daughter-choice probability. Not confirmable: widowhood
+→ effective control (no study tests it; Canadian peer-reviewed work on women and
+farm succession is absent — the pass's central absence). Design implication: the
+build objects must serve a female-controlled, longevity-stressed succession
+population; the patriarch-to-son default is empirically stale and demographically
+mismatched. Three records curated (`statcan-agriculture-population-linkage.md`,
+`iowa-women-and-land.md`, `jrc-farm-succession-dynamics.md`; collection 162).
 
 ## C11. How succession decisions are made — and media's role (candidate)
 
