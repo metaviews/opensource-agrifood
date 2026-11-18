@@ -167,6 +167,14 @@ conflict undisclosed) into a public record of who paid what to whom.
 - **Unresolved:** provincial political economy; interaction with farm-status and
   family-corporation privacy expectations.
 
+*Refined 2026-11-18 after cycle C2 (farm-link anatomy):* C2's verified finding is that
+no examined farm-link operator publishes matching criteria and no evaluation study
+identifies criteria opacity as a failure mode — the documented failure modes are
+trust, readiness, external conditions, and follow-through. Published criteria and
+outcome data are therefore framed here as **accountability infrastructure** (making a
+publicly funded service inspectable and its match-count claims comparable), not as a
+mechanism to raise match rates.
+
 ### P3 — A Canadian open succession-knowledge commons
 
 Fork what is legally forkable and rebuild what is not. The Land For Good workbook is

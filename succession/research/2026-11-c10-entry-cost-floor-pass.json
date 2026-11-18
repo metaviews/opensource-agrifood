@@ -1,0 +1,364 @@
+{
+ "cells": [
+  {
+   "cell": "1. Beginning-farmer cost structure from Canadian sources (land, machinery, livestock/quota, working capital)",
+   "findings": [
+    {
+     "claim": "Canadian farmland values rose 9.3% in 2025 (Manitoba +12.2%, Alberta +11.4%, Saskatchewan +9.4%), the land line of the entry-cost floor.",
+     "source_url": "https://www.fcc-fac.ca/en/about-fcc/media-centre/news-releases/2026/canadas-2025-farmland-values-climbed",
+     "verbatim_quote": "The average value of Canadian farmland continued its steady climb in 2025, increasing by 9.3 per cent, according to the latest FCC Farmland Values Report.",
+     "licence_or_terms": "not stated (FCC copyright; site Terms of Use prohibit derivative works — verified in corpus record fcc-fmc-transition-tools.md)",
+     "model_status": "data"
+    },
+    {
+     "claim": "FCC itself names farmland appreciation as an entry barrier and pitches its Transition Loan against it.",
+     "source_url": "https://www.fcc-fac.ca/en/about-fcc/media-centre/news-releases/2026/canadas-2025-farmland-values-climbed",
+     "verbatim_quote": "While more than 30 years of increasing farmland values is good news for current owners, it can present a significant challenge to those who want to enter the agriculture sector.",
+     "licence_or_terms": "not stated (FCC copyright; site terms prohibit derivative works)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "FCC's own borrowing guidance puts the land-loan down payment at 25% of purchase price, with family land pledged as security as the common entrant workaround.",
+     "source_url": "https://www.fcc-fac.ca/en/knowledge/borrowing-basics",
+     "verbatim_quote": "For a land loan, you typically need a down payment equal to 25% of the purchase price. Since that can be a lot of money to come up with, it's common to pledge other land as security rather than making a down payment.",
+     "licence_or_terms": "not stated (FCC Terms of Use: personal use only, no modification/redistribution/derivatives without written consent — verified verbatim in corpus record fcc-fmc-transition-tools.md)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "FCC markets a transition loan product that waives the down payment for beginning farmers — the lender's own answer to the capital floor.",
+     "source_url": "https://www.fcc-fac.ca/en/knowledge/borrowing-basics",
+     "verbatim_quote": "If you're just starting out and concerned about upfront capital you may want to explore a financial product such as the FCC Transition Loan, where a down payment is often not required.",
+     "licence_or_terms": "not stated (FCC Terms of Use restrict modification and redistribution)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "The federal beginning-farmer cost structure is named but never itemized in a current national source: AAFC's young-farmer consultations list the categories (land, equipment, inputs, quota) without a cost table.",
+     "source_url": "https://publications.gc.ca/collections/collection_2011/agr/A34-16-2010-eng.pdf",
+     "verbatim_quote": "Generally, beginning farmers need to purchase land, equipment, inputs, quota, etc. to get started in agriculture.",
+     "licence_or_terms": "not stated (Crown publication, publications.gc.ca; no licence text in document)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "AAFC's consultation record attests 'huge' start-up costs and identifies supply-managed entry (quota, land, buildings, animals) as the acute case.",
+     "source_url": "https://publications.gc.ca/collections/collection_2011/agr/A34-16-2010-eng.pdf",
+     "verbatim_quote": "Participants discussed the 'huge' start-up costs associated with getting started in farming and their inability to gain access to necessary capital.",
+     "licence_or_terms": "not stated (Crown publication; no licence text in document)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "The non-ownership workaround is documented in the same federal record: young Saskatchewan farmers started by renting land and equipment rather than buying.",
+     "source_url": "https://publications.gc.ca/collections/collection_2011/agr/A34-16-2010-eng.pdf",
+     "verbatim_quote": "some young farmers in Saskatchewan mentioned that renting, rather than buying their land and their equipment, enabled them to start their businesses.",
+     "licence_or_terms": "not stated (Crown publication; no licence text in document)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "A national survey of 1,326 new/aspiring/exited farmers (Laforge et al., Canadian Food Studies) finds the two dominant entry barriers are affordable land and early-stage financing — not technology.",
+     "source_url": "https://canadianfoodstudies.uwaterloo.ca/index.php/cfs/article/download/288/296/1653",
+     "verbatim_quote": "The most significant barriers concerned affordable land and financing their early farm businesses.",
+     "licence_or_terms": "open access journal (Canadian Food Studies / La Revue canadienne des études sur l'alimentation); explicit licence not stated on the article page",
+     "model_status": "data"
+    },
+    {
+     "claim": "Dairy quota is the single largest known livestock/quota entry line: the DFO quota price cap stood at $24,000/kg of butterfat at the August 2026 exchange (an exchange that was cancelled with zero kilograms sold), implying ~$576,000 of quota capital for a 24-kg minimum entry (derived: 24 kg × $24,000).",
+     "source_url": "https://new.milk.org/wp-content/uploads/2026/08/MMS-Exchange-Summary-August-2026.pdf",
+     "verbatim_quote": "Quota Price Cap: 24,000.00 / kg ... AUGUST 2026 CANCELLED ... Total kilograms of quota sold and transferred | 0.00",
+     "licence_or_terms": "not stated (DFO official exchange summary; no licence text)",
+     "model_status": "data"
+    },
+    {
+     "claim": "The NCIAF 'Seed to Silo' grain-farming toolkit (starter scale: ~1,500 acres or less) frames field-scale grain entry as capital-intensive but publishes no itemized startup cost table; it is sponsor-branded (John Deere appears throughout).",
+     "source_url": "https://nciaf.ca/pub/Member%20Area/NCIAF%20Templates/nciaf-seed-to-silo-toolkit---march-9-2026.pdf",
+     "verbatim_quote": "conventional grain and oilseed farming is capital intensive, meaning the components required to operation are large investments.",
+     "licence_or_terms": "not stated (sponsor-branded toolkit; no licence text)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "Working capital is described as timing risk, not just amount: Manitoba's new-farmer resource notes significant investment precedes any income by months or years.",
+     "source_url": "https://manitoba.ca/agriculture/farm-management/farm-succession-transition/pubs/new-farmer-resource.pdf",
+     "verbatim_quote": "Significant investment is required months or years before income is received from selling crops or livestock, and both fixed and operating costs should be",
+     "licence_or_terms": "not stated (Manitoba Agriculture publication; no licence text found)",
+     "model_status": "framework"
+    }
+   ]
+  },
+  {
+   "cell": "2. Synthesis over the corpus's own cost spines — what open substitutes actually cost or save (dairy robot case, CEA synthesis, open-hardware records)",
+   "findings": [
+    {
+     "claim": "Dairy robot capital cost: an 80-cow Ontario farm needs two robots at the benchmarked 51 cows/robot, putting all-in automation above $400,000 before barn work — the largest corpus cost-spine figure for a single farm, and the least verified.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md §3 (corpus working document; underlying figures aggregator-sourced)",
+     "verbatim_quote": "an 80-cow Ontario farm typically needs two robots at the benchmarked 51 cows/robot, putting the all-in automation investment in the $400,000+ range before barn work",
+     "licence_or_terms": "not stated (corpus working document; underlying figures aggregator-sourced, recorded as unverified)",
+     "model_status": "data"
+    },
+    {
+     "claim": "The recurring maintenance/software stream is where open attacks dairy automation: $16,000–$38,000/yr (derived), i.e. $192,000–$456,000 over an assumed 12-year life — half to more than the purchase price.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md, §4 (derived from §3 spine)",
+     "verbatim_quote": "the recurring maintenance and software stream runs $16,000–$38,000 a year (derived): $192,000–$456,000 over an assumed 12-year life — half to more than the entire purchase price.",
+     "licence_or_terms": "not stated (corpus working document; derived from unverified aggregator spread)",
+     "model_status": "data"
+    },
+    {
+     "claim": "The contestable share of that stream — what openness could shift to independent service — is assumed at 30–50%, worth $4,800–$19,000/yr; the corpus flags this as the pivotal unvalidated assumption a farm-record pilot must test.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md, §4",
+     "verbatim_quote": "Contestable assumption: 30–50% of the recurring stream (assumed; the pivotal assumption in this case study, flagged for farm-record validation in §9). That is $4,800–$19,000 per year",
+     "licence_or_terms": "not stated (corpus working document; assumption labelled 'assumed', not evidenced)",
+     "model_status": "framework"
+    },
+    {
+     "claim": "Largest defensible upfront saving already in the spine: the used-robot on-ramp — Lely's own pre-owned listings price a used Astronaut A4+ from $80,000 USD against $186,308 USD new (57% off); openness's role is making the used machine safe to buy, not building a cheaper new one.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md, §4 Route A (Lely pre-owned listings, verified as listing content, checked 2026-09-19)",
+     "verbatim_quote": "its own listings put a used Astronaut A4+ at from $80,000 USD against from $186,308 USD for a new Astronaut PowerStart package, a 57% discount verified from Lely's own pre-owned listings",
+     "licence_or_terms": "not stated (vendor sales-channel listings; verified as listing content by corpus)",
+     "model_status": "data"
+    },
+    {
+     "claim": "The design-commons mechanism is real and quantified only in guidance hardware: AgOpenGPS open RTK autosteer builds at ~€1,660–2,190 against $10,000+ commercial entry — a ~78% reduction (order-of-magnitude, currency-mixed); extrapolating it to a milking robot ($200,000–$280,000 for two) is labelled speculative.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md, §4 Route B (AgOpen Shop kit pricing)",
+     "verbatim_quote": "a full open RTK autosteer build runs ~€1,660–2,190 (AgOpen Shop kit pricing) against commercial RTK guidance entry points of $10,000+, a ~78% reduction (order-of-magnitude; currency-mixed)",
+     "licence_or_terms": "not stated (kit vendor pricing + trade/forum sources, recorded as order-of-magnitude)",
+     "model_status": "data"
+    },
+    {
+     "claim": "The honesty check: FarmBot is genuinely open (MIT) yet costs more than comparable closed systems — open does not automatically mean cheap for complex machines at low volume; a first-generation open milking robot would likely not be cheaper up front.",
+     "source_url": "opensource-agrifood/dairy/open-milking-robot-case-study.md, §4 Route C; licence verified in examples/records/farmbot.md (MIT via GitHub API 2026-08-02)",
+     "verbatim_quote": "FarmBot is genuinely open (MIT licence, curated record) and costs more than comparable closed garden systems, because small-scale manufacturing of complex machines is expensive",
+     "licence_or_terms": "MIT (FarmBot software, verified via GitHub API); FarmBot hardware open per company policy under OSHWA definition",
+     "model_status": "open artifact"
+    },
+    {
+     "claim": "CEA northern spine: Nunavut electricity at 62–75 ¢/kWh (10–15× southern rates) puts continuously operated greenhouse energy at roughly $435–$745/m²/yr, and control strategies alone recover 17–43% of it — the corpus's clearest case where open control saves money rather than capital.",
+     "source_url": "opensource-agrifood/cea/synthesis.md (Qulliq Energy posted rates; Trépanier, Gosselin & Jørgensen 2025, Applied Energy, CC BY)",
+     "verbatim_quote": "Electricity in Nunavut costs 62 to 75 cents per kilowatt-hour, ten to fifteen times southern Canadian rates (Qulliq Energy Corporation's posted rates).",
+     "licence_or_terms": "energy prices: not stated (posted utility rates); consumption/control literature: open access, CC BY (Applied Energy 2025)",
+     "model_status": "data"
+    },
+    {
+     "claim": "Northern community greenhouse capital comparator: the Naujaat geodesic dome was built for $164,000 — an order-of-magnitude entry point below supply-managed livestock entry, achieved by the community itself without open licensing.",
+     "source_url": "opensource-agrifood/cea/synthesis.md (Koller 2017, Earth Island Journal; CBC 2016)",
+     "verbatim_quote": "The best-documented example is Naujaat, Nunavut: a 42-foot geodesic dome, built in 2015 for $164,000, running hydroponic towers with a capacity of about 2,000 plants.",
+     "licence_or_terms": "not stated (reported figure from journalistic and peer-reviewed sources)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Canada's only formally certified open agricultural hardware prices a capital saving: FAST Lab/WIRED open wood-based vertical PV racking is modelled at 22% below commercial metal racking (LCOE 77% of conventional) — but the certified design is recorded as 'Designed, Modelled | Made: No | Replicated: No'.",
+     "source_url": "opensource-agrifood/examples/records/fast-lab-agrivoltaics.md (OSHWA CA000025; peer-reviewed in Designs 7(2), 34, 2023)",
+     "verbatim_quote": "capital cost modelled at 22% below commercial metal vertical racking and LCOE at 77% of conventional racking.",
+     "licence_or_terms": "CERN-OHL-S-2.0 (hardware, software, documentation), verified via OSHWA certification directory 2026-10-14",
+     "model_status": "open artifact"
+    },
+    {
+     "claim": "Only Canadian farmer-measured open-tech saving located in the corpus: Manitoba grain farmer Matt Reimer's open autonomous grain-cart app saved an estimated CAD $5,000 in one season — project-reported, not audited.",
+     "source_url": "opensource-agrifood/examples/records/matt-reimer.md (MIT News, 2015)",
+     "verbatim_quote": "MIT News reports that the driverless tractor unloaded grain from a combine more than 500 times during one harvest and estimated savings of at least CAD $5,000 for that season.",
+     "licence_or_terms": "not stated (project-reported account; repository public but licence not verified in record)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Maintenance-funding caveat from the open-hardware records: L'Atelier Paysan, the strongest farmer-governed open-hardware cooperative, entered judicial liquidation in April 2026 — governance-model strength does not solve the funding problem for open machinery commons.",
+     "source_url": "opensource-agrifood/examples/records/latelier-paysan.md (Tribunal de Commerce de Grenoble, 2026-04-21)",
+     "verbatim_quote": "even a farmer-governed cooperative with a decade and a half of activity was not financially sustainable in its corporate form.",
+     "licence_or_terms": "not stated (design-asset licence terms per asset, unaudited; unresolved through the liquidation)",
+     "model_status": "operating model"
+    }
+   ]
+  },
+  {
+   "cell": "3. Shared-capital and non-ownership routes (machinery co-ops, equipment sharing/custom hiring, farm incubators) with Canadian examples",
+   "findings": [
+    {
+     "claim": "Machinery sharing's Canadian evidence base is a dated Saskatchewan study: three 1,500-acre grain farms combining equipment cut total machinery cost per acre from $44.66 to $28.75 (conventional seeding) and from $37.93 to $25.36 (direct seeding) — roughly a 36% reduction (derived).",
+     "source_url": "https://www.extension.iastate.edu/agdm/crops/html/a3-37.html (citing Harris and Fulton, 'Farm Machinery Co-operatives in Saskatchewan and Quebec', https://usaskstudies.coop/documents/books,-booklets,-proceedings/machinery-co-ops-sk-and-pq.pdf)",
+     "verbatim_quote": "A study in Saskatchewan estimated that three medium sized grain farms (1,500 acres each) could combine their equipment and reduce their total machinery costs per acre from $44.66 to $28.75 under conventional seeding technology, and from $37.93 per acre to $25.36 per acre using direct seeding technology (Harris and Fulton).",
+     "licence_or_terms": "not stated (Iowa State Extension page; underlying USask Centre for the Study of Co-operatives booklet)",
+     "model_status": "data"
+    },
+    {
+     "claim": "Quebec's CUMAs are Canada's operating machinery-co-op layer: 64 active CUMAs, 2,025 member enterprises (2021), explicitly framed as lowering production costs through shared use of equipment; the MAPAQ portrait permits reproduction with attribution.",
+     "source_url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/agriculture-pecheries-alimentation/agriculture/industrie-agricole/partage-agricoles/PO_portrait-general-cuma-quebec_MAPAQ.pdf",
+     "verbatim_quote": "Actuellement, on compte 64 CUMA en activité au Québec ... La CUMA permet d'améliorer l'efficacité technico-économique des entreprises agricoles et de réduire les coûts de production en favorisant l'utilisation, à moindre coût, d'équipements performants.",
+     "licence_or_terms": "© Gouvernement du Québec — 'La reproduction totale ou partielle du présent document est autorisée à la condition que la source soit mentionnée' (reproduction permitted with attribution, stated in document)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Custom hiring has a live price signal in Ontario: the 2024 OPACA survey of 200 custom operators puts corn combining at an average $65/acre (15th–85th percentile $54–$75) — the market rate at which an entrant can rent machinery services instead of owning.",
+     "source_url": "https://opaca.net/wp-content/uploads/2024ONCustomFarmworkRates-1.pdf (published with OMAFRA's Guide to custom farmwork and short-term equipment rental: https://www.ontario.ca/page/guide-custom-farmwork-and-short-term-equipment-rental)",
+     "verbatim_quote": "the 15th percentile for corn combining is $54/acre and the 85th percentile is $75/acre. This means that 15% of those surveyed charged $54/acre or less and 15% charged more than $75. Seventy percent (85th –15th percentile) of all those reporting charged between $54 and $75/acre. The average rate charged was $65/acre.",
+     "licence_or_terms": "not stated (OPACA infosheet; OMAFRA companion dataset hosted on data.ontario.ca)",
+     "model_status": "data"
+    },
+    {
+     "claim": "Ontario's only operating university farm incubator packages land plus shared equipment for entrants: KPU Farm Schools' incubator offers plots (1–3 years), a tool share (seeders, walk-behind tractor, etc.), and mentorship — but only to graduates of its own programs.",
+     "source_url": "https://www.kpu.ca/science/farmschools/incubator-program",
+     "verbatim_quote": "Our incubator programs offer continued mentorship, access to land, shared equipment and tools, and community support from a network of regenerative farmers.",
+     "licence_or_terms": "not stated (university program page; no licence text)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Canada's best-known farm incubator, FarmStart (Ontario, founded 2005, McVean incubator farm), is no longer operating — the North American scan of incubator programs records it as defunct.",
+     "source_url": "https://www.foodsystemsjournal.org/index.php/fsj/article/download/589/577/1235",
+     "verbatim_quote": "FarmStart's incubator farms [no longer operating] (Ontario)",
+     "licence_or_terms": "not stated (Journal of Agriculture, Food Systems, and Community Development article)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Supply-managed entry has its own shared-capital route: DFO's new-entrant quota assistance program (NEQAP) loans 12 kg of butterfat quota for five years to up to 10 new entrants a year, with the exchange summary still recording NEQAP purchasers in 2026.",
+     "source_url": "https://www.betterfarming.com/magazines/better-farming-ontario/featured-articles/dairy-coming-soon-a-lottery-for-new-dairy-quota (current operation evidenced in https://new.milk.org/wp-content/uploads/2026/08/MMS-Exchange-Summary-August-2026.pdf: 'Number of new entrants receiving assistance (NEQAP) purchasing quota | 2')",
+     "verbatim_quote": "Successful applicants are loaned 12 kilograms of daily butterfat production for five years.",
+     "licence_or_terms": "not stated (trade-press article; DFO program documents unlicensed)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "The Young Agrarians BC Transition Toolkit documents a community-farm ownership route at scale: over 20 BC farms where land ownership is shared among multiple agricultural enterprises (the 50%-of-under-35-operators-leasing figure is stated in the same toolkit).",
+     "source_url": "https://youngagrarians.org/bc-transition-toolkit/",
+     "verbatim_quote": "Across B.C. there are over 20 farms where land ownership is shared and there is more than one agricultural enterprise accessing it. We call these farms Community Farms",
+     "licence_or_terms": "not stated (free to download and browse; no open licence — corpus record young-agrarians-bc-transition-toolkit.md)",
+     "model_status": "operating model"
+    },
+    {
+     "claim": "Machinery joint ventures are documented as a formal ownership structure with named savings sources (greater annual use of large machines, labour efficiency, volume discounts), but with no Canadian platform or template publishing the instrument.",
+     "source_url": "https://www.extension.iastate.edu/agdm/crops/html/a3-37.html",
+     "verbatim_quote": "Such arrangements can reduce equipment costs significantly as well as increase labor flexibility.",
+     "licence_or_terms": "not stated (Iowa State University Extension and Outreach page)",
+     "model_status": "framework"
+    }
+   ]
+  }
+ ],
+ "absences": [
+  {
+   "note": "No current Canadian source itemizes beginning-farmer startup costs into land / machinery / livestock-quota / working-capital lines. StatCan's Farm Financial Survey measures the assets and debt of operating farms, not entry costs; Farm Management Canada's located studies (e.g. Dollars and Sense) address management practices and transition, not startup cost structure; the itemized picture only exists piecewise (FCC farmland values, DFO quota prices, machinery studies).",
+   "evidence_of_search": "Web searches: 'Farm Credit Canada beginning farmers survey startup costs land machinery', 'StatCan Farm Financial Survey beginning farmers assets debt', 'Farm Management Canada beginning farmer startup costs study', 'beginning farmer startup costs Canada academic study land machinery quota'; StatCan FFS questionnaire (2025) reviewed for variables (asset values, capital investments) — no entrant cost table; FMS/FMC results reviewed."
+  },
+  {
+   "note": "StatCan Farm Financial Survey young-operator financial breakdowns (e.g. debt-to-asset ratio ~0.28 for farms with at least one young operator, FFS 2009) could not be verified against full text: the archived FFS PDFs return a StatCan security-check interstitial to both direct fetch and the Wayback Machine. Treated as unverified rather than quoted.",
+   "evidence_of_search": "curl of https://www150.statcan.gc.ca/n1/pub/21f0008x/21f0008x2011001-eng.pdf and 21f0008x2010001-eng.pdf returned HTML security-check pages (not PDFs); Wayback Machine id_ replay returned the same interstitial; search snippet for the 0.28 debt-to-asset figure located but unverifiable in full text."
+  },
+  {
+   "note": "No Canadian equipment-sharing platform with published transaction volumes or pricing found — only app-store listings (AgHelp, FarmKar) without published operational data. No published Canadian machinery-sharing agreement template or co-op model instrument was located under any licence.",
+   "evidence_of_search": "Web searches: 'equipment sharing platform farmers Canada rental custom hiring', 'machinery co-operative Saskatchewan shared farm equipment study'; results limited to Iowa State/Northeast SARE frameworks and Canadian app listings with no public metrics."
+  },
+  {
+   "note": "No Canadian farm-incubator outcome or cost data: the operating example found (KPU) restricts plots to its own program graduates and publishes no outcome metrics; FarmStart (Ontario) is defunct; no national incubator network with published economics located.",
+   "evidence_of_search": "Web searches: 'FarmStart Ontario incubator beginning farmers', 'farm incubator Canada beginning farmers land training program'; North American incubator scan (JAFSCD) lists FarmStart as no longer operating; Trent/KPU/York program pages carry no cost or outcome data."
+  },
+  {
+   "note": "No Farm Management Canada beginning-farmer-specific startup cost study was located; the corpus record fcc-fmc-transition-tools.md confirms FMC's located toolkits are transition-focused and unlicensed.",
+   "evidence_of_search": "Web search 'Farm Management Canada beginning farmer startup costs study' returned FMC's Dollars and Sense study and transition toolkit material only; no FMC beginning-farmer cost-structure publication found."
+  },
+  {
+   "note": "No primary published price for robotic milking systems exists from any vendor; the corpus dairy spine's largest figures remain aggregator-sourced and unverified, and the maintenance figure conflict ($7K–$15K/robot/yr) is unresolved pending farm records.",
+   "evidence_of_search": "Corpus record dairy/open-milking-robot-case-study.md §3 and §10: 'vendors publish no prices'; aggregator sources recorded with contradictions preserved (dairyequipmentmfg.com, ccf.us, TheBullvine, UW–Madison extension tool)."
+  }
+ ],
+ "candidate_records": [
+  {
+   "name": "MAPAQ CUMA portrait (Coopératives d'utilisation de matériel agricole au Québec)",
+   "org": "Ministère de l'Agriculture, des Pêcheries et de l'Alimentation (Québec)",
+   "country": "Canada",
+   "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/agriculture-pecheries-alimentation/agriculture/industrie-agricole/partage-agricoles/PO_portrait-general-cuma-quebec_MAPAQ.pdf",
+   "open_layer": "Government operating-model portrait: 64 CUMAs, 2,025 member enterprises, equipment inventories, reproduction-with-attribution permission stated in document",
+   "licence_or_terms": "© Gouvernement du Québec; total or partial reproduction permitted provided source is mentioned"
+  },
+  {
+   "name": "Survey of Ontario Custom Farmwork Rates charged in 2024 (+ OMAFRA custom farmwork dataset)",
+   "org": "Ontario Professional Farm Custom Operators (OPACA), with OMAFRA",
+   "country": "Canada",
+   "url": "https://opaca.net/wp-content/uploads/2024ONCustomFarmworkRates-1.pdf",
+   "open_layer": "Open price data for custom farmwork and short-term equipment rental (companion dataset on data.ontario.ca)",
+   "licence_or_terms": "not stated on the OPACA infosheet"
+  },
+  {
+   "name": "KPU Farm Schools Incubator Program",
+   "org": "Kwantlen Polytechnic University (Institute for Sustainable Food Systems)",
+   "country": "Canada",
+   "url": "https://www.kpu.ca/science/farmschools/incubator-program",
+   "open_layer": "Operating incubator model: land access (1–3 yr), shared equipment/tool share, mentorship for entrant farmers",
+   "licence_or_terms": "not stated"
+  },
+  {
+   "name": "Dairy Farmers of Ontario Quota Exchange summaries (incl. NEQAP new-entrant assistance)",
+   "org": "Dairy Farmers of Ontario",
+   "country": "Canada",
+   "url": "https://new.milk.org/wp-content/uploads/2026/08/MMS-Exchange-Summary-August-2026.pdf",
+   "open_layer": "Primary market data: quota price cap, exchange results, new-entrant quota assistance counts",
+   "licence_or_terms": "not stated"
+  },
+  {
+   "name": "Western University FAST Lab / WIRED open-source agrivoltaic hardware (OSHWA CA000008, CA000025, CA000071)",
+   "org": "Western University Free Appropriate Sustainability Technology (FAST) Research Group",
+   "country": "Canada",
+   "url": "https://www.appropedia.org/Western_Innovation_for_Renewable_Energy_Deployment_(WIRED)",
+   "open_layer": "OSHWA-certified open hardware: parametric CAD, BOMs, structural calculations for agrivoltaic racking and thermal storage; capital cost modelled 22% below commercial racking",
+   "licence_or_terms": "CERN-OHL-P-2.0 / CERN-OHL-S-2.0 / GPL-3.0-only per asset (verified via OSHWA directory, 2026-10-14); Appropedia pages CC-BY-SA-4.0"
+  },
+  {
+   "name": "FarmBot",
+   "org": "FarmBot Inc. (California Benefit Corporation)",
+   "country": "United States",
+   "url": "https://farm.bot/pages/open-source",
+   "open_layer": "Open hardware designs (OSHWA definition), MIT-licensed software (farmbot-web-app, farmbot-arduino-firmware), open documentation; the corpus's honesty check that open ≠ cheap",
+   "licence_or_terms": "MIT (software, verified via GitHub API 2026-08-02); hardware designs per company policy under OSHWA definition"
+  },
+  {
+   "name": "ISOBlue 2.0 open telematics data-capture platform",
+   "org": "Purdue University AFIN (Agricultural Informatics Lab)",
+   "country": "United States",
+   "url": "https://isoblue.org/docs/",
+   "open_layer": "Open hardware designs + MIT-licensed software stack for farmer-side ISOBUS/CAN data capture; peer-reviewed methodology (Sensors 2020)",
+   "licence_or_terms": "MIT (verified via GitHub API across ISOBlue org, 2026-09-09); ISOBUS spec itself paywalled"
+  },
+  {
+   "name": "Open Source Ecology — Global Village Construction Set / LifeTrac",
+   "org": "Open Source Ecology (Factor e Farm, Missouri)",
+   "country": "United States",
+   "url": "https://www.opensourceecology.org/",
+   "open_layer": "Open machine designs and documentation for tractors and farm implements; replication evidence thin",
+   "licence_or_terms": "GPL / CC-BY-SA stated on the LifeTrac project page; per-asset audit not performed (corpus record open-source-ecology.md)"
+  },
+  {
+   "name": "ROMI — Robotics for Microfarms",
+   "org": "ROMI EU research consortium",
+   "country": "France/Spain (field sites); EU-funded",
+   "url": "https://romi-project.eu/",
+   "open_layer": "Open hardware designs (Rover: CC BY-SA 4.0), software, PlantDB, documentation for microfarm robotics",
+   "licence_or_terms": "CC BY-SA 4.0 (Rover design repository); per-component licence checks outstanding; maintenance post-funding unresolved"
+  },
+  {
+   "name": "L'Atelier Paysan farmer self-build machinery cooperative (and successors Communs Paysans / Soudons, fermes !)",
+   "org": "SCIC L'Atelier Paysan (judicially liquidated 2026-04-21); successor structures organizing",
+   "country": "France",
+   "url": "https://www.latelierpaysan.org/",
+   "open_layer": "Open tool plans and design files plus farmer self-build training and metalworking workshops; the governance-maintenance caveat for open machinery commons",
+   "licence_or_terms": "not stated per asset (specific licence terms unaudited; survival of design commons through liquidation unresolved)"
+  },
+  {
+   "name": "AgOpenGPS open RTK autosteer",
+   "org": "AgOpenGPS community (Brian Tischler, Canada)",
+   "country": "Canada",
+   "url": "https://agopengps.com/",
+   "open_layer": "Open hardware/software precision-ag guidance; the corpus's quantified design-commons mechanism (~78% below commercial RTK entry)",
+   "licence_or_terms": "not re-verified this pass (corpus record brian-tischler.md, curated; kit pricing from agopen.shop recorded as order-of-magnitude)"
+  },
+  {
+   "name": "AutonomousGrainCart",
+   "org": "Matt Reimer (Manitoba grain farmer)",
+   "country": "Canada",
+   "url": "https://github.com/mattdreimer/AutonomousGrainCart",
+   "open_layer": "Public source code for autonomous grain-cart control built on open drone-autopilot hardware; one-season CAD $5,000 project-reported saving",
+   "licence_or_terms": "not stated (repository licence not verified in corpus record)"
+  }
+ ],
+ "honest_uncertainties": [
+  "The design question's headline number — what fraction of a new entrant's startup cost open technology addresses — cannot be computed from these cells: Canada publishes no itemized beginning-farmer startup cost structure, and the corpus spines cost operating streams (dairy maintenance, CEA energy) far better than entry capital.",
+  "Directional reading, labelled as interpretation: open substitutes address a materially larger share of recurring/operating cost (dairy service stream 30–50% assumed contestable; CEA control savings 17–43%) than of entry capital, where the verified savings are narrower (used-robot on-ramp, wood racking 22% below commercial, machinery sharing ~36% per acre) — consistent with the program's centre of gravity remaining tenure and visibility rather than a technology headline.",
+  "The dairy spine's largest figures ($400K+ installed; $7K–$15K/robot/yr maintenance) are aggregator-sourced and unverified because vendors publish no prices; the corpus records the contradiction rather than averaging it.",
+  "The machinery-sharing savings figures ($44.66→$28.75/acre) come from a dated Saskatchewan study (Harris & Fulton, 1990s) cited via Iowa State Extension; transferability to current machinery prices and to entrant-scale farms is unknown.",
+  "Custom farmwork rates reflect the cost structures of established operators, not entrant costs; they bound what renting replaces, not what ownership costs an entrant.",
+  "The DFO $24,000/kg quota cap is a ceiling, not a market price: the August 2026 exchange was cancelled with zero kilograms sold, so realized entry cost per kg cannot be read from it.",
+  "The FAST Lab 22% capital saving is modelled on a design recorded as 'Made: No | Replicated: No'; FarmBot and L'Atelier Paysan are the standing counter-evidence that open designs do not automatically become cheap, replicable machines.",
+  "The StatCan FFS young-operator debt-to-asset figure (~0.28) is recorded only from a search snippet; the archived PDFs are behind a security-check interstitial and were treated as unverifiable this pass.",
+  "The NCIAF grain toolkit is sponsor-branded (John Deere) and publishes no cost table, so it is recorded as framing, not as cost data."
+ ]
+}
