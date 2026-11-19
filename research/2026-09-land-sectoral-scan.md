@@ -181,6 +181,220 @@ G-OSA-35 resolves provisionally into four shapes: (1) open science/environmental
 
 ## Sources
 
-[to be completed]
+*Sources section completed 2026-11-19 — the scan's own "[to be completed]" placeholder.
+Completion-pass scope: re-verify at source the census framing figures the succession
+program leans on; locate the source statements for the three transfer projections; write
+the ledger for all five sub-cells; record refinements as dated notes. The scan's body
+prose is unchanged (dated-document discipline); where a follow-up record or this pass
+refined a scan statement, the refinement is recorded here, not by rewriting the body.
+Labels: **verified** = read at source in this pass or in the cited record/pass;
+**verified as reported** = named third party reporting a figure whose methodology is not
+fully open; **as cited in scan** = recorded 2026-09-04, not re-fetched in this pass;
+**derived** = arithmetic shown.*
+
+### 1. Census framing figures — verified at source 2026-11-19
+
+Primary: Statistics Canada, The Daily, "Canada's 2021 Census of Agriculture: A story
+about the transformation of the agriculture industry and adaptiveness of Canadian
+farmers", released 2022-05-11.
+<https://www150.statcan.gc.ca/n1/daily-quotidien/220511/dq220511a-eng.htm> (full text
+read 2026-11-19). Statistics Canada Open Licence. Supports, verbatim:
+
+- 189,874 census farms, −1.9% from 193,492 in 2016 (Table 32-10-0156-01).
+- 262,455 farm operators, −3.5% from 271,935 in 2016.
+- Average operator age 56.0, up 1.0 year (Table 32-10-0230-01); median 58.0.
+- 60.5% of operators aged 55+, up from 54.5% in 2016.
+- 8.6% of operators under 35, down from 9.1% in 2016 ("Canada's share of young
+  operators was 8.6%, down slightly from 9.1% in 2016").
+- Succession plan: 8.4% (2016) → 12.0% (2021), +6,673 farms; oilseed-and-grain farms
+  44.5% of farms reporting a plan. Tables 32-10-0244-01 (2021) and 32-10-0448-01 (2016)
+  (table IDs per the CBA essay's footnotes and NFU, *Canadian Ag by the Numbers 2024*).
+- Comparability caution: the 2021 farm definition changed to the CRA tax-reporting
+  unit; StatCan's own note applies to the −1.9%/−3.5% comparisons.
+
+Indigenous operators — Statistics Canada, *Canadian Agriculture at a Glance*, "A story
+about the diversity of Canada's farm operators" (96-325-x2021001article00017):
+**5,405 Indigenous farm operators, 3,765 Métis, 1,315 First Nations** (verbatim;
+retrieved 2026-11-19).
+<https://www150.statcan.gc.ca/n1/pub/96-325-x/2021001/article/00017-eng.htm>
+
+*Refinement (2026-11-19):* sub-cell 4 juxtaposes "5,405 … of 262,455 — 2.8% of the farm
+population is Indigenous". Two different denominators: 5,405/262,455 = **2.1% of
+operators** (derived); **2.8% is the Indigenous share of the farm population** (16,705
+people, Agriculture–Population Linkage; StatCan article 96-325-x2021001article00020,
+<https://www150.statcan.gc.ca/n1/pub/96-325-x/2021001/article/00020-eng.htm>). Both
+figures are correct with their own denominators; the synthesis must not conflate them.
+(3,765 + 1,315 = 5,080; the remainder are Inuit and multiple-identity operators.)
+
+### 2. Transfer projections — sources located 2026-11-19 (all verified as reported)
+
+- **FCC >$50B.** FCC, "The future of agriculture: Empowering the next generation of
+  Canadian farmers", <https://www.fcc-fac.ca/en/knowledge/economics/future-of-agriculture>
+  (retrieved 2026-11-19): "over $50 billion in farm assets set to change hands over the
+  next decade"; composition ~$40B farmland (~5.4M acres) + $10B current assets by
+  end-2035; assumes farm exit rates of 0.4%/yr (the 2016–2021 census trend); explicitly
+  a **lower bound**. *Refinement:* the methodology is now partially stated on FCC's own
+  page — refining the scan's blanket "methodology not open" for this figure. The
+  lender-authored conflict stands (C1).
+- **CBA $53B / 88%.** Jessica Izard, "Succession Planning for Family Farms", CBA Wills,
+  Estates and Trusts Section (2023 essay-contest winner; published 2024-01-10),
+  <https://cba.org/fr-ca/sections/wills-estates-and-trusts/resources/succession-planning-for-family-farms/>
+  (full text read 2026-11-19). $53B footnoted to Eric Atkins, "As Farmers Age, Old
+  Techniques Go Out to Pasture", *Globe & Mail*, 2015-11-12 (not re-fetched); 88%
+  no-plan footnoted to StatCan Table 32-10-0244-01. *Refinement:* the CBA 88% is the
+  **complement of the census 12.0%** (derived: 100 − 12.0), not an independent
+  measurement. The essay's "40% of farmers retire by 2033" is footnoted to RBC Climate
+  Action Institute, *Farmers Wanted: The Labour Renewal Canada Needs* (Yaghi et al.,
+  2023) — the same source as C11's RBC 66%-no-plan figure: shared lineage, not
+  independent corroboration. *Surfaced for the synthesis:* the essay reports **only 4%
+  of farm succession plans contemplate non-family successors** (footnoted to Table
+  32-10-0244-01; the table's successor dimension not independently confirmed in this
+  pass) — the first named quantification of the non-family plan gap the design
+  document's P5 addresses.
+- **Industry ~75% of $785B.** Kent Willmore (Founder & CEO, Crescero Natural Capital),
+  "Passing the torch: The opportunity arising from the generational wealth transfer of
+  Canadian farm families", *AIMA Journal* edition 146, published 2026-06-22,
+  <https://acc.aima.org/journal/aima-journal---edition-146/article/passing-the-torch-the-opportunity-arising-from-the-generational-wealth-transfer-of-canadian-farm-families.html>
+  (retrieved 2026-11-19): "Nearly 75% of Canada's CAD785+ billion farmland asset base is
+  expected to change hands within the next decade". $785B footnoted to StatCan, Balance
+  sheet of the agricultural sector (Table 32-10-0056-01); the 75% to *Manitoba
+  Co-operator*, "The dawn of a new generation" (not re-fetched). **Investor-authored** —
+  the same conflict shape as FCC's (a farmland investment manager estimating the
+  transfer that funds its own asset class); methodology not open. The article itself
+  repeats the census 12% plan figure.
+
+### 3. Concentration, values, loss — located or re-verified
+
+- **Bonnefield.** Colin Butler, "Investors reshaped Canadian home real estate. Something
+  similar is happening in agriculture", CBC News, 2024-06-03,
+  <https://www.cbc.ca/news/canada/london/ontario-farmland-real-estate-investment-1.7218435>
+  (retrieved 2026-11-19): >$1.4B AUM / 140,000 acres / seven provinces (self-reported
+  via Bonnefield's website, as quoted by CBC); Ontario land registry shows Bonnefield on
+  **464 PIDs**. CBC corrected the story the same day: 464 parcels = 114 farms — the
+  scan's "464 PIDs" wording survives the correction. Verified as reported.
+- **CPP Investments / Assiniboia.** Refined by C6 via the JSGS brief
+  (`examples/records/jsgs-saskatchewan-farmland-brief.md`): CPPIB fully divested SK
+  farmland by 2023 ($390M). The scan's ~$128M Assiniboia acquisition (~115,000 acres,
+  2013) and ~2017 retreat stand as cited; the $520M US exit as cited in scan (not
+  re-fetched).
+- **FCC farmland values.** 2025 +9.3% (AB +11.4%, MB +12.2%, SK +9.4%) verified at
+  source by C4 from FCC's 2025 release
+  (<https://www.fcc-fac.ca/en/about-fcc/media-centre/news-releases/2026/canadas-2025-farmland-values-climbed>;
+  see `succession/research/2026-11-c4-entry-cost-pass.md`). 2024 +9.3%, 2023 +11.5%,
+  10-year average +8.6%/yr, ON +2.2% / QC +4.8% (2025): as cited in scan from FCC's
+  annual Farmland Values Reports (free-to-read, proprietary, no bulk download; the
+  lender conflict is undisclosed in the reports).
+- **Ontario farmland loss 319 acres/day.** OFA, "Ontario farmland under intense
+  pressure", 2022-06-10, <https://ofa.on.ca/newsroom/ontario-farmland-under-intense-pressure/>
+  (retrieved 2026-11-19) — **derived, arithmetic published**: 12.4M acres (2016) −
+  11.7M (2021) = 582,392 acres ÷ 5 yr ÷ 365 = 319.12/day; prior rate 175/day (2016
+  census). OFA's Crispin Colvin (CBC,
+  <https://www.cbc.ca/news/canada/london/the-rest-of-the-province-is-losing-farmland-but-london-s-is-growing-1.6511644>):
+  aggregate loss to all other uses, not only urban conversion — the scan's conflation
+  caveat stands, now sourced.
+- **Provincial ownership rules.** NFU, "Provincial Farmland Legislation",
+  <https://www.nfu.ca/learn/farmland/provincial-farmland-legislation/> (retrieved
+  2026-11-19): SK 10-acre non-Canadian cap, pension-plan ban (2016), Farm Land Security
+  Board **141/158 exemptions approved 2018–2022 (~716,877 acres** to non-resident
+  owners) verbatim; MB 40-acre cap, decisions not itemized publicly. AB 20 acres/two
+  parcels, QC 4 ha CPTAQ cap, BC/ON/NB/NS no restrictions, PEI most extensive: as cited
+  in scan from the same NFU compilation (those sections not re-read in this pass); the
+  NFU's *Losing Our Grip* 2015 update is the older underlying compilation.
+
+### 4. Follow-up verification layer (2026-09-04) — the seven priority targets, curated as records
+
+Each record carries its own Sources section with primary URLs and retrieval dates.
+Corrections to scan statements, recorded in the records and summarized here:
+
+- `examples/records/bc-lotr.md` — Act SBC 2019 c.23; filings 2020-11-30, public search
+  2021-04-30, free 2024-04-01. *Refinement:* "world-first" is media characterization
+  (official: first-of-its-kind in Canada); LTSA is a statutory corporation, not a Crown
+  corp; scale 553,068 declarations / 137,068 reports as of 2023-12-21; zero known
+  penalties; s.40 omission regime and Indigenous-land exclusion documented.
+- `examples/records/terre-de-liens.md` — 449 farms / 14,200 ha / 63,524 members
+  confirmed; *correction:* foncière created 2006, not 2007; shares €106 with 25% tax
+  relief, no dividends; "ne revend pas ses fermes"; open-layer absence verified down to
+  the mentions légales prohibiting reuse; Reporterre 2025 grievances documented.
+- `examples/records/land-matrix.md` — licence **verified CC BY 4.0** from the primary
+  data-policy page (resolves the scan's flagged absence); founded 2009, database 2012;
+  4,398 deals; systematic collection limited to transnational ag/forestry.
+- `examples/records/fiboa-eurocrops.md` — *corrections:* EuroCrops is **CC BY-SA 4.0**
+  (Zenodo/GitHub), not the CC0 the scan cites (the paper's CC0 applied to one country's
+  raw data only); fiboa CLI Apache-2.0 (not CC-BY); spec Apache-2.0 v0.3.0 confirmed;
+  55 datasets, no Canada; EuroCrops 16 EU countries.
+- `examples/records/cansis.md` — SLC v3.2 / DSS / 100 m grids OGL-Canada verified on
+  open.canada.ca; caveats: SLC current only to 2011, 100 m grids preliminary, CLI under
+  legacy notice, spectral library contact-only.
+- `examples/records/hm-land-registry.md` — Price Paid Data OGL v3.0 verified; *correction:*
+  first published 2014-07-24, not 2015; data from 1995, monthly; 289 repos verified
+  exactly, 192 MIT; title registers fee-based (£7), address fields under third-party
+  restriction.
+- `examples/records/framework-agreement-land-codes.md` — 224 signatories / 128
+  operational land codes / 4 full self-governance as of 2026-08-06 confirmed;
+  *correction:* 44 Indian Act land sections replaced, not 33; FAFNLMA S.C. 2022 c.19 in
+  force 2022-12-15; land codes knowledge-sharing-only, reuse via direct nation contact.
+
+### 5. Succession-program re-verification layer (2026-11-18/19)
+
+- Both founding absences re-confirmed: **no open farm-link platform anywhere** (C2,
+  GitHub searched; `succession/research/2026-11-c2-farm-link-pass.md`); **no open
+  succession tooling** refined into the asset-by-asset licensing-gap finding (C1/C3
+  passes; `succession/research/2026-11-c1-succession-knowledge-pass.md`,
+  `succession/research/2026-11-c3-open-legal-assets-pass.md`).
+- Tax layer (C6): AAFC QP note AAFC-2025-QP-00152 (open.canada.ca) + OFA fact sheet +
+  PMO release — LCGE $1.25M, inclusion-rate increase cancelled, family-shaped
+  architecture (`succession/research/2026-11-c6-visibility-policy-pass.md`).
+- Visibility current state (C6): federal public beneficial-ownership registry still
+  absent (ISED consultation live); BC LOTR still Canada's only one; Québec's corporate
+  registry flagged unverified.
+- JSGS method precedent (C6, record): 84 large owners / 1.44M acres / +140% in five
+  years; no evidence of non-Canadian ownership.
+
+### 6. As cited in scan (2026-09-04), not re-fetched in this pass
+
+- Sub-cell 1: Cadasta scale (Esri profile); OpenLandContracts (CCSI); BLM PLSS US
+  public domain (17 USC §105); Corporations Canada / FINTRAC consultation duty since
+  Oct 2025; federal registry end-2025 target (delivery unverified — C6 confirms still
+  absent).
+- Sub-cell 2: Ontario Farmland Trust 31 farms / >3,200 acres / 821 acres in 2024 (OFT);
+  Genesis Land Conservancy (CCPA 2005 — dated evidence thin); BC Farmland Trust white
+  paper (Apr 2025); AFT >7.9M acres protected / 300M+ acres Farms Under Threat;
+  Agrarian Trust 400+ acres / 10 commons / 8 states / $6M+ (see also
+  `examples/records/agrarian-commons-legal-guide.md`, C3); Farmland CLT model (Farmland
+  Access Legal Toolkit / Lincoln Institute); "40% of US farmland changing hands in 15
+  years" (source not named in the scan — flagged below).
+- Sub-cell 3: SOLA last commit 2019-01-13 (dormancy); QGIS GPLv2+ / PostGIS GPLv2 /
+  PostgreSQL permissive; OGC LandInfra royalty-free; OSM ODbL 1.0; SSURGO US public
+  domain; USDA NASS 2025 $4,350/acre +4.3% (annual Land Values summary); ParcelMap BC
+  OGL-BC open subset; Ontario Parcel Teranet/MPAC commercial, scraping prohibited; FSA
+  CLU access withdrawn ~2008, explicitly not public domain.
+- Sub-cell 4 (legal-governance arc; canonical citations, texts not re-fetched):
+  Tsilhqot'in Nation v BC, 2014 SCC 44 (2014-06-26); Haida Nation v BC, 2004 SCC 73;
+  Mikisew Cree 2018 SCC 40; UNDRIP Act 2021; FNLMA 1996 (see record); Nisga'a effective
+  2000, ~2,000 km²; James Bay 1975; BC–Haida "Rising Tide" 2024-04-15; Canada
+  recognition 2025-02-17; Gwaii Haanas 1993; Thaidene Nëné 2019; Yellowhead Institute
+  Red Paper *Land Back* (2020); IPCA ICE definition 2018; federal IPCA funding $340M
+  (Aug 2021) / ~$66M to 42 projects / $800M over 7 years (Dec 2022) / Budget 2025 added
+  none (CPAWS); IPCA Knowledge Basket FAQ CC BY-NC-SA 4.0; OCAP (FNIGC 1998); SK Treaty
+  Land Entitlement land-capability analysis 8.5–9.6% vs 11.7% regionally (Frontiers in
+  Environmental Science, 2025).
+- Sub-cell 5: BC ALR ~4.6M ha / 4.9% of province / ~1,200 acres/yr prime loss (source
+  not named in the scan — flagged below).
+
+### 7. Honest residuals (unverified, carried forward)
+
+- Cadasta's per-repo software licence and post-major-donor institutional status.
+- OpenLandContracts site/annotation reuse terms.
+- FAO OpenTenure/SOLA per-component licences.
+- Genesis Land Conservancy current scale (dated evidence thin).
+- Québec's corporate beneficial-ownership registry (C6 flag).
+- "40% of US farmland in 15 years" and the BC ALR loss figures: sources not named in
+  the scan; not relocated in this pass.
+- Transfer projections: FCC's methodology now partially stated; the CBA $53B traces to
+  a 2015 media article; the 75%/$785B estimate is investor-authored with methodology
+  not open. None is an open-methodology measurement.
+- The CBA essay's 4% non-family-plan figure: footnoted to the census succession table;
+  the table dimension not independently confirmed in this pass.
+
 
 Not legal advice.

@@ -279,9 +279,15 @@ reported** for FCC/CBA/industry projections, which are credible third parties re
 estimates whose methodologies are not open — the land scan records exactly this
 split, and this document preserves it rather than averaging it.
 
-One known weakness inherited from the ancestor: the land scan's Sources section is
-marked "[to be completed]". Any cycle that leans hard on a land-scan figure should
-re-verify it at source rather than double-citing the scan.
+The ancestor's Sources section was marked "[to be completed]" at this program's
+opening; it was **completed 2026-11-19** by a bounded completion pass: the census
+framing figures re-verified verbatim at StatCan source, the three transfer projections'
+source statements located, and refinements recorded (the CBA's 88% is the census
+complement, not an independent measurement; the 2.8% Indigenous figure is a
+farm-population share, not an operator share). Residual unverified items are listed in
+the scan's Sources §7. Cycles leaning on land-scan figures cite that ledger or
+re-verify at source; the completion also surfaced the CBA essay's 4%-non-family-plan
+figure for the synthesis.
 
 ## 7. Document status and conventions
 
