@@ -368,3 +368,6 @@ problem with no opportunity-framed incumbent. Three records curated
 - Young Agrarians and FarmLINK operators — on data ownership and match rates.
 - Ontario Farmland Trust / a CLT practitioner — on why legal assets stay closed.
 - Farm Management Canada — on the succession-plan coverage gap.
+- FMC research team, FCC audience team, and the AFT LANDED producer (added after C11,
+  2026-11-19) — on who farmers actually listen to: no succession-specific farmer-side
+  trust survey exists online.

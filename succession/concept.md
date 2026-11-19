@@ -6,9 +6,9 @@ ongoing investigation inside the Open Source Agrifood project.
 
 | | |
 |---|---|
-| **Status** | Opened 2026-11-18. Frame refreshed 2026-11-18 after cycles C1, C3 and C6 (see §3 and §4): L1 and L3 resolve onto one shared build object — an open-licensed Canadian adaptation commons covering succession knowledge and farm-tenure legal documents; L6 establishes the open-analysis method (Saskatchewan) and names the family-shaped tax gap. Design document in the docs/policy/ genre identified as next. Outside the November 2026 event's scope by user direction; intended as input to future events and work. |
+| **Status** | Opened 2026-11-18. All eleven mapped cycles run 2026-11-18/19; frame refreshed 2026-11-19 after the full cycle set (see §3 and §4): the shared build object stands — an open-licensed Canadian adaptation commons — now carrying three named annexes (conflict clauses, care-in-transfer provisions, data-continuity profile); the centre of gravity stays with tenure and visibility (C4); the decision environment is adviser-led, crisis-framed and licence-silent (C11). Design document written: `docs/policy/succession-visibility-design.md`. Next: synthesis. Outside the November 2026 event's scope by user direction; intended as input to future events and work. |
 | **Frame** | An ongoing research program, not a single case study and not a scan (no G-ID). It consumes G-OSA-35 (the land sectoral scan) as its principal evidence base and exists to turn that scan's succession findings into a research agenda. |
-| **Written** | 2026-11-18. Every figure in this document comes from the existing corpus, cited by file path; no new sources were gathered for this opening document. |
+| **Written** | 2026-11-18; refreshed in place 2026-11-19 after all eleven cycles (dated notes cite the pass documents, which carry the sources and retrieval dates). The opening document's figures come from the existing corpus, cited by file path; no new sources were gathered for it. |
 | **Method constraint** | Online open sources only. Correspondence, interviews, site visits and conversations with retiring farmers, entrants, and successor organizations go into a deferred "who to ask" list rather than being worked now. |
 
 ## 0. The premise
@@ -47,6 +47,9 @@ how much of that cost the open stack can actually remove.
 
 Prior evidence this program builds on, cited by path:
 
+- The program's own eleven cycle passes (run 2026-11-18/19) and the 29 records they
+  curated (collection 170) — `research/research-mapping.md` is the cycle tree with each
+  cycle's resolution; the passes carry the sources.
 - `succession/research/2026-11-c3-open-legal-assets-pass.md` and
   `succession/research/2026-11-c1-succession-knowledge-pass.md` — this program's own
   first two cycles (run 2026-11-18): the licensing-gap finding on the documents side
@@ -136,6 +139,15 @@ Each layer is a bounded research cycle candidate (see
   US state farm-link programs) actually do, what does an open one change — published
   criteria, portable records, data that outlives any single nonprofit's funding — and
   is matching a problem openness can improve, or a trust-and-volume problem it cannot?
+  *Resolved by cycle C2 (2026-11-18):* the absence re-confirmed — no open-source
+  land-matching platform exists (GitHub searched). Young Agrarians BCLMP is the best
+  operator found (437 matches / 13,210+ acres, verified) but registration-gated and
+  licence-silent; L'ARTERRE's login-free Répertoire the closest Canadian open layer.
+  No operator publishes matching criteria, and no evaluation study identifies criteria
+  opacity as a failure mode — the documented failure modes are trust, readiness,
+  external conditions, follow-through. Openness helps least at the matching step and
+  most at the criteria/data step; design-doc P7 reframed as accountability
+  infrastructure.
 - **L3. Replicable tenure as open legal assets.** The commons-tenure tradition scales
   catastrophically below the need (Agrarian Trust: 400+ acres in ~12 years, verified)
   and publishes nothing under an open licence (verified across every entity the land
@@ -151,16 +163,32 @@ Each layer is a bounded research cycle candidate (see
   ownership, right to repair), open hardware, FarmOS-class software, open agronomy?
   Synthesis cycle over the corpus's own cost spines (dairy, CEA, hardware records)
   plus new research on the beginning-farmer cost structure.
+  *Resolved by cycle C4 (2026-11-18):* the headline fraction is uncomputable — Canada
+  publishes no itemized beginning-farmer cost structure (recorded absence). The verified
+  pieces and the corpus's own cost spines show open substitutes bite hardest on
+  recurring cost, not entry capital. The open stack's honest role is lowering the cost
+  of staying in, not getting in; the program's centre of gravity stays with tenure (L3)
+  and visibility (L6).
 - **L5. Continuity of the farm's data and knowledge across transfer.** What happens to
   a farm's records, agronomic history, and data when it changes hands; can an open
   substrate (FarmOS, open standards, data-coop structures from G-OSA-27's territory)
   make the farm's institutional memory a transferable asset rather than an asset that
   dies with the operator or gets captured by a platform?
+  *Resolved by cycle C5 (2026-11-19):* the absence holds and now has a legal shape —
+  farm-data continuity at transfer is nobody's documented process (open stack: full
+  egress, no handover; closed stack: ownership survives, access dies at termination;
+  the one executed agreement examined excludes records from conveyance; Nebraska LB525
+  the first statutory producer-ownership hook). The open stack is plausibly the natural
+  first mover; a data-continuity annex joins the shared build object.
 - **L6. Seeing the transition.** The land scan's "public cannot see it" finding, as a
   precondition rather than an intervention: beneficial-ownership transparency (BC's
   LOTR as the world-first, Canada-only), investor-ownership visibility, and the policy
   debate an open picture of the transfer wave would enable. This layer connects to the
-  project's policy-design genre (`docs/policy/`). Cycle C6 targets it.
+  project's policy-design genre (`docs/policy/`). *Resolved by cycle C6 (2026-11-18):* the wave is still unseen (no federal public
+  beneficial-ownership registry; BC's LOTR still alone), but the Saskatchewan JSGS
+  brief proves the open-analysis method from public titles data, and the tax
+  architecture is verified family-shaped — nothing shelters non-family transfer.
+  Design document written: `docs/policy/succession-visibility-design.md` (P1–P7).
 
 **The shared build object (named 2026-11-18 after C1 and C3).** L1 and L3 resolve onto
 one thing: **an open-licensed Canadian adaptation commons** — a vehicle that takes the
@@ -174,6 +202,21 @@ any such vehicle: the C1 control/funding/value-capture test; lender independence
 the Indigenous-land interface condition (§3's seventh layer). Whether the vehicle is a
 document set, an organization, or a policy proposal is exactly what the remaining
 cycles (C2, C4, C6) are for.
+*Extended 2026-11-19 after the full cycle set:* the commons now carries three named
+annexes — model dispute-resolution clauses (C7), care-in-transfer provisions designed
+for the seller's remaining life (C9), and a data-continuity profile (handover export
+profile + model records-conveyance clause, C5). C8 adds the financing design space: the
+world's operating non-family transfer models are documented and none open, with NZ's
+statutory Sharemilking Order the template candidate for a Canadian standard non-family
+transfer agreement — and the uptake caution binding on any instrument proposed (a
+well-designed public guarantee without uptake infrastructure produced 2 guarantees,
+not 140). C9+C10 add the population constraint: the build objects must serve a
+female-controlled, longevity-stressed succession population (widowed operators 58.6%
+Women+, verified from open data) — the patriarch-to-son default is empirically stale.
+C11 adds the publication constraint: the decision environment is adviser-led
+(accountants/lawyers first, lenders second), crisis-framed and licence-silent; the
+commons is an information-environment intervention with no opportunity-framed
+incumbent, and who farmers actually listen to remains correspondence-bound.
 
 A seventh, cross-cutting layer the program must carry but not own: **Indigenous land
 return and jurisdiction**. The land scan's finding stands — governance in that cell
@@ -194,6 +237,17 @@ the answer:
   lender, and closed to adaptation by its terms of use (verified, C1). Any open
   succession layer carries a lender-independence design constraint — it is also a
   proposition about who farmers get their transition knowledge from.
+  *Complicated by cycle C11 (2026-11-19):* the lender is the default content producer,
+  not the first advisor — only 32% of farmers seek business advisors at all, and
+  accountants/lawyers precede bankers/lenders (FMC research as quoted on FCC's site,
+  verified). The lender-independence constraint stands; the channel picture is more
+  crowded than C1 implied.
+- The crisis frame is itself part of the enclosure. Farming media coverage is measured
+  as "overwhelmingly negative and fatalistic" (FrameWorks 2020, verified, C11), and
+  Canadian trade press leads with the plan-gap crisis frame; the plan-adoption figures
+  disagree four ways (12% Census, 8.4% FMC, 66% no-plan RBC, 8% FMC toolkit — kept
+  unreconciled, register C-OSA-10). An open succession layer enters a crisis-framed
+  information environment, not a neutral one.
 - The Terre de Liens lesson generalizes: participatory and commoning institutions do
   not spontaneously produce open assets. An "open succession" layer that is really a
   closed nonprofit with a website would repeat the pattern the land scan documented.
@@ -210,9 +264,10 @@ the answer:
 - `concept.md` — this document: the frame.
 - `research/research-mapping.md` — the research tree: candidate cycles, status, and what
   each is expected to change about the frame.
-- Later: per-cycle scan and synthesis documents under `research/`, a "who to ask" list
-  (deferred per method constraint), and — if the program earns one — a design document
-  in the `docs/policy/` genre.
+- Eleven dated cycle pass documents under `research/` (all mapped cycles run
+  2026-11-18/19), the design document `docs/policy/succession-visibility-design.md`
+  (2026-11-18), and a deferred "who to ask" list in the mapping (per method constraint).
+  Next: a synthesis document over the cycle set.
 
 ## 6. Sources and verification
 
@@ -232,7 +287,7 @@ re-verify it at source rather than double-citing the scan.
 
 Machine-facing notes; humans can stop at the sources above.
 
-- Status: opened 2026-11-18; frame and research mapping only. Not a scan (no G-ID).
+- Status: opened 2026-11-18; all eleven mapped cycles run 2026-11-18/19; frame refreshed in place 2026-11-19. Not a scan (no G-ID).
   Registered in `ROADMAP.md` as its own workstream row, kin to candidate workstream A2
   (land), which remains the authoritative scan for the land layer.
 - Relation to siblings: consumes G-OSA-35 as evidence base; applies C1's definition and
@@ -243,5 +298,7 @@ Machine-facing notes; humans can stop at the sources above.
   to a "who to ask" list.
 - Provenance convention: every figure carries a label; the corpus's verified-as-reported
   splits (FCC/CBA/industry projections) are preserved, not averaged.
-- Next step: first bounded research cycle from `research/research-mapping.md`, at the
-  user's direction.
+- Next step: synthesis over the eleven-cycle set, at the user's direction; the deferred
+  "who to ask" list marks where correspondence-bound questions (farmer-side trust,
+  match-rate internals, post-sale income) would need fieldwork the method constraint
+  defers.

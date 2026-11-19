@@ -12,7 +12,7 @@ community-processing design document's method, and it concerns succession.
 
 - **Documented** — a claim with a named source, checkable by anyone. All documented
   claims here were verified in the succession research program's cycle passes
-  (`succession/research/`) on 2026-11-18.
+  (`succession/research/`) on 2026-11-18; later cycle refinements are noted in place at the proposals they touch, with their dates.
 - **Proposed** — this project's own design. Not evidence, not a finding, and not a claim
   that anyone has agreed to it.
 - **Unresolved** — a question the proposal raises that this document cannot answer.
@@ -236,6 +236,18 @@ tax system already uses for the family rollover).
 - **Unresolved:** cost; interaction with the AMT changes; provincial land-ownership
   rules (the land scan's NFU compilation) that cap some of these vehicles' eligibility.
 
+*Refined 2026-11-19 after cycle C8 (alternative financing):* the international record
+supplies both precedent and caution. Precedent: NZ's Sharemilking Agreements Order 2011
+— a complete statutory standard income-share contract published openly, its 21% share
+floor protected against erosion except through the agreement's own dispute-resolution
+mechanism — is the template candidate for a Canadian standard non-family transfer
+agreement; state intermediation (Latvia's ALTUM purchase-lease-back with buy-back
+right, France's SAFER whole-farm lease intermediation) solves what private capital
+structurally cannot. Caution: the USDA FSA Land Contract Guarantee's pilot produced
+2 guarantees — instruments without uptake infrastructure produce 2 guarantees, not
+140. Any shelter proposal must name its uptake channel, not only its statutory shape.
+(Verified in `succession/research/2026-11-c8-alternative-financing-pass.md`.)
+
 ### P6 — A successor-neutral transition information service
 
 Public extension should be the default first stop for transition knowledge, with the
@@ -246,6 +258,19 @@ explicitly non-lender transition curriculum, in both official languages.
 
 - **Failure mode:** reproducing the guide problem — free-to-read, closed-licensed,
   unread. Mitigation: P3's licensing discipline and P7's measurement.
+
+*Refined 2026-11-19 after cycle C11 (decisions and media):* the problem is an
+information environment, not only a channel assignment. Only 32% of farmers seek
+business advisors, and accountants/lawyers precede lenders (FMC research as quoted on
+FCC's site, verified) — the lender is the default content producer, not the first
+advisor. The environment is crisis-framed: FrameWorks 2020 measured farming coverage as
+"overwhelmingly negative and fatalistic" (verified), and Canadian trade press leads
+with the plan-gap crisis frame. No opportunity-framed incumbent exists; AFT's LANDED
+podcast is the free-to-air counter-model, unlicensed and unmeasured. The service this
+proposal names must therefore compete on framing as well as channel — and who farmers
+actually listen to remains correspondence-bound (no succession-specific farmer-side
+trust survey exists online). (Verified in
+`succession/research/2026-11-c11-decisions-media-pass.md`.)
 
 ### P7 — Farm-link platforms publish criteria and outcomes
 
