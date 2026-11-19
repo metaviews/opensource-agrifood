@@ -350,6 +350,20 @@ problem with no opportunity-framed incumbent. Three records curated
   analysis; the open-publication model), with correspondence flagged where audience
   evidence is thin.
 
+## Synthesis (written 2026-11-19)
+
+**Written** — `research/2026-11-succession-synthesis.md`, the capstone over all eleven
+cycles. The claim: the succession enclosure is a licensing problem, not a tooling problem
+— the assets exist free-to-read everywhere, the rights do not, plus one genuine
+production gap (farm-data continuity at transfer, C5). The buildable object is the
+open-licensed Canadian adaptation commons with three annexes (conflict clauses C7,
+care-in-transfer C9, data-continuity C5); the second object is the visibility method
+(JSGS → observatory, C6/P1). The honest ceiling: the open stack lowers the cost of staying
+in, not getting in (C4); tenure and visibility remain policy problems openness can inform
+but not solve. The synthesis adds no new proposal, keeps the contested figures
+unreconciled (C-OSA-10) and the widow mechanism a hypothesis, and names seven falsifiers
+/ correspondence-bound targets. Not a scan (no G-ID).
+
 ## Cross-cutting constraints on every cycle
 
 - Indigenous land return and OCAP: interface, never design-around

@@ -38,7 +38,11 @@ methodology but agree in direction (FCC: >$50B in farm assets changing hands ove
 decade; CBA: 88% of farms with no written plan; FMC: "75% farms will change hands, yet
 only 8% of farmers have a written transition plan" — three figures from three
 methodologically distinct sources, recorded as disagreement in
-`succession/research/2026-11-c1-succession-knowledge-pass.md`).
+`succession/research/2026-11-c1-succession-knowledge-pass.md`). *Refined 2026-11-19
+(land-scan Sources completion):* the CBA 88% is the complement of the census 12.0%
+(footnoted to Table 32-10-0244-01), not an independent measurement, and the RBC figures
+share one source (*Farmers Wanted*, 2023) — see register C-OSA-10. The disagreement is
+three independent figures plus complements and shared lineage, still unreconciled.
 
 The federal instruments that answer this — the Lifetime Capital Gains Exemption
 ($1.25 million for qualified farm or fishing property, Budget 2024), the tax-deferred

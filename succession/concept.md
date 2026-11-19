@@ -6,7 +6,7 @@ ongoing investigation inside the Open Source Agrifood project.
 
 | | |
 |---|---|
-| **Status** | Opened 2026-11-18. All eleven mapped cycles run 2026-11-18/19; frame refreshed 2026-11-19 after the full cycle set (see §3 and §4): the shared build object stands — an open-licensed Canadian adaptation commons — now carrying three named annexes (conflict clauses, care-in-transfer provisions, data-continuity profile); the centre of gravity stays with tenure and visibility (C4); the decision environment is adviser-led, crisis-framed and licence-silent (C11). Design document written: `docs/policy/succession-visibility-design.md`. Next: synthesis. Outside the November 2026 event's scope by user direction; intended as input to future events and work. |
+| **Status** | Opened 2026-11-18. All eleven mapped cycles run 2026-11-18/19; frame refreshed 2026-11-19 after the full cycle set (see §3 and §4): the shared build object stands — an open-licensed Canadian adaptation commons — now carrying three named annexes (conflict clauses, care-in-transfer provisions, data-continuity profile); the centre of gravity stays with tenure and visibility (C4); the decision environment is adviser-led, crisis-framed and licence-silent (C11). Design document written: `docs/policy/succession-visibility-design.md`. Synthesis written 2026-11-19: `research/2026-11-succession-synthesis.md`. Outside the November 2026 event's scope by user direction; intended as input to future events and work. |
 | **Frame** | An ongoing research program, not a single case study and not a scan (no G-ID). It consumes G-OSA-35 (the land sectoral scan) as its principal evidence base and exists to turn that scan's succession findings into a research agenda. |
 | **Written** | 2026-11-18; refreshed in place 2026-11-19 after all eleven cycles (dated notes cite the pass documents, which carry the sources and retrieval dates). The opening document's figures come from the existing corpus, cited by file path; no new sources were gathered for it. |
 | **Method constraint** | Online open sources only. Correspondence, interviews, site visits and conversations with retiring farmers, entrants, and successor organizations go into a deferred "who to ask" list rather than being worked now. |
@@ -266,8 +266,8 @@ the answer:
   each is expected to change about the frame.
 - Eleven dated cycle pass documents under `research/` (all mapped cycles run
   2026-11-18/19), the design document `docs/policy/succession-visibility-design.md`
-  (2026-11-18), and a deferred "who to ask" list in the mapping (per method constraint).
-  Next: a synthesis document over the cycle set.
+  (2026-11-18), the synthesis `research/2026-11-succession-synthesis.md` (2026-11-19),
+  and a deferred "who to ask" list in the mapping (per method constraint).
 
 ## 6. Sources and verification
 
@@ -304,7 +304,7 @@ Machine-facing notes; humans can stop at the sources above.
   to a "who to ask" list.
 - Provenance convention: every figure carries a label; the corpus's verified-as-reported
   splits (FCC/CBA/industry projections) are preserved, not averaged.
-- Next step: synthesis over the eleven-cycle set, at the user's direction; the deferred
-  "who to ask" list marks where correspondence-bound questions (farmer-side trust,
-  match-rate internals, post-sale income) would need fieldwork the method constraint
-  defers.
+- Next step: at the user's direction. The synthesis is written; the program's frontier
+  is the correspondence-bound targets it names (farmer-side trust, the 4% non-family
+  figure's table dimension, the widow-to-control mechanism) and the decision whether to
+  build the commons — a decision for later, not a finding.
