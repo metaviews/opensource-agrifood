@@ -362,7 +362,10 @@ care-in-transfer C9, data-continuity C5); the second object is the visibility me
 in, not getting in (C4); tenure and visibility remain policy problems openness can inform
 but not solve. The synthesis adds no new proposal, keeps the contested figures
 unreconciled (C-OSA-10) and the widow mechanism a hypothesis, and names seven falsifiers
-/ correspondence-bound targets. Not a scan (no G-ID).
+/ correspondence-bound targets. Not a scan (no G-ID). A plain-English executive summary
+(`../executive-summary.md`) was written the same day as the accessible doorway to the
+section — findings and future directions rendered for a general reader, every claim traced
+back to the passes, the suggestions kept as proposals.
 
 ## Cross-cutting constraints on every cycle
 

@@ -267,7 +267,8 @@ the answer:
 - Eleven dated cycle pass documents under `research/` (all mapped cycles run
   2026-11-18/19), the design document `docs/policy/succession-visibility-design.md`
   (2026-11-18), the synthesis `research/2026-11-succession-synthesis.md` (2026-11-19),
-  and a deferred "who to ask" list in the mapping (per method constraint).
+  the plain-English executive summary `executive-summary.md` (2026-11-19), and a deferred
+  "who to ask" list in the mapping (per method constraint).
 
 ## 6. Sources and verification
 
