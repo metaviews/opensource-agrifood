@@ -39,7 +39,21 @@ and legal documents together.
   exist).
 - **Budget:** one discovery pass, four cells.
 
-## C2. Farm-link platforms — anatomy of the closed layer (candidate)
+## C2. Farm-link platforms — anatomy of the closed layer (run 2026-11-18)
+
+**Run** — pass document: `research/2026-11-c2-farm-link-pass.md`. Resolution: the
+anatomy of the closed layer. The absence re-confirmed (no open-source land-matching
+platform exists; GitHub searched); Young Agrarians BCLMP is the best operator found
+(free, publicly funded, best outcome reporting: "437 matches on more than 13,210
+acres" verified verbatim) but registration-gated and licence-silent; FarmLINK.net
+proprietary under FarmStart; L'ARTERRE's login-free Répertoire des offres the closest
+Canadian open layer (verified live). **Load-bearing correction to design-doc P7,
+applied in place:** no operator publishes matching criteria and no evaluation study
+identifies criteria opacity as a failure mode — the documented failure modes are
+trust, readiness, external conditions, follow-through (Hersey & Adams verified) — so
+P7 is reframed as accountability infrastructure, not a match-rate lever. Two records
+curated (`young-agrarians-bclmp.md`; `arterre-repertoire.md` documented in pass;
+collection 163).
 
 - **Question:** What do the existing farm-link/land-matching platforms actually do —
   Young Agrarians land matching, FarmLINK Ontario, US state farm-link programs,
@@ -95,7 +109,24 @@ and state alike. C3 is closed as a cycle; L3's build object stands precisely def
   as shareable assets). Either finding is load-bearing for the whole program.
 - **Budget:** one discovery pass, three cells.
 
-## C4. The entry-cost floor — what share of becoming-a-farmer does the open stack address? (candidate)
+## C4. The entry-cost floor — what share of becoming-a-farmer does the open stack address? (run 2026-11-18)
+
+**Run** — pass document: `research/2026-11-c4-entry-cost-pass.md`. Resolution: the
+headline fraction is uncomputable — Canada publishes no itemized beginning-farmer
+cost structure (recorded absence; Laforge et al.'s 1,326-farmer survey, curated:
+barriers are affordable land and financing, not technology). Verified pieces:
+farmland +9.3% (2025), 25% land-loan down payment and the FCC Transition Loan
+(verified — the lender's own answer to the floor), DFO quota cap $24,000/kg with the
+August 2026 exchange cancelled at 0.00 kg (verified), machinery sharing ~36%/acre
+(Harris & Fulton, dated), 64 Québec CUMAs / 2,025 members with a
+reproduction-with-attribution licence (verified — the only permissively licensed
+Canadian state succession-adjacent document found), OPACA corn combining $65/acre
+(verified). Corpus synthesis: open substitutes bite hardest on recurring cost rather
+than entry capital; FarmBot (open but costlier) and L'Atelier Paysan's liquidation
+are the honesty checks. **Resolution: the program's centre of gravity stays with
+tenure and visibility; the open stack's honest role is lowering the cost of staying
+in, not getting in.** Three records curated (`young-agrarians-bclmp.md`,
+`cuma-quebec.md`, `laforge-new-farmer-survey.md`; collection 165).
 
 - **Question:** What does it cost to enter farming in Canada today, itemized, and what
   fraction of that cost does open technology (machinery access models, right to repair,
@@ -111,7 +142,26 @@ and state alike. C3 is closed as a cycle; L3's build object stands precisely def
 - **Budget:** one discovery pass, three cells, with a synthesis pass over existing corpus
   documents first (they are already paid for).
 
-## C5. Farm data and knowledge continuity across transfer (candidate)
+## C5. Farm data and knowledge continuity across transfer (run 2026-11-19)
+
+**Run** — pass document: `research/2026-11-c5-farm-data-continuity-pass.md`.
+Resolution: **the verified absence holds, and it now has a legal shape — farm-data
+continuity at transfer is nobody's documented process.** The open stack has full
+egress but no handover (farmOS CSV/API export verified with its own completeness
+warning; LiteFarm ownership/deletion policy verified — no transfer workflow); the
+closed stack has ownership language without continuity (FieldView export "in the
+same format as uploaded" verified; Trimble's sharpest formulation verified:
+ownership survives, "Customer will not have access to Customer Data after
+termination" — at farm sale the data is owned by someone who cannot reach it); the
+legal layer: Nebraska LB525 (2026) makes ag data producer-owned property (first such
+statute; verified via NALC analysis, second-hand) with producer-following consent
+architecture, and the one executed agreement examined (Northland/Fifield, SEC-filed,
+verified) expressly excluded "corporate books and records" from conveyance. Three
+matching absences recorded with search evidence. **The open stack is plausibly the
+natural first mover here** — the adaptation commons gains a data-continuity annex
+(export profile + model records-conveyance clause). Two records curated
+(`nebraska-lb525-ag-data-act.md`, `northland-fifield-purchase-agreement.md`;
+collection 170).
 
 - **Question:** What happens to a farm's records, agronomic history, and data when it
   changes hands — and can an open substrate (FarmOS, open standards, data-coop
@@ -259,7 +309,29 @@ population; the patriarch-to-son default is empirically stale and demographicall
 mismatched. Three records curated (`statcan-agriculture-population-linkage.md`,
 `iowa-women-and-land.md`, `jrc-farm-succession-dynamics.md`; collection 162).
 
-## C11. How succession decisions are made — and media's role (candidate)
+## C11. How succession decisions are made — and media's role (run 2026-11-19)
+
+**Run** — pass document: `research/2026-11-c11-decisions-media-pass.md`. Resolution:
+**the decision environment is adviser-led, crisis-framed, and licence-silent.**
+Advisor-side evidence (FMC research as quoted on FCC's site, verified): only 32% of
+farmers seek business advisors, and precedence is accountants/lawyers first,
+bankers/lenders second — complicating C1's lender-default finding (the lender is the
+default content producer, not the first advisor). The plan-adoption disagreement
+widens to four figures (12% Census, 8.4% FMC, 66% no-plan RBC via trade press — all
+verified as reported, none averaged). Media framing: FrameWorks 2020 verified
+verbatim ("overwhelmingly negative and fatalistic"); Canadian trade press leads with
+the plan-gap crisis frame (RBC 66%, Froese "Procrastination and conflict avoidance is
+killing agriculture" — verified). The counter-model: AFT's LANDED podcast (free-to-air
+verified, but no licence, no reach data); and the pass's sharpest datum — Young
+Agrarians' sibling Land Access Guide carries an explicit CC BY-NC-SA 2.5 Canada
+licence with a remix invitation (verified) while its own succession toolkit is
+licence-silent: the licence gap is a choice, not a capacity limit. **Honest wall:
+no succession-specific farmer-side trust survey exists online — who farmers actually
+listen to remains correspondence-bound** (who-to-ask: FMC research team, FCC audience
+team, AFT LANDED producer). Reframing carried to P6: an information-environment
+problem with no opportunity-framed incumbent. Three records curated
+(`aft-landed-podcast.md`, `frameworks-farming-media-analysis.md`,
+`young-agrarians-land-access-guide.md`; collection 170).
 
 - **Question:** Who do farm families actually listen to when making succession
   decisions — extension services, accountants, lenders, other farmers, farm media,
