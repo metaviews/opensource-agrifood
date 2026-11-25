@@ -1,10 +1,11 @@
 {
-  "name": "opensource-agrifood-event",
-  "version": "0.1.0",
+  "name": "opensource-agrifood-site",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Public microsite for Building the Open-Source Future of Canadian Agrifood.",
+  "description": "Public site for the Open Source Agrifood project: research, gatherings, and the ecosystem directory.",
   "scripts": {
+    "prebuild": "node scripts/sync-data.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview"

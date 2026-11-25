@@ -13,13 +13,38 @@ export function getStaticPaths() {
     // research map, cycle passes), not just case studies.
     ...import.meta.glob('../../../../succession/*.md'),
     ...import.meta.glob('../../../../succession/research/*.md'),
+    // The 2026-11-25 redesign extends the living-index pattern (per
+    // docs/web-redesign-brainstorm.md, decision 3): policy documents, the
+    // research core (briefing, synthesis, definition), and the concept
+    // spaces' working documents publish as they are committed. The research
+    // glob is filtered to a named allowlist so dated scans stay a GitHub
+    // read rather than flooding the site.
+    ...import.meta.glob('../../../../docs/policy/*.md'),
+    ...import.meta.glob('../../../../research/*.md'),
+    ...import.meta.glob('../../../../grocery/*.md'),
+    ...import.meta.glob('../../../../upcycling/*.md'),
   };
+  const allowlist = new Set([
+    'policy/community-processing-regulatory-design',
+    'policy/succession-visibility-design',
+    'research/2026-08-programme-briefing',
+    'research/2026-08-landscape-synthesis-v3',
+    'research/2026-09-definition-of-open-agrifood',
+    'grocery/concept',
+    'grocery/synthesis',
+    'upcycling/concept',
+    'upcycling/economics',
+  ]);
   return Object.entries(modules)
-    .filter(([key]) => /case-study\.md$/.test(key) || /succession\//.test(key))
     .map(([key, load]) => {
-      const slug = key.replace('../../../../', '').replace(/\.md$/, '');
-      return { params: { slug }, props: { load, slug } };
-    });
+      let slug = key.replace('../../../../', '').replace(/\.md$/, '');
+      if (slug.startsWith('docs/')) slug = slug.slice('docs/'.length);
+      return { slug, load };
+    })
+    .filter(({ slug }) =>
+      /case-study$/.test(slug) || /^succession\//.test(slug) || allowlist.has(slug)
+    )
+    .map(({ slug, load }) => ({ params: { slug }, props: { load, slug } }));
 }
 
 const { load, slug } = Astro.props;
@@ -36,9 +61,20 @@ const sectionLabels = {
   dairy: 'Dairy case study',
   cea: 'Controlled environment agriculture case study',
   succession: 'Succession research program',
+  policy: 'Policy and regulatory design',
+  research: 'Core research',
+  grocery: 'Grocery concept',
+  upcycling: 'Upcycling concept',
 };
 const sectionLabel = sectionLabels[section] ?? section;
-const crumbLabel = section === 'succession' ? 'Succession research' : 'Case studies';
+const crumbLabels: Record<string, string> = {
+  succession: 'Succession research',
+  policy: 'Policy design',
+  research: 'The research',
+  grocery: 'Grocery concept',
+  upcycling: 'Upcycling concept',
+};
+const crumbLabel = crumbLabels[section] ?? 'Case studies';
 ---
 
 <Base title={`${title} | Open-Source Agrifood`} description={`${title} — a case study from the Open Source Agrifood research corpus.`}>

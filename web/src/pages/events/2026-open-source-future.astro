@@ -1,0 +1,267 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const sessions = [
+  {
+    number: '01',
+    question: 'Who',
+    time: '12:00–12:30pm',
+    title: 'Power goes to those who show up ready to do something',
+    paragraphs: [
+      'Canadian agrifood is shaped by people who grow food, build tools, and care for the systems around it. This is where we meet one another: not as an audience, but as people whose experience and imagination belong at the centre of the conversation.',
+      'What do you see that others may be missing? What are you hoping to understand or change? Bring your perspective and questions. The day begins with the people who show up ready to do something.',
+      'Across the landscape, the scarcest layer is often farmer agency: not access to a tool, but the ability to shape and benefit from it. This opening session asks what becomes possible when the people closest to the work have a meaningful role in shaping what comes next.',
+    ],
+    tone: 'moss',
+  },
+  {
+    number: '02',
+    question: 'What',
+    time: '12:30–1:00pm',
+    title: 'Intelligence begins on the farm and in the food',
+    paragraphs: [
+      'From farms and fields to processing and distribution, intelligence is taking on new forms. We travel across the food system and meet people living with these changes.',
+      'The examples are practical. They include OpenSprinkler irrigation, AquaCrop-OSPy crop-water modelling, UN FAO forest monitoring, CoopCycle logistics, and open diagnostic instruments. Together they show capacity being built across the food system, even when the pieces remain unevenly connected.',
+      'Together, these examples open a larger question: how might Canadian agrifood gain the capacity to adapt and benefit from new intelligence without surrendering control of the systems that matter?',
+    ],
+    tone: 'ochre',
+  },
+  {
+    number: '03',
+    question: 'How',
+    time: '1:10–2:00pm',
+    title: 'The Future Is Something We Practise',
+    paragraphs: [
+      'A crisis moves through the food system, and the familiar ways of making decisions are no longer enough. The situation is fictional, but we can learn from the questions the scenario raises.',
+      'What would you notice first? Who would you turn to? What would matter most? We step into the moment together and consider how people and institutions might respond when the pressure is real.',
+      'The landscape suggests that openness is layered. It may appear in a tool, a public standard, or a dataset, while the systems around them remain closed. The exercise turns that strategic question into a shared experience.',
+    ],
+    tone: 'pink',
+  },
+  {
+    number: '04',
+    question: 'When',
+    time: '2:00–2:20pm',
+    title: 'The Plot Thickens',
+    paragraphs: [
+      'After the speculation and discussion, we gather the threads. The day may have changed how we see the food system, the technologies moving through it, or the people trying to understand it.',
+      'One finding stayed with us: “The open agrifood layer has achieved robust, peer-reviewed, and production-proven viability across decentralized small-scale interventions, scientific simulation engines, and cooperative logistics, but hits a hard capital and biological wall at broad-acre industrial control.”',
+      'What stayed with you? What new possibility appeared? What question became too interesting to leave behind? We considered what a more capable and broadly beneficial agrifood future might require.',
+    ],
+    tone: 'blue',
+  },
+];
+---
+
+<Base
+  title="Building the Open-Source Future of Canadian Agrifood | Future Herd"
+  description="The first Future Herd spectacular on AI and agrifood: an afternoon gathering, online on Discord, Tuesday 24 November 2026. Recap and recording in processing."
+>
+  <section class="hero shell">
+    <div class="hero-copy">
+      <p class="eyebrow">A Future Herd spectacular event on AI and agrifood · held</p>
+      <h1>Building the<br /><em>Open-Source</em> Future<br />of Canadian Agrifood</h1>
+      <p class="hero-lede">An afternoon gathering for people who care about where food, intelligence, and collective possibility meet.</p>
+      <p class="event-date">Tuesday, November 24, 2026<br /><strong>From 12 noon Eastern Time (ET)</strong></p>
+      <div class="event-meta">
+        <span>Online</span><span>Discord</span><span>Afternoon</span><span>Four sessions</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="orbit orbit-three"></div>
+      <div class="sun"></div>
+      <span class="art-note note-one">who</span>
+      <span class="art-note note-two">what</span>
+      <span class="art-note note-three">how</span>
+      <span class="art-note note-four">when</span>
+    </div>
+  </section>
+
+  <section class="status shell">
+    <div class="section-label">After the day</div>
+    <div class="status-copy">
+      <p class="status-lede">The gathering took place on Tuesday 24 November 2026 on the Future Herd Discord. Thank you to everyone who showed up ready to do something.</p>
+      <p>The recording is in processing. What came out of the afternoon, the recap of the four sessions, and whatever the room produced in the wind-down will appear on this page as they are ready. The agenda below remains as it was published for participants.</p>
+      <p class="status-cta">The conversation continues on the <a href="https://thefutureherd.ca/discord/">Future Herd Discord</a>. The next gathering focuses on food hubs: <a href="/events/">see the series</a>.</p>
+    </div>
+  </section>
+
+  <section class="intro shell">
+    <div class="section-label">Why we gathered</div>
+    <div class="intro-copy">
+      <p class="intro-lede">Canadian agrifood is changing quickly. New forms of intelligence are moving through the food system, from the farm and the field to processing, distribution, retail, and the places where food is shared and eaten.</p>
+      <p>Choices made now about knowledge, technology, and who gets to shape them will stay with us. This gathering brought together people working across Canadian agrifood and people trying to understand where it is going.</p>
+      <p>We wanted to bring together the people whose knowledge and experience can help us understand what open-source AI means for Canadian agrifood.</p>
+      <p>Here, “open” means that people can see enough of a tool or system to understand it, use it, adapt it, and sometimes share what they improve. That can build capacity and agency, but openness is not the same as ownership, control, or benefit. Those were the questions we explored.</p>
+    </div>
+  </section>
+
+  <section class="future-herd shell">
+    <div class="section-label">The host</div>
+    <div class="future-herd-copy">
+      <h2>Meet the Future Herd</h2>
+      <p>The Future Herd is a podcast and a growing conversation about the changes reshaping food and agriculture. It explores how collective wisdom and adaptive leadership can help us navigate a changing food system.</p>
+      <p>That conversation brings together people with different experiences of the food system: people who work in it, study it, build for it, govern it, and care about where it is going. The gathering was one way the conversation becomes a shared experience rather than something we only encounter through a screen.</p>
+      <p>The companion episode, recorded ahead of the gathering: <a href="https://thefutureherd.ca/episodes/episode-052/">Future Herd episode 52, The Competitive Advantage Offered by Open Source Agriculture</a>. Joshua Pearce explores how open-source tools, shared designs, and collaboration can build capacity across agriculture, and why food sovereignty, repair, and control over essential technology matter now.</p>
+    </div>
+  </section>
+
+  <section class="agenda shell" id="agenda">
+    <div class="section-label">The day, as planned</div>
+    <div class="agenda-head">
+      <h2><span class="agenda-word">Who</span><span class="agenda-arrow">→</span><span class="agenda-word">What</span><span class="agenda-arrow">→</span><span class="agenda-word">How</span><span class="agenda-arrow">→</span><span class="agenda-word">When</span></h2>
+      <p>Four ways of being together. One afternoon to see what becomes possible. The sessions ran 30, 30, 50, and 20 minutes, with a 10-minute break in the middle of the day.</p>
+    </div>
+    <div class="session-list">
+      {sessions.map((session, index) => (
+        <Fragment>
+          {index === 2 && <div class="agenda-break">Break · 1:00–1:10pm</div>}
+          <article class={`session session-${session.tone}`}>
+          <div class="session-number">{session.number}</div>
+          <div class="session-question">{session.question}</div>
+          <div class="session-body">
+            <p class="session-time">{session.time}</p>
+            <h3>{session.title}</h3>
+            {session.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+            {session.number === '03' && (
+              <p>The role-playing scenario is fictional, but its stakes were already visible. Metaviews’ November 8 digest, <a href="https://metaviews.ca/signal/2026-11-08-082816-supermarket-freezers-europe-hybrid-war/">Supermarket Freezers Become Europe’s Hybrid-War Targets</a>, followed reports of hacked supermarket fridges and freezers across Europe. Those developments made the exercise timely: how would we work together to protect food supplies, share reliable information, and respond when the systems we depend on are disrupted?</p>
+            )}
+          </div>
+          </article>
+        </Fragment>
+      ))}
+      <article class="session session-wind-down">
+        <div class="session-number">—</div>
+        <div class="session-question">Wind down</div>
+        <div class="session-body">
+          <p class="session-time">From 2:20pm</p>
+          <h3>Socialize and hang out</h3>
+          <p>The formal part of the day gave way to a more relaxed time together. Stay with us, settle into conversation, and spend time with the people you met across the sessions.</p>
+          <p>There was no further agenda to follow and no conclusion we needed to reach. This is time to compare notes, share what stayed with you, follow an interesting thread, or simply enjoy being in the same online space.</p>
+          <p>The conversation can continue at its own pace, with room for new connections and whatever feels worth carrying forward from the day.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+
+  .hero {
+    min-height: 42rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.72fr);
+    align-items: center;
+    gap: 3rem;
+    padding-top: clamp(4rem, 9vw, 8rem);
+    padding-bottom: clamp(3rem, 7vw, 6rem);
+  }
+
+  .eyebrow, .section-label {
+    color: var(--ochre);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  h1, h2, h3, p { margin-top: 0; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 400; }
+
+  h1 {
+    max-width: 52rem;
+    margin-bottom: 1.75rem;
+    font-size: clamp(3.35rem, 7.2vw, 7.2rem);
+    letter-spacing: -0.065em;
+    line-height: 0.93;
+  }
+
+  h1 em { color: var(--moss); font-style: normal; }
+  .hero-lede { max-width: 30rem; color: var(--ink-soft); font-size: clamp(1.15rem, 1.8vw, 1.45rem); line-height: 1.4; }
+  .event-date { margin: 1.5rem 0 0; color: var(--moss-dark); font-family: var(--display); font-size: 1.35rem; line-height: 1.15; }
+  .event-date strong { color: var(--ochre); font-weight: 400; }
+
+  .event-meta { display: flex; flex-wrap: wrap; gap: 0.55rem 1.25rem; margin-top: 2rem; color: var(--ink-faint); font-size: 0.82rem; }
+  .event-meta span::before { content: '·'; margin-right: 0.5rem; color: var(--ochre); }
+  .event-meta span:first-child::before { content: ''; margin: 0; }
+
+  .hero-art { position: relative; min-height: 28rem; }
+  .sun { position: absolute; width: clamp(8rem, 18vw, 15rem); aspect-ratio: 1; top: 28%; left: 31%; border-radius: 50%; background: var(--ochre); box-shadow: 1.5rem 1.5rem 0 var(--pink); }
+  .orbit { position: absolute; border: 1px solid var(--moss); border-radius: 50%; transform: rotate(-28deg); }
+  .orbit-one { width: 92%; height: 40%; top: 32%; left: 4%; }
+  .orbit-two { width: 74%; height: 82%; top: 8%; left: 14%; transform: rotate(54deg); }
+  .orbit-three { width: 38%; height: 104%; top: -2%; left: 34%; transform: rotate(22deg); border-color: var(--ochre); }
+  .art-note { position: absolute; color: var(--moss-dark); font-family: var(--display); font-size: 1.2rem; font-style: italic; }
+  .note-one { top: 18%; left: 13%; }
+  .note-two { top: 68%; right: 5%; }
+  .note-three { bottom: 3%; left: 39%; }
+  .note-four { top: 7%; right: 24%; }
+
+  .status { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 5rem; background: var(--paper-warm); margin-top: 0; max-width: none; padding-left: max(clamp(1.25rem, 4vw, 4rem), calc((100vw - 86rem) / 2 + clamp(1.25rem, 4vw, 4rem))); padding-right: max(clamp(1.25rem, 4vw, 4rem), calc((100vw - 86rem) / 2 + clamp(1.25rem, 4vw, 4rem))); }
+  .status-copy { max-width: 50rem; font-size: 1.1rem; line-height: 1.65; }
+  .status-lede { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.4rem, 2.4vw, 2rem); line-height: 1.15; margin-bottom: 1rem; }
+  .status-copy p a { color: var(--moss); }
+  .status-copy p a:hover { color: var(--ochre); }
+  .status-cta { margin-top: 1.25rem; font-weight: 600; }
+
+  .intro, .agenda { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .intro-copy { max-width: 48rem; font-size: 1.16rem; line-height: 1.65; }
+  .intro-lede { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.65rem, 3vw, 2.55rem); line-height: 1.12; letter-spacing: -0.025em; }
+
+  .future-herd { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .future-herd-copy { max-width: 50rem; font-size: 1.16rem; line-height: 1.65; }
+  .future-herd-copy h2 { margin-bottom: 1rem; color: var(--moss-dark); font-size: clamp(2.2rem, 4vw, 4rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .future-herd-copy p { max-width: 46rem; }
+  .future-herd-copy a { color: var(--moss); }
+  .future-herd-copy a:hover { color: var(--ochre); }
+
+  .agenda { display: block; }
+  .agenda-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin: 1rem 0 3rem 20%; }
+  .agenda-head h2 { margin-bottom: 0; font-size: clamp(2.2rem, 5vw, 5rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .agenda-head h2 .agenda-word { color: var(--moss-dark); font-family: var(--body); font-size: 1em; font-weight: 650; vertical-align: baseline; }
+  .agenda-head h2 .agenda-arrow { color: var(--ochre); font-family: var(--body); font-size: 0.5em; font-weight: 400; margin: 0 0.16em; vertical-align: 0.15em; }
+  .agenda-head p { max-width: 14rem; margin-bottom: 0.2rem; color: var(--ink-soft); font-size: 0.95rem; }
+  .session-list { margin-left: 20%; }
+  .session { display: grid; grid-template-columns: 4rem 7rem minmax(0, 1fr); gap: 1rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+  .session:last-child { border-bottom: 1px solid var(--line); }
+  .agenda-break { margin: 0.75rem 0; color: var(--ink-faint); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; }
+  .session-number { color: var(--ink-faint); font-size: 0.75rem; padding-top: 0.3rem; }
+  .session-question { color: var(--moss); font-family: var(--display); font-size: 1.35rem; font-style: italic; padding-top: 0.1rem; }
+  .session-time { margin-bottom: 0.45rem; color: var(--ochre); font-size: 0.78rem; font-weight: 750; letter-spacing: 0.08em; text-transform: uppercase; }
+  .session-body h3 { max-width: 34rem; margin-bottom: 0.5rem; font-size: clamp(1.65rem, 3vw, 2.65rem); letter-spacing: -0.04em; line-height: 1.02; }
+  .session-body p { max-width: 42rem; margin-bottom: 0.75rem; color: var(--ink-soft); font-size: 1rem; }
+  .session-body p:last-child { margin-bottom: 0; }
+  .session-body p:nth-of-type(3) { color: var(--moss); font-family: var(--display); font-size: 1.08rem; font-style: italic; }
+  .session-ochre .session-question { color: var(--ochre); }
+  .session-pink .session-question { color: #a56462; }
+  .session-blue .session-question { color: #5f6d91; }
+  .session-wind-down { background: rgba(219, 169, 160, 0.12); padding-left: 1rem; padding-right: 1rem; }
+  .session-body a { color: var(--moss); }
+  .session-body a:hover { color: var(--ochre); }
+
+  @media (max-width: 800px) {
+    .hero { grid-template-columns: 1fr; min-height: auto; }
+    .hero-art { min-height: 21rem; max-width: 32rem; width: 100%; margin: 0 auto; }
+    .intro, .future-herd, .status { grid-template-columns: 1fr; gap: 1rem; }
+    .agenda-head { margin-left: 0; display: block; }
+    .agenda-head p { margin-top: 1rem; }
+    .session-list { margin-left: 0; }
+  }
+
+  @media (max-width: 560px) {
+    .hero { padding-top: 3.5rem; }
+    h1 { font-size: clamp(3rem, 15vw, 5rem); }
+    .hero-art { min-height: 17rem; }
+    .intro, .agenda { padding-bottom: 4rem; }
+    .session { grid-template-columns: 2.5rem 1fr; gap: 0.6rem 1rem; }
+    .session-number { grid-row: span 2; }
+    .session-question { grid-column: 2; }
+    .session-body { grid-column: 2; }
+    .session-body h3 { font-size: 2rem; }
+  }
+</style>

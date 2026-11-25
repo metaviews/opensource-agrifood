@@ -1,0 +1,115 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const past = [
+  {
+    date: 'Tuesday 24 November 2026',
+    title: 'Building the Open-Source Future of Canadian Agrifood',
+    text: 'The first Future Herd spectacular on AI and agrifood: four sessions across an afternoon, online on the Discord. Who, what, how, when. The recording is in processing and the recap will appear on the event page.',
+    href: '/events/2026-open-source-future/',
+    status: 'Held · recap and recording in processing',
+  },
+];
+---
+
+<Base
+  title="Gatherings | Open-Source Agrifood"
+  description="The Open-Source Agrifood gathering series: afternoons, online on the Future Herd Discord, on the opportunities for open source agriculture. The next gathering focuses on food hubs."
+>
+  <section class="events-hero shell">
+    <p class="eyebrow">The gathering series</p>
+    <h1>Put the findings<br /><em>in the same room</em><br />as the people.</h1>
+    <p class="lede">Our gatherings are afternoons, online, on the Future Herd Discord. Sessions built around questions rather than panels. Time at the end simply to talk with one another. Each one takes up a place where open source agriculture meets a real opportunity, and asks what becomes possible.</p>
+    <p class="lede">You do not need to be an expert. Come as you are.</p>
+  </section>
+
+  <section class="next shell">
+    <div class="section-label">Next</div>
+    <div class="next-copy">
+      <h2>Food hubs</h2>
+      <p>The next gathering focuses on food hubs: the places where local and regional food gets aggregated, distributed, and sometimes processed, and what open tools, open data, and shared infrastructure could mean for them. Canada has made food hubs a funding priority, and communities are responding. The question we want to explore together: where does openness actually help a hub do its work, and who gets to shape it?</p>
+      <p class="next-meta">Date and agenda to be announced. When they settle, they appear here and on the Discord.</p>
+      <p><a class="button" href="https://thefutureherd.ca/discord/">Hear it first on the Discord <span>↗</span></a></p>
+    </div>
+  </section>
+
+  <section class="past shell">
+    <div class="section-label">Past gatherings</div>
+    <div class="past-list">
+      {past.map((event) => (
+        <article class="past-row">
+          <div class="past-date">{event.date}</div>
+          <div class="past-body">
+            <h3><a href={event.href}>{event.title} <span>↗</span></a></h3>
+            <p>{event.text}</p>
+            <p class="past-status">{event.status}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="join shell">
+    <div class="section-label">Taking part</div>
+    <div class="join-copy">
+      <p class="join-lede">Everything happens on the Future Herd Discord: the gatherings, the conversation between them, and the place where people across the ecosystem introduce their own work.</p>
+      <p><a class="button" href="https://thefutureherd.ca/discord/">Join the Future Herd Discord <span>↗</span></a></p>
+      <p class="join-contact">Questions, corrections, and sponsorship: email <a href="mailto:hello@thefutureherd.ca">hello@thefutureherd.ca</a>. If you or your organization would like to help make a gathering possible, we would be glad to talk.</p>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+  .events-hero { padding-top: clamp(5rem, 11vw, 9rem); padding-bottom: clamp(4rem, 9vw, 7rem); }
+  .eyebrow, .section-label { color: var(--ochre); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; line-height: 1.3; text-transform: uppercase; }
+  h1, h2, h3, p { margin-top: 0; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 400; }
+  h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 7.5rem); letter-spacing: -0.07em; line-height: 0.92; }
+  h1 em { color: var(--moss); font-style: normal; }
+  .lede { max-width: 44rem; color: var(--ink-soft); font-size: clamp(1.15rem, 2vw, 1.5rem); line-height: 1.45; }
+
+  .next, .join { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .next-copy { max-width: 50rem; font-size: 1.12rem; line-height: 1.65; }
+  .next-copy h2 { margin-bottom: 1rem; color: var(--moss-dark); font-size: clamp(2.2rem, 4vw, 4rem); letter-spacing: -0.06em; line-height: 0.98; }
+  .next-meta { color: var(--ink-faint); font-size: 0.98rem; }
+  .next-copy .button { margin-top: 0.75rem; }
+
+  .button {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.85rem 1.5rem;
+    background: var(--moss-dark); color: var(--paper) !important;
+    font-family: var(--body); font-size: 0.95rem; font-weight: 700;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  .button span { color: var(--ochre); }
+  .button:hover { background: var(--moss); }
+
+  .past { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .past-list { margin-top: 1rem; }
+  .past-row { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; padding: 2rem 0; border-top: 1px solid var(--line); }
+  .past-row:last-child { border-bottom: 1px solid var(--line); }
+  .past-date { color: var(--moss); font-family: var(--display); font-size: 1.2rem; font-style: italic; }
+  .past-body { max-width: 48rem; }
+  .past-body h3 { margin-bottom: 0.6rem; font-size: clamp(1.7rem, 3vw, 2.6rem); letter-spacing: -0.05em; line-height: 1.02; }
+  .past-body h3 a { color: var(--moss-dark); text-decoration: none; }
+  .past-body h3 a:hover { color: var(--ochre); }
+  .past-body h3 a span { color: var(--ochre); font-size: 0.5em; vertical-align: 0.35em; }
+  .past-body p { color: var(--ink-soft); font-size: 1.02rem; }
+  .past-status { margin-top: 0.75rem; color: var(--ochre); font-size: 0.82rem; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; }
+
+  .join-copy { max-width: 48rem; }
+  .join-lede { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.5rem, 2.6vw, 2.2rem); line-height: 1.15; margin-bottom: 1.5rem; }
+  .join-contact { margin-top: 1.5rem; color: var(--ink-soft); font-size: 1rem; }
+  .join-contact a { color: var(--moss); }
+  .join-contact a:hover { color: var(--ochre); }
+
+  @media (max-width: 800px) {
+    .next, .join, .past-row { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  @media (max-width: 560px) {
+    .next, .past, .join { padding-bottom: 4rem; }
+  }
+</style>

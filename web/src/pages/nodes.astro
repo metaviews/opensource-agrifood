@@ -1,0 +1,233 @@
+---
+import Base from '../layouts/Base.astro';
+
+interface DirectoryEntry {
+  name: string;
+  type: string;
+  geography: string;
+  role: string;
+  sources: string[];
+  bucket: string;
+  links_out: string[];
+  categories: string[];
+  verification: { tier: string; record_status?: string };
+  openness: string[];
+  governance: string[];
+  lifecycle: string | null;
+  record: string | null;
+}
+
+const [entries] = Object.values(
+  import.meta.glob('../../../directory-data.json', { eager: true, import: 'default' })
+) as unknown as [DirectoryEntry[]];
+
+const recordBacked = entries.filter((entry) => entry.verification.tier === 'record-backed');
+const scanDerived = entries.filter((entry) => entry.verification.tier !== 'record-backed');
+
+const categoryOrder = [
+  'co-op grocery', 'seed commons', 'ag-data', 'standards', 'open-hardware',
+  'robotics-machines', 'cea', 'fisheries', 'energy-byproducts', 'food-waste',
+  'land-tenure', 'language-ai', 'resilience',
+];
+const displayName = (name: string) => name.charAt(0).toUpperCase() + name.slice(1);
+
+const featuredByCategory = categoryOrder.map((category) => ({
+  category,
+  items: recordBacked
+    .filter((entry) => entry.categories.includes(category))
+    .sort((a, b) => a.name.localeCompare(b.name)),
+}));
+const uncategorizedFeatured = recordBacked
+  .filter((entry) => entry.categories.length === 0)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const bucketLabels: Record<string, string> = {
+  'NOT-STATED': 'No place stated in the corpus',
+};
+const bucketOrder = ['Canada', 'United States', 'Europe', 'Global / cross-border', 'Indigenous nations & territories', 'South Asia', 'East Asia', 'Southeast Asia', 'Africa', 'Oceania & Pacific', 'Latin America & Caribbean', 'Middle East & North Africa', 'NOT-STATED'];
+const tailByBucket = bucketOrder
+  .map((bucket) => ({
+    bucket,
+    label: bucketLabels[bucket] ?? bucket,
+    items: scanDerived
+      .filter((entry) => entry.bucket === bucket)
+      .sort((a, b) => a.name.localeCompare(b.name)),
+  }))
+  .filter((group) => group.items.length > 0);
+
+const repoRecordUrl = (record: string) =>
+  `https://github.com/metaviews/opensource-agrifood/blob/main/${record}`;
+
+const typeLabels: Record<string, string> = {
+  person: 'person',
+  organization: 'organization',
+  network: 'network',
+  project: 'project or platform',
+  government: 'government or public body',
+  funder: 'funder',
+};
+---
+
+<Base
+  title="Nodes: who is building open agrifood | Open-Source Agrifood"
+  description="A directory of the people, organizations, networks, projects, governments, and funders the research corpus treats as actors in open agrifood, in two clearly stated tiers: verified and recorded."
+>
+  <section class="nodes-hero shell">
+    <p class="eyebrow">The ecosystem</p>
+    <h1>Who is already<br /><em>building</em> the open layers?</h1>
+    <p class="lede">The research keeps running into people and organizations: breeders publishing seeds, technicians maintaining open tractor code, cooperatives governing their own data, developers building logistics software for courier co-ops, public agencies opening datasets. The directory names them, the way the corpus found them.</p>
+    <p class="lede lede-counts"><strong>{recordBacked.length} verified entries</strong>, each backed by a curated research record. <strong>{scanDerived.length.toLocaleString()} recorded entries</strong> that the scans mention but the project has not independently checked. The difference between those two sentences is the point of the page.</p>
+    <div class="axis-chips" aria-label="Categories of verified entries">
+      {featuredByCategory.map((group) => (
+        <a href={`#cat-${group.category.replace(/[^a-z0-9]+/gi, '-')}`}>{displayName(group.category)} <span>{group.items.length}</span></a>
+      ))}
+      <a href="#featured-other">Other verified <span>{uncategorizedFeatured.length}</span></a>
+    </div>
+  </section>
+
+  <section class="howto shell">
+    <div class="section-label">How to read this</div>
+    <div class="howto-copy">
+      <p><strong>Verified entries</strong> each have a record in the research collection: licence, activity, governance, and use checked against primary sources. Every one links out to its record so you can read the evidence rather than take the word for it.</p>
+      <p><strong>Recorded entries</strong> come from the sector scans and working documents. They are leads gathered from research, not independently re-verified, and they are kept visibly separate on purpose. Each one lists the corpus files it came from in the data file.</p>
+      <p>Where the record states it, verified entries show <strong>what is open</strong> (code, data, hardware designs, seeds, knowledge documents), <strong>how it is governed</strong> (cooperative, state-run, farmer-governed, corporate, Indigenous-governed, and others), and <strong>what stage of life</strong> it is in (active, dormant, defunct, proposed). Where the corpus states nothing, nothing is shown. That is not a negative finding.</p>
+      <p>Geography is recorded exactly as the corpus states it, and the long tail is grouped by that geography.</p>
+      <p class="howto-promote">If you are building open infrastructure for food, the place to introduce your work is the <a href="https://thefutureherd.ca/discord/">Future Herd Discord</a>. This directory stays what the record shows.</p>
+      <p class="howto-data">The whole directory is one file: <a href="/directory-data.json">directory-data.json</a>, licensed CC BY-SA 4.0, carrying every entry with its sources, categories, axes, and verification tier.</p>
+    </div>
+  </section>
+
+  <section class="featured shell">
+    <div class="section-label">Verified entries · {recordBacked.length}</div>
+    <p class="tier-note">Each of these has a curated record in <a href="https://github.com/metaviews/opensource-agrifood/tree/main/examples/records">the research collection</a>. Entries can appear under more than one category.</p>
+    {featuredByCategory.map((group) => (
+      <div class="cat-group" id={`cat-${group.category.replace(/[^a-z0-9]+/gi, '-')}`}>
+        <h3>⌗ {displayName(group.category)} <span class="cat-count">{group.items.length}</span></h3>
+        <ul class="node-list">
+          {group.items.map((entry) => (
+            <li class="node node-verified">
+              <div class="node-line">
+                <a class="node-name" href={repoRecordUrl(entry.record!)}>{entry.name}</a>
+                {entry.lifecycle && <span class="chip chip-lifecycle">{entry.lifecycle}</span>}
+              </div>
+              <p class="node-role">{entry.role}</p>
+              <p class="node-meta">
+                <span>{typeLabels[entry.type] ?? entry.type}</span>
+                {entry.geography && <span>{entry.geography}</span>}
+                {entry.openness.map((value) => <span class="chip">{value}</span>)}
+                {entry.governance.map((value) => <span class="chip chip-gov">{value}</span>)}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+    {uncategorizedFeatured.length > 0 && (
+      <div class="cat-group" id="featured-other">
+        <h3>Other verified entries <span class="cat-count">{uncategorizedFeatured.length}</span></h3>
+        <ul class="node-list">
+          {uncategorizedFeatured.map((entry) => (
+            <li class="node node-verified">
+              <div class="node-line">
+                <a class="node-name" href={repoRecordUrl(entry.record!)}>{entry.name}</a>
+                {entry.lifecycle && <span class="chip chip-lifecycle">{entry.lifecycle}</span>}
+              </div>
+              <p class="node-role">{entry.role}</p>
+              <p class="node-meta">
+                <span>{typeLabels[entry.type] ?? entry.type}</span>
+                {entry.geography && <span>{entry.geography}</span>}
+                {entry.openness.map((value) => <span class="chip">{value}</span>)}
+                {entry.governance.map((value) => <span class="chip chip-gov">{value}</span>)}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </section>
+
+  <section class="tail shell">
+    <div class="section-label">Recorded entries · {scanDerived.length.toLocaleString()}</div>
+    <p class="tier-note">From the scans and working documents, grouped by the geography the corpus states. Recorded, not independently verified. Sources per entry: <a href="/directory-data.json">directory-data.json</a>.</p>
+    {tailByBucket.map((group) => (
+      <div class="bucket-group" id={`bucket-${group.bucket.replace(/[^a-z0-9]+/gi, '-')}`}>
+        <h3>{group.label} <span class="cat-count">{group.items.length}</span></h3>
+        <ul class="node-list node-list-compact">
+          {group.items.map((entry) => (
+            <li class="node">
+              <span class="node-name-plain">{entry.name}</span>
+              <span class="node-role-inline">{entry.role}</span>
+              {entry.lifecycle && <span class="chip chip-lifecycle">{entry.lifecycle}</span>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+  <section class="ask shell">
+    <div class="section-label">The long tail grows by curation</div>
+    <div class="ask-copy">
+      <p>The axes on this page are not a finished classification. Categories, openness, governance, and lifecycle are assigned entry by entry as the research verifies them, and most of the long tail is not yet assigned. If you spot an entry the corpus states differently than you know it, that correction is exactly the kind of thing the <a href="https://thefutureherd.ca/discord/">Discord</a> is for, and the research records it honestly.</p>
+    </div>
+  </section>
+
+</Base>
+
+<style>
+  .shell { max-width: 86rem; margin: 0 auto; padding-left: clamp(1.25rem, 4vw, 4rem); padding-right: clamp(1.25rem, 4vw, 4rem); }
+  .nodes-hero { padding-top: clamp(5rem, 11vw, 9rem); padding-bottom: clamp(4rem, 9vw, 7rem); }
+  .eyebrow, .section-label { color: var(--ochre); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; line-height: 1.3; text-transform: uppercase; }
+  h1, h2, h3, p { margin-top: 0; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 400; }
+  h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 7.5rem); letter-spacing: -0.07em; line-height: 0.92; }
+  h1 em { color: var(--moss); font-style: normal; }
+  .lede { max-width: 46rem; color: var(--ink-soft); font-size: clamp(1.1rem, 1.9vw, 1.4rem); line-height: 1.45; }
+  .lede-counts { margin-top: 1.2rem; color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.15rem, 1.9vw, 1.5rem); }
+
+  .axis-chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2.5rem; }
+  .axis-chips a { display: inline-flex; gap: 0.45rem; align-items: baseline; padding: 0.4rem 0.85rem; border: 1px solid var(--line); color: var(--moss-dark); font-size: 0.85rem; font-weight: 650; text-decoration: none; background: var(--paper-warm); }
+  .axis-chips a:hover { border-color: var(--ochre); color: var(--ochre); }
+  .axis-chips span { color: var(--ink-faint); font-size: 0.75rem; }
+
+  .howto, .featured, .tail, .ask { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .howto { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .howto-copy { max-width: 52rem; font-size: 1.08rem; line-height: 1.65; color: var(--ink-soft); }
+  .howto-copy p strong { color: var(--moss-dark); }
+  .howto-promote { color: var(--moss-dark); font-family: var(--display); font-size: 1.2rem; line-height: 1.3; }
+  .howto-promote a, .howto-data a, .ask-copy a, .tier-note a { color: var(--ochre); text-decoration: none; font-weight: 700; }
+  .howto-promote a:hover, .howto-data a:hover, .ask-copy a:hover, .tier-note a:hover { color: var(--moss); }
+  .howto-data { font-size: 0.95rem; }
+
+  .tier-note { max-width: 52rem; color: var(--ink-faint); font-size: 0.95rem; margin-bottom: 2.5rem; }
+  .featured .section-label, .tail .section-label { display: block; margin-bottom: 1.5rem; }
+
+  .cat-group, .bucket-group { margin-bottom: 3rem; }
+  .cat-group h3, .bucket-group h3 { display: flex; align-items: baseline; gap: 0.8rem; margin-bottom: 1rem; color: var(--moss-dark); font-size: clamp(1.6rem, 2.8vw, 2.4rem); letter-spacing: -0.04em; }
+  .cat-count { color: var(--ink-faint); font-family: var(--body); font-size: 0.8rem; font-weight: 700; }
+
+  .node-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .node { padding: 0.9rem 0.25rem; border-bottom: 1px solid var(--line); }
+  .node-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.7rem; }
+  .node-name { color: var(--moss-dark); font-family: var(--display); font-size: 1.25rem; letter-spacing: -0.02em; text-decoration: none; }
+  .node-name:hover { color: var(--ochre); }
+  .node-role { margin: 0.25rem 0 0.4rem; max-width: 60rem; color: var(--ink-soft); font-size: 0.98rem; line-height: 1.5; }
+  .node-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: baseline; color: var(--ink-faint); font-size: 0.78rem; }
+  .chip { display: inline-block; padding: 0.12rem 0.5rem; background: var(--paper-warm); color: var(--moss); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.02em; }
+  .chip-gov { color: var(--ochre); }
+  .chip-lifecycle { background: rgba(219, 169, 160, 0.35); color: #a56462; }
+
+  .node-list-compact .node { padding: 0.5rem 0.25rem; }
+  .node-name-plain { color: var(--moss-dark); font-family: var(--display); font-size: 1.05rem; }
+  .node-role-inline { display: block; margin-top: 0.1rem; color: var(--ink-faint); font-size: 0.88rem; line-height: 1.45; }
+
+  .ask { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .ask-copy { max-width: 48rem; font-size: 1.08rem; line-height: 1.65; color: var(--ink-soft); }
+
+  @media (max-width: 800px) {
+    .howto, .ask { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  @media (max-width: 560px) {
+    .howto, .featured, .tail { padding-bottom: 4rem; }
+  }
+</style>

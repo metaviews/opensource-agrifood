@@ -5,9 +5,12 @@ interface Props {
 }
 
 const {
-  title = 'Building the Open-Source Future of Canadian Agrifood',
-  description = 'A Future Herd spectacular event on AI and agrifood.',
+  title = 'Open-Source Agrifood | Future Herd',
+  description = 'Research, gatherings, and a directory of the open layers of the Canadian food system: who can see, use, adapt, and share the systems that feed us, and who benefits.',
 } = Astro.props;
+
+const origin = 'https://opensource.thefutureherd.ca';
+const canonical = new URL(Astro.url.pathname, origin).href;
 ---
 
 <!doctype html>
@@ -19,20 +22,31 @@ const {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://opensource.thefutureherd.ca/" />
-    <link rel="canonical" href="https://opensource.thefutureherd.ca/" />
+    <meta property="og:url" content={canonical} />
+    <link rel="canonical" href={canonical} />
     <title>{title}</title>
   </head>
   <body>
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Building the Open-Source Future of Canadian Agrifood home">
+      <a class="wordmark" href="/" aria-label="Open-Source Agrifood home">
         <span class="wordmark-line"><span>Future Herd</span><span class="wordmark-mark">/</span><span>Open Source Agrifood</span></span>
-        <span class="wordmark-event">Building the Open-Source Future of Canadian Agrifood</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="/research">
+        <a href="/events/">
+          <span>Gatherings</span>
+          <small>past and next</small>
+        </a>
+        <a href="/research/">
           <span>The research</span>
-          <small>What we are learning</small>
+          <small>what we are learning</small>
+        </a>
+        <a href="/nodes/">
+          <span>Nodes</span>
+          <small>who is building</small>
+        </a>
+        <a class="nav-join" href="https://thefutureherd.ca/discord/">
+          <span>Join us</span>
+          <small>Future Herd Discord</small>
         </a>
       </nav>
     </header>
@@ -41,11 +55,18 @@ const {
     </main>
     <footer class="site-footer">
       <div class="footer-inner">
-        <div class="footer-mark">Building the Open-Source Future of Canadian Agrifood</div>
+        <div class="footer-mark">
+          <span>Open-Source Agrifood is a Future Herd research and gathering project.</span>
+          <p class="footer-license">The writing on this site and the directory data are licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>: share and adapt with attribution, under the same licence. The directory file: <a href="/directory-data.json">directory-data.json</a>.</p>
+        </div>
         <div class="footer-links" aria-label="Related sites">
+          <a class="partner-link" href="https://thefutureherd.ca/discord/">
+            <img src="/partners/future-herd.png" alt="Future Herd" />
+            <span>Future Herd Discord</span>
+          </a>
           <a class="partner-link" href="https://thefutureherd.ca">
             <img src="/partners/future-herd.png" alt="Future Herd" />
-            <span>Future Herd</span>
+            <span>thefutureherd.ca</span>
           </a>
           <a class="partner-link" href="https://metaviews.ca">
             <img src="/partners/metaviews.png" alt="metaviews.ca" />
@@ -113,10 +134,11 @@ const {
 
   .wordmark-line { display: inline-flex; gap: 0.4rem; align-items: baseline; }
   .wordmark-mark { color: var(--ochre); font-size: 1.2rem; }
-  .wordmark-event { color: var(--moss-dark); font-family: var(--display); font-size: 1.05rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1.05; text-transform: none; }
+  .site-nav { display: flex; align-items: flex-start; gap: clamp(0.9rem, 2.6vw, 2.2rem); }
   .site-nav a { display: flex; flex-direction: column; align-items: flex-end; color: var(--moss); font-size: 0.92rem; font-weight: 750; line-height: 1.1; text-decoration: none; }
   .site-nav small { margin-top: 0.25rem; color: var(--ink-faint); font-size: 0.68rem; font-weight: 400; }
   .site-nav a:hover { color: var(--ochre); }
+  .site-nav .nav-join { color: var(--ochre); }
   .site-footer { color: var(--ink-faint); font-size: 0.78rem; }
 
   .site-footer {
@@ -128,18 +150,21 @@ const {
   }
 
   .footer-inner { max-width: 86rem; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 0 clamp(1.25rem, 4vw, 4rem); }
-  .footer-mark { max-width: 22rem; color: var(--ink); font-family: var(--display); font-size: 1.2rem; line-height: 1.15; }
+  .footer-mark { max-width: 36rem; color: var(--ink); font-family: var(--display); font-size: 1.2rem; line-height: 1.15; }
+  .footer-license { margin: 0.9rem 0 0; color: var(--ink-faint); font-family: var(--body); font-size: 0.72rem; line-height: 1.5; }
+  .footer-license a { color: var(--moss); }
+  .footer-license a:hover { color: var(--ochre); }
   .footer-links { display: flex; align-items: center; gap: 1.5rem; }
   .partner-link { display: flex; align-items: center; gap: 0.65rem; color: var(--ink-soft); font-size: 0.78rem; text-decoration: none; }
   .partner-link:hover { color: var(--moss-dark); }
   .partner-link img { display: block; width: 2.3rem; height: 2.3rem; object-fit: contain; filter: saturate(0.7); }
-  .partner-link:nth-child(2) img { width: 5.5rem; height: 2.3rem; }
+  .partner-link:nth-child(3) img { width: 5.5rem; height: 2.3rem; }
 
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     .wordmark { font-size: 0.68rem; }
-    .wordmark-event { max-width: 17rem; font-size: 0.9rem; }
-    .site-nav a { font-size: 0.82rem; }
-    .site-nav small { font-size: 0.62rem; }
+    .site-nav { gap: 0.8rem; }
+    .site-nav a { font-size: 0.76rem; }
+    .site-nav small { display: none; }
     .footer-inner, .footer-links { align-items: flex-start; flex-direction: column; }
     .footer-links { gap: 0.9rem; }
   }

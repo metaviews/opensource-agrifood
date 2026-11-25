@@ -1,6 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 
+// Record count read from the filesystem at build time, so the page cannot
+// drift from the collection the way the 79-vs-175 number did.
+const recordCount = Object.keys(import.meta.glob('../../../examples/records/*.md')).length;
+
 const findings = [
   {
     label: 'Where openness holds',
@@ -18,7 +22,7 @@ const findings = [
     title: 'The hard part is not always the code',
     text: 'As systems become more expensive and dependent on large industrial or biological infrastructures, openness becomes harder to sustain. Farm automation, greenhouse control, livestock fencing, elevators, and bulk logistics remain places where access to a tool does not necessarily mean control of the system around it.',
     links: [
-      ['Landscape synthesis', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md'],
+      ['Landscape synthesis', '/cases/research/2026-08-landscape-synthesis-v3/'],
       ['Grain value-chain scan', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-grain-value-chain-open-infrastructure-scan.md'],
     ],
   },
@@ -28,8 +32,62 @@ const findings = [
     text: 'The landscape is not a story of one movement or one model. It is a collection of capacities: people adapting equipment, institutions building shared infrastructure, cooperatives changing platform rules, and researchers opening instruments and datasets.',
     links: [
       ['Farmer-maker and retrofit records', 'https://github.com/metaviews/opensource-agrifood/tree/main/examples/records'],
-      ['Landscape currents', 'https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md#currents-v3'],
+      ['The node directory', '/nodes/'],
     ],
+  },
+];
+
+const coreDocs = [
+  {
+    title: 'Programme briefing',
+    href: '/cases/research/2026-08-programme-briefing/',
+    text: 'Where the project came from, what it covers, and how the research is done. The written front door to the corpus.',
+  },
+  {
+    title: 'Landscape synthesis, v3',
+    href: '/cases/research/2026-08-landscape-synthesis-v3/',
+    text: 'The verdict across twelve discovery cycles and four verification passes: where openness holds across the food system, where it hits a wall, and what the pattern means.',
+  },
+  {
+    title: 'What “open” means in agrifood',
+    href: '/cases/research/2026-09-definition-of-open-agrifood/',
+    text: 'Eight kinds of openness, five operational layers, and the control-and-benefit test that separates genuinely open from merely free to read.',
+  },
+];
+
+const policyDocs = [
+  {
+    title: 'On-site and community-based processing: a regulatory design proposal',
+    href: '/cases/policy/community-processing-regulatory-design/',
+    text: 'A proposed framework for small-scale processing: a five-fault diagnosis of the current rules, seven design principles, ten proposals, five of them achievable administratively rather than by statute. Anchored in the Standing Committee’s Room to Grow consensus.',
+  },
+  {
+    title: 'Seeing the transition: open farmland-ownership analysis and the non-family succession gap',
+    href: '/cases/policy/succession-visibility-design/',
+    text: 'Seven proposals for making farmland transitions visible and widening succession beyond the family, from a farmland transition observatory to a non-family transfer shelter in the Income Tax Act.',
+  },
+];
+
+const conceptDocs = [
+  {
+    title: 'Open Source Grocery: the concept',
+    href: '/cases/grocery/concept/',
+    text: 'One question under stress test: what would a grocery operation holding all five open layers at once actually look like? Developed against real cases, from REKO rings to Finnish consumer co-ops.',
+  },
+  {
+    title: 'Open Source Grocery: the synthesis',
+    href: '/cases/grocery/synthesis/',
+    text: 'The novelty claim and what survived a searched negative: the project looked for the thing and did not find it, and records what that means.',
+  },
+  {
+    title: 'Open Source Upcycling Processor: the concept',
+    href: '/cases/upcycling/concept/',
+    text: 'A capacity question: where does small-scale processing capacity come from, and how can more of it exist on the farm and in the community. Staged openness is the thesis.',
+  },
+  {
+    title: 'Open Source Upcycling Processor: the cost spine',
+    href: '/cases/upcycling/economics/',
+    text: 'The regulation and business economics that decide whether community processing can pay. Where sources contradict, the contradiction is recorded rather than averaged.',
   },
 ];
 
@@ -37,7 +95,7 @@ const caseStudies = [
   {
     title: 'The open milking robot',
     href: '/cases/dairy/open-milking-robot-case-study',
-    text: 'A viability case for an open milking robot against a quota-capped Ontario dairy farm, where supply management means the value case reduces to labour, service, data and capital cost — exactly where openness changes the picture.',
+    text: 'A viability case for an open milking robot against a quota-capped Ontario dairy farm, where supply management means the value case reduces to labour, service, data and capital cost, exactly where openness changes the picture.',
   },
   {
     title: 'The open climate computer',
@@ -47,7 +105,7 @@ const caseStudies = [
   {
     title: 'The heat host',
     href: '/cases/cea/data-center-heat-case-study',
-    text: 'Data-center waste heat as an energy input for controlled environment agriculture: what actually operates today, what the physics allows, what is only announced — and where an open layer could still enter a pairing that is forming entirely closed.',
+    text: 'Data-center waste heat as an energy input for controlled environment agriculture: what actually operates today, what the physics allows, what is only announced, and where an open layer could still enter a pairing that is forming entirely closed.',
   },
 ];
 
@@ -55,22 +113,22 @@ const successionDocs = [
   {
     title: 'Executive summary: passing the farm',
     href: '/cases/succession/executive-summary',
-    text: 'The whole program in plain English — what eleven research cycles found about who gets the farm next, and what could be done with it. The accessible doorway; the synthesis and cycle passes carry the proof.',
+    text: 'The whole program in plain English: what eleven research cycles found about who gets the farm next, and what could be done with it. The accessible doorway; the synthesis and cycle passes carry the proof.',
   },
   {
     title: 'The synthesis: the open succession layer',
     href: '/cases/succession/research/2026-11-succession-synthesis',
-    text: 'The capstone over all eleven cycles. The enclosure is a licensing problem, not a tooling problem: the knowledge, legal documents, financing models, and data egress all exist free-to-read — what is missing is the right to adapt them, plus one production gap nobody has built (farm-data continuity at transfer). The buildable object is an open-licensed adaptation commons with three annexes; its honest ceiling is the cost of staying in farming, not getting in.',
+    text: 'The capstone over all eleven cycles. The enclosure is a licensing problem, not a tooling problem: the knowledge, legal documents, financing models, and data egress all exist free-to-read; what is missing is the right to adapt them, plus one production gap nobody has built (farm-data continuity at transfer). The buildable object is an open-licensed adaptation commons with three annexes; its honest ceiling is the cost of staying in farming, not getting in.',
   },
   {
     title: 'The frame: open source agriculture and the succession crisis',
     href: '/cases/succession/concept',
-    text: 'The research question decomposed: five stacked stresses — the demographic cliff, the capital wall, the mechanism enclosure, the knowledge transfer, and rural viability — and the six layers where open source plausibly bites, with what it honestly cannot do written in from the start.',
+    text: 'The research question decomposed: five stacked stresses (the demographic cliff, the capital wall, the mechanism enclosure, the knowledge transfer, and rural viability) and the six layers where open source plausibly bites, with what it honestly cannot do written in from the start.',
   },
   {
     title: 'The research map: eleven cycles',
     href: '/cases/succession/research/research-mapping',
-    text: 'The standing research tree — succession knowledge, land linking, open legal assets, the entry-cost floor, farm-data continuity, visibility, conflict, financing, longevity, gender and power, and media — each as a bounded cycle with its status.',
+    text: 'The standing research tree: succession knowledge, land linking, open legal assets, the entry-cost floor, farm-data continuity, visibility, conflict, financing, longevity, gender and power, and media, each as a bounded cycle with its status.',
   },
   {
     title: 'C3: Open legal assets for farm tenure',
@@ -80,17 +138,17 @@ const successionDocs = [
   {
     title: 'C1: Succession knowledge as a commons',
     href: '/cases/succession/research/2026-11-c1-succession-knowledge-pass',
-    text: 'Canadian succession knowledge is rich, free to read, and nowhere open-licensed — while the one genuinely open-licensed succession workbook found anywhere is American, and exactly the base a Canadian fork would start from.',
+    text: 'Canadian succession knowledge is rich, free to read, and nowhere open-licensed, while the one genuinely open-licensed succession workbook found anywhere is American, and exactly the base a Canadian fork would start from.',
   },
   {
     title: 'C6: Seeing the transition',
     href: '/cases/succession/research/2026-11-c6-visibility-policy-pass',
-    text: 'The transfer wave is still unseen — no federal beneficial-ownership registry, one provincial land registry — but public titles data already proves the open-analysis method, and the tax architecture is verified family-shaped.',
+    text: 'The transfer wave is still unseen (no federal beneficial-ownership registry, one provincial land registry), but public titles data already proves the open-analysis method, and the tax architecture is verified family-shaped.',
   },
   {
     title: 'C8: Alternative financing models',
     href: '/cases/succession/research/2026-11-c8-alternative-financing-pass',
-    text: 'The world’s non-family farm-transfer financing models — share-milking, community capital, land pensions — are real, operating, and none is open, with one statutory near-exception: New Zealand’s published sharemilking contract.',
+    text: 'The world’s non-family farm-transfer financing models (share-milking, community capital, land pensions) are real, operating, and none is open, with one statutory near-exception: New Zealand’s published sharemilking contract.',
   },
   {
     title: 'C7: Conflict and dispute resolution',
@@ -100,17 +158,17 @@ const successionDocs = [
   {
     title: 'C9 + C10: Longevity and gender power',
     href: '/cases/succession/research/2026-11-c9-c10-demography-gender-pass',
-    text: 'Retirements last longer than the vehicles assume (women at 65 can expect 22.3 more years), and the gender arithmetic is real: 58.6% of Canada’s widowed farm operators are women, son-preference is measured at 57% vs 8% — so the succession build objects must serve a female-controlled, longevity-stressed population.',
+    text: 'Retirements last longer than the vehicles assume (women at 65 can expect 22.3 more years), and the gender arithmetic is real: 58.6% of Canada’s widowed farm operators are women, son-preference is measured at 57% vs 8%, so the succession build objects must serve a female-controlled, longevity-stressed population.',
   },
   {
     title: 'C2: Farm-link platforms',
     href: '/cases/succession/research/2026-11-c2-farm-link-pass',
-    text: 'The anatomy of the closed layer: even the best Canadian operator (437 matches, publicly funded) reports only self-defined aggregate counts, and the evaluation literature locates failure in trust and readiness — not hidden criteria — so published criteria are accountability infrastructure, not a match-rate lever.',
+    text: 'The anatomy of the closed layer: even the best Canadian operator (437 matches, publicly funded) reports only self-defined aggregate counts, and the evaluation literature locates failure in trust and readiness rather than hidden criteria, so published criteria are accountability infrastructure, not a match-rate lever.',
   },
   {
     title: 'C4: The entry-cost floor',
     href: '/cases/succession/research/2026-11-c4-entry-cost-pass',
-    text: 'Canada publishes no itemized beginning-farmer cost structure — and the verified pieces say open substitutes bite hardest on recurring cost (service, energy, repair), not entry capital. The honest centre of gravity for succession stays with tenure, financing, and visibility.',
+    text: 'Canada publishes no itemized beginning-farmer cost structure, and the verified pieces say open substitutes bite hardest on recurring cost (service, energy, repair), not entry capital. The honest centre of gravity for succession stays with tenure, financing, and visibility.',
   },
   {
     title: 'C5: Farm-data continuity',
@@ -125,20 +183,20 @@ const successionDocs = [
 ];
 ---
 
-<Base title="What We Are Learning | Open-Source Agrifood" description="A human-readable introduction to the research behind Building the Open-Source Future of Canadian Agrifood.">
+<Base title="What We Are Learning | Open-Source Agrifood" description="A human-readable introduction to the Open Source Agrifood research: the syntheses, the policy design, the concept spaces, the case studies, and the programs in progress.">
   <section class="research-hero shell">
-    <p class="eyebrow">The research behind the gathering</p>
+    <p class="eyebrow">The research</p>
     <h1>What becomes possible<br /><em>when intelligence is shared?</em></h1>
     <p class="lede">We have been looking across Canadian agrifood and beyond, following the tools and institutions that can make knowledge more useful and adaptable.</p>
-    <p class="lede">This is not a catalogue of projects. It is a way into the questions that brought us to the event.</p>
+    <p class="lede">This is not a catalogue of projects. It is a way into the questions that drive the research, the gatherings, and the directory.</p>
   </section>
 
   <section class="opening shell">
     <div class="section-label">A view across the food system</div>
     <div class="opening-copy">
-      <p>Open-source agrifood is not one thing. It appears in software, hardware, public data, scientific instruments, and shared rules. Sometimes it gives people more room to act. Sometimes it makes a system easier to inspect without changing who controls it. Sometimes it is not present at all—and that absence tells us something.</p>
-      <p>Our landscape now includes <strong>79 verified records</strong> across production, water, livestock, post-harvest work, diagnostics, processing, logistics, markets, and agroforestry. Taken together, they show an emerging field with real achievements, serious limits, and room to grow.</p>
-      <p>In this context, “open” is practical rather than absolute: it describes how much people can inspect, use, adapt, and share. The significance is what that access makes possible—more capacity to work with systems, more room to respond to local needs, and potentially more benefit beyond the original provider.</p>
+      <p>Open-source agrifood is not one thing. It appears in software, hardware, public data, scientific instruments, and shared rules. Sometimes it gives people more room to act. Sometimes it makes a system easier to inspect without changing who controls it. Sometimes it is not present at all, and that absence tells us something.</p>
+      <p>The collection now holds <strong>{recordCount} curated records</strong> across production, water, livestock, post-harvest work, diagnostics, processing, logistics, markets, and agroforestry, each verified against primary sources. Taken together with the sector scans and syntheses below, they show an emerging field with real achievements, serious limits, and room to grow.</p>
+      <p>In this context, “open” is practical rather than absolute: it describes how much people can inspect, use, adapt, and share. The significance is what that access makes possible: more capacity to work with systems, more room to respond to local needs, and potentially more benefit beyond the original provider.</p>
     </div>
   </section>
 
@@ -160,10 +218,55 @@ const successionDocs = [
     </div>
   </section>
 
+  <section class="start shell">
+    <div class="section-label">Where to start</div>
+    <div class="start-copy">
+      <p class="cases-lede">Three documents hold the frame: how the project works, what the whole landscape looks like, and what we mean by open.</p>
+      <div class="case-list" aria-label="Core research documents">
+        {coreDocs.map((item) => (
+          <article class="case-row">
+            <a href={item.href}>{item.title} <span>↗</span></a>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="policy shell">
+    <div class="section-label">Policy and regulatory design</div>
+    <div class="policy-copy">
+      <p class="cases-lede">The research turns into design where the record shows the rules themselves are the problem. Both documents keep the documented record, the project's proposals, and the unresolved questions in separate labelled sections.</p>
+      <div class="case-list" aria-label="Policy design documents">
+        {policyDocs.map((item) => (
+          <article class="case-row">
+            <a href={item.href}>{item.title} <span>↗</span></a>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="concepts shell">
+    <div class="section-label">Concept spaces</div>
+    <div class="concepts-copy">
+      <p class="cases-lede">Two working concepts, each developed against real cases rather than in the abstract: what an open grocery operation would be, and where community-scale processing capacity comes from.</p>
+      <div class="case-list" aria-label="Concept documents">
+        {conceptDocs.map((item) => (
+          <article class="case-row">
+            <a href={item.href}>{item.title} <span>↗</span></a>
+            <p>{item.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="cases shell">
     <div class="section-label">Case studies</div>
     <div class="cases-copy">
-      <p class="cases-lede">Three viability questions followed all the way into the open record — each with evidence labelled by provenance, an honesty clause, and a plain statement of what the case does not demonstrate.</p>
+      <p class="cases-lede">Three viability questions followed all the way into the open record, each with evidence labelled by provenance, an honesty clause, and a plain statement of what the case does not demonstrate.</p>
       <div class="case-list" aria-label="Case studies">
         {caseStudies.map((item) => (
           <article class="case-row">
@@ -178,7 +281,7 @@ const successionDocs = [
   <section class="succession shell">
     <div class="section-label">Succession research program</div>
     <div class="succession-copy">
-      <p class="cases-lede">An ongoing research program asking how open source agriculture can address Canadian farm succession — the aging of the operator population, farmland values compounding away from new entrants, and what the land research called the largest private wealth transfer in the sector’s history, which the public cannot currently see. Each document is a bounded cycle with its sources labelled; the program continues.</p>
+      <p class="cases-lede">An ongoing research program asking how open source agriculture can address Canadian farm succession: the aging of the operator population, farmland values compounding away from new entrants, and what the land research called the largest private wealth transfer in the sector’s history, which the public cannot currently see. Each document is a bounded cycle with its sources labelled; the program continues.</p>
       <div class="case-list" aria-label="Succession research documents">
         {successionDocs.map((item) => (
           <article class="case-row">
@@ -191,25 +294,26 @@ const successionDocs = [
   </section>
 
   <section class="quote shell">
-    <div class="section-label">A question worth carrying</div>
+    <div class="section-label">The finding to argue with</div>
     <blockquote>
       <p>“The open agrifood layer has achieved robust, peer-reviewed, and production-proven viability across decentralized small-scale interventions, scientific simulation engines, and cooperative logistics, but hits a hard capital and biological enclosure wall at broad-acre industrial control.”</p>
       <cite>— Open-source agrifood landscape synthesis, v3</cite>
     </blockquote>
-    <p class="quote-follow">That boundary is where the interesting work begins. How might new intelligence increase the capacity of the people and institutions that feed us? Where could openness create real benefit—and what would it take to carry it further?</p>
+    <p class="quote-follow">That boundary is where the interesting work begins. How might new intelligence increase the capacity of the people and institutions that feed us? Where could openness create real benefit, and what would it take to carry it further?</p>
   </section>
 
   <section class="research-cta shell">
     <div class="section-label">Keep exploring</div>
     <div>
       <h2>The full record is open to you.</h2>
-      <p>Read the landscape synthesis, browse the records, and bring your own experience to the conversation. The event is an opportunity to put this knowledge in motion.</p>
+      <p>Read the syntheses, browse the records, and bring your own experience to the conversation. The gatherings put this knowledge in motion, and the Discord keeps it moving between them.</p>
       <div class="cta-links">
-        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/research/2026-08-landscape-synthesis-v3.md">Read the landscape synthesis <span>↗</span></a>
-        <a href="https://github.com/metaviews/opensource-agrifood/blob/main/cea/synthesis.md">Read the CEA synthesis <span>↗</span></a>
+        <a href="/cases/research/2026-08-landscape-synthesis-v3/">Read the landscape synthesis <span>↗</span></a>
+        <a href="/cases/research/2026-09-definition-of-open-agrifood/">Read the definition of open agrifood <span>↗</span></a>
         <a href="https://github.com/metaviews/opensource-agrifood/tree/main/examples/records">Browse the research records <span>↗</span></a>
+        <a href="/nodes/">Browse the node directory <span>↗</span></a>
         <a href="https://github.com/metaviews/opensource-agrifood/blob/main/ROADMAP.md">See where the project stands <span>↗</span></a>
-        <a href="/">Return to the event <span>↗</span></a>
+        <a href="/events/">The gathering series <span>↗</span></a>
       </div>
     </div>
   </section>
@@ -224,8 +328,8 @@ const successionDocs = [
   h1 { max-width: 60rem; margin: 1.5rem 0 2rem; font-size: clamp(3.3rem, 8vw, 8rem); letter-spacing: -0.07em; line-height: 0.92; }
   h1 em { color: var(--moss); font-style: normal; }
   .lede { max-width: 42rem; color: var(--ink-soft); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.4; }
-  .opening, .findings, .quote, .research-cta, .cases, .succession { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
-  .opening, .research-cta, .cases, .succession { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
+  .opening, .findings, .quote, .research-cta, .cases, .succession, .start, .policy, .concepts { border-top: 1px solid var(--line); padding-top: 3rem; padding-bottom: 7rem; }
+  .opening, .research-cta, .cases, .succession, .start, .policy, .concepts { display: grid; grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr); gap: 2rem; }
   .opening-copy { max-width: 50rem; font-size: 1.15rem; line-height: 1.65; }
   .opening-copy p:first-child { color: var(--moss-dark); font-family: var(--display); font-size: clamp(1.55rem, 2.8vw, 2.35rem); line-height: 1.15; }
   .finding-list { margin-left: 20%; }
@@ -257,11 +361,11 @@ const successionDocs = [
   .cta-links a { display: flex; justify-content: space-between; padding: 0.85rem 0; border-top: 1px solid var(--line); font-size: 1rem; }
   .cta-links a:last-child { border-bottom: 1px solid var(--line); }
   @media (max-width: 800px) {
-    .opening, .research-cta, .cases, .succession { grid-template-columns: 1fr; gap: 1rem; }
+    .opening, .research-cta, .cases, .succession, .start, .policy, .concepts { grid-template-columns: 1fr; gap: 1rem; }
     .finding-list, blockquote, .quote-follow { margin-left: 0; }
   }
   @media (max-width: 560px) {
     .finding { grid-template-columns: 1fr; gap: 0.5rem; }
-    .opening, .findings, .quote, .research-cta, .cases, .succession { padding-bottom: 4rem; }
+    .opening, .findings, .quote, .research-cta, .cases, .succession, .start, .policy, .concepts { padding-bottom: 4rem; }
   }
 </style>
