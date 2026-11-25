@@ -272,7 +272,16 @@ Current files:
   informal→osuuskunta bridge) over Pellervo's infrastructure layer (90% of
   adults hold a co-op membership, federation-reported). The tree's sharpest
   instructive absence: both Finnish extremes of co-op success run fully
-  closed data/technology layers.
+  closed data/technology layers. **Addendum (2026-11-25, second pass)**:
+  Nordic counterparts (consolidation universal — Sweden ~700→26 societies,
+  Coop 16.7% SE / 27% DK / 28.7% NO; data layer closed at every co-op
+  federation while private Salling Group runs the region's only grocery
+  developer portal), REKO abroad (no legal wrapper in any host country; the
+  structured open alternative Local Food Nodes now apparently defunct —
+  domain parked, repo 404), and the Lappeenranta code hunt (the replaced
+  system was itself a GPL application cited at Google Code; the WordPress
+  successor was never published; both sites dead). Two candidate records
+  curated: `local-food-nodes.md`, `salling-group-developer-portal.md`.
 
 ## What the research covers so far
 

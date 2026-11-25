@@ -279,6 +279,131 @@ confederation.
   strongest known counterpoint to the participation-gap literature —
   membership is universal, but as ownership, not participation.
 
+## Addendum (2026-11-25, second pass): Nordic counterparts, REKO abroad, and the Lappeenranta code hunt
+
+Follow-up bounded pass (delegated, three cells; load-bearing claims re-verified
+the same day) testing this survey's suggested next targets. Labels as above:
+**(V)** re-verified at source, **(S)** resting on the delegate's search.
+
+### The Nordic co-op picture: consolidation everywhere, openness nowhere
+
+- **Sweden**: "Ica har på nationell nivå en marknadsandel om 50,6 procent,
+  medan Axfood har 24,9 procent, Coop 16,7 procent och Lidl 6,3 procent"
+  (Konkurrensverket report, 2026) — **(V)**; a secondary source puts Coop at
+  14.2% — recorded unreconciled. KF's consolidation is deeper than Finland's:
+  ~700 member societies in the 1950s → 246 (1969) → 132 (1990) → 26 today,
+  ~3.9M members, 800+ Coop stores — **(S)** (Wikipedia-tier; kf.se's own
+  history not read).
+- **Denmark**: Coop Danmark is consumer-owned (Coop amba, with OK a.m.b.a.
+  co-owner since 2024 after heavy losses), ~27% share, second behind Salling
+  Group — down from FDB's historical 36-37% since ~2010. Erosion, not a
+  merger wave; ownership had already centralized — **(S)** (Wikipedia/lex.dk).
+- **Norway**: Coop Norge ~28.7% share at end-2025, 1,100 outlets, ~2.6M
+  members across ~57 samvirkelag — verified as reported (secondary
+  aggregator; annual report not read).
+- **The open-data answer: none of the three co-ops publishes open data, a
+  developer portal, or a public API** (search evidence stated in the pass).
+  The one freely usable artifact found is Coop's sustainability-declaration
+  methodology — "Den senaste versionen finns, fritt för alla att använda, på
+  coop.se" — **(V)**, with no licence statement in the PDF text layer. Coop
+  Norge's careers page describes an internal "API-first personalisation
+  platform" for its 2.7M members — **(V)** — API maturity without public
+  release. And the counter-model: **Salling Group**, the Danish private
+  competitor, runs the region's only grocery developer portal with public
+  APIs (stores, products, markdown/food-waste offers) — **(V)**, live page
+  confirmed. Where Nordic grocery data opens at all, it opens corporately,
+  not cooperatively.
+
+### REKO abroad: informal everywhere; the tooling alternative died
+
+- **Sweden**: "I januari 2021 fanns det runt 220 aktiva REKO-ringar med
+  drygt 800 000 medlemmar i de olika Facebook-grupperna" (Hushållningssällskapet)
+  — **(V)**, also carried in an SLU thesis; administration is volunteer
+  self-organisation — "REKO-ringarna administreras och drivs av
+  administratörer, vilka antingen är producenter eller konsumenter, som
+  engagerar och organiserar sig lokalt" (SLU thesis) — **(V)**. Each ring
+  sets its own rules; Hushållningssällskapet is a support/promotion body on
+  behalf of Jordbruksverket, not a governing entity.
+- **No host country has built a legal wrapper around REKO** — no
+  association, co-op, or company found in any of the ~14 countries (search
+  evidence stated in the pass).
+- **The founder named the platform risk from the inside**: "At present, all
+  REKO trades take place in closed Facebook groups, but how long can we
+  count on Facebook retaining its popularity?" (Pedersöre REKO document) —
+  **(V)**. Years later, no displacement has occurred.
+- **Local Food Nodes** (Sweden, Röstånga ek Förening) was the structured
+  open attempt: a donation-based economic association describing itself as a
+  "fully financial transparent and not for sale, digital open source
+  solution" for pre-order local farmers markets — **(S)** (the ITU WSIS page
+  is JS-rendered; quote not verifiable); scale ~1,050 producers / 280 nodes
+  / ~14 countries as of July 2023 — verified as reported (FAO AgTech
+  Observatory page). **Now apparently defunct**: localfoodnodes.org serves a
+  NameBright domain-parking page and the GitLab repository (once catalogued
+  MIT in third-party lists) returns 404 — both checked 2026-11-25 — **(V)**;
+  last good Wayback snapshot 2025-08-04 — **(S)**. The one platform-exit
+  attempt with real scale died without an heir.
+- **REKO Hub** (USA) built non-Facebook ring software free for producers —
+  **(S)** (trade press; openness not inspected); no evidence it migrated any
+  Nordic ring.
+
+### The Lappeenranta code hunt: a GPL ancestor, no published successor
+
+- The Sipilä 2016 thesis is open-access in LUTPub, but its repository record
+  carries **no licence/rights field at all** — **(V)** (full metadata page
+  enumerated; a sibling LUT thesis record does state CC BY 4.0). Thesis
+  licence: not stated; the PDF's internal copyright page was not line-read.
+- **The lineage is deeper than the survey recorded**: the system the
+  WordPress build replaced — named "Ruokapiiri" — "is an open source GPL
+  licensed application" — **(V)** (thesis text) — and the thesis references
+  its code at `ruokapiiri.googlecode.com/svn/trunk` (Soukka, "ruokapiiri -
+  Revision 92") — **(V)** as citation. Google Code shut down in 2016; the
+  archive object for the project is access-denied today. Whether that GPL
+  code survives anywhere is unknown.
+- **No public code for the WordPress/WooCommerce successor was found**
+  (GitHub/GitLab searched; search evidence stated in the pass);
+  `lappeenrannanruokapiiri.fi` and `ruokapiiri.fi` no longer resolve —
+  **(V)** (DNS checks, 2026-11-25). A separate fee-based national ordering
+  system at ruokapiiri.fi (ministry guide, 2016) is likewise gone — **(S)**.
+- **Verdict for the survey's "only open-stack lead": not open.** A small
+  association's ordering stack, built on open platforms, with the custom
+  layer unpublished and now unreachable. The thesis's own recommendation —
+  publish custom extensions to the developer community — is the maintenance
+  lesson, and it was not followed.
+
+### What the addendum changes for the concept
+
+- The cross-cutting finding now spans the Nordic region: co-op retail
+  consolidation is universal (Finland 202→19; Sweden ~700→26), co-op
+  ownership remains mass-market everywhere, and the data layer stays closed
+  at every federation — while the private Danish competitor is the only
+  retailer in the region opening APIs.
+- REKO's no-tooling choice now has its control experiment: the structured
+  open alternative existed, scaled to 14 countries, and died. Defunct
+  infrastructure is the price either path can pay — and a defunct open
+  platform is indistinguishable from a closed one once the repo vanishes.
+- The small-organization maintenance finding (compatibility churn killing
+  custom code) lands beside the grocery software-stack finding:
+  Foodsoft-style shared maintenance exists as the answer, and the Finnish
+  case shows what happens without it.
+
+Records from this pass: `local-food-nodes.md` (candidate) and
+`salling-group-developer-portal.md` (candidate), curated through the
+examples indexing chain.
+
+### What remains thin in this addendum
+
+- KF (Sweden) and Coop Danmark figures are Wikipedia/lex.dk-tier; primary
+  federation sources not read.
+- Coop Norge figures are secondary-aggregator (verified as reported).
+- The ITU Local Food Nodes self-description quote is unverified (JS page);
+  the FAO scale figure is FAO-hosted aggregation of LFN's own claims.
+- The Local Food Nodes MIT licence rests on third-party catalogues only;
+  the primary repo is 404.
+- The Sipilä thesis PDF's internal copyright page was not line-read; the
+  licence status rests on the repository metadata record.
+- Salling Group's API terms sit behind sign-in and were not inspected;
+  "public API" is access-level openness only.
+
 ## What this is for
 
 This survey closes a geography gap in the research tree's co-op evidence:
