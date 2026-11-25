@@ -260,6 +260,20 @@ Current files:
   cooperatives"; a proper Canadian survey would use the CMC directory and
   Ontario Co-op Association directories.
 
+- `finnish-co-op-survey.md` — Finnish co-op ecosystem survey (2026-11-25,
+  delegated pass with program re-verification of eight load-bearing claims).
+  Three populations barely touching: S-ryhmä (customer-owned federation at
+  49% self-reported grocery share — co-op ownership as the incumbent, 202→19
+  consolidation, zero open data); Valio and the processing co-ops (co-ops as
+  shareholders of a limited company, all profit to farms — Maitosuomi 42.7%
+  of Valio; proprietary logistics tech); the informal layer (REKO — Finnish-
+  origin, ~14 countries on closed Facebook infrastructure with documented
+  founder refusal of platform tooling; ruokapiirit; Herttoniemi 2011 as the
+  informal→osuuskunta bridge) over Pellervo's infrastructure layer (90% of
+  adults hold a co-op membership, federation-reported). The tree's sharpest
+  instructive absence: both Finnish extremes of co-op success run fully
+  closed data/technology layers.
+
 ## What the research covers so far
 
 ### Environmental scan (research-scan-1.md)
@@ -305,6 +319,11 @@ targets:
 - Canadian grocery co-op survey (canadian-co-op-survey.md, 2026-08-28) —
   fills the home-jurisdiction gap; two populations (federated retail,
   community co-ops), none realizing the five-layer open
+- Finnish co-op ecosystem survey (finnish-co-op-survey.md, 2026-11-25) —
+  fills the Nordic geography gap with a delegated, re-verified pass: S-ryhmä
+  as the mass-market co-op incumbent, Valio as the co-op-held processor, and
+  REKO as the documented no-tooling commons — the open layers unrealized at
+  both extremes, by choice in REKO's case
 
 ### First-pass scans (traceability.md, consumer-feedback.md, food-waste.md,
 open-in-culture.md, open-in-food.md)
